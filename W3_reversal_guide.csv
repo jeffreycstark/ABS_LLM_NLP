@@ -1,0 +1,58 @@
+wave,variable_id,question_type,scale_type,scale_points,max_value,missing_codes,distinctive_keyword,question_text
+W3,ir10a,interviewer,binary,2,2,-1,ir10a,IR10a. Was the interview conducted with the assistance of an interpreter?
+W3,ir11c,interviewer,binary,2,2,-1; 9,ir11c,IR11c. Is electricity the main source of lighting in the house?
+W3,ir2,interviewer,binary,2,2,-1; 90,questionnaire,IR2. Is this the first questionnaire you have completed?
+W3,ir3,interviewer,binary,2,2,-1,present,"IR3. In the interview, other than the respondent, were others present?"
+W3,ir4,interviewer,likert_4,4,4,-1; 9,refused,IR4. Has the respondent ever refused to be interviewed during the whole process?
+W3,q1,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,overall,q1. How would you rate the overall economic condition of our country today?  Is it …
+W3,q10,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,specific,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q108,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,commit,q108. Do officials who commit crimes go unpunished?
+W3,q109,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,withhold,q109. How often do government officials withhold important information from the public view?
+W3,q11,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,parliament,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q110,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,abuse,q110. How often do you think government leaders break the law or abuse their power?
+W3,q111,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,offer,q111.  How often do you think our elections offer the voters a real choice between different parties...
+W3,q115,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,having,q115. How much do you feel that having elections makes the government pay attention to what the peop...
+W3,q119_1,core_questionnaire,likert_6,3,6,-1; 7; 8; 9,119_1,Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politicia...
+W3,q119_2,core_questionnaire,likert_6,3,6,-1; 7; 8; 9,119_2,Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politicia...
+W3,q119_3,core_questionnaire,likert_6,3,6,-1; 7; 8; 9,119_3,Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politicia...
+W3,q12,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,civil,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q124,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,comes,q124. Which of the following statements comes closest to your own opinion?
+W3,q13,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,armed,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q14,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,police,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q15,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,local,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q16,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,newspapers,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q161,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,general,"q161. General speaking, the influence China has on our country is?"
+W3,q17,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,television,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q18,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,commission,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q19,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,governmental,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q23,core_questionnaire,likert_6,3,6,-1; 7; 8; 9,trusted,"q23. General speaking, would you say that ""Most people can be trusted"" or ""that you must be very car..."
+W3,q25,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,relatives,q25. How much trust do you have in each of the following types of people?   Your relatives
+W3,q26,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,neighbors,How much trust do you have in each of the following types of people? Your neighbors
+W3,q27,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,interact,How much trust do you have in each of the following types of people? Other people you interact with
+W3,q32,core_questionnaire,likert_3,3,3,-1; 8; 9,talking,"q32. In talking to people about elections, we often find that a lot of people were not able to vote ..."
+W3,q34,core_questionnaire,binary,2,2,-1; 8; 9,attend,"q34. Thinking about the national election in [year], did you attend a campaign meeting or rally?"
+W3,q35,core_questionnaire,binary,2,2,-1; 8; 9,persuade,q35. try to persuade others to vote for a certain candidate or party?
+W3,q36,core_questionnaire,binary,2,2,-1; 8; 9,anything,q36. Did you do anything else to help out or work for a party or candidate running in the election?
+W3,q4,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,situation,"q4. As for your own family, how do you rate the economic situation of your family today?  Is it …"
+W3,q46,core_questionnaire,likert_3,3,3,-1; 8; 9,members,"q46. When you get together with your family members or friends, how often do you discuss political m..."
+W3,q7,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,president,"q7. I'm going to name a number of institutions. For each one, please tell me how much trust do you h..."
+W3,q8,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,courts,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,q9,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,capital,"I'm going to name a number of institutions. For each one, please tell me how much trust do you have ..."
+W3,se10,socioeconomic,binary,2,2,-1; 8; 9,chief,SE10. Are you the main earner in your household?(Chief wage earner)<Optional>
+W3,se10d,socioeconomic,likert_3,3,3,-1; 9,se10d,SE10d. Is he or she currently seeking employment?
+W3,se14a,socioeconomic,binary,2,2,-1; 9,total,Does the total income of your household allow you to satisfactorily cover your needs? Car/Jeep/Van
+W3,se14b,socioeconomic,binary,2,2,-1; 9,tractor,Does the total income of your household allow you to satisfactorily cover your needs? Tractor
+W3,se14c,socioeconomic,binary,2,2,-1; 9,television,Does the total income of your household allow you to satisfactorily cover your needs? Television
+W3,se14d,socioeconomic,binary,2,2,-1; 9,cable,Does the total income of your household allow you to satisfactorily cover your needs? Cable Televisi...
+W3,se14e,socioeconomic,binary,2,2,-1; 9,motorcycle,Does the total income of your household allow you to satisfactorily cover your needs? Motorcycle
+W3,se14f,socioeconomic,binary,2,2,-1; 9,telephone,Does the total income of your household allow you to satisfactorily cover your needs? Telephone
+W3,se14g,socioeconomic,binary,2,2,-1; 9,mobile,Does the total income of your household allow you to satisfactorily cover your needs? Mobile Phone
+W3,se14h,socioeconomic,binary,2,2,-1; 9,electric,Does the total income of your household allow you to satisfactorily cover your needs? Electric Fan
+W3,se14i,socioeconomic,binary,2,2,-1; 9,bicycle,Does the total income of your household allow you to satisfactorily cover your needs? Bicycle
+W3,se14j,socioeconomic,binary,2,2,-1; 9,radio,Does the total income of your household allow you to satisfactorily cover your needs? Radio
+W3,se14k,socioeconomic,binary,2,2,-1; 9,pumping,Does the total income of your household allow you to satisfactorily cover your needs? Pumping Set
+W3,se14l,socioeconomic,binary,2,2,-1; 9,fridge,Does the total income of your household allow you to satisfactorily cover your needs? Fridge
+W3,se14m,socioeconomic,binary,2,2,-1; 9,camera,Does the total income of your household allow you to satisfactorily cover your needs? Camera
+W3,se14n,socioeconomic,binary,2,2,-1; 9,goats,Does the total income of your household allow you to satisfactorily cover your needs? Goats/Sheep
+W3,se14o,socioeconomic,binary,2,2,-1; 9,buffalo,Does the total income of your household allow you to satisfactorily cover your needs? Cow/Buffalo
+W3,se9d,socioeconomic,likert_3,3,3,-1; 9,seeking,SE9d. Are you currently seeking employment?

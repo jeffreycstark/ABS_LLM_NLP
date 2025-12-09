@@ -1,0 +1,147 @@
+wave,variable_id,question_type,scale_type,scale_points,max_value,missing_codes,distinctive_keyword,question_text
+W6_Cambodia,IR10a,interviewer,binary,2,2,-1,ir10a,IR10a Was the interview conducted with the assistance of an interpreter?
+W6_Cambodia,IR11c,interviewer,binary,2,2,-1,ir11c,IR11c Is electricity the main source of lighting in the house?
+W6_Cambodia,IR11d,interviewer,likert_3,3,3,-1,ir11d,IR11d Is this neighborhood covered by mobile network?
+W6_Cambodia,IR12a,interviewer,ordinal,3,9,-1,ir12a,IR12a Post-office
+W6_Cambodia,IR12b,interviewer,ordinal,3,9,-1,ir12b,IR12b School
+W6_Cambodia,IR12c,interviewer,ordinal,3,9,-1,ir12c,IR12c Police station
+W6_Cambodia,IR12d,interviewer,ordinal,3,9,-1,ir12d,IR12d Sewerage system that most houses could access
+W6_Cambodia,IR12e,interviewer,ordinal,3,9,-1,ir12e,IR12e Health clinic
+W6_Cambodia,IR12f,interviewer,ordinal,3,9,-1,ir12f,IR12f Signal for cellular phone
+W6_Cambodia,IR12g,interviewer,ordinal,3,9,-1,ir12g,"IR12g Recreational facilities, e.g., a sports field"
+W6_Cambodia,IR12h,interviewer,ordinal,3,9,-1,ir12h,"IR12h Any churches, mosques, temples or other public places of worship"
+W6_Cambodia,IR12i,interviewer,ordinal,3,9,-1,ir12i,IR12i Any town halls or community buildings that can be used for meetings
+W6_Cambodia,IR12k,interviewer,ordinal,3,9,-1,ir12k,IR12k Market stalls (selling groceries and/or clothing)
+W6_Cambodia,IR2,interviewer,binary,2,2,-1,questionnaire,IR2 Is this the first questionnaire you have completed?
+W6_Cambodia,IR2c_other,interviewer,binary,2,2,-1,ir2c_other,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_1,interviewer,binary,2,2,-1,ir3a_1,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_2,interviewer,binary,2,2,-1,ir3a_2,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_3,interviewer,binary,2,2,-1,ir3a_3,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_4,interviewer,binary,2,2,-1,ir3a_4,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_5,interviewer,binary,2,2,-1,ir3a_5,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_6_other,interviewer,binary,2,2,-1,ir3a_6_other,"IR2c_other 
+
+Variable: IR3 
+  Question: IR3 In the interview, other than the respondent, were others..."
+W6_Cambodia,IR3a_6_other_clarify,interviewer,likert_4,4,4,-1,ir3a_other_clarify,"IR3a_other_clarify 
+
+Variable: IR4 
+  Question: IR4 Has the respondent ever refused to be interviewe..."
+W6_Cambodia,SE10d,socioeconomic,likert_3,3,3,-1; 98; 99,se10d,SE10d Is he or she currently seeking employment?
+W6_Cambodia,SE15a,socioeconomic,binary,2,2,-1,se15a,SE15a Do you or your family own the following: Car/Jeep/Van?<optional>
+W6_Cambodia,SE15b,socioeconomic,binary,2,2,-1,se15b,SE15b Tractor<optional>
+W6_Cambodia,SE15c,socioeconomic,binary,2,2,-1,se15c,SE15c Color or B/W Television (Non-Cable)<optional>
+W6_Cambodia,SE15d,socioeconomic,binary,2,2,-1,se15d,SE15d Cable Television<optional>
+W6_Cambodia,SE15e,socioeconomic,binary,2,2,-1,se15e,SE15e Scooter/Motorcycle/Moped<optional>
+W6_Cambodia,SE15f,socioeconomic,binary,2,2,-1,se15f,SE15f Telephone (Landline)<optional>
+W6_Cambodia,SE15g,socioeconomic,binary,2,2,-1,se15g,SE15g Mobile Telephone<optional>
+W6_Cambodia,SE15h,socioeconomic,binary,2,2,-1,se15h,SE15h Electric Fan/Cooler<optional>
+W6_Cambodia,SE15i,socioeconomic,binary,2,2,-1,se15i,SE15i Bicycle<optional>
+W6_Cambodia,SE15j,socioeconomic,binary,2,2,-1,se15j,SE15j Radio/Transistor<optional>
+W6_Cambodia,SE15k,socioeconomic,binary,2,2,-1,se15k,SE15k Pumping Set<optional>
+W6_Cambodia,SE15l,socioeconomic,binary,2,2,-1,se15l,SE15l Fridge<optional>
+W6_Cambodia,SE15m,socioeconomic,binary,2,2,-1,se15m,SE15m Camera<optional>
+W6_Cambodia,SE15n,socioeconomic,binary,2,2,-1,se15n,SE15n Goats/Sheep<optional>
+W6_Cambodia,SE15o,socioeconomic,binary,2,2,-1,se15o,SE15o Cows/Buffalo<optional>
+W6_Cambodia,SE15p,socioeconomic,binary,2,2,-1,se15p,SE15p Internet Connection at home<optional>
+W6_Cambodia,SE15q,socioeconomic,binary,2,2,-1,se15q,SE15q Boat<optional>
+W6_Cambodia,SE9d,socioeconomic,likert_3,3,3,-1; 7; 9,seeking,SE9d Are you currently seeking employment?
+W6_Cambodia,SE9eother,socioeconomic,binary,2,2,-1; 7; 9,earner,"SE9e. Other specify responses 
+
+Variable: SE10 
+  Question: SE10 Are you the main earner in your hou..."
+W6_Cambodia,q1,core_questionnaire,likert_5,5,5,7; 8; 9,overall,1 How would you rate the overall economic condition of our country today?
+W6_Cambodia,q10,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,specific,6 What do you think the economic situation of your family will be a few years from now? 10 Political...
+W6_Cambodia,q108,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,withhold,108 How often do government officials withhold important information from the public?
+W6_Cambodia,q109,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,abuse,109 How often do you think government leaders break the law or abuse their power?
+W6_Cambodia,q11,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,parliament,6 What do you think the economic situation of your family will be a few years from now? 11 Parliamen...
+W6_Cambodia,q110,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,offer,110 How often do you think our elections offer the voters a real choice between different parties/ca...
+W6_Cambodia,q113,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,having,113 How much do you feel that having elections make the government more responsive to people's needs...
+W6_Cambodia,q118,core_questionnaire,binary,2,2,-1; 7; 8; 9,anyone,118 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a polit...
+W6_Cambodia,q119a,core_questionnaire,binary,2,2,-1; 9; 99,witness,119a Did you personally witness it or were you told about it by a family member or friend who person...
+W6_Cambodia,q119b,core_questionnaire,binary,2,2,-1; 9; 99,witness,119b Did you personally witness it or were you told about it by a family member or friend who person...
+W6_Cambodia,q119c,core_questionnaire,binary,2,2,-1; 9; 99,witness,119c Did you personally witness it or were you told about it by a family member or friend who person...
+W6_Cambodia,q12,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,service,6 What do you think the economic situation of your family will be a few years from now? 12 Civil Ser...
+W6_Cambodia,q124,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,comes,124 Which of the following statements comes closest to your own opinion?
+W6_Cambodia,q13,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,armed,6 What do you think the economic situation of your family will be a few years from now? 13 The milit...
+W6_Cambodia,q138,core_questionnaire,binary,2,2,-1; 97; 98; 99,previously,138 Have you or your family members previously contracted the Covid-19 virus?
+W6_Cambodia,q139a,core_questionnaire,binary,2,2,-1; 8; 9,illness,139a Did you or a member of your family suffer from serious illness or death?
+W6_Cambodia,q139b,core_questionnaire,binary,2,2,-1; 8; 9,suffer,139b Did you or a member of your family suffer from loss of job
+W6_Cambodia,q139c,core_questionnaire,binary,2,2,-1; 8; 9,suffer,139c Did you or a member of your family suffer from loss of household income?
+W6_Cambodia,q139d,core_questionnaire,binary,2,2,-1; 8; 9,disruption,139d Did you or a member of your family suffer from disruption of my kids' education?
+W6_Cambodia,q14,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,police,6 What do you think the economic situation of your family will be a few years from now? 14 The polic...
+W6_Cambodia,q141,core_questionnaire,likert_5,5,5,-1; 97; 98; 99,related,141 How much do you trust the Covid-19 related information provided by the government?
+W6_Cambodia,q143a,core_questionnaire,likert_3,3,3,-1; 8; 9,143awhen,"143aWhen there is a public health challenge like the coronavirus, is it justifiable for the governme..."
+W6_Cambodia,q143b,core_questionnaire,likert_3,3,3,-1; 8; 9,limit,"143aWhen there is a public health challenge like the coronavirus, is it justifiable for the governme..."
+W6_Cambodia,q143c,core_questionnaire,likert_3,3,3,-1; 8; 9,censor,"143aWhen there is a public health challenge like the coronavirus, is it justifiable for the governme..."
+W6_Cambodia,q143d,core_questionnaire,likert_3,3,3,-1; 8; 9,track,"143aWhen there is a public health challenge like the coronavirus, is it justifiable for the governme..."
+W6_Cambodia,q143e,core_questionnaire,likert_3,3,3,-1; 8; 9,impose,"143aWhen there is a public health challenge like the coronavirus, is it justifiable for the governme..."
+W6_Cambodia,q144,core_questionnaire,likert_5,5,5,-1; 97; 98; 99,vaccinated,144 Have you been vaccinated against Covid-19?
+W6_Cambodia,q15,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,local,6 What do you think the economic situation of your family will be a few years from now? 15 Local gov...
+W6_Cambodia,q157,core_questionnaire,binary,2,2,-1; 7; 8; 9,choose,157 Choose one statement.
+W6_Cambodia,q16,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,commission,6 What do you think the economic situation of your family will be a few years from now? 16 The elect...
+W6_Cambodia,q17,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,organizations,6 What do you think the economic situation of your family will be a few years from now? 17 Non-gover...
+W6_Cambodia,q175,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,united,"175 Generally speaking, the influence the United States today has on world affairs is?"
+W6_Cambodia,q177,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,world,"177 Generally speaking, the influence China today has on world affairs is?"
+W6_Cambodia,q178,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,world,"178 Generally speaking, the influence the E.U. today has on world affairs is?"
+W6_Cambodia,q182,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,china,"182 Generally speaking, the influence China has on our country is?"
+W6_Cambodia,q184,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,general,"184 General speaking, the influence USA has on our country is?"
+W6_Cambodia,q21_other,core_questionnaire,binary,2,2,-1; 7; 8; 9,trusted,"21 Other specify responses 
+
+Variable: q22 
+  Question: 22 Would you say that 'Most people can be tr..."
+W6_Cambodia,q24,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,relatives,24 How much trust do you have in each of the following types of people? Your relatives
+W6_Cambodia,q25,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,neighbors,24 How much trust do you have in each of the following types of people? 25 Trust in your neighbors
+W6_Cambodia,q26,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,interact,24 How much trust do you have in each of the following types of people? 26 Trust in other people you...
+W6_Cambodia,q27,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,first,24 How much trust do you have in each of the following types of people? 27 Trust in people you meet ...
+W6_Cambodia,q33,core_questionnaire,likert_3,3,3,-1; 7; 8; 9; 10; 1103; 1104,national,33 Did you vote in the national election?
+W6_Cambodia,q35,core_questionnaire,binary,2,2,-1; 7; 8; 9; 10; 20,attend,35 Did you attend a campaign meeting or rally in the last national election?
+W6_Cambodia,q36,core_questionnaire,binary,2,2,-1; 7; 8; 9; 10; 20,persuade,36 Try to persuade others to vote for a certain candidate or party?
+W6_Cambodia,q37,core_questionnaire,binary,2,2,-1; 7; 8; 9; 10; 20,anything,37 Did you do anything else to help out or work for a party or candidate running in the last nationa...
+W6_Cambodia,q39,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,roads,39 How easy or difficult to obtain the roads in good condition
+W6_Cambodia,q4,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,today,"4 As for your own family, how do you rate the economic situation of your family today?"
+W6_Cambodia,q40,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,running,40 How easy or difficult to obtain running water
+W6_Cambodia,q41,core_questionnaire,likert_4,4,4,-1; 7; 8; 9; 10,transportation,41 How easy or difficult to obtain public transportation
+W6_Cambodia,q42,core_questionnaire,likert_4,4,4,-1; 7; 8; 9; 10,healthcare,42 How easy or difficult to obtain healthcare
+W6_Cambodia,q43,core_questionnaire,likert_4,4,4,-1; 7; 8; 9; 10,police,43 How easy or difficult to obtain help from the police when you need it
+W6_Cambodia,q44,core_questionnaire,likert_4,4,4,-1; 7; 8; 9; 10,access,44 How easy or difficult to obtain access to the Internet
+W6_Cambodia,q45,core_questionnaire,likert_4,4,4,-1; 7; 8; 9; 10,childcare,45 How easy or difficult to obtain childcare
+W6_Cambodia,q49,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,discuss,"49 When you get together with your family members or friends, how often do you discuss political mat..."
+W6_Cambodia,q51a_Facebook,core_questionnaire,binary,2,2,-1; 7; 8; 9,messaging,51a Which social media and text messaging services do you actively use? Facebook
+W6_Cambodia,q51b_Twitter,core_questionnaire,binary,2,2,-1; 7; 8; 9,twitter,51b Twitter
+W6_Cambodia,q51c_Instagram,core_questionnaire,binary,2,2,-1; 7; 8; 9,instagram,51c Instagram
+W6_Cambodia,q51d_Youtube,core_questionnaire,binary,2,2,-1; 7; 8; 9,youtube,51d Youtube
+W6_Cambodia,q51e_Tiktok,core_questionnaire,binary,2,2,-1; 7; 8; 9,tiktok,51e Tiktok
+W6_Cambodia,q51f_Messenger,core_questionnaire,binary,2,2,-1; 7; 8; 9,messenger,q51f Messenger
+W6_Cambodia,q51g_Telegram,core_questionnaire,binary,2,2,-1; 7; 8; 9,telegram,q51g Telegram
+W6_Cambodia,q51h_Line,core_questionnaire,binary,2,2,-1; 7; 8; 9,q51h Line,q51h Line
+W6_Cambodia,q51i_Whatsapp,core_questionnaire,binary,2,2,-1; 7; 8; 9,whatsapp,q51i Whatsapp
+W6_Cambodia,q51j_Snapchat,core_questionnaire,binary,2,2,-1; 7; 8; 9,snapchat,q51j Snapchat
+W6_Cambodia,q51k_Vchat,core_questionnaire,binary,2,2,-1; 7; 8; 9,vchat,q51k Vchat
+W6_Cambodia,q51l_Tumblr,core_questionnaire,binary,2,2,-1; 7; 8; 9,tumblr,q51l Tumblr
+W6_Cambodia,q52a,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,connect,52a How often do you use social media to talk to or to connect with other people?
+W6_Cambodia,q52b,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,issues,52b How often do you use social media to express my opinion on political issues?
+W6_Cambodia,q52c,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,share,52c How often do you use social media to share news or information?
+W6_Cambodia,q52d,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,organize,52d How often do you use social media to organize to influence politics?
+W6_Cambodia,q7,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,excutive,6 What do you think the economic situation of your family will be a few years from now? 7 Trust in t...
+W6_Cambodia,q79,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,recent,"79 In recent years and thinking about election campaigns, has a candidate or someone from a politica..."
+W6_Cambodia,q8,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,courts,6 What do you think the economic situation of your family will be a few years from now? 8 The courts
+W6_Cambodia,q9,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,capital,6 What do you think the economic situation of your family will be a few years from now? 9 National g...

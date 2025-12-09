@@ -33,8 +33,7 @@ Variable: q38
      2 = Difficult
      3 = Easy
      4 = Very Easy
-     ali
-     5 = Never Tried
+     ThI is775 = Never Tried
      8 = Can't choose
      9 = Decline to answer
 

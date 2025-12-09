@@ -1,0 +1,63 @@
+wave,variable_id,question_type,scale_type,scale_points,max_value,missing_codes,distinctive_keyword,question_text
+W5,IR10a,interviewer,binary,2,2,-1,ir10a,ir10a Was the interview conducted with the assistance of an interpreter?
+W5,IR11c,interviewer,binary,2,2,-1; 3,ir11c,ir11c Is electricity the main source of lighting in the house?
+W5,IR11d,interviewer,binary,2,2,-1; 9,ir11d,ir11d Is this neighborhood coverd by mobile phone network(signals)?
+W5,IR3,interviewer,binary,2,2,-1,present,"ir3 In the interview, other than the respondent, were others present?"
+W5,IR4,interviewer,likert_4,4,4,-1,refused,ir4 Has the respondent ever refused to be interviewed during the whole process?
+W5,Ir2,interviewer,binary,2,2,-1,questionnaire,ir2 Is this the first questionnaire you have completed?
+W5,SE10,socioeconomic,ordinal,3,8,-1; 9,earner,se10 Are you the main earner in your household?
+W5,SE10D,socioeconomic,likert_3,3,3,-1; 7; 9,se10d,se10d Is he or she currently seeking employment?
+W5,SE15A,socioeconomic,binary,2,2,-1,se15a,Se15a Do you or your fmaily own the following?Car/Jeep/Van
+W5,SE15B,socioeconomic,binary,2,2,-1,se15b,Se15b Tractor
+W5,SE15C,socioeconomic,binary,2,2,-1,se15c,Se15c Color or B/W Television
+W5,SE15D,socioeconomic,binary,2,2,-1,se15d,Se15d Cable Televsion
+W5,SE15E,socioeconomic,binary,2,2,-1,se15e,Se15e Scooter/Motorcycle/Moped
+W5,SE15F,socioeconomic,binary,2,2,-1,se15f,Se15f Telephone
+W5,SE15G,socioeconomic,binary,2,2,-1,se15g,Se15g Mobile Telephone
+W5,SE15H,socioeconomic,binary,2,2,-1,se15h,Se15h Electric fan/cooler
+W5,SE15I,socioeconomic,binary,2,2,-1,se15i,Se15i Bicycle
+W5,SE15J,socioeconomic,binary,2,2,-1,se15j,Se15j Radio/transistor
+W5,SE15K,socioeconomic,binary,2,2,-1,se15k,Se15k Pumping set
+W5,SE15L,socioeconomic,binary,2,2,-1,se15l,Se15l Fridge
+W5,SE15M,socioeconomic,binary,2,2,-1,se15m,Se15m Camera
+W5,SE15N,socioeconomic,binary,2,2,-1,se15n,Se15n Goats/Sheep
+W5,SE15O,socioeconomic,binary,2,2,-1,se15o,Se15o Cows/Buffalo
+W5,SE9D,socioeconomic,likert_3,3,3,-1; 7; 9,seeking,se9d Are you currently seeking employment?
+W5,q1,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,overall,1. How would you rate the overall economic condition of our country today?
+W5,q117,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,withhold,117 How often do government officials withhold important information from the public?
+W5,q118,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,break,118 How often do you think government leaders break the law or abuse their power?
+W5,q119,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,offer,119 How often do you think our elections offer the voters a real choice between different parties/ca...
+W5,q122,core_questionnaire,likert_4,4,4,-1; 7; 8; 9,having,122 How much do you feel that having elections makes the government more responsive to people's need...
+W5,q127,core_questionnaire,binary,2,2,-1; 7; 8; 9,anyone,127 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a polit...
+W5,q127a_1,core_questionnaire,binary,2,2,-1; 8; 9,127a_1,127a_1 Did you personally witness it or were you told about it by a family member or friend who pers...
+W5,q127a_2,core_questionnaire,binary,2,2,-1; 8; 9,127a_2,127a_2  Did you personally witness it or were you told about it by a family member or friend who per...
+W5,q127a_3,core_questionnaire,binary,2,2,-1; 8; 9,127a_3,127a_3  Did you personally witness it or were you told about it by a family member or friend who per...
+W5,q132,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,comes,132 Which of the following statements comes closest to your own opinion?
+W5,q157,core_questionnaire,binary,2,2,-1; 7; 8; 9,limit,157 Which of the following statements do you agree with the most? limit or import of foreign goods
+W5,q182,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,general,"182 General speaking, the influence China has on our country is?"
+W5,q184,core_questionnaire,likert_6,6,6,-1; 7; 8; 9,general,"184 General speaking, the influence the United States has on our country is?"
+W5,q22,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,trusted,"22 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with..."
+W5,q33,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,national,33 Did you vote in the last national election?
+W5,q35,core_questionnaire,binary,2,2,-1; 7; 8; 9,attend,35. Did you attend a campaign meeting or rally in the last national election?
+W5,q36,core_questionnaire,binary,2,2,-1; 7; 8; 9,persudae,36. Try to persudae others to vote for a certain candidate or party?
+W5,q37,core_questionnaire,binary,2,2,-1; 7; 8; 9,anything,37. Did you do anything else to help out or work for a party or candidate running in the last nation...
+W5,q39,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,roads,39 How easy or difficult to obtain roads in good condition
+W5,q4,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,today,"4. As for your own family, how do you rate the economic situation of your family today?"
+W5,q40,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,running,40 How easy or difficult to obtain running water
+W5,q41,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,transportation,41 How easy or difficult to obtain public transportation
+W5,q42,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,healthcare,42 How easy or difficult to obtain healthcare
+W5,q43,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,pollice,43 How easy or difficult to obtain help from the pollice when you need it
+W5,q44,core_questionnaire,likert_5,5,5,-1; 7; 8; 9,access,44 How easy or difficult to obtain access to the internet
+W5,q48,core_questionnaire,likert_3,3,3,-1; 7; 8; 9,discuss,"48 When you get together with your family members or friends, how often do you discuss political mat..."
+W5,q50,core_questionnaire,binary,2,2,-1; 7; 8; 9,facebook,"50 Do you currently use any of the following social media networks?(E.g. facebook, twitter, telegram..."
+W5,q51a,core_questionnaire,binary,2,2,-1; 7; 8; 9,connect,50 Do you currently use any of the following social media networks?(E.g. 51a You use social media pr...
+W5,q51b,core_questionnaire,binary,2,2,-1; 7; 8; 9,expresss,50 Do you currently use any of the following social media networks?(E.g. 51b You use social media pr...
+W5,q51c,core_questionnaire,binary,2,2,-1; 7; 8; 9,share,50 Do you currently use any of the following social media networks?(E.g. 51c You use social media pr...
+W5,q51d,core_questionnaire,binary,2,2,-1; 7; 8; 9,primarily,50 Do you currently use any of the following social media networks?(E.g. 51d You use social media pr...
+W5,q91,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,protects,"90 Would you say our system of government works fine as it is, needs minor change, needs major chang..."
+W5,q92,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,clean,"90 Would you say our system of government works fine as it is, needs minor change, needs major chang..."
+W5,q93,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,protests,"90 Would you say our system of government works fine as it is, needs minor change, needs major chang..."
+W5,q94,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,making,"90 Would you say our system of government works fine as it is, needs minor change, needs major chang..."
+W5,q95,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,wisdom,95 Political leaders rule by following their own wisdom rathan than people's preferences to ensure a...
+W5,q96,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,represents,96 Rule by one party that represents the interests of all classes
+W5,q97,core_questionnaire,likert_6,6,6,-1; 7; 8; 9; 10; 97; 98; 99,qualified,97 Qualified candidates are pre-selected by religious leaders

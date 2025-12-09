@@ -1,0 +1,11 @@
+wave,variable_id,question_type,scale_type,scale_points,max_value,missing_codes,distinctive_keyword,question_text
+W1,ir002,interviewer,binary,2,2,99,questionnaire,Is this the first questionnaire the interviewer have completed?
+W1,ir003,interviewer,ordinal,3,9,98; 99,presence,Presence of others other than the respondent while interviewing
+W1,ir004,interviewer,likert_4,4,4,99,refused,Has the respondent ever refused to be interviewed during the whole process?
+W1,ir009,interviewer,binary,2,2,99,conducted,Was the interview conducted with the assisance of an interpreter
+W1,ir010c,interviewer,binary,2,2,99,water,Tell us whetherthe interviewee's residence has public water supply
+W1,ir010d,interviewer,binary,2,2,99,electricity,Tell us whetherthe interviewee's residence has electricity
+W1,q104,core_questionnaire,likert_5,5,5,98; 99,satisfied,How satisfied or dissatisfied are you with the current government?
+W1,q116,core_questionnaire,binary,2,2,97; 98; 99,anyone,anyone you know personally witnessed an act of corruption?
+W1,q119,core_questionnaire,likert_5,5,5,98; 99,choose,choose between democracy and economic development?
+W1,se004a,socioeconomic,binary,2,2,98; 99,marital,Marital Status(Y/N)

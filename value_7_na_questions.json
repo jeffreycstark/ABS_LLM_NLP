@@ -1,0 +1,1093 @@
+[
+  {
+    "variable_id": "ir13a",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Post-office",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13b",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? School",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13d",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Sewerage system that most houses could access",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13e",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Health clinic",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13f",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Signal for cellular phone",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13g",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Recreational facilities, e.g., a sports field",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13h",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Any churches, mosques, temples or other public places of worship",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13i",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Any town halls or community buildings that can be used for meetings",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "ir13k",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Market stalls (selling groceries and/or clothing)",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "irII13c",
+    "question_text": "How far is it between the nearest public transportation stop and the respondent's house? Police station",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "No"
+      },
+      {
+        "value": 1,
+        "label": "Yes"
+      },
+      {
+        "value": 3,
+        "label": "Not sure"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 9,
+        "label": "Can't determine"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 2,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "q102a",
+    "question_text": "How likely is it that the government will solve the most important problem you identified?",
+    "value_labels": [
+      {
+        "value": 0,
+        "label": "Not applicable"
+      },
+      {
+        "value": 1,
+        "label": "Very likely"
+      },
+      {
+        "value": 2,
+        "label": "Likely"
+      },
+      {
+        "value": 3,
+        "label": "Not very likely"
+      },
+      {
+        "value": 4,
+        "label": "Not at all likely"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 7,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q49",
+    "question_text": "On the whole, how would you rate the freeness and fairness of the last national election? How interested would you say you are in politics",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Not at all interested"
+      },
+      {
+        "value": 2,
+        "label": "Not very interested"
+      },
+      {
+        "value": 3,
+        "label": "Somewhat interested"
+      },
+      {
+        "value": 4,
+        "label": "Very interested"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 7,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q50",
+    "question_text": "On the whole, how would you rate the freeness and fairness of the last national election? How often do you follow news about politics and government",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Practically never"
+      },
+      {
+        "value": 2,
+        "label": "Not even once a week"
+      },
+      {
+        "value": 3,
+        "label": "Once or twice a week"
+      },
+      {
+        "value": 4,
+        "label": "Several times a week"
+      },
+      {
+        "value": 5,
+        "label": "Everyday"
+      },
+      {
+        "value": 6,
+        "label": "No Answer"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 6,
+      "first_na_value": 7,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q52",
+    "question_text": "When you get together with your family members or friends, how often do you discuss political matters?",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Frequently"
+      },
+      {
+        "value": 2,
+        "label": "Occasionally"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q53",
+    "question_text": "How much impact do you feel government politics have on your daily life?",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "No impact at all"
+      },
+      {
+        "value": 2,
+        "label": "A little impact"
+      },
+      {
+        "value": 3,
+        "label": "Quite some impact"
+      },
+      {
+        "value": 4,
+        "label": "A great deal of impact"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 7,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q67",
+    "question_text": "How closely do you follow major events in foreign countries/the world?",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Very closely"
+      },
+      {
+        "value": 2,
+        "label": "Somewhat closely"
+      },
+      {
+        "value": 3,
+        "label": "Not too closely"
+      },
+      {
+        "value": 4,
+        "label": "Very little"
+      },
+      {
+        "value": 5,
+        "label": "Not at all"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 7,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q68",
+    "question_text": "Have you traveled abroad before? If you have, how often do you travel abroad?",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "A few times a year"
+      },
+      {
+        "value": 2,
+        "label": "Almost once a year"
+      },
+      {
+        "value": 3,
+        "label": "Just a few times in my whole life"
+      },
+      {
+        "value": 4,
+        "label": "Just once in my whole life"
+      },
+      {
+        "value": 5,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 7,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q69",
+    "question_text": "How often do you have personal contact with foreigners?",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Almost daily"
+      },
+      {
+        "value": 2,
+        "label": "At least once a week"
+      },
+      {
+        "value": 3,
+        "label": "At least once a month"
+      },
+      {
+        "value": 4,
+        "label": "Several times a year"
+      },
+      {
+        "value": 5,
+        "label": "Hardly ever"
+      },
+      {
+        "value": 6,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 6,
+      "first_na_value": 7,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q79",
+    "question_text": "Contacted government (administrative) official",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "q80",
+    "question_text": "Contacted officials at higher level",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q81",
+    "question_text": "Contacted elected officials or legislative representatives at any level",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q82",
+    "question_text": "Contacted officials of political parties or other political organizations",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q85",
+    "question_text": "Contacted other influential people",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "Not applicable"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "Not applicable"
+  },
+  {
+    "variable_id": "q86",
+    "question_text": "Refused to pay taxes or fees to the government",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  },
+  {
+    "variable_id": "q87",
+    "question_text": "Got together with others to raise an issue or sign a petition",
+    "value_labels": [
+      {
+        "value": 1,
+        "label": "Once"
+      },
+      {
+        "value": 2,
+        "label": "More than once"
+      },
+      {
+        "value": 3,
+        "label": "Never"
+      },
+      {
+        "value": 7,
+        "label": "No answer"
+      },
+      {
+        "value": 8,
+        "label": "Can't choose"
+      },
+      {
+        "value": 9,
+        "label": "Decline to answer"
+      }
+    ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 7,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "_source_wave": "W2",
+    "_value_7_label": "No answer"
+  }
+]
