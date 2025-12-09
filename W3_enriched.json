@@ -93,15 +93,19 @@
   },
   {
     "variable_id": "ir1",
-    "question_text": "IR1. Interviewer's number",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Interviewer's number",
     "value_labels": [
       {
         "value": -1,
         "label": "Missing"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Economic Perception",
+    "concepts": [
+      "household income",
+      "needs satisfaction",
+      "economic evaluation"
+    ]
   },
   {
     "variable_id": "ir10a",
@@ -120,8 +124,12 @@
         "label": "No"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Survey Methodology",
+    "concepts": [
+      "interview process",
+      "interpreter assistance",
+      "data quality"
+    ]
   },
   {
     "variable_id": "ir11a",
@@ -160,9 +168,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Characteristics",
+    "domain": "Infrastructure Accessibility",
     "concepts": [
-      "road condition"
+      "road condition",
+      "transportation",
+      "residence accessibility"
     ]
   },
   {
@@ -202,9 +212,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Characteristics",
+    "domain": "Service Accessibility",
     "concepts": [
-      "drinking water source"
+      "drinking water",
+      "household amenities",
+      "basic services"
     ]
   },
   {
@@ -228,9 +240,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Characteristics",
+    "domain": "Service Accessibility",
     "concepts": [
-      "electricity as lighting"
+      "electricity",
+      "lighting",
+      "household infrastructure"
     ]
   },
   {
@@ -278,9 +292,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Characteristics",
+    "domain": "Transportation Accessibility",
     "concepts": [
-      "walking distance to public transportation"
+      "public transportation",
+      "walking distance",
+      "residence location"
     ]
   },
   {
@@ -308,8 +324,12 @@
         "label": "Not applicable"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Service Accessibility",
+    "concepts": [
+      "neighborhood services",
+      "proximity",
+      "community amenities"
+    ]
   },
   {
     "variable_id": "ir12a",
@@ -334,9 +354,9 @@
     ],
     "domain": "Service Accessibility",
     "concepts": [
-      "post-office",
-      "accessibility",
-      "availability"
+      "postal service",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -362,9 +382,9 @@
     ],
     "domain": "Service Accessibility",
     "concepts": [
-      "school",
-      "accessibility",
-      "availability"
+      "education",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -388,11 +408,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Service Accessibility",
+    "domain": "Public Safety",
     "concepts": [
-      "police station",
-      "accessibility",
-      "availability"
+      "law enforcement",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -418,9 +438,9 @@
     ],
     "domain": "Service Accessibility",
     "concepts": [
-      "sewerage system",
-      "accessibility",
-      "availability"
+      "sanitation",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -444,11 +464,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Service Accessibility",
+    "domain": "Healthcare Accessibility",
     "concepts": [
-      "health clinic",
-      "accessibility",
-      "availability"
+      "healthcare",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -472,11 +492,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Infrastructure",
+    "domain": "Telecommunication Accessibility",
     "concepts": [
-      "cellular phone signal",
+      "telecommunication",
       "infrastructure",
-      "availability"
+      "accessibility"
     ]
   },
   {
@@ -500,11 +520,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Infrastructure",
+    "domain": "Recreational Facilities",
     "concepts": [
-      "recreational facilities",
+      "leisure",
       "infrastructure",
-      "availability"
+      "accessibility"
     ]
   },
   {
@@ -528,11 +548,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Religious and Cultural Facilities",
+    "domain": "Religious Facilities",
     "concepts": [
-      "places of worship",
-      "religious facilities",
-      "cultural facilities"
+      "religion",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -558,9 +578,9 @@
     ],
     "domain": "Community Facilities",
     "concepts": [
-      "town halls",
-      "community buildings",
-      "meeting facilities"
+      "community",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -584,12 +604,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Economic Activity",
+    "domain": "Market Accessibility",
     "concepts": [
-      "market stalls",
-      "grocery stores",
-      "clothing stores",
-      "economic activity"
+      "commerce",
+      "infrastructure",
+      "accessibility"
     ]
   },
   {
@@ -621,11 +640,11 @@
         "label": "Can't determine"
       }
     ],
-    "domain": "Location",
+    "domain": "Geographic Location",
     "concepts": [
-      "country",
-      "location",
-      "residence"
+      "residence",
+      "country level",
+      "geographic location"
     ]
   },
   {
@@ -649,11 +668,11 @@
         "label": "Not applicable"
       }
     ],
-    "domain": "Questionnaire Experience",
+    "domain": "Survey Participation",
     "concepts": [
-      "first questionnaire",
-      "previous experience",
-      "participation"
+      "survey experience",
+      "questionnaire completion",
+      "first time"
     ]
   },
   {
@@ -675,9 +694,8 @@
     ],
     "domain": "Interviewer Characteristics",
     "concepts": [
-      "gender",
-      "sex",
-      "biological sex"
+      "interviewer gender",
+      "demographic information"
     ]
   },
   {
@@ -699,9 +717,8 @@
     ],
     "domain": "Interviewer Characteristics",
     "concepts": [
-      "age",
-      "years",
-      "age group"
+      "interviewer age",
+      "demographic information"
     ]
   },
   {
@@ -921,11 +938,11 @@
         "label": "Dialek Kedah"
       }
     ],
-    "domain": "Language",
+    "domain": "Language and Culture",
     "concepts": [
-      "language",
-      "spoken language",
-      "home language"
+      "language use",
+      "home language",
+      "cultural background"
     ]
   },
   {
@@ -945,11 +962,11 @@
         "label": "No (Go to Q4)"
       }
     ],
-    "domain": "Interview Setting",
+    "domain": "Interview Environment",
     "concepts": [
-      "interviewer presence",
-      "other participants",
-      "interview environment"
+      "interview setting",
+      "presence of others",
+      "privacy"
     ]
   },
   {
@@ -997,11 +1014,11 @@
         "label": "Others"
       }
     ],
-    "domain": "Interview Setting",
+    "domain": "Interview Environment",
     "concepts": [
-      "other participants",
       "presence of others",
-      "interview participants"
+      "relationship to respondent",
+      "interview setting"
     ]
   },
   {
@@ -1021,11 +1038,11 @@
         "label": "Yes"
       }
     ],
-    "domain": "Interview Setting",
+    "domain": "Interview Environment",
     "concepts": [
-      "spouse",
-      "partner",
-      "relationship status"
+      "spouse presence",
+      "family relationship",
+      "interview setting"
     ]
   },
   {
@@ -1045,11 +1062,11 @@
         "label": "Yes"
       }
     ],
-    "domain": "Interview Setting",
+    "domain": "Interview Environment",
     "concepts": [
-      "children",
-      "family members",
-      "family structure"
+      "children presence",
+      "family relationship",
+      "interview setting"
     ]
   },
   {
@@ -1069,11 +1086,11 @@
         "label": "Yes"
       }
     ],
-    "domain": "Interview Setting",
+    "domain": "Interview Environment",
     "concepts": [
-      "parents",
-      "parents-in-law",
-      "family members"
+      "parents presence",
+      "family relationship",
+      "interview setting"
     ]
   },
   {
@@ -1095,7 +1112,9 @@
     ],
     "domain": "Social Interaction",
     "concepts": [
-      "Neighbors/Passers by"
+      "neighbors",
+      "passers by",
+      "social encounter"
     ]
   },
   {
@@ -1115,9 +1134,11 @@
         "label": "Yes"
       }
     ],
-    "domain": "Political Trust",
+    "domain": "Trust in Government",
     "concepts": [
-      "Party/Government Official"
+      "party",
+      "government official",
+      "institutional trust"
     ]
   },
   {
@@ -1149,10 +1170,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Interview Process",
+    "domain": "Interview Experience",
     "concepts": [
-      "Refusal to be interviewed",
-      "Interview completion"
+      "interview refusal",
+      "respondent behavior",
+      "cooperation"
     ]
   },
   {
@@ -1186,7 +1208,9 @@
     ],
     "domain": "Interview Experience",
     "concepts": [
-      "Impatience during interview"
+      "impatience",
+      "respondent emotion",
+      "interview process"
     ]
   },
   {
@@ -1216,7 +1240,9 @@
     ],
     "domain": "Interview Experience",
     "concepts": [
-      "Cooperation during interview"
+      "cooperation",
+      "respondent behavior",
+      "interview quality"
     ]
   },
   {
@@ -1250,7 +1276,9 @@
     ],
     "domain": "Interview Experience",
     "concepts": [
-      "Sincere answers to sensitive questions"
+      "sincerity",
+      "respondent honesty",
+      "sensitive questions"
     ]
   },
   {
@@ -1292,7 +1320,9 @@
     ],
     "domain": "Interview Experience",
     "concepts": [
-      "Difficulty answering questions"
+      "difficulty",
+      "question comprehension",
+      "respondent ability"
     ]
   },
   {
@@ -1324,9 +1354,11 @@
         "label": "Not applicable"
       }
     ],
-    "domain": "Interview Date",
+    "domain": "Interview Administration",
     "concepts": [
-      "Date of Interview"
+      "interview date",
+      "administration detail",
+      "record-keeping"
     ]
   },
   {
@@ -1346,8 +1378,12 @@
         "label": "rural"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Geographic Location",
+    "concepts": [
+      "urban-rural",
+      "geographic classification",
+      "residence type"
+    ]
   },
   {
     "variable_id": "q1",
@@ -1437,8 +1473,8 @@
     "domain": "Trust in Government",
     "concepts": [
       "trust",
-      "political parties",
-      "national level"
+      "institution",
+      "political parties"
     ]
   },
   {
@@ -1480,8 +1516,8 @@
     ],
     "domain": "Government Accountability",
     "concepts": [
-      "accountability",
       "government responsibility",
+      "accountability",
       "elections"
     ]
   },
@@ -1522,11 +1558,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Accountability",
+    "domain": "Rule of Law",
     "concepts": [
-      "law enforcement",
-      "judicial system",
-      "government actions"
+      "government leaders",
+      "law breaking",
+      "judicial power"
     ]
   },
   {
@@ -1569,8 +1605,8 @@
     "domain": "Citizen Participation",
     "concepts": [
       "citizen engagement",
-      "government influence",
-      "political participation"
+      "government decisions",
+      "influence"
     ]
   },
   {
@@ -1610,11 +1646,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Equality",
+    "domain": "Social Equality",
     "concepts": [
-      "ethnic equality",
-      "government policies",
-      "citizenship"
+      "ethnic communities",
+      "government treatment",
+      "equality"
     ]
   },
   {
@@ -1654,11 +1690,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Equality",
+    "domain": "Social Equality",
     "concepts": [
-      "social equality",
-      "economic equality",
-      "government policies"
+      "socioeconomic status",
+      "government treatment",
+      "equality"
     ]
   },
   {
@@ -1698,11 +1734,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Basic Necessities",
+    "domain": "Basic Needs",
     "concepts": [
-      "basic needs",
-      "access to resources",
-      "living standards"
+      "basic necessities",
+      "poverty",
+      "wellbeing"
     ]
   },
   {
@@ -1742,11 +1778,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Freedom of Speech",
+    "domain": "Freedom of Expression",
     "concepts": [
-      "freedom of expression",
-      "political dissent",
-      "social freedoms"
+      "free speech",
+      "fear",
+      "censorship"
     ]
   },
   {
@@ -1788,9 +1824,9 @@
     ],
     "domain": "Freedom of Association",
     "concepts": [
-      "freedom of assembly",
-      "political participation",
-      "social groups"
+      "organization membership",
+      "fear",
+      "freedom"
     ]
   },
   {
@@ -1832,9 +1868,9 @@
     ],
     "domain": "Government Accountability",
     "concepts": [
-      "law enforcement",
-      "justice system",
-      "corruption"
+      "official accountability",
+      "crime",
+      "punishment"
     ]
   },
   {
@@ -1874,12 +1910,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Trust and Accountability",
+    "domain": "Trust in Government",
     "concepts": [
-      "government officials",
-      "information withholding",
-      "public view",
-      "frequency"
+      "transparency",
+      "government accountability",
+      "information disclosure"
     ]
   },
   {
@@ -1919,12 +1954,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Trust",
+    "domain": "Trust in Government",
     "concepts": [
-      "trust",
+      "institutional trust",
       "parliament",
-      "institution",
-      "evaluation"
+      "confidence in institutions"
     ]
   },
   {
@@ -1964,12 +1998,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Trust and Accountability",
+    "domain": "Trust in Government",
     "concepts": [
-      "government leaders",
-      "law breaking",
       "abuse of power",
-      "frequency"
+      "rule of law",
+      "government accountability"
     ]
   },
   {
@@ -2009,12 +2042,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Trust and Election Process",
+    "domain": "Election Integrity",
     "concepts": [
-      "elections",
-      "choice",
-      "parties/candidates",
-      "frequency"
+      "electoral competition",
+      "voter choice",
+      "democratic process"
     ]
   },
   {
@@ -2054,13 +2086,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Accountability and Oversight",
+    "domain": "Separation of Powers",
     "concepts": [
-      "legislature",
-      "government leaders",
-      "check",
-      "effectiveness",
-      "extent"
+      "legislative oversight",
+      "checks and balances",
+      "government accountability"
     ]
   },
   {
@@ -2100,12 +2130,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Public Perception of Government",
+    "domain": "Government Responsiveness",
     "concepts": [
-      "government",
-      "response",
-      "public wants",
-      "effectiveness"
+      "government responsiveness",
+      "public needs",
+      "policy implementation"
     ]
   },
   {
@@ -2145,14 +2174,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Community Engagement and Local Affairs",
+    "domain": "Civic Engagement",
     "concepts": [
-      "neighborhood",
-      "community",
-      "voice",
-      "interests",
-      "concerns",
-      "frequency"
+      "community participation",
+      "local affairs",
+      "civic engagement"
     ]
   },
   {
@@ -2192,13 +2218,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Public Perception of Government",
+    "domain": "Election Integrity",
     "concepts": [
-      "elections",
-      "attention",
-      "government",
-      "people's thoughts",
-      "frequency"
+      "electoral accountability",
+      "government responsiveness",
+      "voter influence"
     ]
   },
   {
@@ -2234,13 +2258,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Corruption and Bribery",
+    "domain": "Corruption Perception",
     "concepts": [
       "corruption",
       "bribery",
-      "local government",
-      "widespread",
-      "extent"
+      "local government"
     ]
   },
   {
@@ -2276,14 +2298,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Corruption and Bribery",
+    "domain": "Corruption Perception",
     "concepts": [
       "corruption",
       "bribery",
-      "national government",
-      "capital city",
-      "widespread",
-      "extent"
+      "national government"
     ]
   },
   {
@@ -2325,9 +2344,9 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
+      "government effectiveness",
       "corruption",
-      "bribery",
-      "government actions"
+      "bribery"
     ]
   },
   {
@@ -2367,14 +2386,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Witnessing Corruption",
+    "domain": "Corruption Experience",
     "concepts": [
-      "corruption",
-      "bribery",
-      "witnessing",
       "personal experience",
-      "family member",
-      "friend"
+      "corruption",
+      "bribe-taking",
+      "government official"
     ]
   },
   {
@@ -2414,12 +2431,13 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Witnessing Corruption",
+    "domain": "Corruption Experience",
     "concepts": [
+      "personal experience",
       "corruption",
-      "bribery",
-      "witnessing",
-      "personal experience"
+      "bribe-taking",
+      "government official",
+      "direct witness"
     ]
   },
   {
@@ -2459,12 +2477,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Witnessing Corruption",
+    "domain": "Corruption Experience",
     "concepts": [
+      "indirect experience",
       "corruption",
-      "bribery",
-      "witnessing",
-      "told about",
+      "bribe-taking",
+      "government official",
       "family member"
     ]
   },
@@ -2505,12 +2523,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Witnessing Corruption",
+    "domain": "Corruption Experience",
     "concepts": [
+      "indirect experience",
       "corruption",
-      "bribery",
-      "witnessing",
-      "told about",
+      "bribe-taking",
+      "government official",
       "friend"
     ]
   },
@@ -2553,9 +2571,9 @@
     ],
     "domain": "Trust in Institutions",
     "concepts": [
-      "civil service",
-      "trust level",
-      "evaluation"
+      "trust",
+      "institutional confidence",
+      "civil service"
     ]
   },
   {
@@ -2579,12 +2597,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Political Regime Evaluation",
     "concepts": [
       "democracy",
-      "China",
-      "scale",
-      "evaluation"
+      "regime type",
+      "country evaluation",
+      "China"
     ]
   },
   {
@@ -2608,12 +2626,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Political Regime Evaluation",
     "concepts": [
       "democracy",
-      "United States",
-      "scale",
-      "evaluation"
+      "regime type",
+      "country evaluation",
+      "United States"
     ]
   },
   {
@@ -2637,12 +2655,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Political Regime Evaluation",
     "concepts": [
       "democracy",
-      "Japan",
-      "scale",
-      "evaluation"
+      "regime type",
+      "country evaluation",
+      "Japan"
     ]
   },
   {
@@ -2666,12 +2684,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Political Regime Evaluation",
     "concepts": [
       "democracy",
-      "India",
-      "scale",
-      "evaluation"
+      "regime type",
+      "country evaluation",
+      "India"
     ]
   },
   {
@@ -2707,11 +2725,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "General Opinion",
     "concepts": [
-      "opinion",
-      "political system",
-      "evaluation"
+      "personal opinion",
+      "evaluation",
+      "comparison"
     ]
   },
   {
@@ -2743,11 +2761,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "General Opinion",
     "concepts": [
-      "opinion",
-      "political system",
-      "evaluation"
+      "personal view",
+      "evaluation",
+      "comparison"
     ]
   },
   {
@@ -2791,12 +2809,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Governance Preference",
     "concepts": [
-      "political ideology",
-      "prioritization",
+      "democracy",
       "economic development",
-      "democracy"
+      "priority"
     ]
   },
   {
@@ -2840,12 +2857,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Governance Preference",
     "concepts": [
-      "political ideology",
-      "prioritization",
       "economic inequality",
-      "political freedom"
+      "political freedom",
+      "priority"
     ]
   },
   {
@@ -2885,11 +2901,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Trust in Government",
     "concepts": [
-      "political system",
-      "evaluation",
-      "democracy"
+      "democracy",
+      "government evaluation",
+      "problem awareness"
     ]
   },
   {
@@ -2929,12 +2945,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Governance Preference",
     "concepts": [
-      "political system",
-      "approval/disapproval",
+      "governance alternative",
       "parliament",
-      "election"
+      "election",
+      "approval"
     ]
   },
   {
@@ -2950,11 +2966,11 @@
         "label": "1 acceptance/others"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Authoritarian Rejection",
     "concepts": [
-      "political system",
-      "approval/disapproval",
-      "authoritarian options"
+      "authoritarianism",
+      "rejection",
+      "governance alternative"
     ]
   },
   {
@@ -2996,9 +3012,9 @@
     ],
     "domain": "Trust in Institutions",
     "concepts": [
-      "trust level",
-      "military",
-      "political system"
+      "trust",
+      "institution",
+      "military"
     ]
   },
   {
@@ -3038,11 +3054,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Governance Preference",
     "concepts": [
-      "political system",
-      "approval/disapproval",
-      "single-party system"
+      "one-party system",
+      "approval",
+      "governance alternative"
     ]
   },
   {
@@ -3058,11 +3074,11 @@
         "label": "1 acceptance/others"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Governance Preference",
     "concepts": [
-      "political system",
-      "approval/disapproval",
-      "single-party system"
+      "one-party system",
+      "approval",
+      "governance alternative"
     ]
   },
   {
@@ -3102,11 +3118,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation and Trust",
+    "domain": "Trust in Government",
     "concepts": [
-      "government takeover",
-      "approval/disapproval",
-      "military involvement"
+      "governance",
+      "military intervention",
+      "approval"
     ]
   },
   {
@@ -3122,8 +3138,12 @@
         "label": "1 acceptance/others"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Trust in Government",
+    "concepts": [
+      "military",
+      "governance",
+      "approval"
+    ]
   },
   {
     "variable_id": "q132",
@@ -3162,11 +3182,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation and Trust",
+    "domain": "Trust in Government",
     "concepts": [
-      "expert governance",
-      "parliamentary system",
-      "elections"
+      "governance",
+      "expert decision-making",
+      "democratic process"
     ]
   },
   {
@@ -3206,11 +3226,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation and Civic Engagement",
+    "domain": "Political Efficacy",
     "concepts": [
       "political participation",
-      "ability to participate",
-      "agreement/disagreement"
+      "self-efficacy",
+      "empowerment"
     ]
   },
   {
@@ -3250,11 +3270,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Complexity and Understanding",
+    "domain": "Political Efficacy",
     "concepts": [
       "political complexity",
-      "understanding of government",
-      "difficulty"
+      "understanding",
+      "frustration"
     ]
   },
   {
@@ -3294,11 +3314,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation and Influence",
+    "domain": "Political Efficacy",
     "concepts": [
-      "influence over government",
-      "lack of influence",
-      "powerlessness"
+      "political influence",
+      "powerlessness",
+      "disenfranchisement"
     ]
   },
   {
@@ -3338,11 +3358,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Trust and Confidence",
+    "domain": "Trust in Government",
     "concepts": [
-      "trust in government",
-      "government trustworthiness",
-      "moral character"
+      "trust",
+      "government integrity",
+      "righteousness"
     ]
   },
   {
@@ -3382,11 +3402,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Loyalty and Patriotism",
+    "domain": "National Loyalty",
     "concepts": [
       "national loyalty",
       "patriotism",
-      "country imperfections"
+      "obedience"
     ]
   },
   {
@@ -3426,11 +3446,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Religious Influence and Law",
+    "domain": "Religion and Politics",
     "concepts": [
-      "religious authority",
-      "law interpretation",
-      "government consultation"
+      "religion",
+      "politics",
+      "legislative interpretation"
     ]
   },
   {
@@ -3470,11 +3490,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Gender and Political Participation",
+    "domain": "Gender and Politics",
     "concepts": [
-      "women in politics",
-      "gender roles",
-      "political involvement"
+      "gender equality",
+      "political participation",
+      "sexism"
     ]
   },
   {
@@ -3517,6 +3537,7 @@
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
+      "institution",
       "police"
     ]
   },
@@ -3557,10 +3578,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation",
+    "domain": "Political Equality",
     "concepts": [
-      "education",
-      "political representation",
+      "political participation",
+      "education level",
       "equality"
     ]
   },
@@ -3601,11 +3622,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Authority and Leadership",
+    "domain": "Attitudes towards Authority",
     "concepts": [
-      "leadership",
-      "obedience",
-      "family analogy"
+      "authoritarianism",
+      "government leadership",
+      "obedience"
     ]
   },
   {
@@ -3645,9 +3666,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Authority and Leadership",
+    "domain": "Leadership Perception",
     "concepts": [
-      "government leader"
+      "government leader",
+      "leadership role"
     ]
   },
   {
@@ -3663,10 +3685,11 @@
         "label": "1 rejection authoritarian values"
       }
     ],
-    "domain": "Political Values",
+    "domain": "Authoritarian Values",
     "concepts": [
-      "authoritarian values",
-      "rejection"
+      "authoritarianism",
+      "rejection",
+      "values"
     ]
   },
   {
@@ -3706,11 +3729,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Freedom and Censorship",
+    "domain": "Freedom of Expression",
     "concepts": [
       "government control",
-      "ideas",
-      "discussion"
+      "freedom of speech",
+      "censorship"
     ]
   },
   {
@@ -3750,9 +3773,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Freedom and Censorship",
+    "domain": "Censorship",
     "concepts": [
-      "certain ideas"
+      "censorship",
+      "idea restriction"
     ]
   },
   {
@@ -3792,11 +3816,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Community Harmony",
+    "domain": "Social Harmony",
     "concepts": [
-      "community harmony",
+      "social cohesion",
       "group organization",
-      "disruption"
+      "community harmony"
     ]
   },
   {
@@ -3838,7 +3862,8 @@
     ],
     "domain": "Community Harmony",
     "concepts": [
-      "harmony of the community"
+      "community harmony",
+      "social order"
     ]
   },
   {
@@ -3878,11 +3903,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Judicial Authority",
+    "domain": "Judicial Independence",
     "concepts": [
-      "judges",
-      "executive branch",
-      "decision making"
+      "judicial decision-making",
+      "executive influence",
+      "independence"
     ]
   },
   {
@@ -3922,13 +3947,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Government",
+    "domain": "Trust in Institutions",
     "concepts": [
-      "judges",
-      "government",
-      "legislature",
-      "supervision",
-      "accomplishment"
+      "judicial system",
+      "evaluation",
+      "institutional trust"
     ]
   },
   {
@@ -3970,11 +3993,9 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
-      "government",
-      "legislature",
-      "monitoring",
-      "accomplishment",
-      "great things"
+      "government effectiveness",
+      "legislative oversight",
+      "accountability"
     ]
   },
   {
@@ -4016,9 +4037,9 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
-      "legislature",
-      "checked",
-      "government"
+      "legislative supervision",
+      "government accountability",
+      "checks and balances"
     ]
   },
   {
@@ -4058,12 +4079,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Government",
+    "domain": "Political Leadership",
     "concepts": [
-      "political leaders",
-      "morality",
-      "decision making",
-      "government"
+      "moral leadership",
+      "decision-making authority",
+      "trust in leaders"
     ]
   },
   {
@@ -4103,11 +4123,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Government",
+    "domain": "Political Leadership",
     "concepts": [
       "political leaders",
-      "morality",
-      "decision making"
+      "moral character",
+      "leadership evaluation"
     ]
   },
   {
@@ -4147,11 +4167,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Stability",
+    "domain": "Social Order",
     "concepts": [
-      "society",
-      "different thinking",
-      "chaotic"
+      "social cohesion",
+      "diversity of thought",
+      "social stability"
     ]
   },
   {
@@ -4191,9 +4211,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Stability",
+    "domain": "Social Order",
     "concepts": [
-      "chaotic"
+      "social chaos",
+      "consequences of diversity",
+      "social disorder"
     ]
   },
   {
@@ -4233,12 +4255,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government's Role in Crisis",
+    "domain": "Rule of Law",
     "concepts": [
-      "government",
-      "law",
-      "difficult situation",
-      "disregard"
+      "government authority",
+      "legal constraints",
+      "crisis management"
     ]
   },
   {
@@ -4278,12 +4299,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Foreign Policy Awareness",
+    "domain": "International Awareness",
     "concepts": [
-      "foreign countries",
-      "world",
-      "events",
-      "follow"
+      "global events",
+      "information seeking",
+      "international knowledge"
     ]
   },
   {
@@ -4323,10 +4343,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Public Trust in Institutions",
+    "domain": "Trust in Government",
     "concepts": [
-      "trust",
-      "local government"
+      "local government",
+      "institutional trust",
+      "government evaluation"
     ]
   },
   {
@@ -4370,9 +4391,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Economic Perception",
+    "domain": "Cultural Exposure",
     "concepts": [
-      "foreign media consumption",
+      "media consumption",
+      "foreign content",
       "frequency"
     ]
   },
@@ -4413,11 +4435,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology",
+    "domain": "National Identity",
     "concepts": [
-      "national identity",
-      "cultural assimilation",
-      "defense policy"
+      "nationalism",
+      "cultural preservation",
+      "globalization"
     ]
   },
   {
@@ -4457,11 +4479,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Economic Policy",
+    "domain": "Economic Protectionism",
     "concepts": [
+      "trade policy",
       "protectionism",
-      "import restrictions",
-      "domestic industry"
+      "economic nationalism"
     ]
   },
   {
@@ -4501,11 +4523,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Economic Policy",
+    "domain": "Economic Perception",
     "concepts": [
-      "foreign goods impact",
+      "foreign goods",
       "local community",
-      "economic competition"
+      "economic impact"
     ]
   },
   {
@@ -4545,11 +4567,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "National Identity",
+    "domain": "National Pride",
     "concepts": [
-      "patriotism",
-      "citizenship pride",
-      "national sentiment"
+      "national identity",
+      "citizenship",
+      "patriotism"
     ]
   },
   {
@@ -4589,11 +4611,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Migration and Mobility",
+    "domain": "Migration Intentions",
     "concepts": [
-      "international relocation",
-      "willingness to emigrate",
-      "cultural integration"
+      "migration",
+      "international mobility",
+      "willingness"
     ]
   },
   {
@@ -4731,9 +4753,9 @@
     ],
     "domain": "Geopolitical Influence",
     "concepts": [
-      "regional power",
-      "international influence",
-      "regional leadership"
+      "regional influence",
+      "global politics",
+      "country comparison"
     ]
   },
   {
@@ -4777,11 +4799,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Geopolitical Influence",
+    "domain": "Geopolitical Evaluation",
     "concepts": [
-      "regional power",
-      "international influence",
-      "regional leadership"
+      "regional impact",
+      "country evaluation",
+      "influence assessment"
     ]
   },
   {
@@ -4825,11 +4847,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Geopolitical Influence",
+    "domain": "Geopolitical Evaluation",
     "concepts": [
-      "China's impact",
       "regional impact",
-      "positive/negative impact"
+      "country evaluation",
+      "influence assessment"
     ]
   },
   {
@@ -4873,11 +4895,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Geopolitical Influence",
+    "domain": "Geopolitical Evaluation",
     "concepts": [
-      "China's impact",
       "regional impact",
-      "positive/negative impact"
+      "country evaluation",
+      "influence assessment"
     ]
   },
   {
@@ -5015,10 +5037,9 @@
     ],
     "domain": "Geopolitical Influence",
     "concepts": [
-      "country",
-      "influence",
-      "Asia",
-      "future"
+      "country influence",
+      "regional power",
+      "future projection"
     ]
   },
   {
@@ -5206,12 +5227,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Geopolitical Influence",
+    "domain": "Development Model",
     "concepts": [
-      "country",
-      "model",
-      "future development",
-      "own country"
+      "country model",
+      "development aspiration",
+      "national growth"
     ]
   },
   {
@@ -5251,11 +5271,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Media",
     "concepts": [
       "trust",
-      "newspapers",
-      "institutions"
+      "media institution",
+      "newspaper"
     ]
   },
   {
@@ -5295,11 +5315,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "China's Influence",
+    "domain": "Geopolitical Influence",
     "concepts": [
-      "influence",
-      "China",
-      "country"
+      "country influence",
+      "national impact",
+      "current evaluation"
     ]
   },
   {
@@ -5351,12 +5371,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "China's Influence",
+    "domain": "Geopolitical Influence",
     "concepts": [
-      "influence",
-      "China",
-      "country",
-      "general"
+      "country influence",
+      "national impact",
+      "general evaluation"
     ]
   },
   {
@@ -5396,11 +5415,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Media",
     "concepts": [
       "trust",
-      "television",
-      "institutions"
+      "media institution",
+      "television"
     ]
   },
   {
@@ -5443,8 +5462,8 @@
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
-      "election commission",
-      "institutions"
+      "institutional credibility",
+      "election commission"
     ]
   },
   {
@@ -5487,8 +5506,8 @@
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
-      "NGOs",
-      "institutions"
+      "institutional credibility",
+      "non-governmental organizations"
     ]
   },
   {
@@ -5535,9 +5554,8 @@
     "domain": "Economic Perception",
     "concepts": [
       "economic condition",
-      "country",
-      "change",
-      "current evaluation"
+      "national level",
+      "temporal comparison"
     ]
   },
   {
@@ -5657,12 +5675,11 @@
         "label": "Not applicable"
       }
     ],
-    "domain": "Organizational Affiliation",
+    "domain": "Social Affiliation",
     "concepts": [
-      "organizations",
-      "groups",
-      "membership",
-      "first organization"
+      "organizational membership",
+      "group affiliation",
+      "personal identity"
     ]
   },
   {
@@ -5778,10 +5795,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Second Organization",
+    "domain": "Organizational Affiliation",
     "concepts": [
-      "organization",
-      "type of organization"
+      "organizational membership",
+      "affiliation",
+      "identification"
     ]
   },
   {
@@ -5897,10 +5915,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Third Organization",
+    "domain": "Organizational Affiliation",
     "concepts": [
-      "organization",
-      "type of organization"
+      "organizational membership",
+      "affiliation",
+      "identification"
     ]
   },
   {
@@ -5938,9 +5957,9 @@
     ],
     "domain": "Trust in People",
     "concepts": [
-      "trust level",
-      "general evaluation",
-      "risk assessment"
+      "trust",
+      "generalized trust",
+      "social trust"
     ]
   },
   {
@@ -5978,9 +5997,9 @@
     ],
     "domain": "Trust in People",
     "concepts": [
-      "trust level",
-      "general evaluation",
-      "risk assessment"
+      "trust",
+      "fairness",
+      "exploitation"
     ]
   },
   {
@@ -6022,14 +6041,14 @@
     ],
     "domain": "Trust in People",
     "concepts": [
-      "trust level",
-      "familial relationships",
-      "trust evaluation"
+      "trust",
+      "familial trust",
+      "relatives"
     ]
   },
   {
     "variable_id": "q26",
-    "question_text": "q26. Your neighbors",
+    "question_text": "How much trust do you have in each of the following types of people? Your neighbors",
     "value_labels": [
       {
         "value": -1,
@@ -6066,14 +6085,14 @@
     ],
     "domain": "Trust in People",
     "concepts": [
-      "trust level",
-      "neighboring relationships",
-      "trust evaluation"
+      "trust",
+      "neighborly trust",
+      "community trust"
     ]
   },
   {
     "variable_id": "q27",
-    "question_text": "q27. Other people you interact with",
+    "question_text": "How much trust do you have in each of the following types of people? Other people you interact with",
     "value_labels": [
       {
         "value": -1,
@@ -6110,9 +6129,9 @@
     ],
     "domain": "Trust in People",
     "concepts": [
-      "trust level",
-      "other social interactions",
-      "trust evaluation"
+      "trust",
+      "social trust",
+      "interpersonal trust"
     ]
   },
   {
@@ -6158,9 +6177,9 @@
     ],
     "domain": "Social Interaction",
     "concepts": [
-      "social contact",
-      "frequency",
-      "one-on-one interactions"
+      "social interaction",
+      "social network",
+      "daily contacts"
     ]
   },
   {
@@ -6203,8 +6222,8 @@
     "domain": "Social Support",
     "concepts": [
       "social support",
-      "help seeking",
-      "external support"
+      "help-seeking",
+      "problem management"
     ]
   },
   {
@@ -6252,7 +6271,7 @@
     "concepts": [
       "economic condition",
       "national level",
-      "future prediction"
+      "future evaluation"
     ]
   },
   {
@@ -6295,8 +6314,8 @@
     "domain": "Social Support",
     "concepts": [
       "social support",
-      "help seeking",
-      "household"
+      "help-seeking behavior",
+      "personal network"
     ]
   },
   {
@@ -6336,11 +6355,11 @@
         "label": "Don't respond"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Social Tolerance",
     "concepts": [
-      "political differences",
-      "conversation",
-      "political opinions"
+      "political tolerance",
+      "social interaction",
+      "diverse opinions"
     ]
   },
   {
@@ -6376,11 +6395,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Election Participation",
+    "domain": "Voting Behavior",
     "concepts": [
-      "voting",
-      "election participation",
-      "reasons for non-voting"
+      "voting participation",
+      "electoral process",
+      "personal experience"
     ]
   },
   {
@@ -6884,11 +6903,11 @@
         "label": "Other (Termasuk undi rosak)"
       }
     ],
-    "domain": "Election Participation",
+    "domain": "Voting Behavior",
     "concepts": [
-      "voting",
-      "candidate voting",
-      "party voting"
+      "voting choice",
+      "party affiliation",
+      "electoral decision"
     ]
   },
   {
@@ -6916,11 +6935,11 @@
         "label": "Can't choose"
       }
     ],
-    "domain": "Election Participation",
+    "domain": "Voting Behavior",
     "concepts": [
-      "winning camp",
-      "losing camp",
-      "election outcome"
+      "voting outcome",
+      "winning party",
+      "losing party"
     ]
   },
   {
@@ -6954,9 +6973,9 @@
     ],
     "domain": "Political Participation",
     "concepts": [
-      "campaign attendance",
-      "rally attendance",
-      "political engagement"
+      "campaign engagement",
+      "political rally",
+      "election activity"
     ]
   },
   {
@@ -6988,11 +7007,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Behavior",
+    "domain": "Political Participation",
     "concepts": [
-      "persuasion",
-      "voter mobilization",
-      "political advocacy"
+      "political persuasion",
+      "voter influence",
+      "social influence"
     ]
   },
   {
@@ -7026,9 +7045,9 @@
     ],
     "domain": "Political Participation",
     "concepts": [
-      "campaign work",
-      "volunteer work",
-      "political activism"
+      "party support",
+      "volunteering",
+      "election assistance"
     ]
   },
   {
@@ -7072,11 +7091,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Election Perception",
+    "domain": "Electoral Integrity",
     "concepts": [
-      "election fairness",
-      "fairness evaluation",
-      "election integrity"
+      "electoral fairness",
+      "election legitimacy",
+      "democratic process"
     ]
   },
   {
@@ -7116,11 +7135,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Services",
+    "domain": "Service Accessibility",
     "concepts": [
-      "service access",
       "government services",
-      "service availability"
+      "administrative ease",
+      "citizen experience"
     ]
   },
   {
@@ -7162,10 +7181,9 @@
     ],
     "domain": "Service Accessibility",
     "concepts": [
-      "public primary school",
-      "child",
-      "ease of access",
-      "difficulty"
+      "service accessibility",
+      "public service",
+      "education"
     ]
   },
   {
@@ -7211,10 +7229,9 @@
     ],
     "domain": "Economic Perception",
     "concepts": [
-      "economic situation",
-      "family",
-      "evaluation",
-      "current situation"
+      "economic condition",
+      "family level",
+      "current evaluation"
     ]
   },
   {
@@ -7256,10 +7273,9 @@
     ],
     "domain": "Service Accessibility",
     "concepts": [
-      "medical treatment",
-      "nearby clinic",
-      "ease of access",
-      "difficulty"
+      "service accessibility",
+      "health service",
+      "proximity"
     ]
   },
   {
@@ -7299,12 +7315,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Public Safety",
+    "domain": "Service Accessibility",
     "concepts": [
-      "police assistance",
-      "need for assistance",
-      "ease of access",
-      "difficulty"
+      "service accessibility",
+      "public service",
+      "law enforcement"
     ]
   },
   {
@@ -7340,12 +7355,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Safety Perception",
+    "domain": "Urban Safety",
     "concepts": [
-      "safety",
-      "city/town/village",
-      "level of safety",
-      "perception"
+      "urban safety",
+      "personal security",
+      "location"
     ]
   },
   {
@@ -7381,11 +7395,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Interest",
+    "domain": "Political Engagement",
     "concepts": [
       "political interest",
-      "level of interest",
-      "political engagement"
+      "personal engagement",
+      "civic awareness"
     ]
   },
   {
@@ -7427,9 +7441,9 @@
     ],
     "domain": "Political Engagement",
     "concepts": [
-      "news consumption",
-      "frequency of following",
-      "political news"
+      "political awareness",
+      "information seeking",
+      "media consumption"
     ]
   },
   {
@@ -7477,11 +7491,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Technology Usage",
+    "domain": "Digital Access",
     "concepts": [
       "internet usage",
-      "frequency of use",
-      "digital access"
+      "digital literacy",
+      "accessibility"
     ]
   },
   {
@@ -7513,11 +7527,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Interactions",
+    "domain": "Social Discussion",
     "concepts": [
-      "family/friend gatherings",
-      "frequency of discussion",
-      "political topics"
+      "social interaction",
+      "political discussion",
+      "family and friends"
     ]
   },
   {
@@ -8237,11 +8251,11 @@
         "label": "Other (Termasuk undi rosak)"
       }
     ],
-    "domain": "Political Affiliation",
+    "domain": "Party Affiliation",
     "concepts": [
-      "political party identification",
-      "party affiliation",
-      "closest party"
+      "party loyalty",
+      "political identity",
+      "affiliation"
     ]
   },
   {
@@ -8281,11 +8295,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Economic Perception",
+    "domain": "Social Connection",
     "concepts": [
-      "economic condition",
-      "evaluation",
-      "temporal comparison"
+      "closeness",
+      "social relationship",
+      "evaluation"
     ]
   },
   {
@@ -8325,10 +8339,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Government",
+    "domain": "Trust in Others",
     "concepts": [
-      "trustworthiness",
-      "agreement/disagreement"
+      "trust",
+      "social trust",
+      "evaluation"
     ]
   },
   {
@@ -8375,8 +8390,8 @@
     "domain": "Economic Perception",
     "concepts": [
       "economic condition",
-      "comparison",
-      "time frame"
+      "evaluation",
+      "temporal comparison"
     ]
   },
   {
@@ -8416,11 +8431,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Values",
+    "domain": "Family Values",
     "concepts": [
-      "personal interests",
-      "sacrifice",
-      "family"
+      "family interest",
+      "personal interest",
+      "sacrifice"
     ]
   },
   {
@@ -8464,9 +8479,9 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Values",
+    "domain": "Group Dynamics",
     "concepts": [
-      "group interest",
+      "collective interest",
       "individual interest",
       "sacrifice"
     ]
@@ -8552,11 +8567,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Values",
+    "domain": "Interpersonal Relationships",
     "concepts": [
-      "relationship",
-      "long-term",
-      "immediate interest"
+      "long-term relationship",
+      "immediate interest",
+      "prioritization"
     ]
   },
   {
@@ -8596,11 +8611,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Values",
+    "domain": "Interpersonal Relationships",
     "concepts": [
-      "interest",
+      "immediate interest",
       "future planning",
-      "immediate interest"
+      "balance"
     ]
   },
   {
@@ -8640,11 +8655,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Family Dynamics",
+    "domain": "Family Values",
     "concepts": [
-      "parental demands",
+      "filial piety",
       "obedience",
-      "children"
+      "unconditional obedience"
     ]
   },
   {
@@ -8686,10 +8701,9 @@
     ],
     "domain": "Family Dynamics",
     "concepts": [
-      "mother-in-law",
-      "daughter-in-law",
-      "husband",
-      "obedience"
+      "family conflict",
+      "obedience",
+      "role expectations"
     ]
   },
   {
@@ -8729,11 +8743,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Norms and Values",
+    "domain": "Social Harmony",
     "concepts": [
       "authority",
       "obedience",
-      "student behavior"
+      "teacher-student relationship"
     ]
   },
   {
@@ -8773,11 +8787,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Norms and Values",
+    "domain": "Social Harmony",
     "concepts": [
-      "group harmony",
+      "group dynamics",
       "conflict avoidance",
-      "disagreement"
+      "harmony preservation"
     ]
   },
   {
@@ -8817,11 +8831,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Norms and Values",
+    "domain": "Social Harmony",
     "concepts": [
       "conflict avoidance",
-      "disagreement",
-      "personal conflict"
+      "disagreement management",
+      "social cohesion"
     ]
   },
   {
@@ -8867,9 +8881,9 @@
     ],
     "domain": "Economic Perception",
     "concepts": [
-      "economic situation",
-      "family future",
-      "economic outlook"
+      "economic condition",
+      "family level",
+      "future evaluation"
     ]
   },
   {
@@ -8909,11 +8923,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Norms and Values",
+    "domain": "Social Harmony",
     "concepts": [
-      "opinion sharing",
-      "persuasion",
-      "coworker disagreement"
+      "opinion expression",
+      "group consensus",
+      "cooperation"
     ]
   },
   {
@@ -8953,11 +8967,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Philosophical Beliefs",
+    "domain": "Fatalism",
     "concepts": [
       "fate",
-      "destiny",
-      "social determinism"
+      "wealth distribution",
+      "success determination"
     ]
   },
   {
@@ -8997,10 +9011,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Gender Roles and Preferences",
+    "domain": "Social Preference",
     "concepts": [
       "gender preference",
-      "sex ratio",
+      "childbearing",
       "family planning"
     ]
   },
@@ -9041,11 +9055,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Ethics and Values",
+    "domain": "Social Interaction",
     "concepts": [
-      "short-term gain",
-      "long-term perspective",
-      "ethical behavior"
+      "interpersonal relationships",
+      "long-term orientation",
+      "selflessness"
     ]
   },
   {
@@ -9077,11 +9091,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political and Social Issues",
+    "domain": "Political Participation",
     "concepts": [
-      "government interaction",
-      "citizen engagement",
-      "political participation"
+      "civic engagement",
+      "problem-solving",
+      "government interaction"
     ]
   },
   {
@@ -9113,11 +9127,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political and Social Issues",
+    "domain": "Political Participation",
     "concepts": [
+      "civic engagement",
+      "problem-solving",
       "government interaction",
-      "citizen engagement",
-      "political participation"
+      "hierarchical appeal"
     ]
   },
   {
@@ -9149,11 +9164,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Engagement",
+    "domain": "Civic Engagement",
     "concepts": [
-      "contacting officials",
-      "personal/family/neighborhood problems",
-      "government policies"
+      "problem resolution",
+      "government interaction",
+      "community involvement"
     ]
   },
   {
@@ -9185,11 +9200,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Engagement",
+    "domain": "Civic Engagement",
     "concepts": [
-      "contacting officials",
-      "influential people outside government",
-      "personal/family/neighborhood problems"
+      "influence",
+      "government interaction",
+      "problem resolution"
     ]
   },
   {
@@ -9221,11 +9236,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Engagement",
+    "domain": "Civic Engagement",
     "concepts": [
-      "contacting officials",
-      "news media",
-      "personal/family/neighborhood problems"
+      "media engagement",
+      "government interaction",
+      "issue resolution"
     ]
   },
   {
@@ -9259,8 +9274,9 @@
     ],
     "domain": "Civic Engagement",
     "concepts": [
-      "gathering with others",
-      "political action"
+      "collective action",
+      "community involvement",
+      "problem resolution"
     ]
   },
   {
@@ -9302,8 +9318,9 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
-      "trust in president",
-      "trust level"
+      "institutional trust",
+      "government evaluation",
+      "leadership perception"
     ]
   },
   {
@@ -9337,8 +9354,9 @@
     ],
     "domain": "Civic Engagement",
     "concepts": [
-      "gathering with others",
-      "political action"
+      "collective action",
+      "issue advocacy",
+      "community involvement"
     ]
   },
   {
@@ -9372,8 +9390,9 @@
     ],
     "domain": "Civic Engagement",
     "concepts": [
-      "attending demonstrations",
-      "political participation"
+      "protest participation",
+      "social movement",
+      "political expression"
     ]
   },
   {
@@ -9405,10 +9424,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Activism",
+    "domain": "Civic Engagement",
     "concepts": [
-      "using force",
-      "political action"
+      "political extremism",
+      "violence",
+      "political activism"
     ]
   },
   {
@@ -9452,10 +9472,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Voting Behavior",
+    "domain": "Electoral Participation",
     "concepts": [
-      "voting history",
-      "voting frequency"
+      "voting behavior",
+      "electoral engagement",
+      "civic duty"
     ]
   },
   {
@@ -9487,10 +9508,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Preference",
+    "domain": "Governance Preference",
     "concepts": [
       "government type",
-      "political ideology"
+      "political ideology",
+      "system preference"
     ]
   },
   {
@@ -9526,10 +9548,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Evaluation",
     "concepts": [
-      "agreement",
-      "political preference"
+      "government evaluation",
+      "agreement level",
+      "statement assessment"
     ]
   },
   {
@@ -9561,11 +9584,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Preference",
     "concepts": [
       "government type",
-      "political ideology",
-      "agreement"
+      "preference",
+      "country level"
     ]
   },
   {
@@ -9601,10 +9624,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Evaluation",
     "concepts": [
-      "agreement",
-      "political preference"
+      "government evaluation",
+      "agreement level",
+      "statement assessment"
     ]
   },
   {
@@ -9636,11 +9660,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Preference",
     "concepts": [
       "government type",
-      "political ideology",
-      "agreement"
+      "preference",
+      "country level"
     ]
   },
   {
@@ -9676,10 +9700,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Evaluation",
     "concepts": [
-      "agreement",
-      "political preference"
+      "government evaluation",
+      "agreement level",
+      "statement assessment"
     ]
   },
   {
@@ -9711,11 +9736,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Preference",
     "concepts": [
       "government type",
-      "political ideology",
-      "agreement"
+      "preference",
+      "country level"
     ]
   },
   {
@@ -9751,10 +9776,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Evaluation",
     "concepts": [
-      "agreement",
-      "political preference"
+      "government evaluation",
+      "agreement level",
+      "statement assessment"
     ]
   },
   {
@@ -9786,11 +9812,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Preference",
     "concepts": [
       "government type",
-      "political ideology",
-      "agreement"
+      "preference",
+      "country level"
     ]
   },
   {
@@ -9826,10 +9852,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Evaluation",
     "concepts": [
-      "agreement",
-      "political preference"
+      "government evaluation",
+      "agreement level",
+      "statement assessment"
     ]
   },
   {
@@ -9861,11 +9888,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Ideology/Preference",
+    "domain": "Government Preference",
     "concepts": [
       "government type",
-      "political ideology",
-      "agreement"
+      "preference",
+      "country level"
     ]
   },
   {
@@ -9901,10 +9928,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Attitudes",
+    "domain": "Attitude Towards Statement",
     "concepts": [
-      "agreement level",
-      "political stance"
+      "agreement",
+      "evaluation",
+      "statement assessment"
     ]
   },
   {
@@ -9946,8 +9974,8 @@
     ],
     "domain": "Trust in Institutions",
     "concepts": [
-      "trust level",
-      "institution",
+      "trust",
+      "institutional confidence",
       "courts"
     ]
   },
@@ -9988,11 +10016,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Effectiveness",
+    "domain": "Trust in Government",
     "concepts": [
       "government capability",
       "problem solving",
-      "long-term perspective"
+      "system effectiveness"
     ]
   },
   {
@@ -10032,10 +10060,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Pride",
+    "domain": "National Pride",
     "concepts": [
-      "government pride",
-      "general sentiment"
+      "national pride",
+      "government evaluation",
+      "system assessment"
     ]
   },
   {
@@ -10075,11 +10104,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Support",
+    "domain": "System Support",
     "concepts": [
-      "government support",
-      "system resilience",
-      "public support"
+      "system support",
+      "government loyalty",
+      "problem tolerance"
     ]
   },
   {
@@ -10119,11 +10148,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Preference",
+    "domain": "System Preference",
     "concepts": [
-      "government preference",
-      "alternative systems",
-      "preference for current system"
+      "system preference",
+      "government comparison",
+      "national loyalty"
     ]
   },
   {
@@ -10163,11 +10192,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Government Evaluation",
+    "domain": "System Evaluation",
     "concepts": [
-      "system performance",
-      "change needs",
-      "replacement consideration"
+      "system evaluation",
+      "government comparison",
+      "reform necessity"
     ]
   },
   {
@@ -10209,8 +10238,9 @@
     ],
     "domain": "Democracy Characteristics",
     "concepts": [
-      "essential democracy characteristics",
-      "choice of essential characteristics"
+      "democracy characteristics",
+      "essential features",
+      "system definition"
     ]
   },
   {
@@ -10252,8 +10282,9 @@
     ],
     "domain": "Democracy Characteristics",
     "concepts": [
-      "essential democracy characteristics",
-      "choice of essential characteristics"
+      "democracy characteristics",
+      "essential features",
+      "system definition"
     ]
   },
   {
@@ -10295,8 +10326,9 @@
     ],
     "domain": "Democracy Characteristics",
     "concepts": [
-      "essential democracy characteristics",
-      "choice of essential characteristics"
+      "democracy characteristics",
+      "essential features",
+      "system definition"
     ]
   },
   {
@@ -10336,7 +10368,7 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Democratic Values",
     "concepts": [
       "democracy",
       "essential characteristics",
@@ -10376,11 +10408,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Satisfaction with Democracy",
     "concepts": [
-      "satisfaction with democracy",
-      "country-specific",
-      "evaluation"
+      "democracy",
+      "satisfaction",
+      "current evaluation"
     ]
   },
   {
@@ -10420,11 +10452,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Government",
     "concepts": [
-      "trust in government",
-      "national level",
-      "institution"
+      "trust",
+      "national government",
+      "institutional evaluation"
     ]
   },
   {
@@ -10464,11 +10496,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Perception of Democracy",
     "concepts": [
-      "democracy level",
-      "country-specific",
-      "evaluation"
+      "democracy",
+      "country evaluation",
+      "current state"
     ]
   },
   {
@@ -10492,11 +10524,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Democratic Governance",
     "concepts": [
-      "democracy level",
-      "scale",
-      "country-specific"
+      "democracy",
+      "governance",
+      "current evaluation",
+      "scale measurement"
     ]
   },
   {
@@ -10520,11 +10553,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Democratic Governance",
     "concepts": [
-      "democracy level",
-      "country-specific",
-      "evaluation",
+      "democracy",
+      "governance",
+      "past evaluation",
+      "scale measurement",
       "temporal comparison"
     ]
   },
@@ -10549,12 +10583,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Democratic Governance",
     "concepts": [
-      "democracy level",
-      "country-specific",
-      "evaluation",
-      "temporal comparison"
+      "democracy",
+      "governance",
+      "future aspiration",
+      "scale measurement"
     ]
   },
   {
@@ -10578,11 +10612,12 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Suitability of Democracy",
     "concepts": [
-      "democracy suitability",
-      "country-specific",
-      "scale"
+      "democracy",
+      "suitability",
+      "country evaluation",
+      "scale measurement"
     ]
   },
   {
@@ -10618,11 +10653,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "Satisfaction with Government",
     "concepts": [
-      "government satisfaction",
       "government",
-      "evaluation"
+      "satisfaction",
+      "current evaluation"
     ]
   },
   {
@@ -11026,11 +11061,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political System",
+    "domain": "National Problems",
     "concepts": [
-      "government problems",
-      "country-specific",
-      "evaluation"
+      "national problems",
+      "government responsibility",
+      "priority evaluation"
     ]
   },
   {
@@ -11070,12 +11105,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Economic Perception",
+    "domain": "Trust in Government",
     "concepts": [
-      "government solution",
-      "problem importance",
-      "time horizon",
-      "future expectation"
+      "government effectiveness",
+      "problem solving",
+      "temporal expectation"
     ]
   },
   {
@@ -11115,12 +11149,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Public Opinion",
+    "domain": "Societal Perception",
     "concepts": [
-      "public sentiment",
+      "public opinion",
       "state of affairs",
-      "agreement/disagreement",
-      "country-specific"
+      "emotional response"
     ]
   },
   {
@@ -11160,12 +11193,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Political Participation",
+    "domain": "Media Accessibility",
     "concepts": [
+      "political equality",
       "media access",
-      "election period",
-      "equal access",
-      "political influence"
+      "election period"
     ]
   },
   {
@@ -11193,11 +11225,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Household Economics",
     "concepts": [
-      "main earner",
       "household income",
-      "employment status"
+      "earner status",
+      "family role"
     ]
   },
   {
@@ -11229,10 +11261,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Employment Status",
     "concepts": [
       "employment status",
-      "main earner"
+      "main earner",
+      "current job"
     ]
   },
   {
@@ -11268,12 +11301,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Employment Type",
     "concepts": [
       "self-employment",
       "business ownership",
-      "family business",
-      "employment status"
+      "work arrangement"
     ]
   },
   {
@@ -11309,11 +11341,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Business Employment",
     "concepts": [
       "business size",
-      "employment size",
-      "number of employees"
+      "employee count",
+      "entrepreneurship"
     ]
   },
   {
@@ -11381,11 +11413,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Occupation Classification",
     "concepts": [
       "job title",
       "job description",
-      "ISCO code"
+      "occupation coding"
     ]
   },
   {
@@ -11417,11 +11449,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Job Search",
     "concepts": [
-      "seeking employment",
-      "employment status",
-      "job search"
+      "unemployment",
+      "job seeking",
+      "employment transition"
     ]
   },
   {
@@ -11481,11 +11513,11 @@
         "label": "decline to answer"
       }
     ],
-    "domain": "Household Income",
+    "domain": "Employment Status",
     "concepts": [
-      "current status",
-      "employment status",
-      "job search"
+      "current employment status",
+      "job situation",
+      "labor market position"
     ]
   },
   {
@@ -11529,10 +11561,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Demographics",
+    "domain": "Language and Culture",
     "concepts": [
-      "language spoken",
-      "home language"
+      "language",
+      "domestic communication",
+      "primary language"
     ]
   },
   {
@@ -11596,10 +11629,11 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Social Status",
+    "domain": "Social Perception",
     "concepts": [
-      "subjective social status",
-      "perception of social standing"
+      "social status",
+      "subjective evaluation",
+      "self-perception"
     ]
   },
   {
@@ -11642,8 +11676,8 @@
     "domain": "Economic Perception",
     "concepts": [
       "household income",
-      "financial status",
-      "income adequacy"
+      "economic condition",
+      "financial situation"
     ]
   },
   {
@@ -11689,14 +11723,14 @@
     ],
     "domain": "Economic Perception",
     "concepts": [
-      "income sufficiency",
-      "financial needs",
-      "income adequacy"
+      "household income",
+      "financial satisfaction",
+      "need fulfillment"
     ]
   },
   {
     "variable_id": "se14a",
-    "question_text": "SE14a. Car/Jeep/Van",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Car/Jeep/Van",
     "value_labels": [
       {
         "value": -1,
@@ -11719,16 +11753,17 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Transportation",
+    "domain": "Economic Perception",
     "concepts": [
-      "vehicle ownership",
-      "car ownership",
-      "transportation access"
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
+      "transportation"
     ]
   },
   {
     "variable_id": "se14b",
-    "question_text": "SE14b. Tractor",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Tractor",
     "value_labels": [
       {
         "value": -1,
@@ -11751,16 +11786,17 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Transportation",
+    "domain": "Economic Perception",
     "concepts": [
-      "tractor ownership",
-      "agricultural equipment",
-      "farming access"
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
+      "agricultural equipment"
     ]
   },
   {
     "variable_id": "se14c",
-    "question_text": "SE14c. Television",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Television",
     "value_labels": [
       {
         "value": -1,
@@ -11783,16 +11819,17 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Consumer Goods",
+    "domain": "Economic Perception",
     "concepts": [
-      "television ownership",
-      "media access",
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
       "entertainment"
     ]
   },
   {
     "variable_id": "se14d",
-    "question_text": "SE14d. Cable Television",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Cable Television",
     "value_labels": [
       {
         "value": -1,
@@ -11815,16 +11852,18 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Consumer Goods",
+    "domain": "Economic Perception",
     "concepts": [
-      "cable television ownership",
-      "media access",
-      "entertainment"
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
+      "entertainment",
+      "media access"
     ]
   },
   {
     "variable_id": "se14e",
-    "question_text": "SE14e. Motorcycle",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Motorcycle",
     "value_labels": [
       {
         "value": -1,
@@ -11847,16 +11886,18 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Transportation",
+    "domain": "Economic Perception",
     "concepts": [
-      "motorcycle ownership",
-      "personal transportation",
-      "mobility"
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
+      "transportation",
+      "recreation"
     ]
   },
   {
     "variable_id": "se14f",
-    "question_text": "SE14f. Telephone",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Telephone",
     "value_labels": [
       {
         "value": -1,
@@ -11879,16 +11920,17 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Communication",
+    "domain": "Economic Perception",
     "concepts": [
-      "telephone ownership",
-      "communication access",
-      "connectivity"
+      "household income",
+      "financial satisfaction",
+      "asset ownership",
+      "communication"
     ]
   },
   {
     "variable_id": "se14g",
-    "question_text": "SE14g. Mobile Phone",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Mobile Phone",
     "value_labels": [
       {
         "value": -1,
@@ -11911,12 +11953,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "mobile phone ownership"
+    ]
   },
   {
     "variable_id": "se14h",
-    "question_text": "SE14h. Electric Fan",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Electric Fan",
     "value_labels": [
       {
         "value": -1,
@@ -11939,12 +11986,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "electric fan ownership"
+    ]
   },
   {
     "variable_id": "se14i",
-    "question_text": "SE14i. Bicycle",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Bicycle",
     "value_labels": [
       {
         "value": -1,
@@ -11967,12 +12019,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "bicycle ownership"
+    ]
   },
   {
     "variable_id": "se14j",
-    "question_text": "SE14j. Radio",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Radio",
     "value_labels": [
       {
         "value": -1,
@@ -11995,12 +12052,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "radio ownership"
+    ]
   },
   {
     "variable_id": "se14k",
-    "question_text": "SE14k. Pumping Set",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Pumping Set",
     "value_labels": [
       {
         "value": -1,
@@ -12023,12 +12085,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "pumping set ownership"
+    ]
   },
   {
     "variable_id": "se14l",
-    "question_text": "SE14l. Fridge",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Fridge",
     "value_labels": [
       {
         "value": -1,
@@ -12051,12 +12118,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "fridge ownership"
+    ]
   },
   {
     "variable_id": "se14m",
-    "question_text": "SE14m. Camera",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Camera",
     "value_labels": [
       {
         "value": -1,
@@ -12079,12 +12151,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "camera ownership"
+    ]
   },
   {
     "variable_id": "se14n",
-    "question_text": "SE14n. Goats/Sheep",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Goats/Sheep",
     "value_labels": [
       {
         "value": -1,
@@ -12107,12 +12184,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "livestock ownership"
+    ]
   },
   {
     "variable_id": "se14o",
-    "question_text": "SE14o. Cow/Buffalo",
+    "question_text": "Does the total income of your household allow you to satisfactorily cover your needs? Cow/Buffalo",
     "value_labels": [
       {
         "value": -1,
@@ -12135,8 +12217,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "household needs",
+      "satisfactory coverage",
+      "livestock ownership"
+    ]
   },
   {
     "variable_id": "se2",
@@ -12155,8 +12242,11 @@
         "label": "Female"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "gender",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "se3",
@@ -12167,8 +12257,12 @@
         "label": "Missing"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "birth year",
+      "age",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "se3a",
@@ -12179,8 +12273,12 @@
         "label": "Missing"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "actual age",
+      "age",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "se3a_1a",
@@ -12203,8 +12301,12 @@
         "label": "4 age 66+"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "age group",
+      "categorization",
+      "demographic classification"
+    ]
   },
   {
     "variable_id": "se4",
@@ -12243,8 +12345,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "marital status",
+      "relationship status",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "se5",
@@ -12303,8 +12409,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Education",
+    "concepts": [
+      "education level",
+      "educational attainment",
+      "personal achievement"
+    ]
   },
   {
     "variable_id": "se5a",
@@ -12331,8 +12441,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Education",
+    "concepts": [
+      "formal education",
+      "years of education",
+      "educational attainment"
+    ]
   },
   {
     "variable_id": "se6",
@@ -12527,8 +12641,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion",
+    "concepts": [
+      "religious affiliation",
+      "faith",
+      "personal belief"
+    ]
   },
   {
     "variable_id": "se7",
@@ -12595,8 +12713,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion",
+    "concepts": [
+      "religiosity",
+      "religious practice",
+      "frequency of attendance"
+    ]
   },
   {
     "variable_id": "se7a",
@@ -12635,8 +12757,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion",
+    "concepts": [
+      "self-perceived religiosity",
+      "level of devotion",
+      "personal faith"
+    ]
   },
   {
     "variable_id": "se8a",
@@ -12655,8 +12781,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Information",
+    "concepts": [
+      "household size",
+      "number of occupants",
+      "domestic arrangement"
+    ]
   },
   {
     "variable_id": "se8b",
@@ -12695,8 +12825,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Composition",
+    "concepts": [
+      "family structure",
+      "household size",
+      "intergenerational relationships"
+    ]
   },
   {
     "variable_id": "se8c",
@@ -12715,8 +12849,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Composition",
+    "concepts": [
+      "household size",
+      "servants",
+      "transients",
+      "boarders"
+    ]
   },
   {
     "variable_id": "se8d",
@@ -12735,8 +12874,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Composition",
+    "concepts": [
+      "household size",
+      "family members",
+      "residency"
+    ]
   },
   {
     "variable_id": "se9",
@@ -12759,8 +12902,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "employment",
+      "job status",
+      "current occupation"
+    ]
   },
   {
     "variable_id": "se9a",
@@ -12795,8 +12942,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "self-employment",
+      "business ownership",
+      "family business",
+      "outside employment"
+    ]
   },
   {
     "variable_id": "se9b",
@@ -12827,8 +12979,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Business Ownership",
+    "concepts": [
+      "business size",
+      "number of employees",
+      "entrepreneurship"
+    ]
   },
   {
     "variable_id": "se9c",
@@ -12891,8 +13047,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Occupation",
+    "concepts": [
+      "job title",
+      "job description",
+      "occupation classification"
+    ]
   },
   {
     "variable_id": "se9d",
@@ -12923,8 +13083,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Job Search",
+    "concepts": [
+      "unemployment",
+      "job seeking",
+      "employment search"
+    ]
   },
   {
     "variable_id": "se9e",
@@ -12975,7 +13139,11 @@
         "label": "decline to answear"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "current status",
+      "employment situation",
+      "job circumstances"
+    ]
   }
 ]

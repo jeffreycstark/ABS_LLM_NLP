@@ -10,18 +10,27 @@ This script:
 import os
 import json
 from typing import List, Dict
-from huggingface_hub import InferenceClient
+from groq import Groq
 
 
 class ConceptExtractor:
     """Extract concepts and domains from atomic questions"""
 
-    def __init__(self, model="google/gemma-2-2b-it"):
-        token = os.getenv("HF_TOKEN")
-        self.client = InferenceClient(
-            model=model,
-            token=token
-        )
+    def __init__(self, model="llama-3.3-70b-versatile"):
+        """
+        Initialize with Groq API.
+
+        Models available:
+        - llama-3.3-70b-versatile (best quality, recommended)
+        - llama-3.1-8b-instant (faster, good quality)
+        - mixtral-8x7b-32768 (alternative)
+        """
+        api_key = os.getenv("GROQ_API_KEY")
+        if not api_key:
+            raise ValueError("GROQ_API_KEY environment variable not set. Get your free key at: https://console.groq.com")
+
+        self.client = Groq(api_key=api_key)
+        self.model = model
 
     def extract_concepts_batch(self, variables: List[Dict], batch_size: int = 10) -> List[Dict]:
         """
@@ -86,7 +95,8 @@ Return ONLY valid JSON, no markdown."""
             }
         ]
 
-        response = self.client.chat_completion(
+        response = self.client.chat.completions.create(
+            model=self.model,
             messages=messages,
             max_tokens=2048,
             temperature=0.3,
