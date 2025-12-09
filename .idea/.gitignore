@@ -1,0 +1,7 @@
+# Django PowerTools cache (generated)
+/djangoPowerTools/
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
