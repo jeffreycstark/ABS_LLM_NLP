@@ -1,0 +1,11 @@
+[
+  {
+    "q1": "ir2b",
+    "q2": "se3a",
+    "q1_phrase": "interviewer's age",
+    "q2_phrase": "age",
+    "q1_text": "Interviewer's age",
+    "q2_text": "Age",
+    "issue": "overlapping_phrases"
+  }
+]
