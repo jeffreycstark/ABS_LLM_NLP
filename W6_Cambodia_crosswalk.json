@@ -105,7 +105,7 @@
       "variables": [
         {
           "variable_id": "q117",
-          "question_text": "117 How effective is the government in cracking down on corruption?",
+          "question_text": "How effective is the government in cracking down on corruption?",
           "concepts": [
             "government effectiveness",
             "corruption crackdown",
@@ -295,7 +295,7 @@
       "variables": [
         {
           "variable_id": "q149",
-          "question_text": "149 Government leaders are like the head of a family; we should all follow their decisions.",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions.",
           "concepts": [
             "leadership",
             "decision-making",
@@ -348,7 +348,7 @@
       "variables": [
         {
           "variable_id": "q105",
-          "question_text": "105  People have basic necessities like food, clothes, and shelter.",
+          "question_text": "People have basic necessities like food, clothes, and shelter.",
           "concepts": [
             "basic necessities",
             "citizen well-being",
@@ -506,7 +506,7 @@
       "variables": [
         {
           "variable_id": "q75",
-          "question_text": "75  Got together with others face-to face to try to resolve local problems",
+          "question_text": "Got together with others face-to face to try to resolve local problems",
           "concepts": [
             "face-to-face interaction",
             "problem solving",
@@ -563,7 +563,7 @@
       "variables": [
         {
           "variable_id": "q115",
-          "question_text": "115 How widespread do you think corruption and bribe-taking are in your local/municipal government?",
+          "question_text": "How widespread do you think corruption and bribe-taking are in your local/municipal government?",
           "concepts": [
             "corruption",
             "bribe-taking",
@@ -614,7 +614,7 @@
         },
         {
           "variable_id": "q116",
-          "question_text": "116 How widespread do you think corruption and bribe-taking are in the national government?",
+          "question_text": "How widespread do you think corruption and bribe-taking are in the national government?",
           "concepts": [
             "corruption",
             "bribe-taking",
@@ -665,7 +665,7 @@
         },
         {
           "variable_id": "q118",
-          "question_text": "118 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?",
+          "question_text": "Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?",
           "concepts": [
             "corruption",
             "personal experience",
@@ -815,7 +815,7 @@
       "variables": [
         {
           "variable_id": "q120",
-          "question_text": "120 Where would you place China today on this scale?",
+          "question_text": "Where would you place China today on this scale?",
           "concepts": [
             "country evaluation",
             "China",
@@ -854,7 +854,7 @@
         },
         {
           "variable_id": "q121",
-          "question_text": "121 Where would you place the United States of America today on this scale?",
+          "question_text": "Where would you place the United States of America today on this scale?",
           "concepts": [
             "country evaluation",
             "United States of America",
@@ -893,7 +893,7 @@
         },
         {
           "variable_id": "q122",
-          "question_text": "122 Where would you place Japan today on this scale?",
+          "question_text": "Where would you place Japan today on this scale?",
           "concepts": [
             "country evaluation",
             "Japan",
@@ -932,7 +932,7 @@
         },
         {
           "variable_id": "q123",
-          "question_text": "123 Where would you place India today on this scale?",
+          "question_text": "Where would you place India today on this scale?",
           "concepts": [
             "country evaluation",
             "India",
@@ -977,7 +977,7 @@
       "variables": [
         {
           "variable_id": "q85",
-          "question_text": "85 Which one would you choose as the most essential characteristics of a democracy: Set 1?",
+          "question_text": "Which one would you choose as the most essential characteristics of a democracy: Set 1?",
           "concepts": [
             "democracy",
             "essential characteristics",
@@ -1024,7 +1024,7 @@
         },
         {
           "variable_id": "q86",
-          "question_text": "86 Which one would you choose as the most essential characteristics of a democracy: Set 2?",
+          "question_text": "Which one would you choose as the most essential characteristics of a democracy: Set 2?",
           "concepts": [
             "democracy",
             "essential characteristics",
@@ -1071,7 +1071,7 @@
         },
         {
           "variable_id": "q87",
-          "question_text": "87 Which one would you choose as the most essential characteristics of a democracy: Set 3?",
+          "question_text": "Which one would you choose as the most essential characteristics of a democracy: Set 3?",
           "concepts": [
             "democracy",
             "essential characteristics",
@@ -1118,7 +1118,7 @@
         },
         {
           "variable_id": "q88",
-          "question_text": "88 Which one would you choose as the most essential characteristics of a democracy: Set 4?",
+          "question_text": "Which one would you choose as the most essential characteristics of a democracy: Set 4?",
           "concepts": [
             "democracy",
             "essential characteristics",
@@ -1171,7 +1171,7 @@
       "variables": [
         {
           "variable_id": "q89",
-          "question_text": "89 To you, what does “democracy” mean? (open-ended) <optional>",
+          "question_text": "To you, what does “democracy” mean? (open-ended) <optional>",
           "concepts": [
             "democracy",
             "personal interpretation",
@@ -1862,7 +1862,7 @@
       "variables": [
         {
           "variable_id": "SE2",
-          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE2 Gender",
+          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN. SE2 Gender",
           "concepts": [
             "gender",
             "demographic characteristic",
@@ -1889,7 +1889,7 @@
         },
         {
           "variable_id": "SE3",
-          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE3 Birth year",
+          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN. SE3 Birth year",
           "concepts": [
             "birth year",
             "age",
@@ -1904,7 +1904,7 @@
         },
         {
           "variable_id": "SE3_1",
-          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE3_1 Actual age",
+          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN. SE3_1 Actual age",
           "concepts": [
             "actual age",
             "age",
@@ -1923,7 +1923,7 @@
         },
         {
           "variable_id": "SE4",
-          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE4 MARITAL STATUS",
+          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN. SE4 MARITAL STATUS",
           "concepts": [
             "marital status",
             "demographic characteristic",
@@ -2217,7 +2217,7 @@
       "variables": [
         {
           "variable_id": "q159",
-          "question_text": "159 How fair do you think income distribution in Mongolia",
+          "question_text": "How fair do you think income distribution in Mongolia",
           "concepts": [
             "income distribution",
             "fairness evaluation",
@@ -2317,7 +2317,7 @@
       "variables": [
         {
           "variable_id": "q1",
-          "question_text": "1 How would you rate the overall economic condition of our country today?",
+          "question_text": "How would you rate the overall economic condition of our country today?",
           "concepts": [
             "economic condition",
             "national level",
@@ -2360,7 +2360,7 @@
         },
         {
           "variable_id": "q10",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 10 Political parties [not any specific party]",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Political parties [not any specific party]",
           "concepts": [
             "economic condition",
             "family level",
@@ -2408,7 +2408,7 @@
         },
         {
           "variable_id": "q11",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 11 Parliament",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Parliament",
           "concepts": [
             "family economic situation",
             "future evaluation",
@@ -2455,7 +2455,7 @@
         },
         {
           "variable_id": "q12",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 12 Civil Service",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Civil Service",
           "concepts": [
             "economic condition",
             "family level",
@@ -2502,7 +2502,7 @@
         },
         {
           "variable_id": "q13",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 13 The military or armed forces",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? The military or armed forces",
           "concepts": [
             "economic situation",
             "family level",
@@ -2549,7 +2549,7 @@
         },
         {
           "variable_id": "q14",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 14 The police",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? The police",
           "concepts": [
             "economic forecast",
             "family financial situation",
@@ -2596,7 +2596,7 @@
         },
         {
           "variable_id": "q140",
-          "question_text": "140 Thinking of the negative impact of Covid-19 on your family's livelihood, how serious it is in your view?",
+          "question_text": "Thinking of the negative impact of Covid-19 on your family's livelihood, how serious it is in your view?",
           "concepts": [
             "economic condition",
             "livelihood",
@@ -2650,7 +2650,7 @@
         },
         {
           "variable_id": "q15",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 15 Local government",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Local government",
           "concepts": [
             "economic condition",
             "family level",
@@ -2697,7 +2697,7 @@
         },
         {
           "variable_id": "q16",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 16 The election commission",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? The election commission",
           "concepts": [
             "economic condition",
             "family level",
@@ -2744,7 +2744,7 @@
         },
         {
           "variable_id": "q169",
-          "question_text": "169 As long as a government can solve our country’s economic problem, it does not matter if the government holds regular elections or not",
+          "question_text": "As long as a government can solve our country’s economic problem, it does not matter if the government holds regular elections or not",
           "concepts": [
             "economic problem solving",
             "government evaluation",
@@ -2791,7 +2791,7 @@
         },
         {
           "variable_id": "q17",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 17 Non-government organizations or NGOs",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Non-government organizations or NGOs",
           "concepts": [
             "family economic situation",
             "future evaluation",
@@ -2838,7 +2838,7 @@
         },
         {
           "variable_id": "q18",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 18 Name of the organization you belong to. First",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Name of the organization you belong to. First",
           "concepts": [
             "economic condition",
             "family level",
@@ -2961,7 +2961,7 @@
         },
         {
           "variable_id": "q2",
-          "question_text": "2 How would you describe the change in the economic condition of our country over the last few years?",
+          "question_text": "How would you describe the change in the economic condition of our country over the last few years?",
           "concepts": [
             "economic condition",
             "national level",
@@ -3013,7 +3013,7 @@
         },
         {
           "variable_id": "q3",
-          "question_text": "3 What do you think will be the state of our country's economic condition a few years from now?",
+          "question_text": "What do you think will be the state of our country's economic condition a few years from now?",
           "concepts": [
             "economic condition",
             "national level",
@@ -3064,7 +3064,7 @@
         },
         {
           "variable_id": "q4",
-          "question_text": "4 As for your own family, how do you rate the economic situation of your family today?",
+          "question_text": "As for your own family, how do you rate the economic situation of your family today?",
           "concepts": [
             "economic condition",
             "family level",
@@ -3115,7 +3115,7 @@
         },
         {
           "variable_id": "q5",
-          "question_text": "5 How would you compare the current economic condition of your family with what it was a few years ago?",
+          "question_text": "How would you compare the current economic condition of your family with what it was a few years ago?",
           "concepts": [
             "economic condition",
             "evaluation",
@@ -3167,7 +3167,7 @@
         },
         {
           "variable_id": "q6",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now?",
+          "question_text": "What do you think the economic situation of your family will be a few years from now?",
           "concepts": [
             "economic condition",
             "family level",
@@ -3218,7 +3218,7 @@
         },
         {
           "variable_id": "q7",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 7 Trust in the excutive office (president or prime minister)",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? Trust in the excutive office (president or prime minister)",
           "concepts": [
             "economic situation",
             "family",
@@ -3265,7 +3265,7 @@
         },
         {
           "variable_id": "q8",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 8 The courts",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? The courts",
           "concepts": [
             "family economic situation",
             "future outlook",
@@ -3312,7 +3312,7 @@
         },
         {
           "variable_id": "q9",
-          "question_text": "6 What do you think the economic situation of your family will be a few years from now? 9 National government in the capital city",
+          "question_text": "What do you think the economic situation of your family will be a few years from now? National government in the capital city",
           "concepts": [
             "economic situation",
             "family level",
@@ -3366,7 +3366,7 @@
       "variables": [
         {
           "variable_id": "q162",
-          "question_text": "162 The following is a hypothetical question: If you were unfortunate enough to lose your main source of income, how serious would it be for you and your family?",
+          "question_text": "The following is a hypothetical question: If you were unfortunate enough to lose your main source of income, how serious would it be for you and your family?",
           "concepts": [
             "income loss",
             "financial hardship",
@@ -3415,7 +3415,7 @@
       "variables": [
         {
           "variable_id": "q161",
-          "question_text": "161 How worried are you that your family might lose its major source of income within the next 12 months?",
+          "question_text": "How worried are you that your family might lose its major source of income within the next months?",
           "concepts": [
             "job insecurity",
             "income stability",
@@ -3468,7 +3468,7 @@
       "variables": [
         {
           "variable_id": "SE5",
-          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE5 EDUCATION",
+          "question_text": "Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN. SE5 EDUCATION",
           "concepts": [
             "education level",
             "classification"
@@ -3559,7 +3559,7 @@
       "variables": [
         {
           "variable_id": "q110",
-          "question_text": "110 How often do you think our elections offer the voters a real choice between different parties/candidates?",
+          "question_text": "How often do you think our elections offer the voters a real choice between different parties/candidates?",
           "concepts": [
             "elections",
             "voter choice",
@@ -3612,7 +3612,7 @@
       "variables": [
         {
           "variable_id": "q113",
-          "question_text": "113 How much do you feel that having elections make the government more responsive to people's needs?",
+          "question_text": "How much do you feel that having elections make the government more responsive to people's needs?",
           "concepts": [
             "elections",
             "government responsiveness",
@@ -3665,7 +3665,7 @@
       "variables": [
         {
           "variable_id": "q79",
-          "question_text": "79 In recent years and thinking about election campaigns, has a candidate or someone from a political party or campaign team offered you something, like food, cash, a gift, or a job in return for your vote or support?",
+          "question_text": "In recent years and thinking about election campaigns, has a candidate or someone from a political party or campaign team offered you something, like food, cash, a gift, or a job in return for your vote or support?",
           "concepts": [
             "vote buying",
             "corruption",
@@ -3714,7 +3714,7 @@
       "variables": [
         {
           "variable_id": "q38",
-          "question_text": "38 On the whole, how free and fair would you say the last national election was?",
+          "question_text": "On the whole, how free and fair would you say the last national election was?",
           "concepts": [
             "election integrity",
             "fairness evaluation",
@@ -4349,7 +4349,7 @@
       "variables": [
         {
           "variable_id": "q60",
-          "question_text": "60 Even if parents' demands are unreasonable, children still should do what they ask.",
+          "question_text": "Even if parents' demands are unreasonable, children still should do what they ask.",
           "concepts": [
             "filial piety",
             "obedience",
@@ -4396,7 +4396,7 @@
         },
         {
           "variable_id": "q61",
-          "question_text": "61 When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",
+          "question_text": "When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",
           "concepts": [
             "family harmony",
             "obedience",
@@ -4449,7 +4449,7 @@
       "variables": [
         {
           "variable_id": "q66",
-          "question_text": "66 Wealth and poverty, success and failure are all determined by fate.",
+          "question_text": "Wealth and poverty, success and failure are all determined by fate.",
           "concepts": [
             "fate",
             "wealth",
@@ -4504,7 +4504,7 @@
       "variables": [
         {
           "variable_id": "q107",
-          "question_text": "107  People can join any organization they like without fear.",
+          "question_text": "People can join any organization they like without fear.",
           "concepts": [
             "organization membership",
             "citizen freedom",
@@ -4557,7 +4557,7 @@
       "variables": [
         {
           "variable_id": "q106",
-          "question_text": "106  People are free to speak what they think without fear.",
+          "question_text": "People are free to speak what they think without fear.",
           "concepts": [
             "free speech",
             "citizen freedom",
@@ -4604,7 +4604,7 @@
         },
         {
           "variable_id": "q150",
-          "question_text": "150 The government should decide whether certain ideas should be allowed to be discussed in society.",
+          "question_text": "The government should decide whether certain ideas should be allowed to be discussed in society.",
           "concepts": [
             "idea discussion",
             "government control",
@@ -4720,7 +4720,7 @@
       "variables": [
         {
           "variable_id": "q176",
-          "question_text": "176 Does China do more good or harm to the Asia?",
+          "question_text": "Does China do more good or harm to the Asia?",
           "concepts": [
             "country evaluation",
             "regional impact",
@@ -4773,7 +4773,7 @@
       "variables": [
         {
           "variable_id": "q173",
-          "question_text": "173 Which country has the most influence in Asia?",
+          "question_text": "Which country has the most influence in Asia?",
           "concepts": [
             "influence",
             "country comparison",
@@ -4824,7 +4824,7 @@
         },
         {
           "variable_id": "q173other",
-          "question_text": "173. Other specify responses \n\nVariable: q174 \n  Question: 174 Does USA do more good or harm to the Asia?",
+          "question_text": "173. Other specify responses \n\nVariable: q174 \n  Question: Does USA do more good or harm to the Asia?",
           "concepts": [
             "influence",
             "country comparison",
@@ -4872,7 +4872,7 @@
         },
         {
           "variable_id": "q179",
-          "question_text": "179  In ten years, which country will have the most influence in Asia?",
+          "question_text": "In ten years, which country will have the most influence in Asia?",
           "concepts": [
             "influence",
             "country comparison",
@@ -4924,7 +4924,7 @@
         },
         {
           "variable_id": "q179other",
-          "question_text": "179. Other specify responses \n\nVariable: q180 \n  Question: 180 Which country should be a model for our own country's future development?",
+          "question_text": "179. Other specify responses \n\nVariable: q180 \n  Question: Which country should be a model for our own country's future development?",
           "concepts": [
             "influence",
             "country comparison",
@@ -5040,7 +5040,7 @@
       "variables": [
         {
           "variable_id": "q175",
-          "question_text": "175 Generally speaking, the influence the United States today has on world affairs is?",
+          "question_text": "Generally speaking, the influence the United States today has on world affairs is?",
           "concepts": [
             "global influence",
             "country evaluation",
@@ -5095,7 +5095,7 @@
         },
         {
           "variable_id": "q177",
-          "question_text": "177 Generally speaking, the influence China today has on world affairs is?",
+          "question_text": "Generally speaking, the influence China today has on world affairs is?",
           "concepts": [
             "global influence",
             "country evaluation",
@@ -5150,7 +5150,7 @@
         },
         {
           "variable_id": "q178",
-          "question_text": "178 Generally speaking, the influence the E.U. today has on world affairs is?",
+          "question_text": "Generally speaking, the influence the E.U. today has on world affairs is?",
           "concepts": [
             "global influence",
             "country evaluation",
@@ -5211,7 +5211,7 @@
       "variables": [
         {
           "variable_id": "q101",
-          "question_text": "101  Between elections, the people have no way of holding the government responsible for its actions.",
+          "question_text": "Between elections, the people have no way of holding the government responsible for its actions.",
           "concepts": [
             "government responsibility",
             "inter-election period",
@@ -5258,7 +5258,7 @@
         },
         {
           "variable_id": "q111",
-          "question_text": "111 To what extent is the legislature capable of keeping government leaders in check?",
+          "question_text": "To what extent is the legislature capable of keeping government leaders in check?",
           "concepts": [
             "legislature",
             "oversight",
@@ -5520,7 +5520,7 @@
       "variables": [
         {
           "variable_id": "q114",
-          "question_text": "114 How capable is the government of enforcing laws and implementing policies?",
+          "question_text": "How capable is the government of enforcing laws and implementing policies?",
           "concepts": [
             "law enforcement",
             "policy implementation",
@@ -5573,7 +5573,7 @@
       "variables": [
         {
           "variable_id": "q153",
-          "question_text": "153 If the government is constantly checked by the legislature, it cannot possibly accomplish great things.",
+          "question_text": "If the government is constantly checked by the legislature, it cannot possibly accomplish great things.",
           "concepts": [
             "legislative oversight",
             "government performance",
@@ -5626,7 +5626,7 @@
       "variables": [
         {
           "variable_id": "q171",
-          "question_text": "171 As long as the government can maintain order and stability in the country, it does not matter whether it is democratic or undemocratic",
+          "question_text": "As long as the government can maintain order and stability in the country, it does not matter whether it is democratic or undemocratic",
           "concepts": [
             "order maintenance",
             "stability",
@@ -5673,7 +5673,7 @@
         },
         {
           "variable_id": "q84",
-          "question_text": "84 Would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?",
+          "question_text": "Would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?",
           "concepts": [
             "government system",
             "functional assessment",
@@ -5726,7 +5726,7 @@
       "variables": [
         {
           "variable_id": "q142",
-          "question_text": "142 How well or badly do you think the government handled the pandemic?",
+          "question_text": "How well or badly do you think the government handled the pandemic?",
           "concepts": [
             "government performance",
             "pandemic handling",
@@ -5774,7 +5774,7 @@
         },
         {
           "variable_id": "q99",
-          "question_text": "Other specify responses \n\nVariable: q98 \n  Question: 98 How likely is it that the government will solve the most important problem you identified within the next five years? 99 Citizens are able to remove a government they don't like through elections.",
+          "question_text": "Other specify responses \n\nVariable: q98 \n  Question: How likely is it that the government will solve the most important problem you identified within the next five years? Citizens are able to remove a government they don't like through elections.",
           "concepts": [
             "government performance",
             "evaluation"
@@ -6004,7 +6004,7 @@
       "variables": [
         {
           "variable_id": "q112",
-          "question_text": "112 How well do you think the government responds to what people want?",
+          "question_text": "How well do you think the government responds to what people want?",
           "concepts": [
             "government response",
             "public needs",
@@ -6057,7 +6057,7 @@
       "variables": [
         {
           "variable_id": "q108",
-          "question_text": "108 How often do government officials withhold important information from the public?",
+          "question_text": "How often do government officials withhold important information from the public?",
           "concepts": [
             "information withholding",
             "government transparency",
@@ -6114,7 +6114,7 @@
       "variables": [
         {
           "variable_id": "q144",
-          "question_text": "144 Have you been vaccinated against Covid-19?",
+          "question_text": "Have you been vaccinated against Covid-19?",
           "concepts": [
             "vaccination status",
             "Covid-19",
@@ -6165,7 +6165,7 @@
         },
         {
           "variable_id": "q145",
-          "question_text": "145 Why do you prefer not to be vaccinated against Covid-19?",
+          "question_text": "Why do you prefer not to be vaccinated against Covid-19?",
           "concepts": [
             "vaccination preference",
             "Covid-19",
@@ -6268,7 +6268,7 @@
       "variables": [
         {
           "variable_id": "q138",
-          "question_text": "138 Have you or your family members previously contracted the Covid-19 virus?",
+          "question_text": "Have you or your family members previously contracted the Covid-19 virus?",
           "concepts": [
             "Covid-19 experience",
             "health condition",
@@ -6740,7 +6740,7 @@
       "variables": [
         {
           "variable_id": "q158",
-          "question_text": "158 Do you think the government should increase or decrease the inflow of foreign immigrants into the country.",
+          "question_text": "Do you think the government should increase or decrease the inflow of foreign immigrants into the country.",
           "concepts": [
             "immigration control",
             "government policy",
@@ -6793,7 +6793,7 @@
       "variables": [
         {
           "variable_id": "q163",
-          "question_text": "163 Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair?",
+          "question_text": "Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair?",
           "concepts": [
             "income fairness",
             "effort and reward",
@@ -6899,7 +6899,7 @@
       "variables": [
         {
           "variable_id": "q53",
-          "question_text": "53 Which one is the most important channel for you to find information about politics and government?",
+          "question_text": "Which one is the most important channel for you to find information about politics and government?",
           "concepts": [
             "information channel",
             "politics",
@@ -6960,7 +6960,7 @@
       "variables": [
         {
           "variable_id": "q39",
-          "question_text": "39 How easy or difficult to obtain the roads in good condition",
+          "question_text": "How easy or difficult to obtain the roads in good condition",
           "concepts": [
             "road condition",
             "infrastructure quality",
@@ -7013,7 +7013,7 @@
       "variables": [
         {
           "variable_id": "q164",
-          "question_text": "164 As compared to my parent's generation, my generation has more or fewer opportunities to improve the standard of living or   social status?",
+          "question_text": "As compared to my parent's generation, my generation has more or fewer opportunities to improve the standard of living or   social status?",
           "concepts": [
             "social mobility",
             "standard of living",
@@ -7070,7 +7070,7 @@
       "variables": [
         {
           "variable_id": "q182",
-          "question_text": "182 Generally speaking, the influence China has on our country is?",
+          "question_text": "Generally speaking, the influence China has on our country is?",
           "concepts": [
             "influence",
             "China",
@@ -7126,7 +7126,7 @@
         },
         {
           "variable_id": "q183",
-          "question_text": "183 How much influence does USA have on our country?",
+          "question_text": "How much influence does USA have on our country?",
           "concepts": [
             "influence",
             "USA",
@@ -7174,7 +7174,7 @@
         },
         {
           "variable_id": "q184",
-          "question_text": "184 General speaking, the influence USA has on our country is?",
+          "question_text": "General speaking, the influence USA has on our country is?",
           "concepts": [
             "influence",
             "USA",
@@ -7230,7 +7230,7 @@
         },
         {
           "variable_id": "q185",
-          "question_text": "185 Which aspect of the major power’s influence and impact you have in mind when answering the above questions?",
+          "question_text": "Which aspect of the major power’s influence and impact you have in mind when answering the above questions?",
           "concepts": [
             "influence",
             "aspect",
@@ -7378,7 +7378,7 @@
         },
         {
           "variable_id": "q18_other",
-          "question_text": "18 Other specify responses \n\nVariable: q19 \n  Question: 19 Name of the organization you belong to. Second",
+          "question_text": "Other specify responses \n\nVariable: q19 \n  Question: Name of the organization you belong to. Second",
           "concepts": [
             "ASEAN relations",
             "international perception"
@@ -7907,7 +7907,7 @@
       "variables": [
         {
           "variable_id": "q152",
-          "question_text": "152 When judges decide important cases, they should accept the view of the executive branch.",
+          "question_text": "When judges decide important cases, they should accept the view of the executive branch.",
           "concepts": [
             "judicial decision-making",
             "executive influence",
@@ -8200,7 +8200,7 @@
       "variables": [
         {
           "variable_id": "q154",
-          "question_text": "154 If we have political leaders who are morally upright, we can let them decide everything.",
+          "question_text": "If we have political leaders who are morally upright, we can let them decide everything.",
           "concepts": [
             "moral leadership",
             "decision-making",
@@ -8286,7 +8286,7 @@
       "variables": [
         {
           "variable_id": "q167",
-          "question_text": "167 Given the chance, how willing would you be to go and live in another country?",
+          "question_text": "Given the chance, how willing would you be to go and live in another country?",
           "concepts": [
             "migration",
             "willingness",
@@ -8339,7 +8339,7 @@
       "variables": [
         {
           "variable_id": "q137",
-          "question_text": "137 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",
+          "question_text": "A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",
           "concepts": [
             "national loyalty",
             "patriotism",
@@ -8392,7 +8392,7 @@
       "variables": [
         {
           "variable_id": "q166",
-          "question_text": "166 How proud are you to be a citizen of (COUNTRY)? Are you...",
+          "question_text": "How proud are you to be a citizen of (COUNTRY)? Are you...",
           "concepts": [
             "national identity",
             "citizenship pride",
@@ -8679,7 +8679,7 @@
       "variables": [
         {
           "variable_id": "q124",
-          "question_text": "124 Which of the following statements comes closest to your own opinion?",
+          "question_text": "Which of the following statements comes closest to your own opinion?",
           "concepts": [
             "personal opinion",
             "statement evaluation",
@@ -8728,7 +8728,7 @@
       "variables": [
         {
           "variable_id": "q19_other",
-          "question_text": "19 Other specify responses \n\nVariable: q20 \n  Question: 20 Name of the organization that you belong to. Third",
+          "question_text": "Other specify responses \n\nVariable: q20 \n  Question: Name of the organization that you belong to. Third",
           "concepts": [
             "organizational affiliation",
             "membership"
@@ -8850,7 +8850,7 @@
         },
         {
           "variable_id": "q20_other",
-          "question_text": "20 Other specify responses \n\nVariable: q21 \n  Question: 21 Which organization you participate most actively in the last 12 months?'",
+          "question_text": "Other specify responses \n\nVariable: q21 \n  Question: Which organization you participate most actively in the last months?'",
           "concepts": [
             "organizational affiliation",
             "membership"
@@ -8978,7 +8978,7 @@
       "variables": [
         {
           "variable_id": "q21_other",
-          "question_text": "21 Other specify responses \n\nVariable: q22 \n  Question: 22 Would you say that 'Most people can be trusted' or 'that you must be very careful in dealing with people'?",
+          "question_text": "Other specify responses \n\nVariable: q22 \n  Question: Would you say that 'Most people can be trusted' or 'that you must be very careful in dealing with people'?",
           "concepts": [
             "organizational participation",
             "activity"
@@ -9022,7 +9022,7 @@
       "variables": [
         {
           "variable_id": "q54other",
-          "question_text": "54. Other specify responses \n\nVariable: q55 \n  Question: 55 How close do you feel to (answer in Q54)? Is it very close, somewhat close, or just a little close?",
+          "question_text": "54. Other specify responses \n\nVariable: q55 \n  Question: How close do you feel to (answer in Q54)? Is it very close, somewhat close, or just a little close?",
           "concepts": [
             "political affiliation",
             "party identification"
@@ -9070,7 +9070,7 @@
       "variables": [
         {
           "variable_id": "q133",
-          "question_text": "133 I think I have the ability to participate in politics.",
+          "question_text": "I think I have the ability to participate in politics.",
           "concepts": [
             "political participation",
             "self-efficacy",
@@ -9123,7 +9123,7 @@
       "variables": [
         {
           "variable_id": "q47",
-          "question_text": "47 How interested would you say you are in politics?",
+          "question_text": "How interested would you say you are in politics?",
           "concepts": [
             "political interest",
             "civic engagement",
@@ -9170,7 +9170,7 @@
         },
         {
           "variable_id": "q48",
-          "question_text": "48 How often do you follow news about politics and government?",
+          "question_text": "How often do you follow news about politics and government?",
           "concepts": [
             "news consumption",
             "political awareness",
@@ -9321,7 +9321,7 @@
       "variables": [
         {
           "variable_id": "q35",
-          "question_text": "35 Did you attend a campaign meeting or rally in the last national election?",
+          "question_text": "Did you attend a campaign meeting or rally in the last national election?",
           "concepts": [
             "campaign engagement",
             "election activity",
@@ -9368,7 +9368,7 @@
         },
         {
           "variable_id": "q36",
-          "question_text": "36 Try to persuade others to vote for a certain candidate or party?",
+          "question_text": "Try to persuade others to vote for a certain candidate or party?",
           "concepts": [
             "political persuasion",
             "voter influence",
@@ -9415,7 +9415,7 @@
         },
         {
           "variable_id": "q37",
-          "question_text": "37 Did you do anything else to help out or work for a party or candidate running in the last national election?",
+          "question_text": "Did you do anything else to help out or work for a party or candidate running in the last national election?",
           "concepts": [
             "election volunteering",
             "party support",
@@ -9462,7 +9462,7 @@
         },
         {
           "variable_id": "q68",
-          "question_text": "68 In the past three years, have you ever contacted elected officials or legislative representatives at any level?",
+          "question_text": "In the past three years, have you ever contacted elected officials or legislative representatives at any level?",
           "concepts": [
             "contact",
             "elected officials",
@@ -9513,7 +9513,7 @@
         },
         {
           "variable_id": "q69",
-          "question_text": "68 In the past three years, have you ever contacted elected officials or legislative representatives at any level? 69  Contacted civil servants or officials",
+          "question_text": "In the past three years, have you ever contacted elected officials or legislative representatives at any level? Contacted civil servants or officials",
           "concepts": [
             "contact",
             "civil servants",
@@ -9564,7 +9564,7 @@
         },
         {
           "variable_id": "q70",
-          "question_text": "70  Contacted other influential people outside the government, such as traditional leaders/community leaders",
+          "question_text": "Contacted other influential people outside the government, such as traditional leaders/community leaders",
           "concepts": [
             "contact",
             "influential people",
@@ -9615,7 +9615,7 @@
         },
         {
           "variable_id": "q71",
-          "question_text": "71  Contacted news media",
+          "question_text": "Contacted news media",
           "concepts": [
             "contact",
             "news media",
@@ -9666,7 +9666,7 @@
         },
         {
           "variable_id": "q72",
-          "question_text": "72  Signed a paper or online petition?",
+          "question_text": "Signed a paper or online petition?",
           "concepts": [
             "petition",
             "online activity",
@@ -9717,7 +9717,7 @@
         },
         {
           "variable_id": "q73",
-          "question_text": "73  Used the Internet including Social Media Networks to express opinions about politics",
+          "question_text": "Used the Internet including Social Media Networks to express opinions about politics",
           "concepts": [
             "internet usage",
             "social media",
@@ -9768,7 +9768,7 @@
         },
         {
           "variable_id": "q74",
-          "question_text": "74  Joined a group to activiely support a cause [including online]",
+          "question_text": "Joined a group to activiely support a cause [including online]",
           "concepts": [
             "group membership",
             "cause support",
@@ -9819,7 +9819,7 @@
         },
         {
           "variable_id": "q76",
-          "question_text": "76  Attended a demonstration or protest march",
+          "question_text": "Attended a demonstration or protest march",
           "concepts": [
             "demonstration",
             "protest",
@@ -9870,7 +9870,7 @@
         },
         {
           "variable_id": "q77",
-          "question_text": "77  Taken an action or done something for a political cause that put you in risk of getting injured",
+          "question_text": "Taken an action or done something for a political cause that put you in risk of getting injured",
           "concepts": [
             "risk taking",
             "political activism",
@@ -9927,7 +9927,7 @@
       "variables": [
         {
           "variable_id": "q125",
-          "question_text": "125 Which of the following statements comes closer to your own view?",
+          "question_text": "Which of the following statements comes closer to your own view?",
           "concepts": [
             "political view",
             "evaluation",
@@ -9972,7 +9972,7 @@
       "variables": [
         {
           "variable_id": "q126",
-          "question_text": "126 If you had to choose between democracy and economic development, which would you say is more important?",
+          "question_text": "If you had to choose between democracy and economic development, which would you say is more important?",
           "concepts": [
             "democracy",
             "economic development",
@@ -10023,7 +10023,7 @@
         },
         {
           "variable_id": "q127",
-          "question_text": "127 If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?",
+          "question_text": "If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?",
           "concepts": [
             "economic inequality",
             "political freedom",
@@ -10080,7 +10080,7 @@
       "variables": [
         {
           "variable_id": "q129",
-          "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 129 We should get rid of parliament and elections and have a strong leader to decide things.",
+          "question_text": "Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? We should get rid of parliament and elections and have a strong leader to decide things.",
           "concepts": [
             "parliament",
             "elections",
@@ -10127,7 +10127,7 @@
         },
         {
           "variable_id": "q130",
-          "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 130 Only one political party is allowed to stand for election and hold office.",
+          "question_text": "Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? Only one political party is allowed to stand for election and hold office.",
           "concepts": [
             "political party",
             "election",
@@ -10174,7 +10174,7 @@
         },
         {
           "variable_id": "q131",
-          "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 131 The army (military) should come in to govern the country.",
+          "question_text": "Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? The army (military) should come in to govern the country.",
           "concepts": [
             "military intervention",
             "governance",
@@ -10221,7 +10221,7 @@
         },
         {
           "variable_id": "q132",
-          "question_text": "132 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.",
+          "question_text": "We should get rid of elections and parliaments and have experts make decisions on behalf of the people.",
           "concepts": [
             "elections",
             "parliament",
@@ -10500,7 +10500,7 @@
       "variables": [
         {
           "variable_id": "q147",
-          "question_text": "147 The government should consult religious authorities when interpreting the laws.",
+          "question_text": "The government should consult religious authorities when interpreting the laws.",
           "concepts": [
             "religion",
             "law interpretation",
@@ -10702,7 +10702,7 @@
       "variables": [
         {
           "variable_id": "q102",
-          "question_text": "102  When government leaders break the laws, there is nothing the court can do.",
+          "question_text": "When government leaders break the laws, there is nothing the court can do.",
           "concepts": [
             "government leader",
             "law breaking",
@@ -11228,7 +11228,7 @@
         },
         {
           "variable_id": "q40",
-          "question_text": "40 How easy or difficult to obtain running water",
+          "question_text": "How easy or difficult to obtain running water",
           "concepts": [
             "running water",
             "accessibility",
@@ -11275,7 +11275,7 @@
         },
         {
           "variable_id": "q41",
-          "question_text": "41 How easy or difficult to obtain public transportation",
+          "question_text": "How easy or difficult to obtain public transportation",
           "concepts": [
             "public transportation",
             "accessibility",
@@ -11326,7 +11326,7 @@
         },
         {
           "variable_id": "q42",
-          "question_text": "42 How easy or difficult to obtain healthcare",
+          "question_text": "How easy or difficult to obtain healthcare",
           "concepts": [
             "healthcare",
             "accessibility",
@@ -11377,7 +11377,7 @@
         },
         {
           "variable_id": "q43",
-          "question_text": "43 How easy or difficult to obtain help from the police when you need it",
+          "question_text": "How easy or difficult to obtain help from the police when you need it",
           "concepts": [
             "police assistance",
             "accessibility",
@@ -11428,7 +11428,7 @@
         },
         {
           "variable_id": "q44",
-          "question_text": "44 How easy or difficult to obtain access to the Internet",
+          "question_text": "How easy or difficult to obtain access to the Internet",
           "concepts": [
             "internet access",
             "accessibility",
@@ -11479,7 +11479,7 @@
         },
         {
           "variable_id": "q45",
-          "question_text": "45 How easy or difficult to obtain childcare",
+          "question_text": "How easy or difficult to obtain childcare",
           "concepts": [
             "childcare",
             "accessibility",
@@ -11530,7 +11530,7 @@
         },
         {
           "variable_id": "q97",
-          "question_text": "97 What are the most important problems facing this country that government should address? First",
+          "question_text": "What are the most important problems facing this country that government should address? First",
           "concepts": [
             "problem",
             "importance",
@@ -11884,7 +11884,7 @@
         },
         {
           "variable_id": "q97bother",
-          "question_text": "97b. Other specify responses \n\nVariable: q98 \n  Question: 98 How likely is it that the government will solve the most important problem you identified within the next five years?",
+          "question_text": "97b. Other specify responses \n\nVariable: q98 \n  Question: How likely is it that the government will solve the most important problem you identified within the next five years?",
           "concepts": [
             "problem",
             "specificity",
@@ -11937,7 +11937,7 @@
       "variables": [
         {
           "variable_id": "q145other",
-          "question_text": "145. Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men",
+          "question_text": "145. Other specify responses \n\nVariable: q146 \n  Question: I have here other statements: Women should not be involved in politics as much as men",
           "concepts": [
             "social attitude",
             "evaluation"
@@ -11983,7 +11983,7 @@
         },
         {
           "variable_id": "q157",
-          "question_text": "157 Choose one statement.",
+          "question_text": "Choose one statement.",
           "concepts": [
             "social attitude",
             "evaluation"
@@ -12021,7 +12021,7 @@
         },
         {
           "variable_id": "q180other",
-          "question_text": "180. Other sepcify responses \n\nVariable: q181 \n  Question: 181 How much influence does China have on our country?",
+          "question_text": "180. Other sepcify responses \n\nVariable: q181 \n  Question: How much influence does China have on our country?",
           "concepts": [
             "social attitude",
             "evaluation"
@@ -12067,7 +12067,7 @@
         },
         {
           "variable_id": "q185Other",
-          "question_text": "185. Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN? (ASEAN countries only)",
+          "question_text": "185. Other specify responses \n\nVariable: q186 \n  Question: How close do you feel to ASEAN? (ASEAN countries only)",
           "concepts": [
             "social attitude",
             "evaluation"
@@ -12117,7 +12117,7 @@
         },
         {
           "variable_id": "q53other",
-          "question_text": "53. Other specify responses \n\nVariable: q54 \n  Question: 54 Among the political parties listed here, which party if any do you feel closest to?",
+          "question_text": "53. Other specify responses \n\nVariable: q54 \n  Question: Among the political parties listed here, which party if any do you feel closest to?",
           "concepts": [
             "social attitude",
             "evaluation"
@@ -12904,7 +12904,7 @@
       "variables": [
         {
           "variable_id": "q103",
-          "question_text": "103  All citizens from different ethnic communities in the [Country X] are treated equally by the government.",
+          "question_text": "All citizens from different ethnic communities in the [Country X] are treated equally by the government.",
           "concepts": [
             "ethnic equality",
             "government treatment",
@@ -12951,7 +12951,7 @@
         },
         {
           "variable_id": "q104",
-          "question_text": "104  Rich and poor people are treated equally by the government.",
+          "question_text": "Rich and poor people are treated equally by the government.",
           "concepts": [
             "socioeconomic equality",
             "government treatment",
@@ -12998,7 +12998,7 @@
         },
         {
           "variable_id": "q148",
-          "question_text": "148 People with little or no education should have as much say in politics as highly-educated people.",
+          "question_text": "People with little or no education should have as much say in politics as highly-educated people.",
           "concepts": [
             "education level",
             "political participation",
@@ -13051,7 +13051,7 @@
       "variables": [
         {
           "variable_id": "q63",
-          "question_text": "63 In a group, we should avoid open quarrel to preserve the harmony of the group.",
+          "question_text": "In a group, we should avoid open quarrel to preserve the harmony of the group.",
           "concepts": [
             "group dynamics",
             "conflict avoidance",
@@ -13098,7 +13098,7 @@
         },
         {
           "variable_id": "q64",
-          "question_text": "64 Even if there is some disagreement with others, one should avoid the conflict.",
+          "question_text": "Even if there is some disagreement with others, one should avoid the conflict.",
           "concepts": [
             "disagreement",
             "conflict avoidance",
@@ -13145,7 +13145,7 @@
         },
         {
           "variable_id": "q65",
-          "question_text": "65 A person should not insist on his own opinion if his co-workers disagree with him.",
+          "question_text": "A person should not insist on his own opinion if his co-workers disagree with him.",
           "concepts": [
             "opinion",
             "co-worker disagreement",
@@ -13198,7 +13198,7 @@
       "variables": [
         {
           "variable_id": "q28",
-          "question_text": "28 How many people do you have contact with in a typical week day?",
+          "question_text": "How many people do you have contact with in a typical week day?",
           "concepts": [
             "social contact",
             "frequency",
@@ -13249,7 +13249,7 @@
         },
         {
           "variable_id": "q29",
-          "question_text": "29 Which of the following best describes your relations with most of your social contacts?",
+          "question_text": "Which of the following best describes your relations with most of your social contacts?",
           "concepts": [
             "social relationship",
             "quality of interaction",
@@ -13296,7 +13296,7 @@
         },
         {
           "variable_id": "q30",
-          "question_text": "30 Among these people you have frequent contacts, which of the following best describes the political views of these people?",
+          "question_text": "Among these people you have frequent contacts, which of the following best describes the political views of these people?",
           "concepts": [
             "social contact",
             "political views",
@@ -13347,7 +13347,7 @@
         },
         {
           "variable_id": "q49",
-          "question_text": "49 When you get together with your family members or friends, how often do you discuss political matters?",
+          "question_text": "When you get together with your family members or friends, how often do you discuss political matters?",
           "concepts": [
             "social interaction",
             "family",
@@ -13918,7 +13918,7 @@
       "variables": [
         {
           "variable_id": "q151",
-          "question_text": "151 Harmony of the community will be disrupted if people organize lots of groups.",
+          "question_text": "Harmony of the community will be disrupted if people organize lots of groups.",
           "concepts": [
             "community harmony",
             "group organization",
@@ -13965,7 +13965,7 @@
         },
         {
           "variable_id": "q155",
-          "question_text": "155 If people have too many different ways of thinking, society will be chaotic.",
+          "question_text": "If people have too many different ways of thinking, society will be chaotic.",
           "concepts": [
             "social cohesion",
             "diversity",
@@ -14018,7 +14018,7 @@
       "variables": [
         {
           "variable_id": "q67",
-          "question_text": "67 If one could have only one child, it is more preferable to have a boy than a girl.",
+          "question_text": "If one could have only one child, it is more preferable to have a boy than a girl.",
           "concepts": [
             "gender preference",
             "childbearing",
@@ -14071,7 +14071,7 @@
       "variables": [
         {
           "variable_id": "q31",
-          "question_text": "31 If you have a difficult problem to manage, are there people outside your household you can ask for help?",
+          "question_text": "If you have a difficult problem to manage, are there people outside your household you can ask for help?",
           "concepts": [
             "social network",
             "help",
@@ -14124,7 +14124,7 @@
       "variables": [
         {
           "variable_id": "q32",
-          "question_text": "32 If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?",
+          "question_text": "If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?",
           "concepts": [
             "political tolerance",
             "social interaction",
@@ -14177,7 +14177,7 @@
       "variables": [
         {
           "variable_id": "q56",
-          "question_text": "Other specify responses \n\nVariable: q55 \n  Question: 55 How close do you feel to (answer in Q54). 56 For the sake of the family, the individual should put his personal interests second.",
+          "question_text": "Other specify responses \n\nVariable: q55 \n  Question: How close do you feel to (answer in Q54). For the sake of the family, the individual should put his personal interests second.",
           "concepts": [
             "family priority",
             "personal sacrifice",
@@ -14224,7 +14224,7 @@
         },
         {
           "variable_id": "q57",
-          "question_text": "57 In a group, we should sacrifice our individual interest for the sake of the group's collective interest.",
+          "question_text": "In a group, we should sacrifice our individual interest for the sake of the group's collective interest.",
           "concepts": [
             "group interest",
             "collectivism",
@@ -14271,7 +14271,7 @@
         },
         {
           "variable_id": "q58",
-          "question_text": "58 For the sake of national interest, individual interest could be sacrificed.",
+          "question_text": "For the sake of national interest, individual interest could be sacrificed.",
           "concepts": [
             "national interest",
             "personal sacrifice",
@@ -14318,7 +14318,7 @@
         },
         {
           "variable_id": "q59",
-          "question_text": "59 When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",
+          "question_text": "When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",
           "concepts": [
             "relationship building",
             "long-term orientation",
@@ -14365,7 +14365,7 @@
         },
         {
           "variable_id": "q62",
-          "question_text": "62 Being a student, one should not question the authority of their teacher.",
+          "question_text": "Being a student, one should not question the authority of their teacher.",
           "concepts": [
             "authority",
             "obedience",
@@ -14418,7 +14418,7 @@
       "variables": [
         {
           "variable_id": "q165",
-          "question_text": "165 Will the next generation have had a better or worse life than our generation?",
+          "question_text": "Will the next generation have had a better or worse life than our generation?",
           "concepts": [
             "generational progress",
             "life quality",
@@ -14800,7 +14800,7 @@
       "variables": [
         {
           "variable_id": "q50",
-          "question_text": "50 How often do you use the internet, either through computer, tablet or smartphone?",
+          "question_text": "How often do you use the internet, either through computer, tablet or smartphone?",
           "concepts": [
             "internet usage",
             "frequency",
@@ -14997,7 +14997,7 @@
       "variables": [
         {
           "variable_id": "q100",
-          "question_text": "100  In our country, parties and candidates not in power have opportunities to be elected into government.",
+          "question_text": "In our country, parties and candidates not in power have opportunities to be elected into government.",
           "concepts": [
             "political opportunity",
             "election",
@@ -15044,7 +15044,7 @@
         },
         {
           "variable_id": "q109",
-          "question_text": "109 How often do you think government leaders break the law or abuse their power?",
+          "question_text": "How often do you think government leaders break the law or abuse their power?",
           "concepts": [
             "government leaders",
             "abuse of power",
@@ -15095,7 +15095,7 @@
         },
         {
           "variable_id": "q128",
-          "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's?",
+          "question_text": "Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's?",
           "concepts": [
             "democracy",
             "government evaluation",
@@ -15142,7 +15142,7 @@
         },
         {
           "variable_id": "q134",
-          "question_text": "134 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on.",
+          "question_text": "Sometimes politics and government seems so complicated that a person like me can't really understand what is going on.",
           "concepts": [
             "government complexity",
             "personal understanding",
@@ -15189,7 +15189,7 @@
         },
         {
           "variable_id": "q135",
-          "question_text": "135 People like me don't have any influence over what the government does.",
+          "question_text": "People like me don't have any influence over what the government does.",
           "concepts": [
             "influence",
             "government responsiveness",
@@ -15236,7 +15236,7 @@
         },
         {
           "variable_id": "q136",
-          "question_text": "136 You can generally trust the people who run our government to do what is right.",
+          "question_text": "You can generally trust the people who run our government to do what is right.",
           "concepts": [
             "trust",
             "government integrity",
@@ -15283,7 +15283,7 @@
         },
         {
           "variable_id": "q141",
-          "question_text": "141 How much do you trust the Covid-19 related information provided by the government?",
+          "question_text": "How much do you trust the Covid-19 related information provided by the government?",
           "concepts": [
             "trust",
             "government",
@@ -15336,7 +15336,7 @@
         },
         {
           "variable_id": "q168",
-          "question_text": "168 In order to solve the country’s urgent problems, a leader can govern the country by decrees and disregard the parliament if necessary",
+          "question_text": "In order to solve the country’s urgent problems, a leader can govern the country by decrees and disregard the parliament if necessary",
           "concepts": [
             "authoritarianism",
             "leadership style",
@@ -15430,7 +15430,7 @@
         },
         {
           "variable_id": "q80",
-          "question_text": "80  Over the long run, our system of government is capable of solving the problems our country faces.",
+          "question_text": "Over the long run, our system of government is capable of solving the problems our country faces.",
           "concepts": [
             "system effectiveness",
             "problem solving",
@@ -15477,7 +15477,7 @@
         },
         {
           "variable_id": "q81",
-          "question_text": "81  Thinking in general, I am proud of our system of government.",
+          "question_text": "Thinking in general, I am proud of our system of government.",
           "concepts": [
             "government system",
             "national pride",
@@ -15524,7 +15524,7 @@
         },
         {
           "variable_id": "q82",
-          "question_text": "82  A system like ours, even if it runs into problems, deserves the people's support.",
+          "question_text": "A system like ours, even if it runs into problems, deserves the people's support.",
           "concepts": [
             "government system",
             "problem tolerance",
@@ -15571,7 +15571,7 @@
         },
         {
           "variable_id": "q83",
-          "question_text": "83  I would rather live under our system of government than any other that I can think of.",
+          "question_text": "I would rather live under our system of government than any other that I can think of.",
           "concepts": [
             "government system",
             "preference",
@@ -15618,7 +15618,7 @@
         },
         {
           "variable_id": "q90",
-          "question_text": "90 On the whole, how satisfied or dissatisfied are you with the way democracy works in the country?",
+          "question_text": "On the whole, how satisfied or dissatisfied are you with the way democracy works in the country?",
           "concepts": [
             "democracy",
             "evaluation",
@@ -15665,7 +15665,7 @@
         },
         {
           "variable_id": "q91",
-          "question_text": "91 In your opinion how much of a democracy is our country?",
+          "question_text": "In your opinion how much of a democracy is our country?",
           "concepts": [
             "democracy",
             "perception",
@@ -15712,7 +15712,7 @@
         },
         {
           "variable_id": "q92",
-          "question_text": "92 Where would you place our country under the present government?",
+          "question_text": "Where would you place our country under the present government?",
           "concepts": [
             "democracy",
             "evaluation",
@@ -15751,7 +15751,7 @@
         },
         {
           "variable_id": "q93",
-          "question_text": "93 Where would you place our country ten years ago?",
+          "question_text": "Where would you place our country ten years ago?",
           "concepts": [
             "democracy",
             "evaluation",
@@ -15790,7 +15790,7 @@
         },
         {
           "variable_id": "q94",
-          "question_text": "94 Where would you expect our country to be ten years from now?",
+          "question_text": "Where would you expect our country to be ten years from now?",
           "concepts": [
             "democracy",
             "evaluation",
@@ -15829,7 +15829,7 @@
         },
         {
           "variable_id": "q95",
-          "question_text": "95 Where would you place our country today? Democracy is suitable or not",
+          "question_text": "Where would you place our country today? Democracy is suitable or not",
           "concepts": [
             "democracy",
             "suitability",
@@ -15868,7 +15868,7 @@
         },
         {
           "variable_id": "q96",
-          "question_text": "96 How satisfied or dissatisfied are you with the current president/government?",
+          "question_text": "How satisfied or dissatisfied are you with the current president/government?",
           "concepts": [
             "government",
             "evaluation",
@@ -15921,7 +15921,7 @@
       "variables": [
         {
           "variable_id": "q23",
-          "question_text": "23 Do you agree with the statement that 'most people are trustworthy?'",
+          "question_text": "Do you agree with the statement that 'most people are trustworthy?'",
           "concepts": [
             "trust",
             "social perception",
@@ -15968,7 +15968,7 @@
         },
         {
           "variable_id": "q24",
-          "question_text": "24 How much trust do you have in each of the following types of people? Your relatives",
+          "question_text": "How much trust do you have in each of the following types of people? Your relatives",
           "concepts": [
             "trust",
             "family ties",
@@ -16015,7 +16015,7 @@
         },
         {
           "variable_id": "q25",
-          "question_text": "24 How much trust do you have in each of the following types of people? 25 Trust in your neighbors",
+          "question_text": "How much trust do you have in each of the following types of people? Trust in your neighbors",
           "concepts": [
             "trust",
             "neighborhood",
@@ -16062,7 +16062,7 @@
         },
         {
           "variable_id": "q26",
-          "question_text": "24 How much trust do you have in each of the following types of people? 26 Trust in other people you interact with",
+          "question_text": "How much trust do you have in each of the following types of people? Trust in other people you interact with",
           "concepts": [
             "trust",
             "social interaction",
@@ -16109,7 +16109,7 @@
         },
         {
           "variable_id": "q27",
-          "question_text": "24 How much trust do you have in each of the following types of people? 27 Trust in people you meet for the first time",
+          "question_text": "How much trust do you have in each of the following types of people? Trust in people you meet for the first time",
           "concepts": [
             "trust",
             "strangers",
@@ -16566,7 +16566,7 @@
         },
         {
           "variable_id": "q156",
-          "question_text": "156 Choose one statement.",
+          "question_text": "Choose one statement.",
           "concepts": [],
           "value_labels": [
             {
@@ -16607,7 +16607,7 @@
       "variables": [
         {
           "variable_id": "q46",
-          "question_text": "46 Generally speaking, how safe is living in this city/town/village?",
+          "question_text": "Generally speaking, how safe is living in this city/town/village?",
           "concepts": [
             "safety",
             "urban environment",
@@ -16660,7 +16660,7 @@
       "variables": [
         {
           "variable_id": "q33",
-          "question_text": "33 Did you vote in the national election?",
+          "question_text": "Did you vote in the national election?",
           "concepts": [
             "voting participation",
             "election engagement",
@@ -16715,7 +16715,7 @@
         },
         {
           "variable_id": "q34",
-          "question_text": "34 Which parties or candidates did you vote for?",
+          "question_text": "Which parties or candidates did you vote for?",
           "concepts": [
             "voting choice",
             "party affiliation",
@@ -17286,7 +17286,7 @@
         },
         {
           "variable_id": "q78",
-          "question_text": "78 Thinking of whether you voted or not ever since you became eligible for voting, how would you describe yourself-have you voted in every election, voted in most elections, voted in some elections or hardly ever voted?",
+          "question_text": "Thinking of whether you voted or not ever since you became eligible for voting, how would you describe yourself-have you voted in every election, voted in most elections, voted in some elections or hardly ever voted?",
           "concepts": [
             "voting frequency",
             "electoral participation",
