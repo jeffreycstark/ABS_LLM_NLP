@@ -199,7 +199,7 @@ def main(atomic_json_file: str, enriched_output: str, crosswalk_output: str):
 
 
 if __name__ == "__main__":
-    atomic_json = "W3_atomic.json"
-    enriched_output = "W3_enriched.json"
-    crosswalk_output = "W3_crosswalk.json"
+    atomic_json = "W6_Cambodia_analyzed.json"
+    enriched_output = "W6_Cambodia_enriched.json"
+    crosswalk_output = "W6_Cambodia_crosswalk.json"
     main(atomic_json, enriched_output, crosswalk_output)
