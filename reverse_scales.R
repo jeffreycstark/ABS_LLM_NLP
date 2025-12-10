@@ -57,14 +57,7 @@ safe_reverse_3pt <- function(x, missing_codes = c(9, 98, 99)) {
 # W1 Variable Recodings with Validation
 # ============================================================
 
-w1 <- w1 %>%
-  # ir002: Is this the first questionnaire the interviewer have complet...
-  # Keyword validation: 'questionnaire'
-  mutate(ir002_reversed = if_else(
-    grepl("questionnaire", question_text["ir002"], ignore.case = TRUE),
-    safe_reverse_2pt(ir002),
-    NA_real_  # Validation failed!
-  )),
+tog
 
   # ir009: Was the interview conducted with the assisance of an interpr...
   # Keyword validation: 'conducted'

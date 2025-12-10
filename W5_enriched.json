@@ -520,7 +520,7 @@
     "concepts": [
       "interview difficulty",
       "respondent evaluation",
-      "interviewer assessment"
+      "language"
     ]
   },
   {
@@ -543,8 +543,7 @@
     "domain": "Interview Quality",
     "concepts": [
       "interpreter assistance",
-      "interview process",
-      "language support"
+      "interview methodology"
     ]
   },
   {
@@ -596,7 +595,7 @@
     "concepts": [
       "public transportation",
       "walking distance",
-      "residential location"
+      "residence location"
     ]
   },
   {
@@ -635,8 +634,7 @@
     "domain": "Infrastructure Quality",
     "concepts": [
       "road condition",
-      "residential access",
-      "infrastructure evaluation"
+      "residence accessibility"
     ]
   },
   {
@@ -672,11 +670,10 @@
         "label": "Purchasing water"
       }
     ],
-    "domain": "Water Accessibility",
+    "domain": "Service Accessibility",
     "concepts": [
       "drinking water source",
-      "household amenities",
-      "water supply"
+      "household amenities"
     ]
   },
   {
@@ -700,11 +697,10 @@
         "label": "Don't know"
       }
     ],
-    "domain": "Energy Accessibility",
+    "domain": "Service Accessibility",
     "concepts": [
       "electricity access",
-      "lighting source",
-      "energy supply"
+      "lighting source"
     ]
   },
   {
@@ -732,11 +728,10 @@
         "label": "Decline to answer"
       }
     ],
-    "domain": "Telecommunication Accessibility",
+    "domain": "Service Accessibility",
     "concepts": [
       "mobile phone coverage",
-      "network availability",
-      "telecommunication access"
+      "neighborhood amenities"
     ]
   },
   {
@@ -763,8 +758,7 @@
     "domain": "Service Accessibility",
     "concepts": [
       "neighborhood services",
-      "distance evaluation",
-      "service availability"
+      "distance evaluation"
     ]
   },
   {
@@ -1076,7 +1070,7 @@
     "concepts": [
       "residence",
       "country level",
-      "geographic location"
+      "location"
     ]
   },
   {
@@ -1440,10 +1434,10 @@
         "label": "Mix of local & official"
       }
     ],
-    "domain": "Language Use",
+    "domain": "Language Usage",
     "concepts": [
       "language",
-      "home environment",
+      "home usage",
       "communication"
     ]
   },
@@ -1496,7 +1490,7 @@
     "concepts": [
       "spouse",
       "family member",
-      "interview setting"
+      "presence during interview"
     ]
   },
   {
@@ -1524,7 +1518,7 @@
     "concepts": [
       "children",
       "family member",
-      "interview setting"
+      "presence during interview"
     ]
   },
   {
@@ -1552,7 +1546,7 @@
     "concepts": [
       "parents",
       "family member",
-      "interview setting"
+      "presence during interview"
     ]
   },
   {
@@ -1696,8 +1690,8 @@
         "label": "Always"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "IR6",
@@ -1720,8 +1714,8 @@
         "label": "Not very cooperative"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "IR7",
@@ -1748,8 +1742,8 @@
         "label": "Not very sincere"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "IR8",
@@ -1780,8 +1774,8 @@
         "label": "Few"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Ir1",
@@ -1792,8 +1786,8 @@
         "label": "Missing"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Ir2",
@@ -1812,8 +1806,8 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Ir2A",
@@ -1836,8 +1830,8 @@
         "label": "Other"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Ir2B",
@@ -1852,8 +1846,8 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Level",
@@ -1872,8 +1866,8 @@
         "label": "Urban"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Q106c",
@@ -2288,8 +2282,8 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Q106d",
@@ -2704,8 +2698,12 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Problems",
+    "concepts": [
+      "important problems",
+      "government responsibility",
+      "national level"
+    ]
   },
   {
     "variable_id": "Q106e",
@@ -3120,8 +3118,12 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Problems",
+    "concepts": [
+      "important problems",
+      "government responsibility",
+      "national level"
+    ]
   },
   {
     "variable_id": "SE10",
@@ -3148,8 +3150,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Economics",
+    "concepts": [
+      "household income",
+      "main earner",
+      "employment status"
+    ]
   },
   {
     "variable_id": "SE10A",
@@ -3188,8 +3194,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "employment type",
+      "self-employment",
+      "job classification"
+    ]
   },
   {
     "variable_id": "SE10B",
@@ -3224,8 +3234,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Business and Employment",
+    "concepts": [
+      "business size",
+      "employment numbers",
+      "entrepreneurship"
+    ]
   },
   {
     "variable_id": "SE10C",
@@ -5388,8 +5402,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Occupation and Employment",
+    "concepts": [
+      "job title",
+      "occupation classification",
+      "ISCO code"
+    ]
   },
   {
     "variable_id": "SE10D",
@@ -5424,8 +5442,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "job seeking",
+      "unemployment",
+      "employment search"
+    ]
   },
   {
     "variable_id": "SE10E",
@@ -5472,8 +5494,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "employment status",
+      "current occupation",
+      "job situation"
+    ]
   },
   {
     "variable_id": "SE10_1",
@@ -5504,8 +5530,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Economics",
+    "concepts": [
+      "household income",
+      "main earner",
+      "employment status"
+    ]
   },
   {
     "variable_id": "SE12",
@@ -5568,8 +5598,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Socioeconomic Status",
+    "concepts": [
+      "family socioeconomic status",
+      "subjective evaluation",
+      "social classification"
+    ]
   },
   {
     "variable_id": "SE13A",
@@ -5636,8 +5670,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "self evaluation",
+      "current status"
+    ]
   },
   {
     "variable_id": "SE13B",
@@ -5704,8 +5742,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "parental evaluation",
+      "current status"
+    ]
   },
   {
     "variable_id": "SE13C",
@@ -5772,8 +5814,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "child evaluation",
+      "future prospects"
+    ]
   },
   {
     "variable_id": "SE14",
@@ -5816,8 +5862,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Condition",
+    "concepts": [
+      "household income",
+      "income level",
+      "economic status"
+    ]
   },
   {
     "variable_id": "SE14A",
@@ -5864,8 +5914,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Wellbeing",
+    "concepts": [
+      "income adequacy",
+      "need satisfaction",
+      "economic security"
+    ]
   },
   {
     "variable_id": "SE15A",
@@ -5884,8 +5938,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Asset Ownership",
+    "concepts": [
+      "vehicle ownership",
+      "asset possession",
+      "transportation access"
+    ]
   },
   {
     "variable_id": "SE15B",
@@ -5904,8 +5962,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Asset Ownership",
+    "concepts": [
+      "agricultural asset",
+      "tractor ownership",
+      "farm equipment access"
+    ]
   },
   {
     "variable_id": "SE15C",
@@ -5924,8 +5986,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Asset Ownership",
+    "concepts": [
+      "electronic asset",
+      "television ownership",
+      "entertainment access"
+    ]
   },
   {
     "variable_id": "SE15D",
@@ -5944,8 +6010,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Asset Ownership",
+    "concepts": [
+      "media access",
+      "cable television",
+      "information access"
+    ]
   },
   {
     "variable_id": "SE15E",
@@ -5964,8 +6034,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Asset Ownership",
+    "concepts": [
+      "vehicle ownership",
+      "two-wheeler access",
+      "transportation mode"
+    ]
   },
   {
     "variable_id": "SE15F",
@@ -5984,8 +6058,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "telephone ownership",
+      "household amenities",
+      "communication access"
+    ]
   },
   {
     "variable_id": "SE15G",
@@ -6004,8 +6082,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "mobile phone ownership",
+      "household amenities",
+      "communication access"
+    ]
   },
   {
     "variable_id": "SE15H",
@@ -6024,8 +6106,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "electric fan/cooler ownership",
+      "household amenities",
+      "comfort level"
+    ]
   },
   {
     "variable_id": "SE15I",
@@ -6044,8 +6130,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "bicycle ownership",
+      "household amenities",
+      "transportation access"
+    ]
   },
   {
     "variable_id": "SE15J",
@@ -6064,8 +6154,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "radio/transistor ownership",
+      "household amenities",
+      "entertainment access"
+    ]
   },
   {
     "variable_id": "SE15K",
@@ -6084,8 +6178,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "pumping set ownership",
+      "household amenities",
+      "water access"
+    ]
   },
   {
     "variable_id": "SE15L",
@@ -6104,8 +6202,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "fridge ownership",
+      "household amenities",
+      "food storage"
+    ]
   },
   {
     "variable_id": "SE15M",
@@ -6124,8 +6226,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "camera ownership",
+      "household amenities",
+      "leisure activity"
+    ]
   },
   {
     "variable_id": "SE15N",
@@ -6144,8 +6250,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "goats/sheep ownership",
+      "household amenities",
+      "livestock possession"
+    ]
   },
   {
     "variable_id": "SE15O",
@@ -6164,8 +6274,12 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Assets",
+    "concepts": [
+      "cows/buffalo ownership",
+      "household amenities",
+      "livestock possession"
+    ]
   },
   {
     "variable_id": "SE2",
@@ -6188,8 +6302,11 @@
         "label": "Other"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "gender",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "SE3",
@@ -6204,8 +6321,12 @@
         "label": "Refuse to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "birth year",
+      "age",
+      "personal history"
+    ]
   },
   {
     "variable_id": "SE3_1",
@@ -6220,8 +6341,12 @@
         "label": "Refuse to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "actual age",
+      "current age",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "SE4",
@@ -6264,8 +6389,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Demographic Information",
+    "concepts": [
+      "marital status",
+      "relationship status",
+      "personal characteristic"
+    ]
   },
   {
     "variable_id": "SE5",
@@ -6332,8 +6461,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Education",
+    "concepts": [
+      "education level",
+      "personal achievement",
+      "educational background"
+    ]
   },
   {
     "variable_id": "SE5A",
@@ -6356,8 +6489,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Education",
+    "concepts": [
+      "formal education",
+      "years of education",
+      "educational attainment"
+    ]
   },
   {
     "variable_id": "SE6",
@@ -6692,8 +6829,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion and Spirituality",
+    "concepts": [
+      "religion",
+      "faith",
+      "spiritual affiliation"
+    ]
   },
   {
     "variable_id": "SE7",
@@ -6756,8 +6897,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion and Spirituality",
+    "concepts": [
+      "religiosity",
+      "spiritual practice",
+      "faith commitment"
+    ]
   },
   {
     "variable_id": "SE7A",
@@ -6796,8 +6941,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion and Spirituality",
+    "concepts": [
+      "self-described religiosity",
+      "level of religious commitment",
+      "spiritual identity"
+    ]
   },
   {
     "variable_id": "SE8A",
@@ -6820,8 +6969,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Information",
+    "concepts": [
+      "household size",
+      "number of household members",
+      "family structure"
+    ]
   },
   {
     "variable_id": "SE8B",
@@ -6860,8 +7013,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Household Composition",
+    "concepts": [
+      "family structure",
+      "household size",
+      "generational relationships"
+    ]
   },
   {
     "variable_id": "SE9",
@@ -6884,8 +7041,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "employment",
+      "job status",
+      "current occupation"
+    ]
   },
   {
     "variable_id": "SE9A",
@@ -6924,8 +7085,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Type",
+    "concepts": [
+      "self-employment",
+      "business ownership",
+      "employment arrangement"
+    ]
   },
   {
     "variable_id": "SE9B",
@@ -6960,8 +7125,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Business Ownership",
+    "concepts": [
+      "business size",
+      "employment capacity",
+      "entrepreneurship"
+    ]
   },
   {
     "variable_id": "SE9C",
@@ -9116,8 +9285,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Occupational Classification",
+    "concepts": [
+      "job title",
+      "occupational category",
+      "ISCO code"
+    ]
   },
   {
     "variable_id": "SE9D",
@@ -9152,8 +9325,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Job Search",
+    "concepts": [
+      "employment seeking",
+      "job search status",
+      "unemployment"
+    ]
   },
   {
     "variable_id": "SE9E",
@@ -9200,8 +9377,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Employment Status",
+    "concepts": [
+      "current status",
+      "employment situation",
+      "occupational position"
+    ]
   },
   {
     "variable_id": "Se10c_2",
@@ -9268,8 +9449,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Occupational Classification",
+    "concepts": [
+      "job title",
+      "EGP class",
+      "occupational prestige"
+    ]
   },
   {
     "variable_id": "Se10c_3",
@@ -9300,8 +9485,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Stratification",
+    "concepts": [
+      "elite status",
+      "mass category",
+      "social class"
+    ]
   },
   {
     "variable_id": "Se10c_4",
@@ -9332,8 +9521,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Occupational Classification",
+    "concepts": [
+      "white collar",
+      "blue collar",
+      "occupational category"
+    ]
   },
   {
     "variable_id": "Se11",
@@ -9528,8 +9721,8 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Se11a",
@@ -10228,8 +10421,8 @@
         "label": "Laud duu"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Se9c_2",
@@ -10296,8 +10489,8 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Se9c_3",
@@ -10328,8 +10521,8 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Se9c_4",
@@ -10360,8 +10553,8 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Unknown",
+    "concepts": []
   },
   {
     "variable_id": "Year",
@@ -10420,8 +10613,12 @@
         "label": "December"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Temporal Reference",
+    "concepts": [
+      "interview year",
+      "time of survey",
+      "temporal context"
+    ]
   },
   {
     "variable_id": "q1",
@@ -10464,8 +10661,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation"
+    ]
   },
   {
     "variable_id": "q10",
@@ -10512,8 +10713,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Expectation",
+    "concepts": [
+      "economic situation",
+      "family level",
+      "future expectation"
+    ]
   },
   {
     "variable_id": "q100",
@@ -10552,8 +10757,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Perception",
+    "concepts": [
+      "democracy",
+      "national level",
+      "current evaluation"
+    ]
   },
   {
     "variable_id": "q101",
@@ -10616,8 +10825,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Evaluation",
+    "concepts": [
+      "government evaluation",
+      "national level",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q102",
@@ -10680,8 +10893,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Progress",
+    "concepts": [
+      "national condition",
+      "evaluation",
+      "temporal comparison",
+      "past assessment"
+    ]
   },
   {
     "variable_id": "q103",
@@ -10744,8 +10962,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Progress",
+    "concepts": [
+      "national condition",
+      "evaluation",
+      "temporal comparison",
+      "future expectation"
+    ]
   },
   {
     "variable_id": "q104",
@@ -10808,8 +11031,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance and Democracy",
+    "concepts": [
+      "democracy",
+      "suitability",
+      "current evaluation"
+    ]
   },
   {
     "variable_id": "q105",
@@ -10848,8 +11075,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government",
+      "president",
+      "satisfaction",
+      "evaluation"
+    ]
   },
   {
     "variable_id": "q106",
@@ -11760,8 +11992,12 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Issues",
+    "concepts": [
+      "national problems",
+      "government responsibility",
+      "priority"
+    ]
   },
   {
     "variable_id": "q106a",
@@ -12668,8 +12904,12 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Issues",
+    "concepts": [
+      "national problems",
+      "government responsibility",
+      "priority"
+    ]
   },
   {
     "variable_id": "q106b",
@@ -13576,8 +13816,12 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Issues",
+    "concepts": [
+      "national problems",
+      "government responsibility",
+      "priority"
+    ]
   },
   {
     "variable_id": "q107",
@@ -13620,8 +13864,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government effectiveness",
+      "problem solving",
+      "likelihood",
+      "timeframe"
+    ]
   },
   {
     "variable_id": "q108",
@@ -13660,8 +13909,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance and Democracy",
+    "concepts": [
+      "accountability",
+      "elections",
+      "government removal"
+    ]
   },
   {
     "variable_id": "q109",
@@ -13700,8 +13953,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance and Democracy",
+    "concepts": [
+      "opposition opportunities",
+      "election fairness",
+      "democratic process"
+    ]
   },
   {
     "variable_id": "q11",
@@ -13748,8 +14005,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "family level",
+      "future evaluation",
+      "temporal comparison"
+    ]
   },
   {
     "variable_id": "q110",
@@ -13788,8 +14050,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "accountability",
+      "government responsibility",
+      "elections",
+      "intermediate period"
+    ]
   },
   {
     "variable_id": "q111",
@@ -13828,8 +14095,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government leaders",
+      "law breaking",
+      "judicial powerlessness"
+    ]
   },
   {
     "variable_id": "q112",
@@ -13868,8 +14139,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Equality",
+    "concepts": [
+      "ethnic equality",
+      "government treatment",
+      "citizen rights"
+    ]
   },
   {
     "variable_id": "q113",
@@ -13908,8 +14183,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Equality",
+    "concepts": [
+      "economic equality",
+      "government treatment",
+      "social justice"
+    ]
   },
   {
     "variable_id": "q114",
@@ -13948,8 +14227,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Basic Needs",
+    "concepts": [
+      "basic necessities",
+      "poverty",
+      "standard of living"
+    ]
   },
   {
     "variable_id": "q115",
@@ -13988,8 +14271,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Freedom of Expression",
+    "concepts": [
+      "free speech",
+      "fearlessness",
+      "opinion expression"
+    ]
   },
   {
     "variable_id": "q116",
@@ -14028,8 +14315,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Freedom of Association",
+    "concepts": [
+      "organization membership",
+      "fearlessness",
+      "social participation"
+    ]
   },
   {
     "variable_id": "q117",
@@ -14072,8 +14363,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Government Transparency",
+    "concepts": [
+      "information withholding",
+      "government officials",
+      "public information"
+    ]
   },
   {
     "variable_id": "q118",
@@ -14116,8 +14411,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government leaders",
+      "law breaking",
+      "power abuse",
+      "frequency evaluation"
+    ]
   },
   {
     "variable_id": "q119",
@@ -14160,8 +14460,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "elections",
+      "choice",
+      "political parties"
+    ]
   },
   {
     "variable_id": "q12",
@@ -14208,8 +14512,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q120",
@@ -14248,8 +14556,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "legislature",
+      "government accountability",
+      "checks and balances"
+    ]
   },
   {
     "variable_id": "q121",
@@ -14288,8 +14600,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government responsiveness",
+      "public needs",
+      "effectiveness"
+    ]
   },
   {
     "variable_id": "q122",
@@ -14328,8 +14644,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "elections",
+      "government responsiveness",
+      "accountability"
+    ]
   },
   {
     "variable_id": "q123",
@@ -14368,8 +14688,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government capability",
+      "law enforcement",
+      "policy implementation"
+    ]
   },
   {
     "variable_id": "q124",
@@ -14408,8 +14732,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "local government",
+      "bribe-taking"
+    ]
   },
   {
     "variable_id": "q125",
@@ -14448,8 +14776,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "national government",
+      "bribe-taking"
+    ]
   },
   {
     "variable_id": "q126",
@@ -14488,8 +14820,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Corruption Perception",
+    "concepts": [
+      "government effectiveness",
+      "corruption crackdown",
+      "anti-corruption efforts"
+    ]
   },
   {
     "variable_id": "q127",
@@ -14520,8 +14856,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Corruption Experience",
+    "concepts": [
+      "personal experience",
+      "corruption witness",
+      "bribe-taking",
+      "government official"
+    ]
   },
   {
     "variable_id": "q127a_1",
@@ -14552,8 +14893,12 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Information Source",
+    "concepts": [
+      "personal experience",
+      "witnessing",
+      "information source"
+    ]
   },
   {
     "variable_id": "q127a_2",
@@ -14584,8 +14929,12 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Information Source",
+    "concepts": [
+      "family member",
+      "secondhand information",
+      "witnessing"
+    ]
   },
   {
     "variable_id": "q127a_3",
@@ -14616,8 +14965,12 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Information Source",
+    "concepts": [
+      "friend",
+      "secondhand information",
+      "witnessing"
+    ]
   },
   {
     "variable_id": "q128",
@@ -14680,8 +15033,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Perception",
+    "concepts": [
+      "country evaluation",
+      "China",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q129",
@@ -14744,8 +15101,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Perception",
+    "concepts": [
+      "country evaluation",
+      "United States",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q13",
@@ -14792,8 +15153,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "family level",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q130",
@@ -14856,8 +15221,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Perception",
+    "concepts": [
+      "country evaluation",
+      "Japan",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q131",
@@ -14920,8 +15289,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Perception",
+    "concepts": [
+      "country evaluation",
+      "India",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q132",
@@ -14956,8 +15329,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Opinion and Beliefs",
+    "concepts": [
+      "personal opinion",
+      "statement evaluation",
+      "attitude"
+    ]
   },
   {
     "variable_id": "q133",
@@ -14988,8 +15365,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Opinion and Beliefs",
+    "concepts": [
+      "personal view",
+      "statement evaluation",
+      "attitude"
+    ]
   },
   {
     "variable_id": "q134",
@@ -15032,8 +15413,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "democracy",
+      "economic development",
+      "priority"
+    ]
   },
   {
     "variable_id": "q135",
@@ -15076,8 +15461,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "economic inequality",
+      "political freedom",
+      "priority"
+    ]
   },
   {
     "variable_id": "q136",
@@ -15116,8 +15505,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "democracy",
+      "evaluation",
+      "governance"
+    ]
   },
   {
     "variable_id": "q137",
@@ -15156,8 +15549,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "authoritarianism",
+      "leadership",
+      "decision making"
+    ]
   },
   {
     "variable_id": "q138",
@@ -15196,8 +15593,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "political party",
+      "monopoly",
+      "election"
+    ]
   },
   {
     "variable_id": "q139",
@@ -15236,8 +15637,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "militarism",
+      "governance",
+      "leadership"
+    ]
   },
   {
     "variable_id": "q14",
@@ -15284,8 +15689,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q140",
@@ -15324,8 +15733,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Governance Preference",
+    "concepts": [
+      "technocracy",
+      "decision making",
+      "representation"
+    ]
   },
   {
     "variable_id": "q141",
@@ -15364,8 +15777,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Efficacy",
+    "concepts": [
+      "participation",
+      "politics",
+      "self-efficacy"
+    ]
   },
   {
     "variable_id": "q142",
@@ -15404,8 +15821,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Efficacy",
+    "concepts": [
+      "politics",
+      "complexity",
+      "understanding"
+    ]
   },
   {
     "variable_id": "q143",
@@ -15444,8 +15865,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "influence",
+      "government",
+      "powerlessness"
+    ]
   },
   {
     "variable_id": "q144",
@@ -15484,8 +15909,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "trust",
+      "government",
+      "righteousness"
+    ]
   },
   {
     "variable_id": "q145",
@@ -15524,8 +15953,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Loyalty",
+    "concepts": [
+      "loyalty",
+      "country",
+      "obedience"
+    ]
   },
   {
     "variable_id": "q146",
@@ -15564,8 +15997,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Gender Equality",
+    "concepts": [
+      "gender",
+      "politics",
+      "inequality"
+    ]
   },
   {
     "variable_id": "q147",
@@ -15604,8 +16041,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Religion and Governance",
+    "concepts": [
+      "religion",
+      "governance",
+      "interpretation"
+    ]
   },
   {
     "variable_id": "q148",
@@ -15644,8 +16085,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Equality",
+    "concepts": [
+      "education",
+      "politics",
+      "equality"
+    ]
   },
   {
     "variable_id": "q149",
@@ -15684,8 +16129,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Authority and Obedience",
+    "concepts": [
+      "authority",
+      "obedience",
+      "leadership"
+    ]
   },
   {
     "variable_id": "q15",
@@ -15732,8 +16181,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q150",
@@ -15772,8 +16225,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Freedom of Expression",
+    "concepts": [
+      "government",
+      "censorship",
+      "ideas"
+    ]
   },
   {
     "variable_id": "q151",
@@ -15812,8 +16269,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Order",
+    "concepts": [
+      "community",
+      "harmony",
+      "social organization"
+    ]
   },
   {
     "variable_id": "q152",
@@ -15852,8 +16313,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "judicial independence",
+      "executive influence",
+      "decision making"
+    ]
   },
   {
     "variable_id": "q153",
@@ -15892,8 +16357,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "government effectiveness",
+      "legislative oversight",
+      "accountability"
+    ]
   },
   {
     "variable_id": "q154",
@@ -15932,8 +16401,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in Government",
+    "concepts": [
+      "moral leadership",
+      "authoritarianism",
+      "decision making"
+    ]
   },
   {
     "variable_id": "q155",
@@ -15972,8 +16445,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Cohesion",
+    "concepts": [
+      "social diversity",
+      "social order",
+      "chaos"
+    ]
   },
   {
     "variable_id": "q156",
@@ -16004,8 +16481,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Cultural Identity",
+    "concepts": [
+      "national identity",
+      "cultural exchange",
+      "globalization"
+    ]
   },
   {
     "variable_id": "q156_1",
@@ -16048,8 +16529,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Cultural Identity",
+    "concepts": [
+      "cultural learning",
+      "international cooperation",
+      "global engagement"
+    ]
   },
   {
     "variable_id": "q156a",
@@ -16084,8 +16569,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Cultural Identity",
+    "concepts": [
+      "agreement level",
+      "cultural attitude",
+      "internationalism"
+    ]
   },
   {
     "variable_id": "q157",
@@ -16116,8 +16605,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "trade policy",
+      "foreign goods",
+      "protectionism"
+    ]
   },
   {
     "variable_id": "q157_1",
@@ -16160,8 +16653,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "international trade",
+      "economic cooperation",
+      "global market"
+    ]
   },
   {
     "variable_id": "q157a",
@@ -16196,8 +16693,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "agreement level",
+      "trade attitude",
+      "economic internationalism"
+    ]
   },
   {
     "variable_id": "q158",
@@ -16236,8 +16737,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Immigration Policy",
+    "concepts": [
+      "immigration policy",
+      "government role",
+      "foreign workers"
+    ]
   },
   {
     "variable_id": "q159",
@@ -16276,8 +16781,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "income distribution",
+      "fairness evaluation",
+      "national level"
+    ]
   },
   {
     "variable_id": "q16",
@@ -16324,8 +16833,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "family economic situation",
+      "future evaluation",
+      "temporal comparison"
+    ]
   },
   {
     "variable_id": "q160a",
@@ -16364,8 +16877,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Government Responsibility",
+    "concepts": [
+      "government role",
+      "income inequality",
+      "social responsibility"
+    ]
   },
   {
     "variable_id": "q160b",
@@ -16404,8 +16921,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Government Responsibility",
+    "concepts": [
+      "government role",
+      "affordable housing",
+      "social welfare"
+    ]
   },
   {
     "variable_id": "q160c",
@@ -16444,8 +16965,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Government Responsibility",
+    "concepts": [
+      "government role",
+      "healthcare access",
+      "social welfare"
+    ]
   },
   {
     "variable_id": "q160d",
@@ -16484,8 +17009,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Government Responsibility",
+    "concepts": [
+      "government role",
+      "basic necessities",
+      "social welfare"
+    ]
   },
   {
     "variable_id": "q161",
@@ -16524,8 +17053,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Security",
+    "concepts": [
+      "job security",
+      "family income",
+      "future uncertainty"
+    ]
   },
   {
     "variable_id": "q162",
@@ -16560,8 +17093,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Security",
+    "concepts": [
+      "income loss",
+      "family well-being",
+      "hypothetical scenario"
+    ]
   },
   {
     "variable_id": "q163",
@@ -16612,8 +17149,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "income fairness",
+      "effort evaluation",
+      "family income"
+    ]
   },
   {
     "variable_id": "q164",
@@ -16656,8 +17197,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Mobility",
+    "concepts": [
+      "intergenerational comparison",
+      "standard of living",
+      "social status"
+    ]
   },
   {
     "variable_id": "q165",
@@ -16700,8 +17245,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Intergenerational Outlook",
+    "concepts": [
+      "generational comparison",
+      "life quality",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q166",
@@ -16744,8 +17293,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "National Pride",
+    "concepts": [
+      "national identity",
+      "citizenship",
+      "pride"
+    ]
   },
   {
     "variable_id": "q167",
@@ -16784,8 +17337,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Migration Intentions",
+    "concepts": [
+      "migration willingness",
+      "country preference",
+      "international movement"
+    ]
   },
   {
     "variable_id": "q168",
@@ -16824,8 +17381,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic System Evaluation",
+    "concepts": [
+      "democratic system",
+      "economic performance",
+      "system evaluation"
+    ]
   },
   {
     "variable_id": "q169",
@@ -16864,8 +17425,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Democratic System Evaluation",
+    "concepts": [
+      "democratic regime",
+      "system effectiveness",
+      "problem perception"
+    ]
   },
   {
     "variable_id": "q17",
@@ -16912,8 +17477,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "family economic situation",
+      "future outlook",
+      "economic evaluation"
+    ]
   },
   {
     "variable_id": "q170",
@@ -16952,8 +17521,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Democratic System Evaluation",
+    "concepts": [
+      "democratic system",
+      "order maintenance",
+      "stability evaluation"
+    ]
   },
   {
     "variable_id": "q171",
@@ -16992,8 +17565,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Democratic System Evaluation",
+    "concepts": [
+      "citizen preparedness",
+      "democratic system",
+      "readiness evaluation"
+    ]
   },
   {
     "variable_id": "q172",
@@ -17032,8 +17609,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Values",
+    "concepts": [
+      "democracy impact",
+      "social values",
+      "ethical values"
+    ]
   },
   {
     "variable_id": "q173",
@@ -17072,8 +17653,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political System Evaluation",
+    "concepts": [
+      "government type",
+      "economic problem",
+      "priority"
+    ]
   },
   {
     "variable_id": "q174",
@@ -17204,8 +17789,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Influence",
+    "concepts": [
+      "country influence",
+      "regional power",
+      "Asia"
+    ]
   },
   {
     "variable_id": "q175",
@@ -17244,8 +17833,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "regional effect",
+      "United States",
+      "Asia"
+    ]
   },
   {
     "variable_id": "q176",
@@ -17308,8 +17902,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Influence",
+    "concepts": [
+      "country influence",
+      "global affairs",
+      "United States",
+      "evaluation"
+    ]
   },
   {
     "variable_id": "q177",
@@ -17348,8 +17947,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "regional effect",
+      "China",
+      "Asia"
+    ]
   },
   {
     "variable_id": "q178",
@@ -17412,8 +18016,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Influence",
+    "concepts": [
+      "country influence",
+      "global affairs",
+      "China",
+      "evaluation"
+    ]
   },
   {
     "variable_id": "q179",
@@ -17544,8 +18153,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Global Influence",
+    "concepts": [
+      "country influence",
+      "regional power",
+      "Asia",
+      "future projection"
+    ]
   },
   {
     "variable_id": "q18",
@@ -17656,8 +18270,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family level",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q180",
@@ -17860,8 +18478,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Development Model",
+    "concepts": [
+      "country model",
+      "future development",
+      "inspiration"
+    ]
   },
   {
     "variable_id": "q181",
@@ -17900,8 +18522,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Relations",
+    "concepts": [
+      "country influence",
+      "national level",
+      "China"
+    ]
   },
   {
     "variable_id": "q182",
@@ -17948,8 +18574,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Influence",
+    "concepts": [
+      "influence",
+      "China",
+      "country-level evaluation"
+    ]
   },
   {
     "variable_id": "q183",
@@ -17988,8 +18618,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Influence",
+    "concepts": [
+      "influence",
+      "United States",
+      "country-level evaluation"
+    ]
   },
   {
     "variable_id": "q184",
@@ -18036,8 +18670,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Influence",
+    "concepts": [
+      "influence",
+      "United States",
+      "country-level evaluation"
+    ]
   },
   {
     "variable_id": "q185",
@@ -18080,8 +18718,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "International Influence",
+    "concepts": [
+      "influence",
+      "Asian power",
+      "impact evaluation"
+    ]
   },
   {
     "variable_id": "q186",
@@ -18120,8 +18762,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Regional Identity",
+    "concepts": [
+      "regional closeness",
+      "ASEAN",
+      "identity"
+    ]
   },
   {
     "variable_id": "q19",
@@ -18232,8 +18878,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family-level evaluation",
+      "future expectation"
+    ]
   },
   {
     "variable_id": "q2",
@@ -18276,8 +18926,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "temporal comparison"
+    ]
   },
   {
     "variable_id": "q20",
@@ -18388,8 +19042,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic situation",
+      "family-level evaluation",
+      "future expectation"
+    ]
   },
   {
     "variable_id": "q21",
@@ -18500,8 +19158,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Participation",
+    "concepts": [
+      "organization participation",
+      "activity level",
+      "time frame"
+    ]
   },
   {
     "variable_id": "q22",
@@ -18536,8 +19198,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "people",
+      "generalized trust"
+    ]
   },
   {
     "variable_id": "q23",
@@ -18576,8 +19242,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "people",
+      "generalization"
+    ]
   },
   {
     "variable_id": "q24",
@@ -18624,8 +19294,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "relatives",
+      "familial relationships"
+    ]
   },
   {
     "variable_id": "q25",
@@ -18672,8 +19346,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "neighbors",
+      "community relationships"
+    ]
   },
   {
     "variable_id": "q26",
@@ -18720,8 +19398,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "acquaintances",
+      "social interactions"
+    ]
   },
   {
     "variable_id": "q27",
@@ -18768,8 +19450,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "strangers",
+      "initial interactions"
+    ]
   },
   {
     "variable_id": "q28",
@@ -18816,8 +19502,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Connections",
+    "concepts": [
+      "social contacts",
+      "frequency of interaction",
+      "daily life"
+    ]
   },
   {
     "variable_id": "q29",
@@ -18852,8 +19542,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Connections",
+    "concepts": [
+      "social relationships",
+      "quality of interactions",
+      "personal connections"
+    ]
   },
   {
     "variable_id": "q3",
@@ -18896,8 +19590,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "future evaluation"
+    ]
   },
   {
     "variable_id": "q30",
@@ -18944,8 +19642,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Connections",
+    "concepts": [
+      "social contacts",
+      "political views",
+      "social environment"
+    ]
   },
   {
     "variable_id": "q31",
@@ -18984,8 +19686,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Support",
+    "concepts": [
+      "social support",
+      "problem management",
+      "external help"
+    ]
   },
   {
     "variable_id": "q32",
@@ -19024,8 +19730,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Social Interaction",
+    "concepts": [
+      "social interaction",
+      "political opinion",
+      "interpersonal communication"
+    ]
   },
   {
     "variable_id": "q33",
@@ -19064,8 +19774,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting behavior",
+      "election participation",
+      "civic engagement"
+    ]
   },
   {
     "variable_id": "q34",
@@ -19936,8 +20650,12 @@
         "label": "Others"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting choice",
+      "party affiliation",
+      "candidate support"
+    ]
   },
   {
     "variable_id": "q34a",
@@ -19964,8 +20682,12 @@
         "label": "Not sure"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting outcome",
+      "election result",
+      "winner/loser perception"
+    ]
   },
   {
     "variable_id": "q35",
@@ -20000,8 +20722,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Participation",
+    "concepts": [
+      "campaign engagement",
+      "rally attendance",
+      "political activity"
+    ]
   },
   {
     "variable_id": "q36",
@@ -20036,8 +20762,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Influence",
+    "concepts": [
+      "social influence",
+      "political persuasion",
+      "candidate advocacy"
+    ]
   },
   {
     "variable_id": "q37",
@@ -20072,8 +20802,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Participation",
+    "concepts": [
+      "volunteer work",
+      "party support",
+      "campaign assistance"
+    ]
   },
   {
     "variable_id": "q38",
@@ -20116,8 +20850,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Election Integrity",
+    "concepts": [
+      "election fairness",
+      "electoral process",
+      "democratic evaluation"
+    ]
   },
   {
     "variable_id": "q39",
@@ -20164,8 +20902,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Infrastructure Accessibility",
+    "concepts": [
+      "road condition",
+      "infrastructure quality",
+      "accessibility evaluation"
+    ]
   },
   {
     "variable_id": "q4",
@@ -20208,8 +20950,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "family evaluation",
+      "current assessment"
+    ]
   },
   {
     "variable_id": "q40",
@@ -20256,8 +21002,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Service Accessibility",
+    "concepts": [
+      "access to resources",
+      "running water",
+      "ease of obtaining"
+    ]
   },
   {
     "variable_id": "q41",
@@ -20304,8 +21054,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Service Accessibility",
+    "concepts": [
+      "access to transportation",
+      "public transportation",
+      "ease of obtaining"
+    ]
   },
   {
     "variable_id": "q42",
@@ -20352,8 +21106,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Service Accessibility",
+    "concepts": [
+      "access to healthcare",
+      "health services",
+      "ease of obtaining"
+    ]
   },
   {
     "variable_id": "q43",
@@ -20400,8 +21158,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Service Accessibility",
+    "concepts": [
+      "access to security",
+      "police assistance",
+      "ease of obtaining"
+    ]
   },
   {
     "variable_id": "q44",
@@ -20448,8 +21210,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Service Accessibility",
+    "concepts": [
+      "access to technology",
+      "internet access",
+      "ease of obtaining"
+    ]
   },
   {
     "variable_id": "q45",
@@ -20488,8 +21254,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Urban Safety",
+    "concepts": [
+      "perceived safety",
+      "urban environment",
+      "personal security"
+    ]
   },
   {
     "variable_id": "q46",
@@ -20528,8 +21298,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Engagement",
+    "concepts": [
+      "interest in politics",
+      "political awareness",
+      "personal engagement"
+    ]
   },
   {
     "variable_id": "q47",
@@ -20572,8 +21346,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Engagement",
+    "concepts": [
+      "news consumption",
+      "political information",
+      "frequency of following"
+    ]
   },
   {
     "variable_id": "q48",
@@ -20608,8 +21386,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Political Engagement",
+    "concepts": [
+      "social discussion",
+      "political conversation",
+      "frequency of discussion"
+    ]
   },
   {
     "variable_id": "q49",
@@ -20668,8 +21450,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "domain": "Technology Adoption",
+    "concepts": [
+      "internet usage",
+      "frequency of use",
+      "technology adoption"
+    ]
   },
   {
     "variable_id": "q5",
@@ -20712,8 +21498,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation"
+    ],
+    "domain": "Economic Perception"
   },
   {
     "variable_id": "q50",
@@ -20748,8 +21538,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "social media",
+      "internet usage"
+    ],
+    "domain": "Technology and Media"
   },
   {
     "variable_id": "q51a",
@@ -20784,8 +21577,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "social media",
+      "communication purpose"
+    ],
+    "domain": "Technology and Media"
   },
   {
     "variable_id": "q51b",
@@ -20820,8 +21616,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "social media",
+      "purpose",
+      "expression of opinion",
+      "political issues"
+    ],
+    "domain": "Social Media Use"
   },
   {
     "variable_id": "q51c",
@@ -20856,8 +21657,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "social media",
+      "purpose",
+      "information sharing",
+      "news"
+    ],
+    "domain": "Social Media Use"
   },
   {
     "variable_id": "q51d",
@@ -20892,8 +21698,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "social media",
+      "purpose",
+      "work-related"
+    ],
+    "domain": "Social Media Use"
   },
   {
     "variable_id": "q52",
@@ -20940,8 +21750,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "information channel",
+      "politics",
+      "government"
+    ],
+    "domain": "Information Channel"
   },
   {
     "variable_id": "q53",
@@ -20992,8 +21806,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "media trust",
+      "television"
+    ],
+    "domain": "Media Trust"
   },
   {
     "variable_id": "q54",
@@ -21044,8 +21861,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "media trust",
+      "newspaper"
+    ],
+    "domain": "Media Trust"
   },
   {
     "variable_id": "q55",
@@ -21096,8 +21916,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "media trust",
+      "internet news"
+    ],
+    "domain": "Media Trust"
   },
   {
     "variable_id": "q56",
@@ -22088,8 +22911,11 @@
         "label": "Others"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "political party",
+      "affiliation"
+    ],
+    "domain": "Political Party Affiliation"
   },
   {
     "variable_id": "q57",
@@ -22128,8 +22954,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "party affiliation",
+      "closeness"
+    ],
+    "domain": "Party Affiliation"
   },
   {
     "variable_id": "q58",
@@ -22168,8 +22997,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "value prioritization",
+      "family interests",
+      "personal interests"
+    ],
+    "domain": "Value Prioritization"
   },
   {
     "variable_id": "q59",
@@ -22208,8 +23041,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "collective interest",
+      "individual interest",
+      "sacrifice"
+    ],
+    "domain": "Social Norms and Collective Interest"
   },
   {
     "variable_id": "q6",
@@ -22252,8 +23089,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "economic situation",
+      "family",
+      "temporal comparison"
+    ],
+    "domain": "Economic Perception"
   },
   {
     "variable_id": "q60",
@@ -22292,8 +23133,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "national interest",
+      "individual interest",
+      "sacrifice"
+    ],
+    "domain": "Social Norms and Collective Interest"
   },
   {
     "variable_id": "q61",
@@ -22332,8 +23177,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "long-term relationship",
+      "immediate interest"
+    ],
+    "domain": "Social Relationships"
   },
   {
     "variable_id": "q62",
@@ -22372,8 +23220,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "parental authority",
+      "obedience"
+    ],
+    "domain": "Family Dynamics"
   },
   {
     "variable_id": "q63",
@@ -22412,8 +23263,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "conflict resolution",
+      "authority"
+    ],
+    "domain": "Family Dynamics"
   },
   {
     "variable_id": "q64",
@@ -22452,8 +23306,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "authority",
+      "questioning"
+    ],
+    "domain": "Authority and Education"
   },
   {
     "variable_id": "q65",
@@ -22492,8 +23349,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "conflict avoidance",
+      "group harmony"
+    ],
+    "domain": "Social Harmony"
   },
   {
     "variable_id": "q66",
@@ -22532,8 +23392,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "conflict avoidance",
+      "disagreement"
+    ],
+    "domain": "Conflict Resolution"
   },
   {
     "variable_id": "q67",
@@ -22572,8 +23435,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "opinion formation",
+      "disagreement"
+    ],
+    "domain": "Collaboration and Teamwork"
   },
   {
     "variable_id": "q68",
@@ -22612,8 +23478,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "fate",
+      "determination",
+      "wealthe and poverty"
+    ],
+    "domain": "Beliefs and Values"
   },
   {
     "variable_id": "q69",
@@ -22652,8 +23522,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "gender preference",
+      "family planning",
+      "child preference"
+    ],
+    "domain": "Social Attitudes"
   },
   {
     "variable_id": "q7",
@@ -22700,8 +23574,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "economic situation",
+      "family level",
+      "temporal comparison"
+    ],
+    "domain": "Economic Perception"
   },
   {
     "variable_id": "q70",
@@ -22748,8 +23626,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "contact with elected officials",
+      "legislative representatives",
+      "government level"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q71",
@@ -22796,8 +23678,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "contact with civil servants",
+      "government officials",
+      "bureaucratic level"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q72",
@@ -22844,8 +23730,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "contact with traditional leaders",
+      "community leaders",
+      "non-governmental level"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q73",
@@ -22892,8 +23782,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "contact with news media",
+      "information dissemination",
+      "media level"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q74",
@@ -22940,8 +23834,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "paper petition",
+      "signing a petition",
+      "offline engagement"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q75",
@@ -22988,8 +23886,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "online petition",
+      "signing an online petition",
+      "digital engagement"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q76",
@@ -23036,8 +23938,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "internet use",
+      "social media",
+      "online expression"
+    ],
+    "domain": "Citizen Engagement"
   },
   {
     "variable_id": "q77",
@@ -23084,8 +23990,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "community engagement",
+      "cause support",
+      "group membership"
+    ],
+    "domain": "Social Participation"
   },
   {
     "variable_id": "q78",
@@ -23132,8 +24042,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "community engagement",
+      "problem resolution",
+      "face-to-face interaction"
+    ],
+    "domain": "Social Participation"
   },
   {
     "variable_id": "q79",
@@ -23180,8 +24094,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "demonstration",
+      "protest",
+      "social activism"
+    ],
+    "domain": "Social Participation"
   },
   {
     "variable_id": "q8",
@@ -23228,8 +24146,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "economic situation",
+      "family level",
+      "temporal comparison"
+    ],
+    "domain": "Economic Perception"
   },
   {
     "variable_id": "q80",
@@ -23276,8 +24198,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "political activism",
+      "risk taking",
+      "social engagement"
+    ],
+    "domain": "Social Participation"
   },
   {
     "variable_id": "q81",
@@ -23320,8 +24246,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "voting frequency",
+      "election participation",
+      "self-description"
+    ],
+    "domain": "Voting Behavior"
   },
   {
     "variable_id": "q82",
@@ -23352,8 +24282,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "government accountability",
+      "leadership",
+      "citizen relationship"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q82a",
@@ -23388,8 +24322,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "agreement level",
+      "government accountability",
+      "leadership"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q83",
@@ -23420,8 +24358,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "problem of accountability",
+      "government accountability",
+      "leadership"
+    ],
+    "domain": "Accountability"
   },
   {
     "variable_id": "q83a",
@@ -23456,8 +24398,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "agreement level",
+      "problem of accountability",
+      "government accountability"
+    ],
+    "domain": "Accountability"
   },
   {
     "variable_id": "q84",
@@ -23488,8 +24434,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "freedom of the press",
+      "evaluation",
+      "agreement"
+    ],
+    "domain": "Freedom of Press"
   },
   {
     "variable_id": "q84a",
@@ -23524,8 +24474,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "evaluation",
+      "intensity"
+    ],
+    "domain": "Freedom of Press"
   },
   {
     "variable_id": "q85",
@@ -23556,8 +24509,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "political leader",
+      "evaluation",
+      "agreement"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q85a",
@@ -23592,8 +24549,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "evaluation",
+      "intensity"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q86",
@@ -23632,8 +24592,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "system of government",
+      "capability",
+      "temporal comparison"
+    ],
+    "domain": "System of Government Capability"
   },
   {
     "variable_id": "q87",
@@ -23672,8 +24636,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "system of government",
+      "evaluation",
+      "pride"
+    ],
+    "domain": "System of Government Evaluation"
   },
   {
     "variable_id": "q88",
@@ -23712,8 +24680,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "system of government",
+      "support",
+      "problem-solving"
+    ],
+    "domain": "System of Government Support"
   },
   {
     "variable_id": "q89",
@@ -23752,8 +24724,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "system of government",
+      "preference",
+      "comparative evaluation"
+    ],
+    "domain": "System of Government Preference"
   },
   {
     "variable_id": "q9",
@@ -23800,8 +24776,13 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation",
+      "temporal comparison"
+    ],
+    "domain": "Economic Perception"
   },
   {
     "variable_id": "q90",
@@ -23840,8 +24821,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "system of government",
+      "evaluation",
+      "change"
+    ],
+    "domain": "System of Government Evaluation"
   },
   {
     "variable_id": "q91",
@@ -23904,8 +24889,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "abuse of power",
+      "protection",
+      "citizen rights"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q92",
@@ -23968,8 +24957,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "corruption",
+      "politics",
+      "evaluation"
+    ],
+    "domain": "Trust in Government"
   },
   {
     "variable_id": "q93",
@@ -24032,8 +25025,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "freedom of assembly",
+      "protest",
+      "participation"
+    ],
+    "domain": "Freedom and Participation"
   },
   {
     "variable_id": "q94",
@@ -24096,8 +25093,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "government",
+      "laws",
+      "religious authorities"
+    ],
+    "domain": "Separation of Powers"
   },
   {
     "variable_id": "q95",
@@ -24160,8 +25161,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "leadership",
+      "wisdom",
+      "collective welfare"
+    ],
+    "domain": "Legitimacy of Power"
   },
   {
     "variable_id": "q96",
@@ -24224,8 +25229,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "rule",
+      "party",
+      "representation"
+    ],
+    "domain": "Ideology of Government"
   },
   {
     "variable_id": "q97",
@@ -24288,8 +25297,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "candidates",
+      "selection",
+      "religious leaders"
+    ],
+    "domain": "Electoral Process"
   },
   {
     "variable_id": "q98",
@@ -24328,8 +25341,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "democracy",
+      "element",
+      "evaluation"
+    ],
+    "domain": "Essential Elements of Democracy"
   },
   {
     "variable_id": "q99",
@@ -24368,8 +25385,12 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown"
+    "concepts": [
+      "democracy",
+      "satisfaction",
+      "evaluation"
+    ],
+    "domain": "Satisfaction with Democracy"
   },
   {
     "variable_id": "se15a_1",
@@ -24385,7 +25406,7 @@
       }
     ],
     "concepts": [],
-    "domain": "Unknown"
+    "domain": "None"
   },
   {
     "variable_id": "se15n_1",

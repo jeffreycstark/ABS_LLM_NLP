@@ -1,0 +1,189 @@
+---
+title: "Data Preparation and Cleaning"
+subtitle: "Asian Barometer - All Waves - Initial Prep Phase for Cleaning"
+author: "Jeffrey Stark"
+date: today
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-fold: show
+    df-print: paged
+---
+
+# Setup
+
+```{r 00-header-info}
+# ==============================================================================
+# ASIAN BAROMETER ALL WAVES - DATA PREPARATION
+# ==============================================================================
+# Purpose: Clean and recode AB data for all waves
+# Countries: 
+# N = ~3000 respondents
+# 
+# Key outputs:
+#   - ab_analysis.rds: Main analysis dataset
+#   - ab_analysis.csv: For sharing/Stata
+#   - Figures: Missing data heatmap
+#   - Tables: Reliability summary
+#
+# Dependencies:
+#   - R/_load_functions.R (reversal and composite functions)
+#   - data/raw/w6_all_countries_merged.rds
+#
+# Last updated: [DATE]
+# ==============================================================================
+```
+
+```{r 01-devtools, eval=interactive(), message=FALSE, warning=FALSE}
+# Development-only tools; skipped during rendering
+suppressPackageStartupMessages({
+  library(lintr)
+  library(goodpractice)
+})
+```
+
+```{r 02-setup, message=FALSE, warning=FALSE}
+# ============================================
+# PACKAGE LOADING (Order matters!)
+# ============================================
+
+# Clear environment to prevent conflicts
+rm(list = ls())
+
+# Set CRAN mirror
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
+# Load packages in CAREFUL ORDER to avoid masking
+# Rule: Load general packages first, specific packages last
+
+# 1. Core tidyverse (loads dplyr, ggplot2, tidyr, etc.)
+library(tidyverse)
+
+# 2. Data import/export
+library(haven)        # For reading SPSS/Stata files
+library(here)         # For project-relative paths
+
+# 3. Data manipulation (reload to ensure dplyr is active)
+library(dplyr)        # Explicit reload to prevent masking
+
+# 4. Labelled data
+library(labelled)     # For handling labeled data
+
+# 5. Visualization and reporting
+library(ggplot2)      # Already in tidyverse, but explicit
+library(gt)           # For tables
+
+# 6. Statistical analysis
+library(psych)        # For factor analysis
+
+# 7. Data quality and cleaning
+library(naniar)       # For missing data visualization
+library(skimr)        # For data summaries
+library(janitor)      # For data cleaning
+
+# ============================================
+# PREVENT COMMON CONFLICTS
+# ============================================
+
+# Ensure we're using dplyr's key functions
+select <- dplyr::select
+filter <- dplyr::filter
+mutate <- dplyr::mutate
+summarise <- dplyr::summarise
+
+# Set global options
+options(scipen = 999)  # Disable scientific notation
+set.seed(123)          # Reproducibility
+
+cat("✓ Packages loaded successfully\n")
+cat("  dplyr::select is active:", exists("select", mode = "function"), "\n")
+
+# ============================================
+# SOURCE CUSTOM FUNCTIONS
+# ============================================
+
+t0 <- Sys.time()
+cat("[setup] Sourcing custom functions at", format(t0), "\n")
+
+source_success <- tryCatch({
+  source(here("R", "_load_functions.R"))
+  TRUE
+}, error = function(e) {
+  cat("❌ Error sourcing R/_load_functions.R:", conditionMessage(e), "\n")
+  FALSE
+})
+
+t1 <- Sys.time()
+cat(sprintf("[setup] Sourcing completed in %.2f sec\n", 
+            as.numeric(difftime(t1, t0, units = "secs"))))
+
+if (!source_success) {
+  stop("Failed to source R/_load_functions.R")
+}
+
+# ============================================
+# VERIFY CUSTOM FUNCTIONS
+# ============================================
+
+# Note: Reversal functions are sourced from R/_load_functions.R
+# - safe_reverse_3pt(): Reverses 1-3 scales
+# - safe_reverse_4pt(): Reverses 1-4 scales  
+# - safe_reverse_5pt(): Reverses 1-5 scales
+# - verify_reversal(): Cross-tabulates original vs recoded
+# - verify_no_invalid_codes(): Checks for invalid codes in variables
+# - create_composite(): Creates mean composites with minimum item requirement
+
+required_functions <- c(
+  "safe_reverse_3pt", 
+  "safe_reverse_4pt", 
+  "safe_reverse_5pt", 
+  "verify_reversal", 
+  "verify_no_invalid_codes", 
+  "create_composite"
+)
+
+cat("[setup] Verifying required functions exist...\n")
+
+exists_fun <- vapply(
+  required_functions,
+  function(f) exists(f, mode = "function", inherits = TRUE),
+  logical(1)
+)
+
+missing_functions <- required_functions[!exists_fun]
+
+if (length(missing_functions) > 0) {
+  stop("❌ Missing required functions: ", 
+       paste(missing_functions, collapse = ", "))
+}
+
+cat("✓ All required functions available\n")
+
+# ============================================
+# FINAL VERIFICATION
+# ============================================
+
+# Test that select() is from dplyr
+test_select <- tryCatch({
+  # This should work if dplyr::select is active
+  mtcars %>% select(mpg, cyl)
+  TRUE
+}, error = function(e) {
+  cat("⚠ Warning: select() may not be from dplyr\n")
+  FALSE
+})
+
+if (test_select) {
+  cat("✓ dplyr::select() working correctly\n")
+}
+
+# Display package versions for reproducibility
+cat("\n=== Key Package Versions ===\n")
+cat("dplyr:", as.character(packageVersion("dplyr")), "\n")
+cat("tidyverse:", as.character(packageVersion("tidyverse")), "\n")
+cat("here:", as.character(packageVersion("here")), "\n")
+
+cat("\n✓ Setup complete!\n")
+```
