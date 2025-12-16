@@ -585,7 +585,7 @@
   },
   {
     "variable_id": "ir010d",
-    "question_text": "Tell us whetherthe interviewee's residence has electricity",
+    "question_text": "Tell us whetherthe interviewee's residence has public water supply Tell us whetherthe interviewee's residence has electricity",
     "value_labels": [
       {
         "value": 1,
@@ -739,7 +739,7 @@
   },
   {
     "variable_id": "q003",
-    "question_text": "What do you think will be the state of our country's economic condition five years from now?",
+    "question_text": "How would you describe the change in the economic condition of our country over the past five years? What do you think will be the state of our country's economic condition five years from now?",
     "value_labels": [
       {
         "value": 1,
@@ -909,7 +909,7 @@
   },
   {
     "variable_id": "q008",
-    "question_text": "How much trust do you have in the national government?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in the national government?",
     "value_labels": [
       {
         "value": 0,
@@ -943,7 +943,7 @@
   },
   {
     "variable_id": "q009",
-    "question_text": "How much trust do you have in political parties?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in political parties?",
     "value_labels": [
       {
         "value": 0,
@@ -977,7 +977,7 @@
   },
   {
     "variable_id": "q010",
-    "question_text": "How much trust do you have in Parliament?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in Parliament?",
     "value_labels": [
       {
         "value": 0,
@@ -1011,7 +1011,7 @@
   },
   {
     "variable_id": "q011",
-    "question_text": "How much trust do you have in civil service?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in civil service?",
     "value_labels": [
       {
         "value": 0,
@@ -1045,7 +1045,7 @@
   },
   {
     "variable_id": "q012",
-    "question_text": "How much trust do you have in the military?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in the military?",
     "value_labels": [
       {
         "value": 0,
@@ -1079,7 +1079,7 @@
   },
   {
     "variable_id": "q013",
-    "question_text": "How much trust do you have in the police?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in the police?",
     "value_labels": [
       {
         "value": 0,
@@ -1113,7 +1113,7 @@
   },
   {
     "variable_id": "q014",
-    "question_text": "How much trust do you have in local government?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in local government?",
     "value_labels": [
       {
         "value": 0,
@@ -1147,7 +1147,7 @@
   },
   {
     "variable_id": "q015",
-    "question_text": "How much trust do you have in newspapers?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in newspapers?",
     "value_labels": [
       {
         "value": 0,
@@ -1181,7 +1181,7 @@
   },
   {
     "variable_id": "q016",
-    "question_text": "How much trust do you have in television?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in television?",
     "value_labels": [
       {
         "value": 0,
@@ -1215,7 +1215,7 @@
   },
   {
     "variable_id": "q017",
-    "question_text": "How much trust do you have in the election commission?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in the election commission?",
     "value_labels": [
       {
         "value": 0,
@@ -1249,7 +1249,7 @@
   },
   {
     "variable_id": "q018",
-    "question_text": "How much trust do you have in non-governmental organizations?",
+    "question_text": "How much trust do you have in the courts? How much trust do you have in non-governmental organizations?",
     "value_labels": [
       {
         "value": 0,
@@ -1283,7 +1283,7 @@
   },
   {
     "variable_id": "q018_1",
-    "question_text": "How much trust do you have in non-governmental organizations? TRUST POLICE STATION",
+    "question_text": "How much trust do you have in the courts? TRUST POLICE STATION",
     "value_labels": [
       {
         "value": 0,
@@ -1317,7 +1317,7 @@
   },
   {
     "variable_id": "q018_2",
-    "question_text": "How much trust do you have in non-governmental organizations? TRUST STATE OWNED ENTERPRISES",
+    "question_text": "How much trust do you have in the courts? TRUST STATE OWNED ENTERPRISES",
     "value_labels": [
       {
         "value": 0,
@@ -1351,7 +1351,7 @@
   },
   {
     "variable_id": "q018_3",
-    "question_text": "How much trust do you have in non-governmental organizations? TRUST PRIVATE ENTERPRISES",
+    "question_text": "How much trust do you have in the courts? TRUST PRIVATE ENTERPRISES",
     "value_labels": [
       {
         "value": 0,
@@ -1385,7 +1385,7 @@
   },
   {
     "variable_id": "q018_4",
-    "question_text": "How much trust do you have in non-governmental organizations? TRUST FOREIGN ENTERPRISES",
+    "question_text": "How much trust do you have in the courts? TRUST FOREIGN ENTERPRISES",
     "value_labels": [
       {
         "value": 0,
@@ -1419,7 +1419,7 @@
   },
   {
     "variable_id": "q018_5",
-    "question_text": "How much trust do you have in non-governmental organizations? TRUST OUR COUNTRY",
+    "question_text": "How much trust do you have in the courts? TRUST OUR COUNTRY",
     "value_labels": [
       {
         "value": 0,
@@ -1479,7 +1479,7 @@
   },
   {
     "variable_id": "q018_7",
-    "question_text": "Local MP(q18_1)",
+    "question_text": "how much trust in radio? Local MP(q18_1)",
     "value_labels": [
       {
         "value": 1,
@@ -1505,7 +1505,7 @@
   },
   {
     "variable_id": "q018_8",
-    "question_text": "The Constitution Court(q18_2)",
+    "question_text": "how much trust in radio? The Constitution Court(q18_2)",
     "value_labels": [
       {
         "value": 1,
@@ -1531,7 +1531,7 @@
   },
   {
     "variable_id": "q018_9",
-    "question_text": "The Corruption Commission(q18_3)",
+    "question_text": "how much trust in radio? The Corruption Commission(q18_3)",
     "value_labels": [
       {
         "value": 1,
@@ -1595,7 +1595,7 @@
   },
   {
     "variable_id": "q023",
-    "question_text": "How often do you discuss politics?",
+    "question_text": "How frequently do you participate? How often do you discuss politics?",
     "value_labels": [
       {
         "value": 1,
@@ -1689,7 +1689,7 @@
   },
   {
     "variable_id": "q026",
-    "question_text": "I have some friends with influence, so I don't have to worry too much if I get into a tight spot",
+    "question_text": "I have enough friends and connections so that I can get help if I need it I have some friends with influence, so I don't have to worry too much if I get into a tight spot",
     "value_labels": [
       {
         "value": 1,
@@ -1921,7 +1921,7 @@
   },
   {
     "variable_id": "q030",
-    "question_text": "Did you try to persuade others to vote for a certain candidate or party?",
+    "question_text": "Did you attend a campaign meeting or rally? Did you try to persuade others to vote for a certain candidate or party?",
     "value_labels": [
       {
         "value": 1,
@@ -1947,7 +1947,7 @@
   },
   {
     "variable_id": "q031",
-    "question_text": "Did you do anything else to help or show your support for a party or candidate running in the election?",
+    "question_text": "Did you attend a campaign meeting or rally? Did you do anything else to help or show your support for a party or candidate running in the election?",
     "value_labels": [
       {
         "value": 1,
@@ -1973,7 +1973,7 @@
   },
   {
     "variable_id": "q032",
-    "question_text": "Asked to vote for a particular candidate?_FAMILY MEMBER/RELATIVE",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_FAMILY MEMBER/RELATIVE",
     "value_labels": [
       {
         "value": 1,
@@ -1999,7 +1999,7 @@
   },
   {
     "variable_id": "q033",
-    "question_text": "Asked following personally ask you to vote for a particular candidate?_SENIORS IN A CLAN OR EXTENDED FAMILY",
+    "question_text": "Did you attend a campaign meeting or rally? Asked following personally ask you to vote for a particular candidate?_SENIORS IN A CLAN OR EXTENDED FAMILY",
     "value_labels": [
       {
         "value": 1,
@@ -2025,7 +2025,7 @@
   },
   {
     "variable_id": "q034",
-    "question_text": "Asked to vote for a particular candidate?_NEIGHBOR/FRIEND",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_NEIGHBOR/FRIEND",
     "value_labels": [
       {
         "value": 1,
@@ -2051,7 +2051,7 @@
   },
   {
     "variable_id": "q035",
-    "question_text": "Asked to vote for a particular candidate?_COMMUNITY LEADERS",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_COMMUNITY LEADERS",
     "value_labels": [
       {
         "value": 1,
@@ -2077,7 +2077,7 @@
   },
   {
     "variable_id": "q036",
-    "question_text": "Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL",
     "value_labels": [
       {
         "value": 1,
@@ -2103,7 +2103,7 @@
   },
   {
     "variable_id": "q037",
-    "question_text": "Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
     "value_labels": [
       {
         "value": 1,
@@ -2129,7 +2129,7 @@
   },
   {
     "variable_id": "q038",
-    "question_text": "Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
     "value_labels": [
       {
         "value": 1,
@@ -2155,7 +2155,7 @@
   },
   {
     "variable_id": "q039",
-    "question_text": "Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
     "value_labels": [
       {
         "value": 1,
@@ -2181,7 +2181,7 @@
   },
   {
     "variable_id": "q040",
-    "question_text": "Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
     "value_labels": [
       {
         "value": 1,
@@ -2207,7 +2207,7 @@
   },
   {
     "variable_id": "q041",
-    "question_text": "Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
     "value_labels": [
       {
         "value": 1,
@@ -2233,7 +2233,7 @@
   },
   {
     "variable_id": "q042",
-    "question_text": "Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW",
     "value_labels": [
       {
         "value": 1,
@@ -2259,7 +2259,7 @@
   },
   {
     "variable_id": "q043",
-    "question_text": "Asked to vote for a particular candidate?_OTHERS",
+    "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OTHERS",
     "value_labels": [
       {
         "value": 1,
@@ -2285,7 +2285,7 @@
   },
   {
     "variable_id": "q044",
-    "question_text": "Influential_FAMILY MEMBER/RELATIVE",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_FAMILY MEMBER/RELATIVE",
     "value_labels": [
       {
         "value": 1,
@@ -2311,7 +2311,7 @@
   },
   {
     "variable_id": "q045",
-    "question_text": "Influential_SENIORS IN A CLAN OR EXTENDED FAMILY",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_SENIORS IN A CLAN OR EXTENDED FAMILY",
     "value_labels": [
       {
         "value": 1,
@@ -2337,7 +2337,7 @@
   },
   {
     "variable_id": "q046",
-    "question_text": "Influential_NEIGHBOR/FRIEND",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_NEIGHBOR/FRIEND",
     "value_labels": [
       {
         "value": 1,
@@ -2363,7 +2363,7 @@
   },
   {
     "variable_id": "q047",
-    "question_text": "Influential_COMMUNITY LEADERS",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_COMMUNITY LEADERS",
     "value_labels": [
       {
         "value": 1,
@@ -2389,7 +2389,7 @@
   },
   {
     "variable_id": "q048",
-    "question_text": "Influential_SUPERIOR AT WORK/SCHOOL",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_SUPERIOR AT WORK/SCHOOL",
     "value_labels": [
       {
         "value": 1,
@@ -2415,7 +2415,7 @@
   },
   {
     "variable_id": "q049",
-    "question_text": "Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
     "value_labels": [
       {
         "value": 1,
@@ -2441,7 +2441,7 @@
   },
   {
     "variable_id": "q050",
-    "question_text": "Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
     "value_labels": [
       {
         "value": 1,
@@ -2467,7 +2467,7 @@
   },
   {
     "variable_id": "q051",
-    "question_text": "Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
     "value_labels": [
       {
         "value": 1,
@@ -2493,7 +2493,7 @@
   },
   {
     "variable_id": "q052",
-    "question_text": "Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
     "value_labels": [
       {
         "value": 1,
@@ -2519,7 +2519,7 @@
   },
   {
     "variable_id": "q053",
-    "question_text": "Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
     "value_labels": [
       {
         "value": 1,
@@ -2545,7 +2545,7 @@
   },
   {
     "variable_id": "q054",
-    "question_text": "Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW",
     "value_labels": [
       {
         "value": 1,
@@ -2571,7 +2571,7 @@
   },
   {
     "variable_id": "q055",
-    "question_text": "Influential_OTHERS",
+    "question_text": "Did you attend a campaign meeting or rally? Influential_OTHERS",
     "value_labels": [
       {
         "value": 1,
@@ -2661,7 +2661,7 @@
   },
   {
     "variable_id": "q057a",
-    "question_text": "How often do you follow news about politics in the daily newspaper, television, and radio?",
+    "question_text": "How often do you follow news about politics? How often do you follow news about politics in the daily newspaper, television, and radio?",
     "value_labels": [
       {
         "value": 2,
@@ -2695,7 +2695,7 @@
   },
   {
     "variable_id": "q058",
-    "question_text": "How often do you follow news about politics in the daily newspaper?",
+    "question_text": "How often do you follow news about politics? How often do you follow news about politics in the daily newspaper?",
     "value_labels": [
       {
         "value": 2,
@@ -2729,7 +2729,7 @@
   },
   {
     "variable_id": "q059",
-    "question_text": "How often do you follow news about politics on television?",
+    "question_text": "How often do you follow news about politics? How often do you follow news about politics on television?",
     "value_labels": [
       {
         "value": 2,
@@ -2763,7 +2763,7 @@
   },
   {
     "variable_id": "q060",
-    "question_text": "How often do you follow news about politics on the radio?",
+    "question_text": "How often do you follow news about politics? How often do you follow news about politics on the radio?",
     "value_labels": [
       {
         "value": 2,
@@ -3193,7 +3193,7 @@
   },
   {
     "variable_id": "q065",
-    "question_text": "When hiring someone, even if a stranger is more qualified, the opportunity should still be given to relatives and friend",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? When hiring someone, even if a stranger is more qualified, the opportunity should still be given to relatives and friend",
     "value_labels": [
       {
         "value": 1,
@@ -3223,7 +3223,7 @@
   },
   {
     "variable_id": "q066",
-    "question_text": "When one has a conflict with a neighbor, the best way to deal with it is to accommodate the other person?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? When one has a conflict with a neighbor, the best way to deal with it is to accommodate the other person?",
     "value_labels": [
       {
         "value": 1,
@@ -3253,7 +3253,7 @@
   },
   {
     "variable_id": "q067",
-    "question_text": "Wealth and poverty, success and failure are all determined by fate?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? Wealth and poverty, success and failure are all determined by fate?",
     "value_labels": [
       {
         "value": 1,
@@ -3283,7 +3283,7 @@
   },
   {
     "variable_id": "q068",
-    "question_text": "A person should not insist on his own opinion if his co-workers disagree with him?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? A person should not insist on his own opinion if his co-workers disagree with him?",
     "value_labels": [
       {
         "value": 1,
@@ -3313,7 +3313,7 @@
   },
   {
     "variable_id": "q069",
-    "question_text": "For the sake of the family, the individual should put his personal interests second?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? For the sake of the family, the individual should put his personal interests second?",
     "value_labels": [
       {
         "value": 1,
@@ -3343,7 +3343,7 @@
   },
   {
     "variable_id": "q070",
-    "question_text": "A man will lose face if he works under a female supervisor?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? A man will lose face if he works under a female supervisor?",
     "value_labels": [
       {
         "value": 1,
@@ -3373,7 +3373,7 @@
   },
   {
     "variable_id": "q071",
-    "question_text": "If there is a quarrel, we should ask an elder to resolve the dispute?",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? If there is a quarrel, we should ask an elder to resolve the dispute?",
     "value_labels": [
       {
         "value": 1,
@@ -3403,7 +3403,7 @@
   },
   {
     "variable_id": "q072",
-    "question_text": "When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband sh",
+    "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband sh",
     "value_labels": [
       {
         "value": 1,
@@ -3463,7 +3463,7 @@
   },
   {
     "variable_id": "q074",
-    "question_text": "Contacted officials to express your opinions at higher level?",
+    "question_text": "Contacted any government official to express your opinions? Contacted officials to express your opinions at higher level?",
     "value_labels": [
       {
         "value": 1,
@@ -3493,7 +3493,7 @@
   },
   {
     "variable_id": "q075",
-    "question_text": "contacted elected legislative representatives at any level?",
+    "question_text": "Contacted any government official to express your opinions? contacted elected legislative representatives at any level?",
     "value_labels": [
       {
         "value": 1,
@@ -3523,7 +3523,7 @@
   },
   {
     "variable_id": "q076",
-    "question_text": "Contacted political parties or other political organizations?",
+    "question_text": "Contacted any government official to express your opinions? Contacted political parties or other political organizations?",
     "value_labels": [
       {
         "value": 1,
@@ -3553,7 +3553,7 @@
   },
   {
     "variable_id": "q077",
-    "question_text": "Contacted non-government/civil society organizations?",
+    "question_text": "Contacted any government official to express your opinions? Contacted non-government/civil society organizations?",
     "value_labels": [
       {
         "value": 1,
@@ -3583,7 +3583,7 @@
   },
   {
     "variable_id": "q078",
-    "question_text": "Contacted media to comment on something?",
+    "question_text": "Contacted any government official to express your opinions? Contacted media to comment on something?",
     "value_labels": [
       {
         "value": 1,
@@ -3613,7 +3613,7 @@
   },
   {
     "variable_id": "q079",
-    "question_text": "Demonstrated, striken, or sat-in for something?",
+    "question_text": "Contacted any government official to express your opinions? Demonstrated, striken, or sat-in for something?",
     "value_labels": [
       {
         "value": 1,
@@ -3643,7 +3643,7 @@
   },
   {
     "variable_id": "q080",
-    "question_text": "Contacted other people?",
+    "question_text": "Contacted any government official to express your opinions? Contacted other people?",
     "value_labels": [
       {
         "value": 1,
@@ -3699,7 +3699,7 @@
   },
   {
     "variable_id": "q082",
-    "question_text": "Did you do this alone or with others?_contacted officials at higher level",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted officials at higher level",
     "value_labels": [
       {
         "value": 1,
@@ -3725,7 +3725,7 @@
   },
   {
     "variable_id": "q083",
-    "question_text": "Did you do this alone or with others?_contacted elected legislative representatives at any level",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted elected legislative representatives at any level",
     "value_labels": [
       {
         "value": 1,
@@ -3751,7 +3751,7 @@
   },
   {
     "variable_id": "q084",
-    "question_text": "Did you do this alone or with others?_contacted political parties or other political organizations",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted political parties or other political organizations",
     "value_labels": [
       {
         "value": 1,
@@ -3777,7 +3777,7 @@
   },
   {
     "variable_id": "q085",
-    "question_text": "Did you do this alone or with others?_ contacted non-government/civil society organizations",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_ contacted non-government/civil society organizations",
     "value_labels": [
       {
         "value": 1,
@@ -3803,7 +3803,7 @@
   },
   {
     "variable_id": "q086",
-    "question_text": "Did you do this alone or with others?_contacted media",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted media",
     "value_labels": [
       {
         "value": 1,
@@ -3829,7 +3829,7 @@
   },
   {
     "variable_id": "q087",
-    "question_text": "Did you do this alone or with others?_demonstration, strike, sit-in",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_demonstration, strike, sit-in",
     "value_labels": [
       {
         "value": 1,
@@ -3855,7 +3855,7 @@
   },
   {
     "variable_id": "q088",
-    "question_text": "Did you do this alone or with others?_contacted other people",
+    "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted other people",
     "value_labels": [
       {
         "value": 1,
@@ -3881,7 +3881,7 @@
   },
   {
     "variable_id": "q089",
-    "question_text": "Gift or dinner_contacted government",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted government",
     "value_labels": [
       {
         "value": 1,
@@ -3907,7 +3907,7 @@
   },
   {
     "variable_id": "q090",
-    "question_text": "Gift or dinner_contacted officials at highter level",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted officials at highter level",
     "value_labels": [
       {
         "value": 1,
@@ -3933,7 +3933,7 @@
   },
   {
     "variable_id": "q091",
-    "question_text": "Gift or dinner_contacted elected legislative representatives",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted elected legislative representatives",
     "value_labels": [
       {
         "value": 1,
@@ -3959,7 +3959,7 @@
   },
   {
     "variable_id": "q092",
-    "question_text": "Gift or dinner_contacted political parties or other political organizations",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted political parties or other political organizations",
     "value_labels": [
       {
         "value": 1,
@@ -3985,7 +3985,7 @@
   },
   {
     "variable_id": "q093",
-    "question_text": "Gift or dinner_contacted non-goverment/civil society organizations",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted non-goverment/civil society organizations",
     "value_labels": [
       {
         "value": 1,
@@ -4011,7 +4011,7 @@
   },
   {
     "variable_id": "q094",
-    "question_text": "Gift or dinner_contacted media",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted media",
     "value_labels": [
       {
         "value": 1,
@@ -4037,7 +4037,7 @@
   },
   {
     "variable_id": "q095",
-    "question_text": "Gift or dinner_demonstration, strike, sit-in",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_demonstration, strike, sit-in",
     "value_labels": [
       {
         "value": 1,
@@ -4063,7 +4063,7 @@
   },
   {
     "variable_id": "q096",
-    "question_text": "Gift or dinner_contacted other people",
+    "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted other people",
     "value_labels": [
       {
         "value": 1,
@@ -6915,7 +6915,7 @@
   },
   {
     "variable_id": "q100",
-    "question_text": "Where would you place our country under the present government?",
+    "question_text": "Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? Where would you place our country under the present government?",
     "value_labels": [
       {
         "value": 1,
@@ -6941,7 +6941,7 @@
   },
   {
     "variable_id": "q101",
-    "question_text": "To what extent would you want our country to be democratic now?",
+    "question_text": "Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? To what extent would you want our country to be democratic now?",
     "value_labels": [
       {
         "value": 1,
@@ -6967,7 +6967,7 @@
   },
   {
     "variable_id": "q102",
-    "question_text": "Where do you expect our country to be in five years?",
+    "question_text": "Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? Where do you expect our country to be in five years?",
     "value_labels": [
       {
         "value": 1,
@@ -7087,7 +7087,7 @@
   },
   {
     "variable_id": "q106",
-    "question_text": "Everyone is treated equally by the government- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? Everyone is treated equally by the government- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7125,7 +7125,7 @@
   },
   {
     "variable_id": "q107",
-    "question_text": "People like me can have an influence on government- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? People like me can have an influence on government- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7163,7 +7163,7 @@
   },
   {
     "variable_id": "q108",
-    "question_text": "Corruption in politics and government is under control- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? Corruption in politics and government is under control- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7201,7 +7201,7 @@
   },
   {
     "variable_id": "q109",
-    "question_text": "The gap between the rich and the poor have narrowed- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? The gap between the rich and the poor have narrowed- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7239,7 +7239,7 @@
   },
   {
     "variable_id": "q110",
-    "question_text": "Preventing crime and maintaining order- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? Preventing crime and maintaining order- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7277,7 +7277,7 @@
   },
   {
     "variable_id": "q111",
-    "question_text": "Economic development- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? Economic development- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7315,7 +7315,7 @@
   },
   {
     "variable_id": "q112",
-    "question_text": "Judges and courts are free from political interference- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? Judges and courts are free from political interference- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7353,7 +7353,7 @@
   },
   {
     "variable_id": "q113",
-    "question_text": "You can join any organization you like- is better than before?",
+    "question_text": "Everyone is free to say what they think- is better than before? You can join any organization you like- is better than before?",
     "value_labels": [
       {
         "value": 1,
@@ -7421,7 +7421,7 @@
   },
   {
     "variable_id": "q115",
-    "question_text": "How widespread corruption in the national government?",
+    "question_text": "How widespread corruption in your local/municipal government? How widespread corruption in the national government?",
     "value_labels": [
       {
         "value": 1,
@@ -7645,7 +7645,7 @@
   },
   {
     "variable_id": "q122",
-    "question_text": "No opposition party should be allowed to compete for power",
+    "question_text": "We should get rid of parliament and elections and have a strong leader decide things No opposition party should be allowed to compete for power",
     "value_labels": [
       {
         "value": 1,
@@ -7675,7 +7675,7 @@
   },
   {
     "variable_id": "q123",
-    "question_text": "The military should come in to govern the country",
+    "question_text": "We should get rid of parliament and elections and have a strong leader decide things The military should come in to govern the country",
     "value_labels": [
       {
         "value": 1,
@@ -7705,7 +7705,7 @@
   },
   {
     "variable_id": "q124",
-    "question_text": "We should get rid of parliament and elections and have the experts decide everything",
+    "question_text": "We should get rid of parliament and elections and have a strong leader decide things We should get rid of parliament and elections and have the experts decide everything",
     "value_labels": [
       {
         "value": 1,
@@ -7735,7 +7735,7 @@
   },
   {
     "variable_id": "q125",
-    "question_text": "It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi",
+    "question_text": "We should get rid of parliament and elections and have a strong leader decide things It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi",
     "value_labels": [
       {
         "value": 1,
@@ -7825,7 +7825,7 @@
   },
   {
     "variable_id": "q128",
-    "question_text": "The nation is run by a powerful few and ordinary citizens cannot do much about it",
+    "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on The nation is run by a powerful few and ordinary citizens cannot do much about it",
     "value_labels": [
       {
         "value": 1,
@@ -7855,7 +7855,7 @@
   },
   {
     "variable_id": "q129",
-    "question_text": "People like me don't have any influence over what the government does",
+    "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on People like me don't have any influence over what the government does",
     "value_labels": [
       {
         "value": 1,
@@ -7885,7 +7885,7 @@
   },
   {
     "variable_id": "q130",
-    "question_text": "Our form of government is still the best for us",
+    "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on Our form of government is still the best for us",
     "value_labels": [
       {
         "value": 1,
@@ -7915,7 +7915,7 @@
   },
   {
     "variable_id": "q131",
-    "question_text": "You can generally trust the people who run our government to do what is right",
+    "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on You can generally trust the people who run our government to do what is right",
     "value_labels": [
       {
         "value": 1,
@@ -8005,7 +8005,7 @@
   },
   {
     "variable_id": "q134",
-    "question_text": "The government should decide whether certain ideas should be allowed to be discussed in society",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions The government should decide whether certain ideas should be allowed to be discussed in society",
     "value_labels": [
       {
         "value": 1,
@@ -8035,7 +8035,7 @@
   },
   {
     "variable_id": "q135",
-    "question_text": "Harmony of the community will be disrupted if people organize lots of groups",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions Harmony of the community will be disrupted if people organize lots of groups",
     "value_labels": [
       {
         "value": 1,
@@ -8065,7 +8065,7 @@
   },
   {
     "variable_id": "q136",
-    "question_text": "When judges decide important cases, they should accept the view of the executive branch",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions When judges decide important cases, they should accept the view of the executive branch",
     "value_labels": [
       {
         "value": 1,
@@ -8095,7 +8095,7 @@
   },
   {
     "variable_id": "q137",
-    "question_text": "If the government is constantly checked by the legislature, it cannot possibly accomplish great things",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions If the government is constantly checked by the legislature, it cannot possibly accomplish great things",
     "value_labels": [
       {
         "value": 1,
@@ -8125,7 +8125,7 @@
   },
   {
     "variable_id": "q138",
-    "question_text": "If we have political leaders who are morally upright, we can let them decide everything",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions If we have political leaders who are morally upright, we can let them decide everything",
     "value_labels": [
       {
         "value": 1,
@@ -8155,7 +8155,7 @@
   },
   {
     "variable_id": "q139",
-    "question_text": "If people have too many different ways of thinking, society will be chaotic",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions If people have too many different ways of thinking, society will be chaotic",
     "value_labels": [
       {
         "value": 1,
@@ -8185,7 +8185,7 @@
   },
   {
     "variable_id": "q140",
-    "question_text": "The government should maintain ownership of major state-owned enterprises",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions The government should maintain ownership of major state-owned enterprises",
     "value_labels": [
       {
         "value": 1,
@@ -8215,7 +8215,7 @@
   },
   {
     "variable_id": "q141",
-    "question_text": "The national government should have more authority over local decisions than it does now",
+    "question_text": "Government leaders are like the head of a family; we should all follow their decisions The national government should have more authority over local decisions than it does now",
     "value_labels": [
       {
         "value": 1,
@@ -8305,7 +8305,7 @@
   },
   {
     "variable_id": "q144",
-    "question_text": "The state is like a big machine and the individual is but a small cog, with no independent status",
+    "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The state is like a big machine and the individual is but a small cog, with no independent status",
     "value_labels": [
       {
         "value": 1,
@@ -8335,7 +8335,7 @@
   },
   {
     "variable_id": "q145",
-    "question_text": "The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc",
+    "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc",
     "value_labels": [
       {
         "value": 1,
@@ -8365,7 +8365,7 @@
   },
   {
     "variable_id": "q146",
-    "question_text": "If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa",
+    "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa",
     "value_labels": [
       {
         "value": 1,
@@ -8455,7 +8455,7 @@
   },
   {
     "variable_id": "q148",
-    "question_text": "As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the",
+    "question_text": "A political leader should not tolerate the views of those who challenge his political ideals As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the",
     "value_labels": [
       {
         "value": 1,

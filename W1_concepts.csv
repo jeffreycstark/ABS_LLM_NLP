@@ -12,200 +12,200 @@ ir002b,Unknown,,Interviewer_s age
 ir003,Unknown,,Presence of others other than the respondent while interviewing
 ir004,Unknown,,Has the respondent ever refused to be interviewed during the whole process?
 ir005,Unknown,,Has the respondent ever felt impatient during the interview?
-ir006,Interview Quality,"respondent behavior, interview experience, cooperation level",How cooperative was the respondent during the interview?
+ir006,Interview Quality,"cooperation, respondent behavior, interview process",How cooperative was the respondent during the interview?
 ir007_1,Interview Metadata,"interview date, temporal information, month",date of interview: month
 ir007_2,Interview Metadata,"interview date, temporal information, day",date of interview: day
 ir007_3,Interview Metadata,"interview date, temporal information, year",date of interview: year
 ir009,Interview Process,"interpreter assistance, language support, interview facilitation",Was the interview conducted with the assisance of an interpreter
 ir010a,Infrastructure Quality,"road condition, transportation infrastructure, residence accessibility",What is the condition of the road leading to interview's residence
-ir010b,Environmental Sanitation,"public area cleanliness, sanitary condition, neighborhood environment",How do rate the sanitary condition in the public area in the interviewee's nearby neighborhood
-ir010c,Utility Access,"public water supply, residence amenities, water accessibility",Tell us whetherthe interviewee's residence has public water supply
-ir010d,Utility Access,"electricity availability, residence amenities, energy accessibility",Tell us whetherthe interviewee's residence has electricity
-ir010e,Transportation Accessibility,"public transportation proximity, walking distance, residence accessibility",Walking distance between the nearest public transportation stop and the respondent's house
-pgnum,Demographic Information,"group size, private group, demographic characteristic",number of private group
+ir010b,Environmental Sanitation,"public sanitation, neighborhood cleanliness, health environment",How do rate the sanitary condition in the public area in the interviewee's nearby neighborhood
+ir010c,Service Accessibility,"public water supply, residence amenities, basic services",Tell us whetherthe interviewee's residence has public water supply
+ir010d,Service Accessibility,"public water supply, electricity access, residence amenities, basic services",Tell us whetherthe interviewee's residence has public water supply Tell us whetherthe interviewee's residence has electricity
+ir010e,Transportation Accessibility,"public transportation, walking distance, residence accessibility",Walking distance between the nearest public transportation stop and the respondent's house
+pgnum,Unknown,,number of private group
 q001,Economic Perception,"economic condition, national level, current evaluation",How would you rate the overall economic condition of our country today?
 q002,Economic Perception,"economic condition, national level, temporal comparison, change evaluation",How would you describe the change in the economic condition of our country over the past five years?
-q003,Economic Perception,"economic condition, national level, future expectation, projection",What do you think will be the state of our country's economic condition five years from now?
-q004,Economic Perception,"economic situation, personal level, current evaluation, family","As for your own family, how do you rate your economic situation today?"
-q005,Economic Perception,"economic situation, personal level, temporal comparison, change evaluation, family",How would you compare the current economic condition of your family with what it was five years ago?
-q006,Economic Perception,"economic situation, personal level, future expectation, projection, family",What do you think the economic situation of your family will be five years from now?
-q007,Trust in Institutions,"trust, courts, institutional trust",How much trust do you have in the courts?
-q008,Trust in Government,"trust, national government, government trust",How much trust do you have in the national government?
-q009,Trust in Institutions,"trust, political parties, institutional trust",How much trust do you have in political parties?
-q010,Trust in Government,"trust, parliament, institutional confidence",How much trust do you have in Parliament?
-q011,Trust in Government,"trust, civil service, institutional confidence",How much trust do you have in civil service?
-q012,Trust in Institutions,"trust, military, national security",How much trust do you have in the military?
-q013,Trust in Law Enforcement,"trust, police, public safety",How much trust do you have in the police?
-q014,Trust in Government,"trust, local government, governance",How much trust do you have in local government?
-q015,Trust in Media,"trust, newspapers, media credibility",How much trust do you have in newspapers?
-q016,Trust in Media,"trust, television, media credibility",How much trust do you have in television?
-q017,Trust in Institutions,"trust, election commission, democratic process",How much trust do you have in the election commission?
-q018,Trust in Non-Governmental Organizations,"trust, non-governmental organizations, civil society",How much trust do you have in non-governmental organizations?
-q018_1,Trust in Law Enforcement,"trust, police station, public safety",How much trust do you have in non-governmental organizations? TRUST POLICE STATION
-q018_2,Trust in Institutions,"trust, non-governmental organizations, state owned enterprises",How much trust do you have in non-governmental organizations? TRUST STATE OWNED ENTERPRISES
-q018_3,Trust in Institutions,"trust, non-governmental organizations, private enterprises",How much trust do you have in non-governmental organizations? TRUST PRIVATE ENTERPRISES
-q018_4,Trust in Institutions,"trust, non-governmental organizations, foreign enterprises",How much trust do you have in non-governmental organizations? TRUST FOREIGN ENTERPRISES
-q018_5,National Pride,"trust, national identity, patriotism",How much trust do you have in non-governmental organizations? TRUST OUR COUNTRY
-q018_6,Trust in Media,"trust, media, radio",how much trust in radio?
-q018_7,Trust in Government,"trust, local government, representative",Local MP(q18_1)
-q018_8,Trust in Judiciary,"trust, judicial system, constitution",The Constitution Court(q18_2)
-q018_9,Trust in Institutions,"trust, anti-corruption, accountability",The Corruption Commission(q18_3)
-q022,Civic Engagement,"participation, frequency, civic activity",How frequently do you participate?
-q023,Political Engagement,"discussion, politics, frequency",How often do you discuss politics?
+q003,Economic Perception,"economic condition, national level, temporal comparison, change evaluation, future expectation",How would you describe the change in the economic condition of our country over the past five years? What do you think will be the state of our country's economic condition five years from now?
+q004,Economic Perception,"economic situation, personal level, current evaluation","As for your own family, how do you rate your economic situation today?"
+q005,Economic Perception,"economic situation, personal level, temporal comparison, change evaluation",How would you compare the current economic condition of your family with what it was five years ago?
+q006,Economic Perception,"economic situation, personal level, future expectation",What do you think the economic situation of your family will be five years from now?
+q007,Trust in Institutions,"trust, courts, institutional evaluation",How much trust do you have in the courts?
+q008,Trust in Institutions,"trust, courts, national government, institutional evaluation, comparative evaluation",How much trust do you have in the courts? How much trust do you have in the national government?
+q009,Trust in Institutions,"trust, courts, political parties, institutional evaluation, comparative evaluation",How much trust do you have in the courts? How much trust do you have in political parties?
+q010,Trust in Government,"trust, institutional evaluation, courts, parliament",How much trust do you have in the courts? How much trust do you have in Parliament?
+q011,Trust in Government,"trust, institutional evaluation, courts, civil service",How much trust do you have in the courts? How much trust do you have in civil service?
+q012,Trust in Government,"trust, institutional evaluation, courts, military",How much trust do you have in the courts? How much trust do you have in the military?
+q013,Trust in Government,"trust, institutional evaluation, courts, police",How much trust do you have in the courts? How much trust do you have in the police?
+q014,Trust in Government,"trust, institutional evaluation, courts, local government",How much trust do you have in the courts? How much trust do you have in local government?
+q015,Trust in Media,"trust, institutional evaluation, courts, newspapers",How much trust do you have in the courts? How much trust do you have in newspapers?
+q016,Trust in Media,"trust, institutional evaluation, courts, television",How much trust do you have in the courts? How much trust do you have in television?
+q017,Trust in Government,"trust, institutional evaluation, courts, election commission",How much trust do you have in the courts? How much trust do you have in the election commission?
+q018,Trust in Non-Governmental Organizations,"trust, institutional evaluation, courts, non-governmental organizations",How much trust do you have in the courts? How much trust do you have in non-governmental organizations?
+q018_1,Trust in Government,"trust, institutional evaluation, courts, police station",How much trust do you have in the courts? TRUST POLICE STATION
+q018_2,Trust in Institutions,"trust, courts, state owned enterprises",How much trust do you have in the courts? TRUST STATE OWNED ENTERPRISES
+q018_3,Trust in Institutions,"trust, courts, private enterprises",How much trust do you have in the courts? TRUST PRIVATE ENTERPRISES
+q018_4,Trust in Institutions,"trust, courts, foreign enterprises",How much trust do you have in the courts? TRUST FOREIGN ENTERPRISES
+q018_5,Trust in Institutions,"trust, courts, national institutions",How much trust do you have in the courts? TRUST OUR COUNTRY
+q018_6,Trust in Media,"trust, radio",how much trust in radio?
+q018_7,Trust in Representatives,"trust, radio, local mp",how much trust in radio? Local MP(q18_1)
+q018_8,Trust in Institutions,"trust, radio, constitution court",how much trust in radio? The Constitution Court(q18_2)
+q018_9,Trust in Institutions,"trust, radio, corruption commission",how much trust in radio? The Corruption Commission(q18_3)
+q022,Civic Engagement,"participation, frequency",How frequently do you participate?
+q023,Political Engagement,"participation, discussion, politics",How frequently do you participate? How often do you discuss politics?
 q024,Trust in Others,"trust, social relationships, generalized trust",most people can be trusted??
 q025,Social Support,"social connections, friendship, support network",I have enough friends and connections so that I can get help if I need it
-q026,Social Influence,"social influence, friendship, protection","I have some friends with influence, so I don't have to worry too much if I get into a tight spot"
+q026,Social Capital,"social influence, social connections, social support","I have enough friends and connections so that I can get help if I need it I have some friends with influence, so I don't have to worry too much if I get into a tight spot"
 q027,Electoral Participation,"voting behavior, election participation, civic engagement",Have you participated in last election?
 q028,Political Affiliation,"party affiliation, voting choice, political preference",Which party did you vote for?
-q029,Campaign Engagement,"campaign participation, political rally, election event",Did you attend a campaign meeting or rally?
-q030,Political Activism,"political persuasion, voter influence, campaign support",Did you try to persuade others to vote for a certain candidate or party?
-q031,Campaign Support,"campaign assistance, party support, election help",Did you do anything else to help or show your support for a party or candidate running in the election?
-q032,Family Influence,"family influence, relative persuasion, voting pressure",Asked to vote for a particular candidate?_FAMILY MEMBER/RELATIVE
-q033,Social Network Influence,"social network influence, clan influence, extended family pressure",Asked following personally ask you to vote for a particular candidate?_SENIORS IN A CLAN OR EXTENDED FAMILY
-q034,Political Influence,"voting influence, social network, neighbor/friend",Asked to vote for a particular candidate?_NEIGHBOR/FRIEND
-q035,Political Influence,"voting influence, community leaders, social pressure",Asked to vote for a particular candidate?_COMMUNITY LEADERS
-q036,Political Influence,"voting influence, workplace, hierarchical pressure",Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL
-q037,Political Influence,"voting influence, workplace, economic dependence",Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR
-q038,Political Influence,"voting influence, organizational affiliation, group membership",Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO
-q039,Political Influence,"voting influence, government official, personal connection",Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY
-q040,Political Influence,"voting influence, government official, impersonal pressure",Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW
-q041,Political Influence,"voting influence, candidate/party activist, personal connection",Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY
-q042,Political Influence,"voting influence, candidate/party activist, impersonal pressure",Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW
-q043,Political Influence,"voting influence, other sources, unspecified pressure",Asked to vote for a particular candidate?_OTHERS
-q044,Social Influence,"family influence, relative, personal relationship",Influential_FAMILY MEMBER/RELATIVE
-q045,Social Influence,"clan influence, extended family, seniority",Influential_SENIORS IN A CLAN OR EXTENDED FAMILY
-q046,Social Influence,"neighborhood influence, friendship, social network",Influential_NEIGHBOR/FRIEND
-q047,Social Influence,"community leadership, influence, social status",Influential_COMMUNITY LEADERS
-q048,Workplace Influence,"workplace influence, superiority, hierarchy",Influential_SUPERIOR AT WORK/SCHOOL
-q049,Workplace Influence,"organizational influence, ownership, authority",Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR
-q050,Organizational Influence,"organizational membership, influence, affiliation",Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO
-q051,Government Influence,"government influence, personal connection, familiarity",Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY
-q052,Government Influence,"government influence, impersonal, distant",Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW
-q053,Political Influence,"political influence, personal connection, activism",Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY
-q054,Political Influence,"influence, candidate, party activist, acquaintance",Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW
-q055,Political Influence,"influence, others, political actors",Influential_OTHERS
-q056,Political Engagement,"interest, politics, self-assessment",How interested would you say you are interested in politics?
-q057,Political Information,"news consumption, politics, frequency",How often do you follow news about politics?
-q057a,Political Information,"news consumption, politics, media channels, frequency","How often do you follow news about politics in the daily newspaper, television, and radio?"
-q058,Political Information,"news consumption, politics, newspaper, frequency",How often do you follow news about politics in the daily newspaper?
-q059,Political Information,"news consumption, politics, television, frequency",How often do you follow news about politics on television?
-q060,Political Information,"news consumption, politics, radio, frequency",How often do you follow news about politics on the radio?
-q061,Government Impact,"government policies, daily life, perceived impact",How much impact do you feel government policies have on your daily life?
-q062,Party Affiliation,"party identification, closest party, political affiliation",party feel closest to
-q063,Social Relationships,"closeness, interpersonal relationship, social bond",closeness
-q064,Family Obligations,"filial piety, parental authority, obedience","Even if parents' demands are unreasonable, children still should do what they ask?"
-q065,Social Networks,"nepotism, social favoritism, job opportunity","When hiring someone, even if a stranger is more qualified, the opportunity should still be given to relatives and friend"
-q066,Conflict Resolution,"accommodation, conflict management, neighborly relations","When one has a conflict with a neighbor, the best way to deal with it is to accommodate the other person?"
-q067,Fatalism,"fate, destiny, socioeconomic status","Wealth and poverty, success and failure are all determined by fate?"
-q068,Workplace Harmony,"conformity, group consensus, opinion suppression",A person should not insist on his own opinion if his co-workers disagree with him?
-q069,Family Priorities,"family loyalty, personal sacrifice, collectivism","For the sake of the family, the individual should put his personal interests second?"
-q070,Gender Roles,"gender hierarchy, masculinity, supervisory roles",A man will lose face if he works under a female supervisor?
-q071,Dispute Resolution,"elderly authority, conflict mediation, respect for elders","If there is a quarrel, we should ask an elder to resolve the dispute?"
-q072,Family Dynamics,"family conflict, mother-in-law daughter-in-law relations, marital harmony","When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband sh"
-q073,Civic Engagement,"government interaction, opinion expression, citizen participation",Contacted any government official to express your opinions?
-q074,Civic Engagement,"government interaction, hierarchical level, opinion expression",Contacted officials to express your opinions at higher level?
-q075,Civic Engagement,"legislative interaction, representative engagement, citizen participation",contacted elected legislative representatives at any level?
-q076,Civic Engagement,"political party interaction, organization engagement, opinion expression",Contacted political parties or other political organizations?
-q077,Civic Engagement,"civil society interaction, non-government organization engagement, opinion expression",Contacted non-government/civil society organizations?
-q078,Civic Engagement,"media interaction, public expression, opinion sharing",Contacted media to comment on something?
-q079,Civic Engagement,"protest participation, collective action, social movement","Demonstrated, striken, or sat-in for something?"
-q080,Social Interaction,"social connection, personal network, information sharing",Contacted other people?
-q081,Civic Engagement,"collective action, group participation, social interaction",Did you do this alone or with others?_contacted government official
-q082,Civic Engagement,"collective action, group participation, hierarchical level",Did you do this alone or with others?_contacted officials at higher level
-q083,Political Participation,"political engagement, collective action, legislative representatives",Did you do this alone or with others?_contacted elected legislative representatives at any level
-q084,Political Participation,"political engagement, collective action, political organizations",Did you do this alone or with others?_contacted political parties or other political organizations
-q085,Political Participation,"political engagement, collective action, civil society organizations",Did you do this alone or with others?_ contacted non-government/civil society organizations
-q086,Political Participation,"political engagement, collective action, media contact",Did you do this alone or with others?_contacted media
-q087,Political Participation,"political engagement, collective action, protest activities","Did you do this alone or with others?_demonstration, strike, sit-in"
-q088,Social Networks,"social connections, collective action, personal relationships",Did you do this alone or with others?_contacted other people
-q089,Corruption Perception,"gift-giving, government contact, bribery",Gift or dinner_contacted government
-q090,Corruption Perception,"gift-giving, officials contact, bribery, hierarchy",Gift or dinner_contacted officials at highter level
-q091,Corruption Perception,"gift-giving, legislative representatives, bribery",Gift or dinner_contacted elected legislative representatives
-q092,Corruption Perception,"gift-giving, political organizations, bribery",Gift or dinner_contacted political parties or other political organizations
-q093,Civil Society Engagement,"gift or dinner, non-governmental organization, civil society contact",Gift or dinner_contacted non-goverment/civil society organizations
-q094,Media Interaction,"gift or dinner, media contact, journalistic engagement",Gift or dinner_contacted media
-q095,Protest and Activism,"gift or dinner, demonstration, strike, civil disobedience","Gift or dinner_demonstration, strike, sit-in"
-q096,Social Network and Influence,"gift or dinner, social contact, personal relationship",Gift or dinner_contacted other people
-q097_1,Concept of Democracy,"democracy, meaning, personal interpretation",MEANING OF DEMOCRACY FIRST
-q097_2,Concept of Democracy,"democracy, meaning, personal interpretation",MEANING OF DEMOCRACY SECOND
-q097_3,Concept of Democracy,"democracy, meaning, personal interpretation",MEANING OF DEMOCRACY THIRD
-q098,Satisfaction with Democracy,"democracy, satisfaction, evaluation",Satisfaction with the way democracy works in our country?
-q099,Regime Evaluation,"authoritarian regime, country evaluation, historical comparison",Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]?
-q100,Regime Evaluation,"present government, country evaluation, current assessment",Where would you place our country under the present government?
-q101,Desire for Democracy,"democracy, evaluation, current state",To what extent would you want our country to be democratic now?
-q102,Future Expectations,"country progress, temporal comparison, future state",Where do you expect our country to be in five years?
-q103,Suitability of Democracy,"democracy, suitability, country context",Do you think democracy is suitable for our country?
-q104,Government Satisfaction,"government, satisfaction, current evaluation",How satisfied or dissatisfied are you with the current government?
-q105,Freedom of Expression,"freedom of speech, temporal comparison, individual rights",Everyone is free to say what they think- is better than before?
-q106,Government Equality,"government treatment, equality, temporal comparison",Everyone is treated equally by the government- is better than before?
-q107,Influence on Government,"citizen influence, government, temporal comparison",People like me can have an influence on government- is better than before?
-q108,Corruption Control,"corruption, politics, temporal comparison",Corruption in politics and government is under control- is better than before?
-q109,Income Inequality,"income gap, temporal comparison, social inequality",The gap between the rich and the poor have narrowed- is better than before?
-q110,Crime and Order,"crime prevention, order maintenance, temporal comparison",Preventing crime and maintaining order- is better than before?
-q111,Economic Perception,"economic development, evaluation, temporal comparison",Economic development- is better than before?
-q112,Trust in Government,"judicial independence, political interference, evaluation, temporal comparison",Judges and courts are free from political interference- is better than before?
-q113,Civil Liberties,"freedom of association, evaluation, temporal comparison",You can join any organization you like- is better than before?
-q114,Corruption Perception,"corruption level, local government, evaluation",How widespread corruption in your local/municipal government?
-q115,Corruption Perception,"corruption level, national government, evaluation",How widespread corruption in the national government?
-q116,Corruption Experience,"personal experience, corruption witness, social network",anyone you know personally witnessed an act of corruption?
-q116e,Unknown,,anyone you know personally witnessed ?
-q117,Unknown,,Which comes closest to your own opinion?
-q118,Unknown,,Which comes closer to your own view?
-q119,Governance Preference,"democracy, economic development, preference, trade-off",choose between democracy and economic development?
-q120,Political Preference,"political view, personal opinion, evaluation",Which comes closer to your own view?
-q121,Trust in Government,"authoritarianism, leadership, governance",We should get rid of parliament and elections and have a strong leader decide things
-q122,Political Freedom,"opposition party, competition, political power",No opposition party should be allowed to compete for power
-q123,Military Involvement,"military governance, country leadership, authoritarian rule",The military should come in to govern the country
-q124,Technocratic Governance,"expert decision-making, governance, technocracy",We should get rid of parliament and elections and have the experts decide everything
-q125,Rule of Law,"government authority, legal disregard, crisis management","It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi"
-q126,Political Efficacy,"political participation, personal ability, civic engagement",I have the ability to participate in politics
-q127,Political Complexity,"political understanding, personal competence, government complexity",Politics and government seems so complicated that a person like me can't really understand what is going on
-q128,Power Dynamics,"power distribution, citizen influence, elitism",The nation is run by a powerful few and ordinary citizens cannot do much about it
-q129,Political Efficacy,"personal influence, government responsiveness, citizen power",People like me don't have any influence over what the government does
-q130,Trust in Government,"government evaluation, optimism, system of government",Our form of government is still the best for us
-q131,Trust in Government,"trust, government officials, right decision",You can generally trust the people who run our government to do what is right
-q132,Political Equality,"education level, political participation, equal say",People with little or no education should have as much say in politics as highly-educated people
-q133,Authority and Obedience,"government leaders, decision-making, obedience",Government leaders are like the head of a family; we should all follow their decisions
-q134,Freedom of Expression,"government control, idea discussion, censorship",The government should decide whether certain ideas should be allowed to be discussed in society
-q135,Social Order,"community harmony, group organization, social stability",Harmony of the community will be disrupted if people organize lots of groups
-q136,Separation of Powers,"judicial independence, executive influence, decision-making","When judges decide important cases, they should accept the view of the executive branch"
-q137,Government Effectiveness,"legislative oversight, government accomplishment, efficacy","If the government is constantly checked by the legislature, it cannot possibly accomplish great things"
-q138,Moral Leadership,"moral authority, leader decision, trust in leaders","If we have political leaders who are morally upright, we can let them decide everything"
-q139,Social Order,"social cohesion, diversity of thought, chaos","If people have too many different ways of thinking, society will be chaotic"
-q140,Government Ownership and Control,"state ownership, government control, economic policy",The government should maintain ownership of major state-owned enterprises
-q141,Government Authority,"government authority, local decision-making, centralization",The national government should have more authority over local decisions than it does now
-q142,National Identity and Culture,"national identity, cultural preservation, globalization",Our country should defend our way of life instead of becoming more and more like other countries
-q143,Individual Sacrifice for the Collective,"individual sacrifice, collective interest, social responsibility","For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest"
-q144,Role of the Individual in Society,"individual status, state power, social hierarchy","The state is like a big machine and the individual is but a small cog, with no independent status"
-q145,Leadership and Decision-Making,"leadership style, goal achievement, means-ends justification",The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc
-q146,Leadership and Compromise,"leadership principles, compromise, conviction","If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa"
-q147,Leadership and Tolerance,"leadership tolerance, opposition views, open-mindedness",A political leader should tolerate the views of those who challenge his political ideals
-q147a,Leadership and Intolerance,"leadership intolerance, opposition views, authoritarianism",A political leader should not tolerate the views of those who challenge his political ideals
-q148,Majority Rule and Leadership,"majority support, leadership agenda, minority rights","As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the"
+q029,Campaign Engagement,"campaign participation, political engagement, rally attendance",Did you attend a campaign meeting or rally?
+q030,Campaign Engagement,"campaign participation, political engagement, persuasion",Did you attend a campaign meeting or rally? Did you try to persuade others to vote for a certain candidate or party?
+q031,Campaign Engagement,"campaign participation, political engagement, support",Did you attend a campaign meeting or rally? Did you do anything else to help or show your support for a party or candidate running in the election?
+q032,Social Influence,"family influence, voting behavior, social pressure",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_FAMILY MEMBER/RELATIVE
+q033,Social Influence,"social influence, voting behavior, clan or family ties",Did you attend a campaign meeting or rally? Asked following personally ask you to vote for a particular candidate?_SENIORS IN A CLAN OR EXTENDED FAMILY
+q034,Political Participation,"campaign meeting, rally attendance, voting influence, social network",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_NEIGHBOR/FRIEND
+q035,Political Participation,"campaign meeting, rally attendance, voting influence, community leadership",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_COMMUNITY LEADERS
+q036,Political Participation,"campaign meeting, rally attendance, voting influence, workplace authority",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL
+q037,Political Participation,"campaign meeting, rally attendance, voting influence, organizational ownership",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR
+q038,Political Participation,"campaign meeting, rally attendance, voting influence, organizational affiliation",Did you attend a campaign meeting or rally? Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO
+q039,Political Participation,"campaign meeting, rally attendance, voting influence, personal government connection",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY
+q040,Political Participation,"campaign meeting, rally attendance, voting influence, impersonal government connection",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW
+q041,Political Participation,"campaign meeting, rally attendance, voting influence, personal party connection",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY
+q042,Political Participation,"campaign meeting, rally attendance, voting influence, impersonal party connection",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW
+q043,Political Participation,"campaign meeting, rally attendance, voting influence, other social connections",Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OTHERS
+q044,Political Participation,"campaign meeting, influence, family member",Did you attend a campaign meeting or rally? Influential_FAMILY MEMBER/RELATIVE
+q045,Political Participation,"campaign meeting, influence, seniors in a clan or extended family",Did you attend a campaign meeting or rally? Influential_SENIORS IN A CLAN OR EXTENDED FAMILY
+q046,Political Participation,"campaign meeting, influence, neighbor or friend",Did you attend a campaign meeting or rally? Influential_NEIGHBOR/FRIEND
+q047,Political Participation,"campaign meeting, influence, community leaders",Did you attend a campaign meeting or rally? Influential_COMMUNITY LEADERS
+q048,Political Participation,"campaign meeting, influence, superior at work or school",Did you attend a campaign meeting or rally? Influential_SUPERIOR AT WORK/SCHOOL
+q049,Political Participation,"campaign meeting, influence, owners of the firm or unit",Did you attend a campaign meeting or rally? Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR
+q050,Political Participation,"campaign meeting, influence, member or official of organization",Did you attend a campaign meeting or rally? Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO
+q051,Political Participation,"campaign meeting, influence, government official known personally",Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY
+q052,Political Participation,"campaign meeting, influence, government official not known personally",Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW
+q053,Political Participation,"campaign meeting, influence, candidate or party activist known personally",Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY
+q054,Political Engagement,"campaign participation, influential figures, political activism",Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW
+q055,Political Engagement,"campaign participation, influential figures, political activism",Did you attend a campaign meeting or rally? Influential_OTHERS
+q056,Political Interest,"political interest, self-assessment, engagement level",How interested would you say you are interested in politics?
+q057,News Consumption,"news following, politics, frequency",How often do you follow news about politics?
+q057a,News Consumption,"news following, politics, frequency, media channels","How often do you follow news about politics? How often do you follow news about politics in the daily newspaper, television, and radio?"
+q058,News Consumption,"news following, politics, frequency, newspaper",How often do you follow news about politics? How often do you follow news about politics in the daily newspaper?
+q059,News Consumption,"news following, politics, frequency, television",How often do you follow news about politics? How often do you follow news about politics on television?
+q060,News Consumption,"news following, politics, frequency, radio",How often do you follow news about politics? How often do you follow news about politics on the radio?
+q061,Government Impact,"government policies, daily life impact, perceived influence",How much impact do you feel government policies have on your daily life?
+q062,Party Affiliation,"party identification, closest party, political allegiance",party feel closest to
+q063,Social Closeness,"interpersonal relationship, closeness, social bond",closeness
+q064,Family Obligation,"filial piety, obedience, parental authority","Even if parents' demands are unreasonable, children still should do what they ask?"
+q065,Social Network,"nepotism, favoritism, social connection","Even if parents' demands are unreasonable, children still should do what they ask? When hiring someone, even if a stranger is more qualified, the opportunity should still be given to relatives and friend"
+q066,Conflict Resolution,"accommodation, conflict, neighborly relations","Even if parents' demands are unreasonable, children still should do what they ask? When one has a conflict with a neighbor, the best way to deal with it is to accommodate the other person?"
+q067,Fatalism,"fate, destiny, wealth distribution","Even if parents' demands are unreasonable, children still should do what they ask? Wealth and poverty, success and failure are all determined by fate?"
+q068,Group Conformity,"conformity, opinion, workplace harmony","Even if parents' demands are unreasonable, children still should do what they ask? A person should not insist on his own opinion if his co-workers disagree with him?"
+q069,Family Priority,"family, personal interest, sacrifice","Even if parents' demands are unreasonable, children still should do what they ask? For the sake of the family, the individual should put his personal interests second?"
+q070,Gender Role,"gender hierarchy, workplace dynamics, male ego","Even if parents' demands are unreasonable, children still should do what they ask? A man will lose face if he works under a female supervisor?"
+q071,Dispute Resolution,"conflict resolution, elderly authority, social harmony","Even if parents' demands are unreasonable, children still should do what they ask? If there is a quarrel, we should ask an elder to resolve the dispute?"
+q072,Family Dynamics,"family conflict, mother-in-law, daughter-in-law, husband's role","Even if parents' demands are unreasonable, children still should do what they ask? When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband sh"
+q073,Citizen Engagement,"government interaction, opinion expression, citizen participation",Contacted any government official to express your opinions?
+q074,Citizen Engagement,"government interaction, opinion expression, hierarchical level, official contact",Contacted any government official to express your opinions? Contacted officials to express your opinions at higher level?
+q075,Citizen Engagement,"government interaction, opinion expression, elected representatives, legislative contact",Contacted any government official to express your opinions? contacted elected legislative representatives at any level?
+q076,Citizen Engagement,"government interaction, opinion expression, political parties, organizational contact",Contacted any government official to express your opinions? Contacted political parties or other political organizations?
+q077,Citizen Engagement,"government interaction, opinion expression, non-government organizations, civil society contact",Contacted any government official to express your opinions? Contacted non-government/civil society organizations?
+q078,Citizen Engagement,"government interaction, opinion expression, media contact, public commentary",Contacted any government official to express your opinions? Contacted media to comment on something?
+q079,Citizen Engagement,"government interaction, opinion expression, protest participation, collective action","Contacted any government official to express your opinions? Demonstrated, striken, or sat-in for something?"
+q080,Citizen Engagement,"government interaction, opinion expression, interpersonal contact, social networking",Contacted any government official to express your opinions? Contacted other people?
+q081,Citizen Engagement,"government interaction, opinion expression, collective action, group participation",Did you do this alone or with others?_contacted government official
+q082,Citizen Engagement,"government interaction, opinion expression, hierarchical level, official contact, collective action",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted officials at higher level
+q083,Civic Engagement,"government interaction, collaboration, legislative representatives",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted elected legislative representatives at any level
+q084,Civic Engagement,"government interaction, collaboration, political organizations",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted political parties or other political organizations
+q085,Civic Engagement,"government interaction, collaboration, civil society organizations",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_ contacted non-government/civil society organizations
+q086,Civic Engagement,"government interaction, collaboration, media engagement",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted media
+q087,Civic Engagement,"government interaction, collaboration, protest participation","Did you do this alone or with others?_contacted government official Did you do this alone or with others?_demonstration, strike, sit-in"
+q088,Civic Engagement,"government interaction, collaboration, social networking",Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted other people
+q089,Government Corruption,"bribery, government interaction, gift-giving",Did you do this alone or with others?_contacted government official Gift or dinner_contacted government
+q090,Government Corruption,"bribery, government interaction, hierarchy, gift-giving",Did you do this alone or with others?_contacted government official Gift or dinner_contacted officials at highter level
+q091,Government Corruption,"bribery, government interaction, legislative representatives, gift-giving",Did you do this alone or with others?_contacted government official Gift or dinner_contacted elected legislative representatives
+q092,Government Corruption,"bribery, government interaction, political organizations, gift-giving",Did you do this alone or with others?_contacted government official Gift or dinner_contacted political parties or other political organizations
+q093,Civic Engagement,"collective action, government interaction, gift or dinner",Did you do this alone or with others?_contacted government official Gift or dinner_contacted non-goverment/civil society organizations
+q094,Civic Engagement,"collective action, government interaction, media contact",Did you do this alone or with others?_contacted government official Gift or dinner_contacted media
+q095,Civic Engagement,"collective action, government interaction, protest participation","Did you do this alone or with others?_contacted government official Gift or dinner_demonstration, strike, sit-in"
+q096,Civic Engagement,"collective action, government interaction, social networking",Did you do this alone or with others?_contacted government official Gift or dinner_contacted other people
+q097_1,Democracy Perception,"democracy definition, personal interpretation, priority",MEANING OF DEMOCRACY FIRST
+q097_2,Democracy Perception,"democracy definition, personal interpretation, priority",MEANING OF DEMOCRACY SECOND
+q097_3,Democracy Perception,"democracy definition, personal interpretation, priority",MEANING OF DEMOCRACY THIRD
+q098,Democracy Satisfaction,"democracy evaluation, satisfaction level, current assessment",Satisfaction with the way democracy works in our country?
+q099,Regime Evaluation,"regime assessment, historical comparison, authoritarian rule",Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]?
+q100,Regime Evaluation,"regime assessment, historical comparison, current evaluation",Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? Where would you place our country under the present government?
+q101,Trust in Government,"democratic values, government evaluation, temporal comparison, desire for democracy",Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? To what extent would you want our country to be democratic now?
+q102,Trust in Government,"democratic values, government evaluation, temporal comparison, future expectations",Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? Where do you expect our country to be in five years?
+q103,Trust in Government,"democratic values, national suitability, government evaluation",Do you think democracy is suitable for our country?
+q104,Trust in Government,"government evaluation, satisfaction level, current assessment",How satisfied or dissatisfied are you with the current government?
+q105,Service Accessibility,"freedom of speech, temporal comparison, personal freedom",Everyone is free to say what they think- is better than before?
+q106,Service Accessibility,"freedom of speech, equal treatment, temporal comparison, government fairness",Everyone is free to say what they think- is better than before? Everyone is treated equally by the government- is better than before?
+q107,Service Accessibility,"freedom of speech, influence on government, temporal comparison, citizen participation",Everyone is free to say what they think- is better than before? People like me can have an influence on government- is better than before?
+q108,Trust in Government,"freedom of speech, corruption control, temporal comparison, government accountability",Everyone is free to say what they think- is better than before? Corruption in politics and government is under control- is better than before?
+q109,Economic Perception,"freedom of speech, income inequality, temporal comparison, economic gap",Everyone is free to say what they think- is better than before? The gap between the rich and the poor have narrowed- is better than before?
+q110,Service Accessibility,"freedom of speech, crime prevention, temporal comparison, public safety",Everyone is free to say what they think- is better than before? Preventing crime and maintaining order- is better than before?
+q111,Economic and Political Freedom,"freedom of speech, economic development, temporal comparison",Everyone is free to say what they think- is better than before? Economic development- is better than before?
+q112,Judicial Independence and Freedom of Speech,"judicial independence, freedom of speech, political interference, temporal comparison",Everyone is free to say what they think- is better than before? Judges and courts are free from political interference- is better than before?
+q113,Freedom of Association and Speech,"freedom of association, freedom of speech, temporal comparison",Everyone is free to say what they think- is better than before? You can join any organization you like- is better than before?
+q114,Corruption Perception,"corruption, local government, prevalence",How widespread corruption in your local/municipal government?
+q115,Corruption Perception,"corruption, local government, national government, prevalence, comparison",How widespread corruption in your local/municipal government? How widespread corruption in the national government?
+q116,Personal Experience with Corruption,"corruption, personal experience, social network",anyone you know personally witnessed an act of corruption?
+q116e,Personal Experience,"personal experience, social network, event witnessing",anyone you know personally witnessed ?
+q117,Opinion and Values,"personal opinion, value orientation",Which comes closest to your own opinion?
+q118,Opinion and Values,"personal view, value orientation, comparison",Which comes closer to your own view?
+q119,Democracy and Economic Development,"democracy, economic development, trade-off, preference",choose between democracy and economic development?
+q120,Political Preference,"leadership style, governance, personal view",Which comes closer to your own view?
+q121,Trust in Government,"authoritarianism, democratic values, leadership",We should get rid of parliament and elections and have a strong leader decide things
+q122,Trust in Government,"authoritarianism, opposition, power competition",We should get rid of parliament and elections and have a strong leader decide things No opposition party should be allowed to compete for power
+q123,Trust in Government,"militarism, governance, authoritarianism",We should get rid of parliament and elections and have a strong leader decide things The military should come in to govern the country
+q124,Trust in Government,"technocracy, expertise, decision-making",We should get rid of parliament and elections and have a strong leader decide things We should get rid of parliament and elections and have the experts decide everything
+q125,Trust in Government,"rule of law, crisis management, authoritarianism","We should get rid of parliament and elections and have a strong leader decide things It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi"
+q126,Political Efficacy,"participation, political engagement, personal ability",I have the ability to participate in politics
+q127,Political Efficacy,"political complexity, personal understanding, powerlessness",Politics and government seems so complicated that a person like me can't really understand what is going on
+q128,Political Efficacy,"power distribution, elitism, political disenfranchisement",Politics and government seems so complicated that a person like me can't really understand what is going on The nation is run by a powerful few and ordinary citizens cannot do much about it
+q129,Political Efficacy,"influence, political power, personal effectiveness",Politics and government seems so complicated that a person like me can't really understand what is going on People like me don't have any influence over what the government does
+q130,Trust in Government,"government complexity, evaluation, democratic system",Politics and government seems so complicated that a person like me can't really understand what is going on Our form of government is still the best for us
+q131,Trust in Government,"government complexity, trust, government officials",Politics and government seems so complicated that a person like me can't really understand what is going on You can generally trust the people who run our government to do what is right
+q132,Political Equality,"education level, political participation, equality",People with little or no education should have as much say in politics as highly-educated people
+q133,Authoritarianism,"government leadership, obedience, decision-making",Government leaders are like the head of a family; we should all follow their decisions
+q134,Freedom of Expression,"government control, idea discussion, censorship",Government leaders are like the head of a family; we should all follow their decisions The government should decide whether certain ideas should be allowed to be discussed in society
+q135,Social Order,"community harmony, group organization, social stability",Government leaders are like the head of a family; we should all follow their decisions Harmony of the community will be disrupted if people organize lots of groups
+q136,Separation of Powers,"judicial independence, executive influence, decision-making","Government leaders are like the head of a family; we should all follow their decisions When judges decide important cases, they should accept the view of the executive branch"
+q137,Government Effectiveness,"legislative oversight, government efficiency, accomplishment","Government leaders are like the head of a family; we should all follow their decisions If the government is constantly checked by the legislature, it cannot possibly accomplish great things"
+q138,Moral Leadership,"moral authority, leadership, decision-making","Government leaders are like the head of a family; we should all follow their decisions If we have political leaders who are morally upright, we can let them decide everything"
+q139,Social Cohesion,"diversity of thought, social order, chaos","Government leaders are like the head of a family; we should all follow their decisions If people have too many different ways of thinking, society will be chaotic"
+q140,Trust in Government,"government authority, state ownership, decision-making",Government leaders are like the head of a family; we should all follow their decisions The government should maintain ownership of major state-owned enterprises
+q141,Trust in Government,"government authority, centralization, decision-making",Government leaders are like the head of a family; we should all follow their decisions The national government should have more authority over local decisions than it does now
+q142,National Identity,"nationalism, cultural preservation, globalization",Our country should defend our way of life instead of becoming more and more like other countries
+q143,Social Responsibility,"individual sacrifice, national interest, community welfare","For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest"
+q144,Social Responsibility,"individual sacrifice, state control, personal autonomy","For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The state is like a big machine and the individual is but a small cog, with no independent status"
+q145,Leadership and Governance,"leadership style, goal achievement, procedural adherence","For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc"
+q146,Leadership and Governance,"leadership style, conviction, compromise","For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa"
+q147,Tolerance and Openness,"tolerance, dissenting views, leadership",A political leader should tolerate the views of those who challenge his political ideals
+q147a,Tolerance and Openness,"intolerance, dissenting views, leadership",A political leader should not tolerate the views of those who challenge his political ideals
+q148,Leadership and Governance,"majority support, leadership style, agenda implementation","A political leader should not tolerate the views of those who challenge his political ideals As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the"
 relig1,Demographic Characteristics,"religion, affiliation, personal belief",Religion
 se002,Demographic Characteristics,"gender, identity, biological sex",gender
-se003,Demographic Characteristics,"age, group categorization, life stage",age group
-se003a,Demographic Characteristics,"age, numerical value, personal characteristic",actual age
+se003,Demographic Characteristics,"age, grouping, life stage",age group
+se003a,Demographic Characteristics,"age, measurement, numerical value",actual age
 se004,Demographic Characteristics,"marital status, relationship, partnership",marital status
-se004a,Demographic Characteristics,"marital status, binary classification,  partnership status",Marital Status(Y/N)
-se005,Demographic Characteristics,"education, academic achievement, knowledge acquisition",education
-se005a,Demographic Characteristics,"education, temporal duration, academic progression",education by year
-se005b,Demographic Characteristics,"education, categorical classification, academic level",education(four categories)
+se004a,Demographic Characteristics,"marital status, binary classification, yes/no",Marital Status(Y/N)
+se005,Demographic Characteristics,"education, attainment, qualification",education
+se005a,Demographic Characteristics,"education, duration, time period",education by year
+se005b,Demographic Characteristics,"education, categorization, level of attainment",education(four categories)
 se006,Demographic Characteristics,"religion, affiliation, personal belief",religion
 se007,Religiosity,"religiosity, personal belief, spirituality",relgiosity
 se008a,Household Demographics,"household size, family composition, demographic characteristics",n of household members
 se008b,Household Demographics,"household structure, family relationships, generational distribution",household generations
-se009,Economic Perception,"annual income, national quintiles, socioeconomic status",annual income: national quintiles
-se012a,Employment,"main occupation, job type, professional activity",Main Occupation
-se012bcn,Employment,"occupation, job classification, career path",OCCUPATION
+se009,Economic Perception,"annual income, national quintiles, economic status",annual income: national quintiles
+se012a,Employment,"main occupation, job type, employment status",Main Occupation
+se012bcn,Employment,"occupation, job classification, career",OCCUPATION
 se012bhk,Employment,"occupation, job type, original classification",OCCUPATION(original)
-se012bjp,Employment,"main occupation, original classification, professional activity",main occupation(orginal)
-se012bkr,Employment,"occupation, original classification, job characteristics",Occupation(original)
-se012bmo,Employment,"employment status, job type, original classification",employment
-se012bph,Demographic Information,"occupation, respondent information, employment status",occupation (verbatim)
+se012bjp,Employment,"main occupation, original classification, job title",main occupation(orginal)
+se012bkr,Employment,"occupation, original classification, job category",Occupation(original)
+se012bmo,Employment,"employment, job status, occupation",employment
+se012bph,Demographic Information,"occupation, self-identification, professional status",occupation (verbatim)
 se012bth,Demographic Information,"occupation, primary employment, respondent profile",Primary occupation of respondent
-se012btw,Demographic Information,"current occupation, employment status, respondent job",(Respondent has a job) What is respondent's current occupation?
-se014,Demographic Information,"language, communication, respondent profile",language
-se016,Demographic Information,"ethnicity, cultural background, respondent identity",ethnicity
+se012btw,Employment Status,"current occupation, employment status, job identification",(Respondent has a job) What is respondent's current occupation?
+se014,Demographic Information,"language, communication, cultural identity",language
+se016,Demographic Information,"ethnicity, cultural background, social identity",ethnicity
 se017,Social Perception,"social status, subjective evaluation, self-perception",subjective social status
-yrsurvey,Survey Metadata,"survey year, data collection, temporal context",survey year
+yrsurvey,Survey Metadata,"survey year, temporal context, data collection period",survey year

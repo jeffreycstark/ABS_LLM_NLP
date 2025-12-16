@@ -1,237 +1,237 @@
 variable_id,domain,concepts,question_text
 country,Unknown,,Country code
-fg,Economic Perception,"economic condition, family level, future evaluation, temporal comparison",What do you think the economic situation of your family will be a few years from now? Whether the respondent is a member of formal organization
+fg,Social Participation,"formal organization, membership, social engagement",fg. Whether the respondent is a member of formal organization
 idnumber,Unknown,,"case number 
 
 Variable: region 
   Question: Region"
-ir1,Unknown,,ir1 Interviewer's number
-ir10,Unknown,,ir8 What proportion of the questions do you feel the respondent had the difficulty answering? ir10 Language in which interview was conducted
-ir10a,Unknown,,ir10a Was the interview conducted with the assistance of an interpreter?
-ir11a,Infrastructure Accessibility,"road condition, residence accessibility, infrastructure quality",ir11a What is the condition of the road leading to interviewee's residence?
-ir11b,Service Accessibility,"water availability, household amenities, basic services",ir11b Is there tape water in the household?
-ir11b_2,Service Accessibility,"drinking water source, water quality, household resources",ir11b_2 Please identify the main source of drinking water in the household?
-ir11c,Service Accessibility,"electricity availability, lighting source, household energy",ir11c Is electricity the main source of lighting in the house?
-ir11d,Service Accessibility,"mobile phone network, neighborhood coverage, telecommunication service",ir11d Is this neighborhood covered by mobil phone network?
-ir11e,Service Accessibility,"public transportation, walking distance, proximity to services","ir11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?"
-ir12,Service Accessibility,"neighborhood services, distance estimation, service availability","ir12 Were the following services present within the neighborhood, estimate the distance of services by .."
-ir12a,Service Accessibility,"post-office, service proximity, mail services",ir12a. Post-office
-ir12b,Service Accessibility,"school, education services, proximity to schools",ir12b. School
-ir12c,Service Accessibility,"police station, public safety, security services",ir12c. Police station
-ir12d,Service Accessibility,"sewerage system, waste management, infrastructure services",ir12d. Sewerage system that most houses could access
-ir12e,Service Accessibility,"health clinic, medical services, healthcare accessibility",ir12e. Health clinic
-ir12f,Service Accessibility,"cellular phone signal, telecommunication services, mobile network coverage",ir12f. Signal for cellular phone
-ir12g,Service Accessibility,"recreational facilities, leisure services, community amenities","ir12g. Recreational facilities, e.g., a sports field"
+ir1,Interview Administration,"interviewer, identification, administration",ir1 Interviewer's number
+ir10,Interview Administration,"language, interview, communication",ir10 Language in which interview was conducted
+ir10a,Interview Administration,"interpreter, assistance, language support",ir10a Was the interview conducted with the assistance of an interpreter?
+ir11a,Infrastructure,"road condition, accessibility, residence",ir11a What is the condition of the road leading to interviewee's residence?
+ir11b,Service Accessibility,"tap water, availability, household",ir11b Is there tape water in the household?
+ir11b_2,Service Accessibility,"drinking water, source, household",ir11b_2 Please identify the main source of drinking water in the household?
+ir11c,Service Accessibility,"electricity, lighting, household",ir11c Is electricity the main source of lighting in the house?
+ir11d,Service Accessibility,"electricity, lighting, mobile phone network, infrastructure",ir11c Is electricity the main source of lighting in the house? ir11d Is this neighborhood covered by mobil phone network?
+ir11e,Service Accessibility,"public transportation, walking distance, proximity, accessibility","ir11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?"
+ir12,Service Accessibility,"neighborhood services, infrastructure, availability, accessibility","ir12 Were the following services present within the neighborhood, estimate the distance of services by .."
+ir12a,Service Accessibility,"post-office, mail services, proximity, accessibility",ir12a. Post-office
+ir12b,Service Accessibility,"education, school, proximity, accessibility",ir12b. School
+ir12c,Public Safety,"police station, law enforcement, security, proximity",ir12c. Police station
+ir12d,Infrastructure,"sewerage system, sanitation, public health, accessibility",ir12d. Sewerage system that most houses could access
+ir12e,Health Services,"health clinic, medical care, proximity, accessibility",ir12e. Health clinic
+ir12f,Telecommunication,"cellular phone signal, mobile network, connectivity, accessibility",ir12f. Signal for cellular phone
+ir12g,Recreation and Leisure,"recreational facilities, sports field, entertainment, accessibility","ir12g. Recreational facilities, e.g., a sports field"
 ir12h,Service Accessibility,"public places, worship, community facilities","ir12h. Any churches, mosques, temples or other public places of worship"
 ir12i,Service Accessibility,"community buildings, meeting spaces, public facilities",ir12i. Any town halls or community buildings that can be used for meetings
 ir12j,Service Accessibility,"market stalls, groceries, clothing, retail services",ir12j. Market stalls (selling groceries and/or clothing)
-ir13,Geographic Location,"residence, administrative level, geographic hierarchy",ir13 Which of the following levels within the country the respondent live?
-ir2,Survey Administration,"survey experience, questionnaire completion, respondent history",ir2 Is this the first questionnaire you have completed?
-ir2a,Survey Administration,"interviewer characteristics, gender, demographics",ir2a Interviewer's gender
-ir2b,Survey Administration,"interviewer characteristics, age, demographics",ir2b Interviewer's Age
-ir2c,Language and Culture,"language use, home environment, linguistic preference",ir2c What kind of language do you normally use at home?
-ir3,Survey Administration,"interview environment, presence of others, respondent privacy","ir3 In the interview, other than the respondent, were others present?"
-ir3a,Survey Administration,"interview environment, presence of others, relationship to respondent",ir3a Who were they?
-ir4,Interview Experience,"interview refusal, respondent behavior",ir4 Has the respondent ever refused to be interviewed during the whole process?
-ir5,Interview Experience,"respondent emotion, impatience, interview process",ir5 Has the respondent ever felt impatient during the interview?
-ir6,Interview Experience,"cooperation, respondent behavior, interview quality",ir6 How cooperative was the respondent during the interview?
-ir7,Interview Experience,"sincerity, respondent honesty, sensitive questions",ir7 How sincere was the respondent when answering sensitive questions?
-ir8,Interview Experience,"question difficulty, respondent understanding, interview challenge",ir8 What proportion of the questions do you feel the respondent had the difficulty answering?
-level,Geographic Location,"rural, urban, residence type",Rural or urban
+ir13,Geographic Location,"residence, administrative level, geographic location",ir13 Which of the following levels within the country the respondent live?
+ir2,Survey Participation,"survey experience, questionnaire completion, respondent history",ir2 Is this the first questionnaire you have completed?
+ir2a,Interviewer Characteristics,"interviewer attributes, gender, demographics",ir2a Interviewer's gender
+ir2b,Interviewer Characteristics,"interviewer attributes, age, demographics",ir2b Interviewer's Age
+ir2c,Language and Culture,"language use, home language, cultural background",ir2c What kind of language do you normally use at home?
+ir3,Interview Environment,"interview setting, presence of others, social context","ir3 In the interview, other than the respondent, were others present?"
+ir3a,Interview Environment,"others present, relationship to respondent, social context",ir3a Who were they?
+ir4,Interview Experience,"interview process, refusal, respondent behavior",ir4 Has the respondent ever refused to be interviewed during the whole process?
+ir5,Interview Experience,"interview process, respondent emotion, impatience",ir5 Has the respondent ever felt impatient during the interview?
+ir6,Interview Experience,"respondent behavior, cooperation, interview quality",ir6 How cooperative was the respondent during the interview?
+ir7,Interview Experience,"respondent behavior, sincerity, question sensitivity",ir7 How sincere was the respondent when answering sensitive questions?
+ir8,Interview Experience,"question difficulty, respondent ability, interview challenge",ir8 What proportion of the questions do you feel the respondent had the difficulty answering?
+level,Geographic Location,"residence type, urban-rural distinction",Rural or urban
 month,Temporal Reference,"time, interview timing, month of interview",Interview month
 q1,Economic Perception,"economic condition, national level, current evaluation",1. How would you rate the overll economic condition of our country today?
-q10,Economic Perception,"family economic situation, future outlook, temporal projection",What do you think the economic situation of your family will be a few years from now? 10 Political parties
-q100,Trust in Government,"government effectiveness, problem solving, future expectation",100. How likely is it that the government will solve the most important problem you identified within the next five years?
-q101,Trust in Government,"government effectiveness, problem solving, temporal comparison",How likely is it that the government will solve the most important problem you identified within the next five years? People have the power to change a government they don't like
-q102,Electoral Fairness,"equal access, mass media, election period",102. Political parties or candidates in our country have equal access to the mass media during the election period.
-q103,Government Accountability,"government responsibility, citizen oversight, inter-election period","103. Between elections, the people have no way of holding the government responsible for its actions."
-q104,Rule of Law,"government accountability, judicial power, law enforcement","104. When government leaders break the laws, there is nothing the court can do."
-q105,Social Equality,"ethnic equality, government treatment, citizen rights",105. All citizens from different ethnic communities in the country are treated equally by the government.
-q106,Social Equality,"economic equality, government treatment, social justice",106 Rich and poor people are treated equally by the government
-q107,Basic Needs,"poverty, basic necessities, living standards","107. People have basic necessities like food, clothes, and shelter"
-q108,Freedom of Expression,"free speech, fear of retribution, citizen freedom",108. People are free to speak what they think without fear.
-q109,Freedom of Association,"organization membership, fear of retribution, citizen freedom",109 People can join any organization they like without fear.
-q11,Economic Perception,"economic condition, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? 11 Parliament
-q110,Trust in Government,"government accountability, crime, punishment",110 Do officials who commit crimes go unpunished?
-q111,Government Transparency,"information disclosure, government transparency, public access",111 How often do government officials withhold important information from the public view?
-q112,Trust in Government,"government integrity, abuse of power, lawfulness",112 How often do you think government leaders break the law or abuse their power?
-q113,Election Integrity,"electoral choice, party competition, democratic process",113 How often do you think our elections offer the voters a real choice between different parties/candidates?
-q114,Separation of Powers,"legislative oversight, government accountability, checks and balances",114 To what extent is the legislature capable of keeping government leaders in check?
+q10,Political Affiliation,"political party, affiliation, political identity",10 Political parties
+q100,Trust in Government,"government effectiveness, problem-solving, future expectation",100. How likely is it that the government will solve the most important problem you identified within the next five years?
+q101,Trust in Government,"government accountability, citizen empowerment, political power",101. People have the power to change a government they don't like
+q102,Trust in Government,"political equality, media access, election fairness",People have the power to change a government they don't like Political parties or candidates in our country have equal access to the mass media during the election period.
+q103,Trust in Government,"government accountability, citizen oversight, inter-election period","People have the power to change a government they don't like Between elections, the people have no way of holding the government responsible for its actions."
+q104,Trust in Government,"rule of law, judicial independence, government accountability","People have the power to change a government they don't like When government leaders break the laws, there is nothing the court can do."
+q105,Social Equality,"ethnic equality, government treatment, social justice",People have the power to change a government they don't like All citizens from different ethnic communities in the country are treated equally by the government.
+q106,Social Equality,"economic equality, government treatment, social justice",People have the power to change a government they don't like 106 Rich and poor people are treated equally by the government
+q107,Basic Needs,"basic necessities, poverty, human well-being","People have the power to change a government they don't like People have basic necessities like food, clothes, and shelter"
+q108,Freedom of Expression,"free speech, fearlessness, citizen freedom",People have the power to change a government they don't like People are free to speak what they think without fear.
+q109,Freedom of Association,"organizational freedom, fearlessness, citizen rights",People have the power to change a government they don't like 109 People can join any organization they like without fear.
+q11,Government Institutions,"parliament, legislative body, government structure",11 Parliament
+q110,Trust in Government,"government accountability, official misconduct, punishment",110 Do officials who commit crimes go unpunished?
+q111,Government Transparency,"information disclosure, government secrecy, public access",110 Do officials who commit crimes go unpunished? 111 How often do government officials withhold important information from the public view?
+q112,Trust in Government,"government corruption, abuse of power, leadership accountability",110 Do officials who commit crimes go unpunished? 112 How often do you think government leaders break the law or abuse their power?
+q113,Election Integrity,"electoral choice, party competition, democratic process",110 Do officials who commit crimes go unpunished? 113 How often do you think our elections offer the voters a real choice between different parties/candidates?
+q114,Government Accountability,"legislative oversight, government checks and balances, leadership accountability",114 To what extent is the legislature capable of keeping government leaders in check?
 q115,Government Responsiveness,"government responsiveness, public needs, policy implementation",115 How well do you think the government responds to what people want?
 q116,Election Impact,"electoral influence, government accountability, public opinion",116 How much do you feel that having elections makes the government pay attention to what the people think?
-q117,Corruption Perception,"corruption prevalence, local government, bribery",117 How widespread do you think corruption and bribe-taking are in your local/municipal government?
-q118,Corruption Perception,"corruption prevalence, national government, bribery",118 How widespread do you think corruption and bribe-taking are in the national government?
-q119,Anti-Corruption Efforts,"government efforts, corruption reduction, bribery prevention","119 In your opinion, is the government working to crack down on corruption and root out bribery?"
-q12,Economic Perception,"economic condition, family level, future evaluation, temporal comparison",What do you think the economic situation of your family will be a few years from now? 12 Civil service
-q120,Trust in Government,"corruption, personal experience, government official, temporal frame",120 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?
-q121,International Perception,"country evaluation, China, scale placement",121 Where would you place China today on this scale?
-q122,International Perception,"country evaluation, United States, scale placement",122 Where would you place the United States today on this scale?
-q123,International Perception,"country evaluation, Japan, scale placement",123 Where would you place Japan on this scale?
-q124,International Perception,"country evaluation, India, scale placement",124 Where would you place India on this scale?
-q125,Political Opinion,"personal opinion, statement evaluation",125 Which of the following statements comes closest to your own opinion?
-q126,Political Opinion,"personal view, statement comparison",126 Which of the following statements comes closer to your own view?
-q127,Political Values,"democracy, economic development, priority evaluation","127 If you had to choose between democracy and economic development, which would you say is more important?"
-q128,Political Values,"economic inequality, political freedom, priority evaluation","128 If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?"
-q129,Trust in Government,"democracy, government evaluation, system preference","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government""."
-q13,Economic Perception,"economic situation, family level, future expectation",What do you think the economic situation of your family will be a few years from now? 13 The military
-q130,Trust in Government,"governance model, leadership preference, anti-democratic sentiment",130 We should get rid of parliament and elections and have a strong leader decide things.
-q131,Trust in Government,"political system, party restriction, anti-democratic sentiment",131 Only one political party should be allowed to stand for election and hold office.
-q132,Trust in Government,"governance model, military intervention, anti-democratic sentiment",132 The army (military) should come in to govern the country.
-q133,Trust in Government,"governance model, technocratic preference, anti-democratic sentiment",133 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.
-q134,Political Efficacy,"political participation, self-efficacy, civic engagement",134 I think I have the ability to participate in politics.
-q135,Political Efficacy,"political complexity, personal understanding, powerlessness",135 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on.
-q136,Political Efficacy,"political influence, personal impact, powerlessness",136 People like me don't have any influence over what the government does.
-q137,Trust in Government,"government trust, institutional trust, public confidence",137 You can generally trust the people who run our government to do what is right.
-q138,National Loyalty,"national loyalty, country evaluation, moral obligation","138 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done."
-q139,Gender Equality,"gender roles, political participation, social inequality",139 Women should not be involved in politics as much as men
-q14,Economic Perception,"family economic situation, future evaluation, temporal comparison",What do you think the economic situation of your family will be a few years from now? 14 The police
-q140,Church-State Relations,"government decision-making, religious influence, legal interpretation",140 The government should consult religious authorities when interpreting the laws
-q141,Social Equality,"educational background, political participation, social justice",141 People with little or no education should have as much say in politics as highly-educated people
-q142,Government Authority,"government leadership, decision-making, social hierarchy",142 Government leaders are like the head of a family; we should all follow their decisions
-q143,Freedom of Expression,"government control, idea discussion, social regulation",143 The government should decide whether certain ideas should be allowed to be discussed in society
-q144,Social Order,"community harmony, group organization, social stability",144 Harmony of the community will be disrupted if people organize lots of groups
-q145,Judicial Independence,"judicial decision-making, executive influence, branch interaction","145 When judges decide important cases, they should accept the view of the executive branch"
-q146,Government Accountability,"legislative oversight, government effectiveness, institutional balance","146 If the government is constantly checked [i.e. monitored and supervised] by the legislature, it cannot possibly accomplish great things"
-q147,Trust in Government,"political leadership, moral authority, decision-making power","147 If we have political leaders who are morally upright, we can let them decide everything"
-q148,Social Order,"social cohesion, diversity, chaos","148 If people have too many different ways of thinking, society will be chaotic"
-q149,Rule of Law,"government authority, legal constraints, crisis management","149 When the country is facing a difficult situation, it is ok for the government to disregard the law in order to deal with the situation"
-q15,Economic Perception,"family economic situation, future outlook, local government",What do you think the economic situation of your family will be a few years from now? 15 Local government
-q150,Global Awareness,"international events, news consumption, global interest",150 How closely do you follow major events in foreign countries/ the world?
-q151,National Identity,"national pride, cultural preservation, globalization",151 Our country should defend our way of life instead of becoming more and more like other countries.
-q152,Economic Policy,"protectionism, trade policy, domestic industry","152 Do you agree or disagree with the following statement: ""We should protect our farmers and workers by limiting the import of foreign goods."""
-q153,Immigration Policy,"immigration control, government regulation, national borders",153 Do you think the government should increase or decrease the inflow of foreign immigrants into the country?
-q154,Unknown,"missing question text, unknown topic, unavailable information",154 Which of these statements comes closer to your view?
-q155,Economic Perception,"income distribution, fairness evaluation, national economy",155 How fair do you think income distribution is in the country?
+q117,Corruption Perception,"corruption prevalence, bribery, local government",117 How widespread do you think corruption and bribe-taking are in your local/municipal government?
+q118,Corruption Perception,"corruption prevalence, bribery, national government",117 How widespread do you think corruption and bribe-taking are in your local/municipal government? 118 How widespread do you think corruption and bribe-taking are in the national government?
+q119,Anti-Corruption Efforts,"government anti-corruption efforts, corruption reduction, policy effectiveness","119 In your opinion, is the government working to crack down on corruption and root out bribery?"
+q12,Government Services,"civil service, government administration",12 Civil service
+q120,Corruption Perception,"corruption, bribe-taking, government official, personal experience",120 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?
+q121,Country Evaluation,"country evaluation, China, current assessment",121 Where would you place China today on this scale?
+q122,Country Comparison,"country comparison, China, United States, current evaluation",121 Where would you place China today on this scale? 122 Where would you place the United States today on this scale?
+q123,Country Comparison,"country comparison, China, Japan, current evaluation",121 Where would you place China today on this scale? 123 Where would you place Japan on this scale?
+q124,Country Comparison,"country comparison, China, India, current evaluation",121 Where would you place China today on this scale? 124 Where would you place India on this scale?
+q125,Personal Opinion,"personal opinion, statement evaluation, social issue",125 Which of the following statements comes closest to your own opinion?
+q126,Personal View,"personal view, statement evaluation, social issue",126 Which of the following statements comes closer to your own view?
+q127,Value Prioritization,"democracy, economic development, priority evaluation","127 If you had to choose between democracy and economic development, which would you say is more important?"
+q128,Value Prioritization,"economic inequality, political freedom, priority evaluation","128 If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?"
+q129,Trust in Government,"democracy, evaluation, government form","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government""."
+q13,Institutional Trust,"military, institutional trust",13 The military
+q130,Trust in Government,"authoritarianism, governance, leadership","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 130 We should get rid of parliament and elections and have a strong leader decide things."
+q131,Trust in Government,"single-party system, political freedom, elections","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 131 Only one political party should be allowed to stand for election and hold office."
+q132,Trust in Government,"militarism, governance, authoritarianism","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 132 The army (military) should come in to govern the country."
+q133,Trust in Government,"technocracy, governance, decision-making","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 133 We should get rid of elections and parliaments and have experts make decisions on behalf of the people."
+q134,Political Efficacy,"political participation, self-efficacy, civic engagement","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 134 I think I have the ability to participate in politics."
+q135,Political Efficacy,"political complexity, understanding, civic engagement","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 135 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on."
+q136,Political Efficacy,"political influence, powerlessness, civic engagement","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 136 People like me don't have any influence over what the government does."
+q137,Trust in Government,"trust in government, institutional trust, government officials","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 137 You can generally trust the people who run our government to do what is right."
+q138,Trust in Government,"government legitimacy, national loyalty, institutional evaluation","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 138 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done."
+q139,Social Equality,"gender equality, political participation, social norms","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 139 Women should not be involved in politics as much as men"
+q14,Public Services,"law enforcement, public safety, institutional trust",14 The police
+q140,Church-State Relations,"religion, governance, legislative interpretation","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 140 The government should consult religious authorities when interpreting the laws"
+q141,Social Equality,"educational attainment, political participation, social justice","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 141 People with little or no education should have as much say in politics as highly-educated people"
+q142,Trust in Government,"government authority, leadership, obedience","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 142 Government leaders are like the head of a family; we should all follow their decisions"
+q143,Freedom of Expression,"censorship, government control, social discourse","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 143 The government should decide whether certain ideas should be allowed to be discussed in society"
+q144,Social Order,"community harmony, social organization, group formation","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 144 Harmony of the community will be disrupted if people organize lots of groups"
+q145,Separation of Powers,"judicial independence, executive influence, checks and balances","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 145 When judges decide important cases, they should accept the view of the executive branch"
+q146,Government Effectiveness,"legislative oversight, government performance, institutional capacity","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 146 If the government is constantly checked [i.e. monitored and supervised] by the legislature, it cannot possibly accomplish great things"
+q147,Trust in Government,"democracy, government evaluation, moral leadership","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 147 If we have political leaders who are morally upright, we can let them decide everything"
+q148,Social Order,"social cohesion, diversity, chaos","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 148 If people have too many different ways of thinking, society will be chaotic"
+q149,Rule of Law,"government authority, legal boundaries, crisis management","129 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"". 149 When the country is facing a difficult situation, it is ok for the government to disregard the law in order to deal with the situation"
+q15,Local Governance,"local government, administration",15 Local government
+q150,Global Awareness,"international events, news consumption",150 How closely do you follow major events in foreign countries/ the world?
+q151,National Identity,"cultural preservation, nationalism",151 Our country should defend our way of life instead of becoming more and more like other countries.
+q152,Economic Nationalism,"protectionism, trade policy, worker protection","151 Our country should defend our way of life instead of becoming more and more like other countries. 152 Do you agree or disagree with the following statement: ""We should protect our farmers and workers by limiting the import of foreign goods."""
+q153,Immigration Policy,"immigration control, border management",153 Do you think the government should increase or decrease the inflow of foreign immigrants into the country?
+q154,Unknown,missing information,154 Which of these statements comes closer to your view?
+q155,Economic Perception,"income distribution, fairness evaluation, economic justice",155 How fair do you think income distribution is in the country?
 q156,Economic Perception,"income inequality, government responsibility, social justice",156 It is the responsibility of the government to reduce the differences between people with high income and those with low incomes.
-q157,Economic Security,"job security, income stability, future uncertainty",157 How concerned are you about the loss of your major source of income within the next 12 months?
-q158,Economic Security,"income loss, family well-being, financial hardship","158 The following is a hypothetical question: If you were unfortunate enough to lose your main source of income, how serious would it be for you and your family?"
-q159,Economic Perception,"income fairness, effort and reward, family income","159 Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair-4 categories?"
-q159a,Economic Perception,"income fairness, effort and reward, family income","159a Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair-6 categories?"
-q16,Economic Perception,"family economic situation, future outlook, temporal comparison",What do you think the economic situation of your family will be a few years from now? 16 Newspaper
-q160,Social Mobility,"intergenerational comparison, social status, standard of living","160 As compared to my parent's generation, my generation has more or fewer opportunities to improve one's standard of living or social status?"
-q161,National Pride,"national identity, citizenship pride, belongingness",161 How proud are you to be a citizen of the country? Are you?
-q162,Migration Intentions,"migration willingness, country attachment, global mobility","162 Given the chance, how willing would you be to go and live in another country"
-q163,Geopolitics,"global influence, country power, regional dynamics",163 Which country has the most influence in Asia?
+q157,Economic Security,"job security, income stability, temporal concern",157 How concerned are you about the loss of your major source of income within the next 12 months?
+q158,Economic Security,"income loss, family well-being, hypothetical scenario","158 The following is a hypothetical question: If you were unfortunate enough to lose your main source of income, how serious would it be for you and your family?"
+q159,Economic Perception,"income fairness, effort evaluation, family income","159 Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair-4 categories?"
+q159a,Economic Perception,"income fairness, effort evaluation, family income","159a Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair-6 categories?"
+q16,Media Consumption,"newspaper readership, media habits",16 Newspaper
+q160,Social Mobility,"intergenerational comparison, standard of living, social status","160 As compared to my parent's generation, my generation has more or fewer opportunities to improve one's standard of living or social status?"
+q161,National Pride,"national identity, citizenship pride, patriotism",161 How proud are you to be a citizen of the country? Are you?
+q162,Migration Intentions,"migration willingness, country loyalty, international mobility","162 Given the chance, how willing would you be to go and live in another country"
+q163,Geopolitics,"regional influence, country power, international relations",163 Which country has the most influence in Asia?
 q164,Geopolitical Perception,"country evaluation, regional impact, moral judgment",164 Does the United States do more good or harm to the region?
-q165,Geopolitical Perception,"country evaluation, regional impact, moral judgment",165 Does China do more good or harm to the region?
-q166,Geopolitical Influence,"country influence, regional power, future projection","166 In ten years, which country will have the most influence in Asia?"
-q167,Development Model,"country aspiration, development goal, national vision",167 Which country should be a model for our own country's future development?
-q168,Geopolitical Influence,"country influence, national impact, quantitative evaluation",168 How much influence does China have on our country?
-q169,Geopolitical Influence,"country influence, national impact, qualitative evaluation","169 General speaking, the influence China has on our country is?"
-q17,Economic Perception,"economic condition, family level, future expectation",What do you think the economic situation of your family will be a few years from now? 17 Television
-q170,Geopolitical Influence,"country influence, national impact, quantitative evaluation",170 How much influence does the United States have on our country?
-q171,Geopolitical Influence,"country influence, national impact, qualitative evaluation","171 General speaking, the influence the United States has on our country is?"
-q172,Regional Identity,"regional affinity, national belonging, cultural closeness",172 How close do you feel to ASEAN? (ASEAN countries only)
-q18,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? 18 The election commission
-q19,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? 19 Non-government organizations or NGOs
-q2,Economic Perception,"economic condition, national level, temporal comparison",2. How would you dsecribe the change in the economic condition of our country over the last few years?
-q20,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? Name of the organization you belong to. First
-q21,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? Name of the organization you belong to. Second
-q22,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? Name of the organization that you belong to. Third
-q23,Trust in People,"trust, generalized others, caution","23 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with people""?"
-q24,Trust in People,"trust, generalized others, trustworthiness","23 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with people""? Do you ageee with the statement 'Most people are trustworthy'"
-q25,Trust in People,"trust, exploitation, fairness","25 Do you think most people would try to take advantage of you if they got a chance, or would they try to be fair?"
-q26,Trust in People,"trust, relatives, familial relationships",26. How much do you trust your relatives?
-q27,Social Trust,"trust, neighbors, social relationships",27. Trust your neighbors
-q28,Social Trust,"trust, social interactions, people",28. Trust other people you interact with
-q29,Social Connectivity,"social connections, frequency of contact, daily life",29. How many people do you have contact within a typical week day?
-q3,Economic Perception,"economic condition, national level, future evaluation",3. What do you think will be the state of our country's economic condition a few years from now?
-q30,Social Support,"help, social network, problem management","30. If you have a difficult problem to manage, are there people outside your household you can ask for help?"
-q31,Social Support,"help, social network, reciprocity","31. When people outside your household have problems, do they come to you for help?"
-q32,Social Tolerance,"political differences, social interactions, tolerance","32 If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?"
-q33,Political Participation,"voting behavior, election participation, civic engagement",33 Did you vote in the last national election?
-q34,Political Preference,"voting choice, party affiliation, political orientation",34 Which parties or candidates did you vote for?
-q34a,Political Preference,"voting outcome, winning or losing, election result",34a Did the respondent vote for the winning or losing camp?
-q35,Political Participation,"campaign meeting, political engagement, attendance",35. Did you attend a campaign meeting or rally?
-q36,Political Participation,"voter persuasion, political influence, candidate support",36. Try to persudae others to vote for a certain candidate or party?
-q37,Political Participation,"party support, volunteering, election assistance",37. Did you do anything else to help out or work for a party or candidate running in the last national election?
-q38,Election Integrity,"election fairness, freedom, national election evaluation","38.On the whole, how free and fair would you say the last national election was?"
-q39,Service Accessibility,"identity document, obtainment ease, bureaucratic process",39. How easy or difficult to obtain an identity document service
+q165,Geopolitical Perception,"country comparison, regional impact, moral judgment",164 Does the United States do more good or harm to the region? 165 Does China do more good or harm to the region?
+q166,Future Influence,"country influence, regional leadership, temporal projection","166 In ten years, which country will have the most influence in Asia?"
+q167,Development Model,"country role model, development aspiration, national vision",167 Which country should be a model for our own country's future development?
+q168,Country Influence,"country influence, national impact, quantitative evaluation",168 How much influence does China have on our country?
+q169,Country Influence,"country influence, national impact, qualitative evaluation","169 General speaking, the influence China has on our country is?"
+q17,Media Consumption,"media type, exposure, personal experience",17 Television
+q170,Country Influence,"country influence, national impact, quantitative evaluation",170 How much influence does the United States have on our country?
+q171,Country Influence,"country influence, national impact, qualitative evaluation","171 General speaking, the influence the United States has on our country is?"
+q172,Regional Identity,"regional affiliation, emotional connection, geographical belonging",172 How close do you feel to ASEAN? (ASEAN countries only)
+q18,Trust in Institutions,"election commission, institutional trust, government",18 The election commission
+q19,Trust in Institutions,"non-government organizations, NGOs, institutional trust",19 Non-government organizations or NGOs
+q2,Economic Perception,"economic condition, evaluation, temporal comparison, national level",2. How would you dsecribe the change in the economic condition of our country over the last few years?
+q20,Organizational Affiliation,"organizational membership, affiliation, identity",20. Name of the organization you belong to. First
+q21,Organizational Affiliation,"organizational membership, affiliation, identity",21. Name of the organization you belong to. Second
+q22,Organizational Affiliation,"organizational membership, affiliation, identity",22. Name of the organization that you belong to. Third
+q23,Social Trust,"social trust, interpersonal trust, caution in relationships","23 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with people""?"
+q24,Social Trust,"social trust, interpersonal trust, trustworthiness",24. Do you ageee with the statement 'Most people are trustworthy'
+q25,Social Trust,"social trust, interpersonal trust, fairness in relationships","25 Do you think most people would try to take advantage of you if they got a chance, or would they try to be fair?"
+q26,Interpersonal Trust,"interpersonal trust, family relationships, relative trust",26. How much do you trust your relatives?
+q27,Social Trust,"trust, relatives, neighbors, social relationships",How much do you trust your relatives? Trust your neighbors
+q28,Social Trust,"trust, relatives, social interactions, social relationships",How much do you trust your relatives? Trust other people you interact with
+q29,Social Connections,"social network, social interactions, daily life",29. How many people do you have contact within a typical week day?
+q3,Economic Perception,"economic condition, national level, temporal comparison, future expectations",How would you dsecribe the change in the economic condition of our country over the last few years? What do you think will be the state of our country's economic condition a few years from now?
+q30,Social Support,"social support, problem management, help-seeking behavior","30. If you have a difficult problem to manage, are there people outside your household you can ask for help?"
+q31,Social Support,"social support, reciprocity, help-seeking behavior, help-giving behavior","If you have a difficult problem to manage, are there people outside your household you can ask for help? When people outside your household have problems, do they come to you for help?"
+q32,Social Tolerance,"political tolerance, social interactions, disagreement, conversation","32 If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?"
+q33,Political Participation,"voting behavior, political engagement, election participation",33 Did you vote in the last national election?
+q34,Political Preference,"voting choice, party affiliation, candidate support",34 Which parties or candidates did you vote for?
+q34a,Political Preference,"voting outcome, winning party, losing party, election result",34a Did the respondent vote for the winning or losing camp?
+q35,Political Participation,"campaign meeting, attendance, political engagement",35. Did you attend a campaign meeting or rally?
+q36,Political Participation,"campaign meeting, persuasion, voting influence",Did you attend a campaign meeting or rally? Try to persudae others to vote for a certain candidate or party?
+q37,Political Participation,"campaign meeting, volunteering, party support",Did you attend a campaign meeting or rally? Did you do anything else to help out or work for a party or candidate running in the last national election?
+q38,Election Perception,"election fairness, freedom, national election","38.On the whole, how free and fair would you say the last national election was?"
+q39,Service Accessibility,"identity document, obtaining service, ease of access",39. How easy or difficult to obtain an identity document service
 q4,Economic Perception,"family economic situation, current evaluation, personal finance","4. As for your own family, how do you rate the economic situation of your family today?"
-q40,Service Accessibility,"public education, school enrollment, accessibility",40. How easy or difficult to obtain a place in a public primirary school for a child
-q41,Service Accessibility,"medical treatment, healthcare access, clinic services",41. How easy or difficult to obtain medical treatment at nearby clinic
-q42,Public Safety,"police assistance, help obtainment, law enforcement",42. How easy or difficult to obtain help from the police when you need it
-q43,Public Safety,"urban safety, living conditions, personal security",43. How safe is living in this city/ town/ village
-q44,Political Engagement,"interest, politics, self-assessment",44. How interested would you say you are in politics?
-q45,Political Engagement,"news consumption, politics, government, frequency",45. How often do you follow news about politics and government?
-q46,Political Engagement,"social discussion, politics, family, friends, frequency","46. When you get together with your family members or friends, how often do you discuss political matters"
-q47,Digital Accessibility,"internet access, home",47. Do you have Internet access at home?
-q48,Digital Accessibility,"internet access, mobile phone",48. Do you have Internet access on a mobile phone?
-q49,Digital Behavior,"internet usage, frequency",49. How often do you use the internet?
-q5,Economic Perception,"economic condition, family, temporal comparison, evaluation",5. How would you compare the current economic condition of your family with what it was a few years ago?
-q50,Digital Behavior,"social media usage, platforms",50. Do you currently use any of the following social media networks?
-q51,Political Engagement,"information seeking, politics, government, internet, social media, frequency",51. How often do you use the Internet or social media networks to find information about politics and government?
-q52,Political Engagement,"opinion expression, politics, government, internet, social media, frequency",52. How often do you use the Internet or social media networks to express your opinion about politics and government?
+q40,Service Accessibility,"identity document, public primary school, access to education",How easy or difficult to obtain an identity document service How easy or difficult to obtain a place in a public primirary school for a child
+q41,Service Accessibility,"identity document, medical treatment, healthcare access",How easy or difficult to obtain an identity document service How easy or difficult to obtain medical treatment at nearby clinic
+q42,Service Accessibility,"identity document, police assistance, public safety",How easy or difficult to obtain an identity document service How easy or difficult to obtain help from the police when you need it
+q43,Personal Safety,"city safety, living conditions, personal security",43. How safe is living in this city/ town/ village
+q44,Political Engagement,"political interest, self evaluation, engagement level",44. How interested would you say you are in politics?
+q45,Political Engagement,"news consumption, political information, frequency of engagement",45. How often do you follow news about politics and government?
+q46,Social Interaction,"social discussion, political topics, frequency of discussion","46. When you get together with your family members or friends, how often do you discuss political matters"
+q47,Digital Accessibility,"internet access, home access, digital connectivity",47. Do you have Internet access at home?
+q48,Digital Accessibility,"internet access, mobile access, digital connectivity",48. Do you have Internet access on a mobile phone?
+q49,Digital Behavior,"internet usage, frequency of use, digital activity",49. How often do you use the internet?
+q5,Economic Perception,"economic condition, temporal comparison, family evaluation",5. How would you compare the current economic condition of your family with what it was a few years ago?
+q50,Digital Behavior,"social media usage, digital platforms, online presence",50. Do you currently use any of the following social media networks?
+q51,Political Information,"information seeking, political information, digital sources",51. How often do you use the Internet or social media networks to find information about politics and government?
+q52,Political Expression,"opinion expression, political engagement, digital platforms",How often do you use the Internet or social media networks to find information about politics and government? How often do you use the Internet or social media networks to express your opinion about politics and government?
 q53,Political Affiliation,"political party, affiliation, identification","53.Among the political parties listed here, which party if any do you feel closest to?"
 q54,Political Affiliation,"closeness, political party, affinity",54. How close do you feel to (answer in q53)?
 q55,Family Values,"family, personal interests, sacrifice","55 For the sake of the family, the individual should put his personal interests second."
-q56,Group Dynamics,"group interest, individual interest, sacrifice","56. In a group, we should sacrifice our individual interest for the sake of the group's collective interest."
-q57,National Interest,"national interest, individual interest, sacrifice","57. For the sake of national interest, individual interest could be sacrificed."
-q58,Interpersonal Relationships,"long-term relationship, immediate interest, prioritization","58. When dealing with others, developing a long-term relationship is more important than securing one's immediate interest."
-q59,Interpersonal Relationships,"immediate interest, future planning, balance","59. When dealing with others, one should not only focus on immediate interest but also plan for future."
-q6,Economic Perception,"economic situation, family, future evaluation",6. What do you think the economic situation of your family will be a few years from now?
-q60,Family Values,"filial piety, obedience, unreasonable demands","60. Even if parents' demands are unreasonable, children still should do what they ask."
-q61,Family Values,"conflict resolution, family hierarchy, obedience","61. When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother."
-q62,Social Hierarchy and Authority,"authority, obedience, educational setting","62. Being a student, one should not question the authority of their teacher."
-q63,Social Harmony and Conflict,"group dynamics, conflict avoidance, social cohesion","63. In a group, we should avoid open quarrel to preserve the harmony of the group."
-q64,Social Harmony and Conflict,"conflict avoidance, disagreement, social relationships","64. Even if there is some disagreement with others, one should avoid the conflict."
-q65,Social Harmony and Cooperation,"cooperation, opinion, workplace dynamics",65. A person should not insist on his own opinion if his co-workers disagree with him.
-q66,Fatalism and Social Mobility,"fate, social mobility, inequality","66. Wealth and poverty, success and failure are all determined by fate."
-q67,Gender Preference and Social Norms,"gender preference, family planning, social norms","67. If one could have only one child, it is more preferable to have a boy than a girl."
-q68,Social Interactions and Long-term Orientation,"social interactions, long-term orientation, patience","68. When dealing with others, one should not be preoccupied with temporary gains and losses."
-q69,Political Participation and Engagement,"political participation, civic engagement, representation","69 In the past three years, have you ever contacted elected officials or legislative representatives at any level-3 categories"
-q69a,Political Participation and Engagement,"political participation, civic engagement, representation","69a In the past three years, have you ever contacted elected officials or legislative representatives at any level-4 categories"
-q7,Economic Perception,"economic condition, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? 7 Trust in the excutive office (president or prime minister)
+q56,Collectivism,"group interest, individual interest, sacrifice","55 For the sake of the family, the individual should put his personal interests second. In a group, we should sacrifice our individual interest for the sake of the group's collective interest."
+q57,National Interest,"national interest, individual interest, sacrifice","55 For the sake of the family, the individual should put his personal interests second. For the sake of national interest, individual interest could be sacrificed."
+q58,Interpersonal Relationships,"long-term relationship, immediate interest, prioritization","55 For the sake of the family, the individual should put his personal interests second. When dealing with others, developing a long-term relationship is more important than securing one's immediate interest."
+q59,Interpersonal Relationships,"future planning, immediate interest, balance","55 For the sake of the family, the individual should put his personal interests second. When dealing with others, one should not only focus on immediate interest but also plan for future."
+q6,Economic Perception,"economic condition, temporal comparison, family level",How would you compare the current economic condition of your family with what it was a few years ago? What do you think the economic situation of your family will be a few years from now?
+q60,Family Values,"filial piety, obedience, parental authority","55 For the sake of the family, the individual should put his personal interests second. Even if parents' demands are unreasonable, children still should do what they ask."
+q61,Family Values,"family conflict, obedience, maternal authority","55 For the sake of the family, the individual should put his personal interests second. When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother."
+q62,Family and Social Values,"family importance, personal sacrifice, authority respect","55 For the sake of the family, the individual should put his personal interests second. Being a student, one should not question the authority of their teacher."
+q63,Family and Social Values,"group harmony, conflict avoidance, social cohesion","55 For the sake of the family, the individual should put his personal interests second. In a group, we should avoid open quarrel to preserve the harmony of the group."
+q64,Family and Social Values,"conflict avoidance, disagreement management, social harmony","55 For the sake of the family, the individual should put his personal interests second. Even if there is some disagreement with others, one should avoid the conflict."
+q65,Family and Social Values,"opinion flexibility, co-worker relations, teamwork","55 For the sake of the family, the individual should put his personal interests second. A person should not insist on his own opinion if his co-workers disagree with him."
+q66,Fatalism and Social Values,"fate, destiny, social determinism","55 For the sake of the family, the individual should put his personal interests second. Wealth and poverty, success and failure are all determined by fate."
+q67,Family and Social Values,"gender preference, family planning, traditional values","55 For the sake of the family, the individual should put his personal interests second. If one could have only one child, it is more preferable to have a boy than a girl."
+q68,Family and Social Values,"long-term orientation, interpersonal relations, social responsibility","55 For the sake of the family, the individual should put his personal interests second. When dealing with others, one should not be preoccupied with temporary gains and losses."
+q69,Civic Engagement,"political participation, official contact, civic involvement","69 In the past three years, have you ever contacted elected officials or legislative representatives at any level-3 categories"
+q69a,Civic Engagement,"political participation, official contact, civic involvement","69a In the past three years, have you ever contacted elected officials or legislative representatives at any level-4 categories"
+q7,Trust in Government,"institutional trust, executive office, political confidence",7 Trust in the excutive office (president or prime minister)
 q70,Government Interaction,"official contact, higher level, government interaction",70  Contacted officials at higher level-3 categories.
 q70a,Government Interaction,"official contact, higher level, government interaction",70a  Contacted officials at higher level--4 categories.
-q71,Community Engagement,"traditional leader contact, community interaction, local influence",71 Contacted traditional leaders/community leaders-3 categories
-q71a,Community Engagement,"traditional leader contact, community interaction, local influence",71a Contacted traditional leaders/community leaders-4 categories
-q72,Social Influence,"influential people contact, outside government, social interaction",72  Contacted other influential people outside the government-3 categories.
-q72a,Social Influence,"influential people contact, outside government, social interaction",72a  Contacted other influential people outside the government-4 categories.
+q71,Community Engagement,"traditional leader contact, community leader interaction, local influence",71 Contacted traditional leaders/community leaders-3 categories
+q71a,Community Engagement,"traditional leader contact, community leader interaction, local influence",71a Contacted traditional leaders/community leaders-4 categories
+q72,Influential Network,"influential people contact, outside government, social connection",72  Contacted other influential people outside the government-3 categories.
+q72a,Influential Network,"influential people contact, outside government, social connection",72a  Contacted other influential people outside the government-4 categories.
 q73,Media Interaction,"news media contact, information dissemination, public awareness",73  Contacted news media-3 categories
 q73a,Media Interaction,"news media contact, information dissemination, public awareness",73a  Contacted news media-4 categories
-q74,Community Participation,"community problem solving, collective action, local issue resolution",74 Whether you personally have ever got together with others to try to resolve local problems-3 categories
-q74a,Community Participation,"community problem solving, collective action, local issue resolution",74a Whether you personally have ever got together with others to try to resolve local problems-4 categories
-q75,Civic Engagement,"collective action, political participation, petition",75 Got together with others to raise an issue or sign a petition-3 categories
-q75a,Civic Engagement,"collective action, political participation, petition",75a Got together with others to raise an issue or sign a petition-4 categories
+q74,Community Participation,"local problem resolution, collective action, community engagement",74 Whether you personally have ever got together with others to try to resolve local problems-3 categories
+q74a,Community Participation,"local problem resolution, collective action, community engagement",74a Whether you personally have ever got together with others to try to resolve local problems-4 categories
+q75,Civic Engagement,"collective action, petition, political participation",75 Got together with others to raise an issue or sign a petition-3 categories
+q75a,Civic Engagement,"collective action, petition, political participation",75a Got together with others to raise an issue or sign a petition-4 categories
 q76,Civic Engagement,"protest, demonstration, political activism",76 Attended a demonstration or protest march-3 categories
 q76a,Civic Engagement,"protest, demonstration, political activism",76a Attended a demonstration or protest march-4 categories
-q77,Civic Engagement,"political extremism, violence, political cause",77 Used force or violence for a political cause-3 categories
-q77a,Civic Engagement,"political extremism, violence, political cause",77a Used force or violence for a political cause-4 categories
+q77,Civic Engagement,"political violence, extremism, militancy",77 Used force or violence for a political cause-3 categories
+q77a,Civic Engagement,"political violence, extremism, militancy",77a Used force or violence for a political cause-4 categories
 q78,Voting Behavior,"voting history, electoral participation, self-description","78 Thinking of whether you voted or not ever since you became eligible for voting, how would you describe yourself?"
-q79,Political Attitudes,"political beliefs, value statements, agreement",79. Which of the following statements do you agree with most?
-q79a,Political Attitudes,"political beliefs, value statements, agreement intensity",79a. Do you strongly agree or just agree with the chosen statement?
-q8,Economic Perception,"economic forecast, family situation, future evaluation",What do you think the economic situation of your family will be a few years from now? 8 The courts
-q80,General Opinion,"opinion, evaluation, agreement",80. which of the following statements do you agree with most?
-q80a,General Opinion,"agreement intensity, evaluation, certainty",80a. Do you strongly agree or just agree with the chosen statement?
-q81,General Opinion,"opinion, evaluation, agreement",81. which of the following statements do you agree with most?
-q81a,General Opinion,"agreement intensity, evaluation, certainty",81a. Do you strongly agree or just agree with the chosen statement?
-q82,General Opinion,"opinion, evaluation, agreement",82. which of the following statements do you agree with most?
-q82a,General Opinion,"agreement intensity, evaluation, certainty",82a. Do you strongly agree or just agree with the chosen statement?
+q79,Political Attitudes,"political beliefs, value orientation, attitudinal stance",79. Which of the following statements do you agree with most?
+q79a,Political Attitudes,"attitudinal intensity, agreement level, statement endorsement",79a. Do you strongly agree or just agree with the chosen statement?
+q8,Trust in Institutions,"judicial system, institutional trust, court evaluation",8 The courts
+q80,General Opinion,"opinion, evaluation, choice",80. which of the following statements do you agree with most?
+q80a,General Opinion,"agreement level, evaluation intensity",80a. Do you strongly agree or just agree with the chosen statement?
+q81,General Opinion,"opinion, evaluation, choice",81. which of the following statements do you agree with most?
+q81a,General Opinion,"agreement level, evaluation intensity",81a. Do you strongly agree or just agree with the chosen statement?
+q82,General Opinion,"opinion, evaluation, choice",82. which of the following statements do you agree with most?
+q82a,General Opinion,"agreement level, evaluation intensity",82a. Do you strongly agree or just agree with the chosen statement?
 q83,Trust in Government,"government capability, problem-solving, long-term evaluation","83. Over the long run, our system of government is capable of solving the problems our country faces"
-q84,Trust in Government,"national pride, government evaluation, emotional attachment","84. Thinking in general, I am proud of our system of government"
-q85,Trust in Government,"system support, government evaluation, problem tolerance","85 A system like ours, even if it runs into problems, deserves the people's support"
-q86,Trust in Government,"government preference, system evaluation, personal choice",86. I would rather live under our system of government than any other that I can think of
-q87,Trust in Government,"government evaluation, system effectiveness, reform necessity","87. would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?"
-q88,Democracy Characteristics,"democracy, essential characteristics, evaluation",88  which one would you choose as the most essential characteristics of a democracy?
-q89,Democracy Characteristics,"democracy, essential characteristics, evaluation",89. which one would you choose as the most essential characteristics of a democracy?
-q9,Economic Perception,"economic situation, family level, future evaluation",What do you think the economic situation of your family will be a few years from now? 9 National government in the capital city
-q90,Democracy Characteristics,"democracy, essential characteristics, evaluation",90. which one would you choose as the most essential characteristics of a democracy?
-q91,Democracy Characteristics,"democracy, essential characteristics, evaluation",91. which one would you choose as the most essential characteristics of a democracy?
-q92,Trust in Government,"democracy evaluation, satisfaction level, national level","92 On the whole, how satisfied or dissatisfied are you with the way democracy works in the country?"
-q93,Democracy Evaluation,"democracy level, national evaluation, current assessment",93. In your opinion how much of a democracy is the country?
-q94,Country Evaluation,"country evaluation, current government, national level",94 Where would you place our country under the present government?
-q95,Country Evaluation,"country evaluation, past government, national level, temporal comparison",95 Where would you place our country ten years ago?
-q96,National Outlook,"national future, expectation, temporal comparison",96 Where would you expect our country to be ten years from now?
-q97,Trust in Government,"democracy, suitability, national context",97 Whether you think democracy is suitable for our country
-q98,Government Evaluation,"government, satisfaction, current evaluation",98 How satisfied or dissatisfied are you with the current government?
-q99,National Problems,"national issues, importance, prioritization",99 What are the first most important problems facing this country? 1st
-q99a,National Problems,"national issues, importance, prioritization",99a. What are the second most important problems facing this country? 2nd
-q99b,National Problems,"national issues, importance, prioritization",99b. What are the third most important problems facing this country? 3rd
-se10,Household Economics,"household income, earnings, responsibility",se10.  Are you the main earner in your household?
-se10_1,Employment Status,"employment, main earner, current status",se10_1 Is the main earner in your household currently employed?
-se10a,Employment Type,"employment type, self-employment, business ownership","se10a Is he or she curently self-employed, working in family business or working for an outside employer?"
-se10b,Business Employment,"business size, employment, entrepreneurship",se10b How many people does his or her business employ?
+q84,Trust in Government,"national pride, government evaluation, system support","Over the long run, our system of government is capable of solving the problems our country faces Thinking in general, I am proud of our system of government"
+q85,Trust in Government,"system loyalty, government support, problem tolerance","Over the long run, our system of government is capable of solving the problems our country faces 85 A system like ours, even if it runs into problems, deserves the people's support"
+q86,Trust in Government,"system preference, government evaluation, alternative consideration","Over the long run, our system of government is capable of solving the problems our country faces I would rather live under our system of government than any other that I can think of"
+q87,Trust in Government,"government evaluation, system assessment, reform necessity","87. would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?"
+q88,Democracy Characteristics,"democracy, essential characteristics, evaluation criteria",88  which one would you choose as the most essential characteristics of a democracy?
+q89,Democracy Characteristics,"democracy, essential characteristics, evaluation criteria",89. which one would you choose as the most essential characteristics of a democracy?
+q9,Government Accessibility,"national government, capital city, government location",9 National government in the capital city
+q90,Democracy Characteristics,"democracy, essential characteristics, evaluation criteria",90. which one would you choose as the most essential characteristics of a democracy?
+q91,Democracy Characteristics,"democracy, essential characteristics, evaluation criteria",91. which one would you choose as the most essential characteristics of a democracy?
+q92,Trust in Government,"democracy satisfaction, government evaluation, current assessment","92 On the whole, how satisfied or dissatisfied are you with the way democracy works in the country?"
+q93,Democracy Evaluation,"democracy level, country evaluation, current assessment",93. In your opinion how much of a democracy is the country?
+q94,Country Evaluation,"country evaluation, government assessment, current situation",94 Where would you place our country under the present government?
+q95,Country Evaluation,"country evaluation, government assessment, temporal comparison",94 Where would you place our country under the present government? 95 Where would you place our country ten years ago?
+q96,Government and Country Evaluation,"government evaluation, country progress, temporal comparison, national level",94 Where would you place our country under the present government? 96 Where would you expect our country to be ten years from now?
+q97,Political System Evaluation,"democracy, suitability, national level, political system",97 Whether you think democracy is suitable for our country
+q98,Government Satisfaction,"government satisfaction, evaluation, current government",98 How satisfied or dissatisfied are you with the current government?
+q99,National Problems,"national problems, importance, country issues, priority",99 What are the first most important problems facing this country? 1st
+q99a,National Problems,"national problems, importance, country issues, priority, secondary concern",99a. What are the second most important problems facing this country? 2nd
+q99b,National Problems,"national problems, importance, country issues, priority, tertiary concern",What are the second most important problems facing this country? What are the third most important problems facing this country? 3rd
+se10,Household Economics,"household income, employment status, main earner",se10.  Are you the main earner in your household?
+se10_1,Household Economics,"employment status, main earner, current job",se10_1 Is the main earner in your household currently employed?
+se10a,Household Economics,"employment type, self-employment, main earner, business ownership","se10a Is he or she curently self-employed, working in family business or working for an outside employer?"
+se10b,Household Economics,"business size, employment, main earner, entrepreneurship",se10b How many people does his or her business employ?
 se10c,Occupational Classification,"job title, classification, ISCO code",se10c What is his/her job title (ISCO code)
 se10c_2,Occupational Classification,"job title, classification, EGP class",se10c_2 What is his/her job title (EGP class)
 se10c_3,Social Stratification,"elite, mass, social class",se10c_3 Extended application. Elite vs. Mass
@@ -239,51 +239,51 @@ se10c_4,Occupational Classification,"white collar, blue collar, job type",se10c_
 se10d,Employment Status,"employment, job search, current status",se10d Is he or she currently seeking employment?
 se10e,Employment Status,"employment, current status, job situation",se10e What is his or her current status?
 se11,Language Use,"language, home language, primary language",se11 What language do you speak the most in the home?
-se11a,Demographic Characteristics,"racial background, ethnic background, identity",se11a What is your racial or ethnic background
+se11a,Demographic Characteristics,"racial background, ethnic background, self-identification",se11a What is your racial or ethnic background
 se12,Socioeconomic Status,"family status, socioeconomic scale, self-placement",se12 Where would you place your family on the following scale? -10 scales
 se12a,Socioeconomic Status,"family status, socioeconomic scale, self-placement",se12 Where would you place your family on the following scale? -5 scales
-se13a,Economic Perception,"economic condition, self evaluation, social comparison",se13a Where would you put yourself on this staircase?
-se13b,Economic Perception,"economic condition, parental evaluation, social comparison, intergenerational comparison",se13b Where would you put your parents on this staircase?
-se13c,Economic Perception,"economic condition, child evaluation, social comparison, intergenerational comparison",se13c Where would you put your children on this staircase?
+se13a,Economic Perception,"economic condition, self-evaluation, current situation",se13a Where would you put yourself on this staircase?
+se13b,Economic Perception,"economic condition, family evaluation, intergenerational comparison, parental situation",se13a Where would you put yourself on this staircase? se13b Where would you put your parents on this staircase?
+se13c,Economic Perception,"economic condition, family evaluation, intergenerational comparison, children's situation",se13a Where would you put yourself on this staircase? se13c Where would you put your children on this staircase?
 se14,Household Income,"household income, financial situation, economic resources",se14 Annual or monthly household income
-se14a,Economic Wellbeing,"household income, financial security, basic needs",se14a Does the total income of your household allow you to satisfactorily cover your needs?
-se15a,Household Assets,"asset ownership, car ownership, material possessions",se15a Do your family own the following? Car/Jeep
-se15a_1,Household Assets,"asset quantity, car ownership, material possessions",se15a_1 How many?
-se15b,Household Assets,"asset ownership, tractor ownership, agricultural resources",se15b Tractor
-se15c,Household Assets,"asset ownership, television ownership, electronic devices",se15c Color or B/W television
-se15d,Household Assets,"asset ownership, cable tv subscription, entertainment services",se15d Cable TV
+se14a,Economic Wellbeing,"household income, sufficiency, needs satisfaction",se14a Does the total income of your household allow you to satisfactorily cover your needs?
+se15a,Household Assets,"asset ownership, vehicle possession, material wellbeing",se15a Do your family own the following? Car/Jeep
+se15a_1,Household Assets,"asset quantity, vehicle ownership, material possessions",se15a_1 How many?
+se15b,Household Assets,"asset ownership, agricultural equipment, rural livelihood",se15b Tractor
+se15c,Household Assets,"asset ownership, electronic devices, entertainment access",se15c Color or B/W television
+se15d,Household Assets,"asset ownership, entertainment access, information access",se15d Cable TV
 se15e,Household Assets,"vehicle, transportation, ownership",se15e Scooter/motorcycle/moped
 se15f,Household Assets,"communication, technology, access",se15f Telephone
 se15g,Household Assets,"mobile technology, communication, personal device",se15g Mobile phone
-se15h,Household Assets,"appliance, cooling, comfort",se15h Electric fan/cooler
-se15i,Household Assets,"vehicle, transportation, environmentally friendly",se15i Bicycle
-se15j,Household Assets,"entertainment, information, media",se15j Radio/transistor
-se15k,Household Assets,"agriculture, irrigation, equipment",se15k pumping set
-se15l,Household Assets,"appliance, food storage, convenience",se15l Fridge
-se15m,Household Assets,"leisure, photography, technology",se15m Camera
-se15n,Household Assets,"livestock, agriculture, income source",se15n Goats/sheep
-se15n_1,Agricultural Livestock,"livestock, quantity, enumeration",se15n_1 How many
-se15o,Agricultural Livestock,"cattle, buffalo, animal husbandry",se15o Cows/Buffalo
-se15o_1,Agricultural Livestock,"quantity, cattle, enumeration",se15o_1 How many?
-se2,Demographic Characteristics,"gender, identity, classification",se2 Gender
-se3_1,Demographic Characteristics,"birth year, age, temporal reference",se3_1 Birth year
-se3_2,Demographic Characteristics,"age, actual age, current status",se3_2 Actual age
-se4,Demographic Characteristics,"marital status, relationship, family structure",se4 Marital Status
-se5,Education,"education level, educational attainment, qualification",se5 Education
-se5a,Education,"formal education, years of education, educational duration",se5a How many year of formal education have you received
-se6,Religious Affiliation,"religion, faith, spiritual affiliation",se6 Religion
-se7,Religiosity,"religiosity, self-description, spiritual belief",se7 Religiosity
-se7a,Religiosity,"religiosity level, self-identification, spiritual practice","se7a Would you describe yourself as very religious, moderately religious, lightly religious, not religious at all?"
-se8a,Household Demographics,"household size, family composition, residence",se8a How many people live in this household?
-se8b,Household Demographics,"family structure, intergenerational relationships, household composition",se8b How many generations of family members live in this household?
-se8c,Household Demographics,"household definition, residence inclusion, servants and boarders","se8c INCLUDE servants, transients/boarders"
-se8d,Household Demographics,"household definition, residence exclusion, servants and boarders","se8d EXCLUDE servants, transients/boarders"
-se9,Employment Status,"employment status, current work situation, job presence",se9 Are you current employed?
-se9a,Employment Status,"employment type, self-employment, business involvement","se9a Are you current self-employed, working in a family business or an outside employer?"
-se9b,Business and Employment,"business size, employee count, entrepreneurship",se9b How many people does your business employ?
-se9c,Occupation and Employment,"job title, occupation classification, ISCO code",se9c What is your job title (ISCO code)
+se15h,Household Assets,"cooling device, electric appliance, comfort",se15h Electric fan/cooler
+se15i,Household Assets,"vehicle, transportation, non-motorized",se15i Bicycle
+se15j,Household Assets,"entertainment, information, audio device",se15j Radio/transistor
+se15k,Household Assets,"water management, irrigation, agricultural tool",se15k pumping set
+se15l,Household Assets,"appliance, electricity, food preservation",se15l Fridge
+se15m,Household Assets,"photography, recording, personal device",se15m Camera
+se15n,Household Assets,"livestock, agriculture, animal husbandry",se15n Goats/sheep
+se15n_1,Agriculture/Livestock,"livestock, quantity, ownership",se15n_1 How many
+se15o,Agriculture/Livestock,"livestock type, cattle, buffalo",se15o Cows/Buffalo
+se15o_1,Agriculture/Livestock,"livestock quantity, numerical value, cattle/buffalo",se15o_1 How many?
+se2,Demographics,"gender, personal characteristic, identity",se2 Gender
+se3_1,Demographics,"age, birth year, personal history",se3_1 Birth year
+se3_2,Demographics,"age, current status, personal characteristic",se3_2 Actual age
+se4,Demographics,"marital status, relationship status, personal life",se4 Marital Status
+se5,Education,"education level, personal achievement, knowledge",se5 Education
+se5a,Education,"education duration, formal education, years of study",se5a How many year of formal education have you received
+se6,Demographics,"religion, personal belief, spirituality",se6 Religion
+se7,Unknown,,se7 Religiosity
+se7a,Religiosity,"religiosity, self-description, personal belief","se7a Would you describe yourself as very religious, moderately religious, lightly religious, not religious at all?"
+se8a,Household Composition,"household size, family members, demographics",se8a How many people live in this household?
+se8b,Household Composition,"family structure, generational relationships, household dynamics",se8b How many generations of family members live in this household?
+se8c,Household Composition,"household definition, inclusion criteria, residency status","se8c INCLUDE servants, transients/boarders"
+se8d,Household Composition,"household definition, exclusion criteria, residency status","se8d EXCLUDE servants, transients/boarders"
+se9,Employment Status,"employment status, current work situation, job status",se9 Are you current employed?
+se9a,Employment Status,"employment type, work arrangement, business ownership","se9a Are you current self-employed, working in a family business or an outside employer?"
+se9b,Business Ownership,"business size, employment capacity, entrepreneurship",se9b How many people does your business employ?
+se9c,Occupation,"job title, occupation classification, professional identity",se9c What is your job title (ISCO code)
 se9c_2,Occupational Classification,"job title, occupational classification, socioeconomic status",se9c_2 What is your job title (EGP class)
-se9c_3,Social Stratification,"social class, elite, mass, social comparison",se9c_3 Extended application. Elite vs. Mass
+se9c_3,Social Stratification,"social class, elite, mass, social distinction",se9c_3 Extended application. Elite vs. Mass
 se9c_4,Occupational Classification,"occupational classification, white collar, blue collar, work type",se9c_4 Extended applicable. White vs. blue collar
 se9d,Employment Status,"employment status, job seeking, unemployment",se9d Are you currently seeking employment?
 se9e,Employment Status,"employment status, current situation, job status",se9e What is your current status?
