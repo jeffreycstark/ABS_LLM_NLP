@@ -1,312 +1,312 @@
 variable_id,domain,concepts,question_text,validation_phrase,validation_phrase_occurrences,validation_phrase_score
-COUNTRY,Unknown,,Country code,country code,1,80.0
+COUNTRY,Unknown,,Country code,country code,1,92.4
 IDnumber,Unknown,,"case number 
 
 Variable: Region 
-  Question: Region",case number variable:,1,100.0
-IR10,Unknown,,ir10 Language in which interview was conducted,ir10 language in,1,100.0
-IR10a,Unknown,,ir10a Was the interview conducted with the assistance of an interpreter?,ir10a was the,1,100.0
-IR11E,Unknown,,"ir11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?",ir11e in terms,1,100.0
-IR11a,Unknown,,ir11a What is the condition of the road leading to interviewee's residence?,ir11a what is,1,100.0
-IR11b,Unknown,,ir11b  Please identify the main source of drinking water in the household?,ir11b please identify,1,100.0
-IR11c,Unknown,,ir11c Is electricity the main source of lighting in the house?,ir11c is electricity,1,100.0
-IR11d,Unknown,,ir11d Is this neighborhood coverd by mobile phone network(signals)?,ir11d is this,1,100.0
-IR12,Unknown,,"ir12 Were the following services present within the neighborhood,estimate the distance of services by",ir12 were the,1,100.0
-IR12A,Unknown,,ir12a. Post-office,ir12a. post-office,1,80.0
-IR12B,Unknown,,ir12b. School,ir12b. school,1,80.0
-IR12C,Unknown,,ir12c. Police station,ir12c. police station,1,100.0
-IR12D,Unknown,,ir12d. Sewerage system that most houses could access,ir12d. sewerage system,1,100.0
-IR12E,Unknown,,ir12e. Health clinic,ir12e. health clinic,1,100.0
-IR12F,Unknown,,ir12f. Signal for cellular phone,ir12f. signal for,1,100.0
-IR12G,Unknown,,"ir12g. Recreational facilities, e.g., a sports field","ir12g. recreational facilities,",1,100.0
-IR12H,Unknown,,"ir12h. Any churches, mosques, temples or other public places of worship","ir12h. any churches,",1,100.0
-IR12I,Unknown,,ir12i. Any town halls or community buildings that can be used for meetings,ir12i. any town,1,100.0
-IR12K,Unknown,,ir12K. Market stalls (selling groceries and/or clothing),ir12k. market stalls,1,100.0
-IR13,Unknown,,ir13 Which of the following levels within the country the respondent live?,ir13 which of,1,100.0
-IR2c,Unknown,,ir2c What kind of language do you normally use at home?,ir2c what kind,1,100.0
-IR3,Unknown,,"ir3 In the interview, other than the respondent, were others present?",ir3 in the,1,100.0
-IR3a_1,Unknown,,ir3a_1 Respondent's spouse,ir3a_1 respondent's spouse,1,100.0
-IR3a_2,Unknown,,ir3a_2 Children,ir3a_2 children,1,80.0
-IR3a_3,Unknown,,ir3a_3 Parents or parents-in-law,ir3a_3 parents or,1,100.0
-IR3a_4,Unknown,,ir3a_4 Neighbors/passers by,ir3a_4 neighbors/passers by,1,100.0
-IR3a_5,Unknown,,ir3a_5 Party/government official,ir3a_5 party/government official,1,100.0
-IR3a_6,Unknown,,ir3a_6 Others,ir3a_6 others,1,80.0
-IR4,Unknown,,ir4 Has the respondent ever refused to be interviewed during the whole process?,ir4 has the,1,100.0
-IR5,Unknown,,ir5 Has the respondent ever felt impatient during the interview?,ir5 has the,1,100.0
-IR6,Unknown,,ir6 How cooperative was the respondent during the interview?,ir6 how cooperative,1,100.0
-IR7,Unknown,,ir7 How sincere was the respondent when answering sensitive questions?,ir7 how sincere,1,100.0
-IR8,Unknown,,ir8 What proportion of the questions do you feel the respondent had difficulty answering?,ir8 what proportion,1,100.0
-Ir1,Unknown,,ir1 Interviewer's number,ir1 interviewer's number,1,100.0
-Ir2,Unknown,,ir2 Is this the first questionnaire you have completed?,ir2 is this,1,100.0
-Ir2A,Unknown,,ir2a Interviewer's gender,ir2a interviewer's gender,1,100.0
-Ir2B,Unknown,,ir2b Interviewer's Age,ir2b interviewer's age,1,100.0
-Level,Unknown,,Rural or urban,rural or urban,1,100.0
-Q106c,Unknown,,"106c:(India only) In your opinion, what are the most important problems facing this country that government should address? (1st response)",should address? (1st,1,100.0
-Q106d,Unknown,,"106c:(India only) In your opinion, what are the most important problems facing this country that government should address? 106d:(India only) In your opinion, what are the most important problems facing this country that government should address? (2nd response)",should address? 106d:(india,1,100.0
-Q106e,Unknown,,"106c:(India only) In your opinion, what are the most important problems facing this country that government should address? 106e:(India only) In your opinion, what are the most important problems facing this country that government should address? (3rd response)",should address? 106e:(india,1,100.0
-SE10,Unknown,,se10 Are you the main earner in your household?,se10 are you,1,100.0
-SE10A,Unknown,,"se10a Is he or she curently self-employed, working in family business or working for an outside employer?",se10a is he,1,100.0
-SE10B,Unknown,,se10b How many people does his or her business employ?,se10b how many,1,100.0
-SE10C,Unknown,,se10c What is his/her job title (ISCO code),se10c what is,1,100.0
-SE10D,Unknown,,se10d Is he or she currently seeking employment?,se10d is he,1,100.0
-SE10E,Unknown,,se10e What is his or her current status?,se10e what is,1,100.0
-SE10_1,Unknown,,se10_1 Is the main earner in your household currently employed?,se10_1 is the,1,100.0
-SE12,Unknown,,se12 Where would you place your family on the following scale?,se12 where would,1,100.0
-SE13A,Unknown,,se13a Where would you put yourself on this staircase?,se13a where would,3,19.245008972987524
-SE13B,Unknown,,se13a Where would you put yourself on this staircase? se13b Where would you put your parents on this staircase?,this staircase? se13b,1,100.0
-SE13C,Unknown,,se13a Where would you put yourself on this staircase? se13c Where do you think your children will be on this staircase?,this staircase? se13c,1,100.0
-SE14,Unknown,,se14 What group your household income on average is?,se14 what group,1,100.0
-SE14A,Unknown,,se14a Does the total income of your household allow you to satisactorily cover your needs?,se14a does the,1,100.0
-SE15A,Unknown,,Se15a Do you or your fmaily own the following?Car/Jeep/Van,se15a do you,1,100.0
-SE15B,Unknown,,Se15b Tractor,se15b tractor,1,80.0
-SE15C,Unknown,,Se15c Color or B/W Television,se15c color or,1,100.0
-SE15D,Unknown,,Se15d Cable Televsion,se15d cable televsion,1,100.0
-SE15E,Unknown,,Se15e Scooter/Motorcycle/Moped,se15e scooter/motorcycle/moped,1,80.0
-SE15F,Unknown,,Se15f Telephone,se15f telephone,1,80.0
-SE15G,Unknown,,Se15g Mobile Telephone,se15g mobile telephone,1,100.0
-SE15H,Unknown,,Se15h Electric fan/cooler,se15h electric fan/cooler,1,100.0
-SE15I,Unknown,,Se15i Bicycle,se15i bicycle,1,80.0
-SE15J,Unknown,,Se15j Radio/transistor,se15j radio/transistor,1,80.0
-SE15K,Unknown,,Se15k Pumping set,se15k pumping set,1,100.0
-SE15L,Unknown,,Se15l Fridge,se15l fridge,1,80.0
-SE15M,Unknown,,Se15m Camera,se15m camera,1,80.0
-SE15N,Unknown,,Se15n Goats/Sheep,se15n goats/sheep,1,80.0
-SE15O,Unknown,,Se15o Cows/Buffalo,se15o cows/buffalo,1,80.0
-SE2,Unknown,,se2 Gender,se2 gender,1,80.0
-SE3,Unknown,,se3 Birth year,se3 birth year,1,100.0
-SE3_1,Unknown,,se3_1 Actual age,se3_1 actual age,1,100.0
-SE4,Unknown,,se4 Marital status,se4 marital status,1,100.0
-SE5,Unknown,,se5 Education,se5 education,1,80.0
-SE5A,Unknown,,se5a How many year of formal education you have received?,se5a how many,1,100.0
-SE6,Unknown,,se6 Religion,se6 religion,1,80.0
-SE7,Unknown,,se7 Religiosity,se7 religiosity,1,80.0
-SE7A,Unknown,,"se7a Would you describe yourself as very religious, moderately religious, lightly religious, not religious at all?",se7a would you,1,100.0
-SE8A,Unknown,,se8a How many people live in this household?,se8a how many,1,100.0
-SE8B,Unknown,,se8b How many generations of family members live in this household?,se8b how many,1,100.0
-SE9,Unknown,,se9 Are you current employed?,se9 are you,1,100.0
-SE9A,Unknown,,"se9a Are you current self-employed, working in a family business or an outside employer?",se9a are you,1,100.0
-SE9B,Unknown,,se9b How many people does your business employ?,se9b how many,1,100.0
-SE9C,Unknown,,se9c What is your job title (ISCO code),se9c what is,1,100.0
-SE9D,Unknown,,se9d Are you currently seeking employment?,se9d are you,1,100.0
-SE9E,Unknown,,se9e What is your current status?,se9e what is,1,100.0
-Se10c_2,Unknown,,se10c_2 What is his/her job title (EGP class),se10c_2 what is,1,100.0
-Se10c_3,Unknown,,se10c_3 Extended application. Elite vs. Mass,se10c_3 extended application.,1,100.0
-Se10c_4,Unknown,,se10c_4 Extended application. White vs. blue collar,se10c_4 extended application.,1,100.0
-Se11,Unknown,,se11 What language do you speak the most in the home?,se11 what language,1,100.0
-Se11a,Unknown,,se11a What is your racial or ethnic background?,se11a what is,1,100.0
-Se9c_2,Unknown,,se9c_2 What is your job title (EGP class),se9c_2 what is,1,100.0
-Se9c_3,Unknown,,se9c_3 Extended application. Elite vs. Mass,se9c_3 extended application.,1,100.0
-Se9c_4,Unknown,,se9c_4 Extended application. White vs. blue collar,se9c_4 extended application.,1,100.0
+  Question: Region",case number variable: region question:,1,132.0
+IR10,Unknown,,ir10 Language in which interview was conducted,ir10 language in which interview,1,132.0
+IR10a,Unknown,,ir10a Was the interview conducted with the assistance of an interpreter?,ir10a was the interview conducted,1,132.0
+IR11E,Unknown,,"ir11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?",ir11e in terms of walking,1,132.0
+IR11a,Unknown,,ir11a What is the condition of the road leading to interviewee's residence?,ir11a what is the condition,1,132.0
+IR11b,Unknown,,ir11b  Please identify the main source of drinking water in the household?,ir11b please identify the main,1,132.0
+IR11c,Unknown,,ir11c Is electricity the main source of lighting in the house?,ir11c is electricity the main,1,132.0
+IR11d,Unknown,,ir11d Is this neighborhood coverd by mobile phone network(signals)?,ir11d is this neighborhood coverd,1,132.0
+IR12,Unknown,,"ir12 Were the following services present within the neighborhood,estimate the distance of services by",ir12 were the following services,1,132.0
+IR12A,Unknown,,ir12a. Post-office,ir12a. post-office,1,92.4
+IR12B,Unknown,,ir12b. School,ir12b. school,1,92.4
+IR12C,Unknown,,ir12c. Police station,ir12c. police station,1,132.0
+IR12D,Unknown,,ir12d. Sewerage system that most houses could access,ir12d. sewerage system that most,1,132.0
+IR12E,Unknown,,ir12e. Health clinic,ir12e. health clinic,1,132.0
+IR12F,Unknown,,ir12f. Signal for cellular phone,ir12f. signal for cellular phone,1,132.0
+IR12G,Unknown,,"ir12g. Recreational facilities, e.g., a sports field","recreational facilities, e.g., a sports",1,132.0
+IR12H,Unknown,,"ir12h. Any churches, mosques, temples or other public places of worship","ir12h. any churches, mosques, temples",1,132.0
+IR12I,Unknown,,ir12i. Any town halls or community buildings that can be used for meetings,ir12i. any town halls or,1,132.0
+IR12K,Unknown,,ir12K. Market stalls (selling groceries and/or clothing),ir12k. market stalls (selling groceries,1,132.0
+IR13,Unknown,,ir13 Which of the following levels within the country the respondent live?,ir13 which of the following,1,132.0
+IR2c,Unknown,,ir2c What kind of language do you normally use at home?,ir2c what kind of language,1,132.0
+IR3,Unknown,,"ir3 In the interview, other than the respondent, were others present?","ir3 in the interview, other",1,132.0
+IR3a_1,Unknown,,ir3a_1 Respondent's spouse,ir3a_1 respondent's spouse,1,132.0
+IR3a_2,Unknown,,ir3a_2 Children,ir3a_2 children,1,92.4
+IR3a_3,Unknown,,ir3a_3 Parents or parents-in-law,ir3a_3 parents or parents-in-law,1,132.0
+IR3a_4,Unknown,,ir3a_4 Neighbors/passers by,ir3a_4 neighbors/passers by,1,120.0
+IR3a_5,Unknown,,ir3a_5 Party/government official,ir3a_5 party/government official,1,132.0
+IR3a_6,Unknown,,ir3a_6 Others,ir3a_6 others,1,92.4
+IR4,Unknown,,ir4 Has the respondent ever refused to be interviewed during the whole process?,ir4 has the respondent ever,1,132.0
+IR5,Interview Experience,"impatience, cooperation, interview experience",ir5 Has the respondent ever felt impatient during the interview?,ir5 has the respondent ever,1,132.0
+IR6,Interview Experience,"cooperation, interview experience, evaluative judgment",ir6 How cooperative was the respondent during the interview?,how cooperative was the respondent,1,132.0
+IR7,Interview Experience,"sincerity, interview experience, evaluative judgment",ir7 How sincere was the respondent when answering sensitive questions?,how sincere was the respondent,1,132.0
+IR8,Interview Experience,"difficulty, interview experience, evaluative judgment",ir8 What proportion of the questions do you feel the respondent had difficulty answering?,what proportion of the questions,1,132.0
+Ir1,Interviewer Information,"interviewer, identification",ir1 Interviewer's number,ir1 interviewer's number,1,132.0
+Ir2,Interviewer Information,"experience, interviewer, identification",ir2 Is this the first questionnaire you have completed?,ir2 is this the first,1,132.0
+Ir2A,Interviewer Information,"interviewer, gender, demographic",ir2a Interviewer's gender,ir2a interviewer's gender,1,132.0
+Ir2B,Interviewer Information,"interviewer, age, demographic",ir2b Interviewer's Age,ir2b interviewer's age,1,132.0
+Level,Geographic Location,"rural, urban, geographic",Rural or urban,rural or urban,1,132.0
+Q106c,Economic Perception,"problems, government, national level","106c:(India only) In your opinion, what are the most important problems facing this country that government should address? (1st response)",that government should address? (1st,1,132.0
+Q106d,Unknown,,"106c:(India only) In your opinion, what are the most important problems facing this country that government should address? 106d:(India only) In your opinion, what are the most important problems facing this country that government should address? (2nd response)",that government should address? 106d:(india,1,132.0
+Q106e,Unknown,,"106c:(India only) In your opinion, what are the most important problems facing this country that government should address? 106e:(India only) In your opinion, what are the most important problems facing this country that government should address? (3rd response)",that government should address? 106e:(india,1,132.0
+SE10,Unknown,,se10 Are you the main earner in your household?,se10 are you the main,1,132.0
+SE10A,Unknown,,"se10a Is he or she curently self-employed, working in family business or working for an outside employer?",se10a is he or she,1,132.0
+SE10B,Unknown,,se10b How many people does his or her business employ?,se10b how many people does,1,132.0
+SE10C,Unknown,,se10c What is his/her job title (ISCO code),se10c what is his/her job,1,132.0
+SE10D,Unknown,,se10d Is he or she currently seeking employment?,se10d is he or she,1,132.0
+SE10E,Unknown,,se10e What is his or her current status?,se10e what is his or,1,132.0
+SE10_1,Unknown,,se10_1 Is the main earner in your household currently employed?,se10_1 is the main earner,1,132.0
+SE12,Unknown,,se12 Where would you place your family on the following scale?,se12 where would you place,1,132.0
+SE13A,Unknown,,se13a Where would you put yourself on this staircase?,se13a where would you put,3,25.403411844343534
+SE13B,Unknown,,se13a Where would you put yourself on this staircase? se13b Where would you put your parents on this staircase?,yourself on this staircase? se13b,1,132.0
+SE13C,Unknown,,se13a Where would you put yourself on this staircase? se13c Where do you think your children will be on this staircase?,yourself on this staircase? se13c,1,132.0
+SE14,Unknown,,se14 What group your household income on average is?,se14 what group your household,1,132.0
+SE14A,Unknown,,se14a Does the total income of your household allow you to satisactorily cover your needs?,se14a does the total income,1,132.0
+SE15A,Unknown,,Se15a Do you or your fmaily own the following?Car/Jeep/Van,you or your fmaily own,1,132.0
+SE15B,Unknown,,Se15b Tractor,se15b tractor,1,92.4
+SE15C,Unknown,,Se15c Color or B/W Television,se15c color or b/w television,1,132.0
+SE15D,Unknown,,Se15d Cable Televsion,se15d cable televsion,1,132.0
+SE15E,Unknown,,Se15e Scooter/Motorcycle/Moped,se15e scooter/motorcycle/moped,1,92.4
+SE15F,Unknown,,Se15f Telephone,se15f telephone,1,92.4
+SE15G,Unknown,,Se15g Mobile Telephone,se15g mobile telephone,1,132.0
+SE15H,Unknown,,Se15h Electric fan/cooler,se15h electric fan/cooler,1,132.0
+SE15I,Unknown,,Se15i Bicycle,se15i bicycle,1,92.4
+SE15J,Unknown,,Se15j Radio/transistor,se15j radio/transistor,1,92.4
+SE15K,Unknown,,Se15k Pumping set,se15k pumping set,1,132.0
+SE15L,Unknown,,Se15l Fridge,se15l fridge,1,92.4
+SE15M,Unknown,,Se15m Camera,se15m camera,1,92.4
+SE15N,Unknown,,Se15n Goats/Sheep,se15n goats/sheep,1,92.4
+SE15O,Unknown,,Se15o Cows/Buffalo,se15o cows/buffalo,1,92.4
+SE2,Unknown,,se2 Gender,se2 gender,1,92.4
+SE3,Unknown,,se3 Birth year,se3 birth year,1,132.0
+SE3_1,Unknown,,se3_1 Actual age,se3_1 actual age,1,132.0
+SE4,Unknown,,se4 Marital status,se4 marital status,1,132.0
+SE5,Unknown,,se5 Education,se5 education,1,92.4
+SE5A,Unknown,,se5a How many year of formal education you have received?,how many year of formal,1,132.0
+SE6,Unknown,,se6 Religion,se6 religion,1,92.4
+SE7,Unknown,,se7 Religiosity,se7 religiosity,1,92.4
+SE7A,Unknown,,"se7a Would you describe yourself as very religious, moderately religious, lightly religious, not religious at all?",se7a would you describe yourself,1,132.0
+SE8A,Unknown,,se8a How many people live in this household?,se8a how many people live,1,132.0
+SE8B,Unknown,,se8b How many generations of family members live in this household?,how many generations of family,1,132.0
+SE9,Unknown,,se9 Are you current employed?,se9 are you current employed?,1,132.0
+SE9A,Unknown,,"se9a Are you current self-employed, working in a family business or an outside employer?","se9a are you current self-employed,",1,132.0
+SE9B,Unknown,,se9b How many people does your business employ?,se9b how many people does,1,132.0
+SE9C,Unknown,,se9c What is your job title (ISCO code),se9c what is your job,1,132.0
+SE9D,Unknown,,se9d Are you currently seeking employment?,se9d are you currently seeking,1,132.0
+SE9E,Unknown,,se9e What is your current status?,se9e what is your current,1,132.0
+Se10c_2,Unknown,,se10c_2 What is his/her job title (EGP class),se10c_2 what is his/her job,1,132.0
+Se10c_3,Unknown,,se10c_3 Extended application. Elite vs. Mass,se10c_3 extended application. elite vs.,1,132.0
+Se10c_4,Unknown,,se10c_4 Extended application. White vs. blue collar,se10c_4 extended application. white vs.,1,132.0
+Se11,Language Use,"language, home environment",se11 What language do you speak the most in the home?,se11 what language do you,1,132.0
+Se11a,Ethnic Background,"ethnicity, racial background",se11a What is your racial or ethnic background?,se11a what is your racial,1,132.0
+Se9c_2,Occupation,"job title, socioeconomic status",se9c_2 What is your job title (EGP class),se9c_2 what is your job,1,132.0
+Se9c_3,Social Stratification,"elite vs mass, social class",se9c_3 Extended application. Elite vs. Mass,se9c_3 extended application. elite vs.,1,132.0
+Se9c_4,Occupation,"white collar vs blue collar, occupation type",se9c_4 Extended application. White vs. blue collar,se9c_4 extended application. white vs.,1,132.0
 Year,Unknown,,"Interview year 
 
 Variable: Month 
-  Question: Interview month",interview year variable:,1,100.0
-q1,Unknown,,1. How would you rate the overall economic condition of our country today?,1. how would,1,100.0
-q10,Unknown,,10 Political parties[not any specific party],10 political parties[not,1,100.0
-q100,Unknown,,100 In your opinion how much of a democracy is our country?,100 in your,1,100.0
-q101,Unknown,,101 Where would you place our country under the present government?,101 where would,3,19.245008972987524
-q102,Unknown,,101 Where would you place our country under the present government? 102 Where would you place our country ten years ago?,present government? 102,1,100.0
-q103,Unknown,,101 Where would you place our country under the present government? 103 Where would you expect our country to be ten years from now?,present government? 103,1,100.0
-q104,Unknown,,104 Where would you place our country today? Democracy is suitable or not,104 where would,1,100.0
-q105,Unknown,,105 How satisfied or dissatisfied are you with the current president/government?,105 how satisfied,1,100.0
-q106,Unknown,,106 What are the first most important problems facing this country that government should address(1st response)?,106 what are,1,100.0
-q106a,Unknown,,106a What are the most important problems facing this country that government should address(2nd response)?,106a what are,2,35.35533905932737
-q106b,Unknown,,106a What are the most important problems facing this country that government should address(2nd response)? 106b What are the most important problems facing this country that government should address(3rd response)?,address(2nd response)? 106b,1,100.0
-q107,Unknown,,107 How likely is it that the government will solve the most important problem you identified within the next five years?,107 how likely,1,100.0
-q108,Unknown,,108 Citizens are able to remove a government they don't like through elections,108 citizens are,9,3.7037037037037037
-q109,Unknown,,"108 Citizens are able to remove a government they don't like through elections 109 In our country, parties and candidates not in power have opportunities to be elected into government",through elections 109,1,100.0
-q11,Unknown,,11 Parliament,11 parliament,1,80.0
-q110,Unknown,,"108 Citizens are able to remove a government they don't like through elections 110 Between elections, the people have no way of holding the government responsible for its actions",through elections 110,1,100.0
-q111,Unknown,,"108 Citizens are able to remove a government they don't like through elections 111 When government leaders break the laws, there is nothing the court can do",through elections 111,1,100.0
-q112,Unknown,,108 Citizens are able to remove a government they don't like through elections 112 All citizens from different ethnic communities in the country are treated equally by the government.,through elections 112,1,100.0
-q113,Unknown,,108 Citizens are able to remove a government they don't like through elections 113 Rich and poor people are treated equally by the government,through elections 113,1,100.0
-q114,Unknown,,"108 Citizens are able to remove a government they don't like through elections 114 People have basic necessities like food, clothes, and shelter",through elections 114,1,100.0
-q115,Unknown,,108 Citizens are able to remove a government they don't like through elections 115 People are free to speak what they think without fear,through elections 115,1,100.0
-q116,Unknown,,108 Citizens are able to remove a government they don't like through elections 116 People can join any organization they like without fear,through elections 116,1,100.0
-q117,Unknown,,117 How often do government officials withhold important information from the public?,117 how often,3,19.245008972987524
-q118,Unknown,,117 How often do government officials withhold important information from the public? 118 How often do you think government leaders break the law or abuse their power?,the public? 118,1,100.0
-q119,Unknown,,117 How often do government officials withhold important information from the public? 119 How often do you think our elections offer the voters a real choice between different parties/candidates?,the public? 119,1,100.0
-q12,Unknown,,12 Civil service,12 civil service,1,100.0
-q120,Unknown,,120 To what extent is the legislature capable of keeping government leaders in check?,120 to what,1,100.0
-q121,Unknown,,121 How well do you think the government responds to what people want?,121 how well,1,100.0
-q122,Unknown,,122 How much do you feel that having elections makes the government more responsive to people's needs,122 how much,1,100.0
-q123,Unknown,,123 How capable is the government of enforcing laws and implementing policies?,123 how capable,1,100.0
-q124,Unknown,,124 How widespread do you think corruption and bribe-taking are in your local/municipal government?,124 how widespread,2,35.35533905932737
-q125,Unknown,,124 How widespread do you think corruption and bribe-taking are in your local/municipal government? 125 How widespread do you think corruption and bribe-taking are in the national government?,local/municipal government? 125,1,100.0
-q126,Unknown,,126 How effective is the government in cracking down on corruption?,126 how effective,1,100.0
-q127,Unknown,,127 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?,127 have you,1,100.0
-q127a_1,Unknown,,127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? personally witnessed,personally witnessed? personally,1,100.0
-q127a_2,Unknown,,127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 127a_2  Did you personally witness it or were you told about it by a family member or friend who personally witnessed? told about it by a family member who personally witnessed,personally witnessed? 127a_2,1,100.0
-q127a_3,Unknown,,127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 127a_3  Did you personally witness it or were you told about it by a family member or friend who personally witnessed? told about it by a friend who personally witnessed,personally witnessed? 127a_3,1,100.0
-q128,Unknown,,128 Where would you place China today on this scale?,128 where would,4,12.5
-q129,Unknown,,128 Where would you place China today on this scale? 129 Where would you place the United States today on this scale?,this scale? 129,1,100.0
-q13,Unknown,,13 The military or armed force,13 the military,1,100.0
-q130,Unknown,,128 Where would you place China today on this scale? 130 Where would you place Japan today on this scale?,this scale? 130,1,100.0
-q131,Unknown,,128 Where would you place China today on this scale? 131 Where would you place India today on this scale?,this scale? 131,1,100.0
-q132,Unknown,,132 Which of the following statements comes closest to your own opinion?,132 which of,1,100.0
-q133,Unknown,,133 Which of the following statements comes closer to your own view?,133 which of,1,100.0
-q134,Unknown,,"134 If you had to choose between democracy and economic development, which would you say is more important?",134 if you,1,100.0
-q135,Unknown,,"135 If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?",135 if you,1,100.0
-q136,Unknown,,"136 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"".",136 do you,1,100.0
-q137,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things.,137 we should,19,1.2074512308976935
-q138,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 138 Only one political party should be allowed to stand for election and hold office,decide things. 138,1,100.0
-q139,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 139 The army (military) should come in to govern the country,decide things. 139,1,100.0
-q14,Unknown,,14 The police,14 the police,1,100.0
-q140,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 140 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.,decide things. 140,1,100.0
-q141,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 141 I think I have the ability to participate in politics,decide things. 141,1,100.0
-q142,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 142 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on,decide things. 142,1,100.0
-q143,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 143 People like me don`t have any influence over what the government does,decide things. 143,1,100.0
-q144,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 144 You can generally trust the people who run our government to do what is right,decide things. 144,1,100.0
-q145,Unknown,,"137 We should get rid of parliament and elections and have a strong leader decide things. 145 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",decide things. 145,1,100.0
-q146,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 146 Women should not be involved in politics as much as men,decide things. 146,1,100.0
-q147,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 147 The government should consult religious authorities when interpreting the laws,decide things. 147,1,100.0
-q148,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 148 People with little or no education should have as much say in politics as highly-educated people,decide things. 148,1,100.0
-q149,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 149 Government leaders are like the head of a family; we should all follow their decisions,decide things. 149,1,100.0
-q15,Unknown,,15 Local government,15 local government,1,100.0
-q150,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 150 The government should decide whether certain ideas should be allowed to be discussed in society,decide things. 150,1,100.0
-q151,Unknown,,137 We should get rid of parliament and elections and have a strong leader decide things. 151 Harmony of the community will be disrupted if people organize lots of groups,decide things. 151,1,100.0
-q152,Unknown,,"137 We should get rid of parliament and elections and have a strong leader decide things. 152 When judges decide important cases, they should accept the view of the executive branch",decide things. 152,1,100.0
-q153,Unknown,,"137 We should get rid of parliament and elections and have a strong leader decide things. 153 If the government is constantly checked [i.e. monitored and supervised] by the legislature, it cannot possibly accomplish great things",decide things. 153,1,100.0
-q154,Unknown,,"137 We should get rid of parliament and elections and have a strong leader decide things. 154 If we have political leaders who are morally upright, we can let them decide everything",decide things. 154,1,100.0
-q155,Unknown,,"137 We should get rid of parliament and elections and have a strong leader decide things. 155 If people have too many different ways of thinking, society will be chaotic",decide things. 155,1,100.0
-q156,Unknown,,156 Which of the following statements do you agree with the most? distinct way of life vs. learning from other countries,156 which of,1,100.0
-q156_1,Unknown,,156_1 Our country should do more to learn from other countries(q156+q156a),156_1 our country,1,100.0
-q156a,Unknown,,156a Do you strongly agree or just agree with the chosen statement?,156a do you,1,100.0
-q157,Unknown,,157 Which of the following statements do you agree with the most? limit or import of foreign goods,157 which of,1,100.0
-q157_1,Unknown,,157_1 Our country should do more trade with other countries(q157+q157a),157_1 our country,1,100.0
-q157a,Unknown,,157a Do you strongly agree or just agree with the chosen statement?,157a do you,1,100.0
-q158,Unknown,,158 Do you think the government should increase or decrease the inflow of foreigners who come to work in our country?,158 do you,1,100.0
-q159,Unknown,,159 How fair do you think income distribution is in the country?,159 how fair,1,100.0
-q16,Unknown,,16 The election commission,16 the election,1,100.0
-q160a,Unknown,,160a It is the responsibility of the government to narrow the gap between the rich and the poor,160a it is,4,12.5
-q160b,Unknown,,160a It is the responsibility of the government to narrow the gap between the rich and the poor 160b It is the responsibility of the government to make sure that everyone has affordable housing,the poor 160b,1,100.0
-q160c,Unknown,,160a It is the responsibility of the government to narrow the gap between the rich and the poor 160c It is the responsibility of the government to make sure that everyone has access to basic medical care,the poor 160c,1,100.0
-q160d,Unknown,,160a It is the responsibility of the government to narrow the gap between the rich and the poor 160d It is the responsibility of the government to make sure that basic necessitities such as food and shelters are provided for everyone,the poor 160d,1,100.0
-q161,Unknown,,161 How worried are you that your family might lose its major source of income within the next 12 months?,161 how worried,1,100.0
-q162,Unknown,,"162 The following is a hypothetical question: If your family were unfortunate enough to lose its main source of income, how serious would it be for your family?",162 the following,1,100.0
-q163,Unknown,,"163 Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair?",163 considering all,1,100.0
-q164,Unknown,,"164 As compared to my parent's generation, my generation has more or fewer opportunities to improve one's standard of living or social status?",164 as compared,1,100.0
-q165,Unknown,,165 Will the next generation have had a better or worse life than our generation?,165 will the,1,100.0
-q166,Unknown,,166 How proud are you to be a citizen of the country?,166 how proud,1,100.0
-q167,Unknown,,"167 Given the chance, how willing would you be to go and live in another country?",167 given the,1,100.0
-q168,Unknown,,"168 Under a democratic system, the country endures poor economic performance",168 under a,1,100.0
-q169,Unknown,,169 Democratic regimes are indecisive and full of problems,169 democratic regimes,1,100.0
-q17,Unknown,,17 Non-government organizations or NGOs,17 non-government organizations,1,100.0
-q170,Unknown,,170 Democratic systems are not effective at maintaining order and stability,170 democratic systems,1,100.0
-q171,Unknown,,171 The citizens in our country are not prepared for a democratic system,171 the citizens,1,100.0
-q172,Unknown,,172 Democracy negatively affects social and ethical values in our country,172 democracy negatively,1,100.0
-q173,Unknown,,"173 As long as a government can solve our country's economic problem, it does not matter if it is democratic or not democratic",173 as long,1,100.0
-q174,Unknown,,174 Which country has the most influence in Asia?,174 which country,1,100.0
-q175,Unknown,,175 Does the United States do more good or harm to Asia?,175 does the,1,100.0
-q176,Unknown,,176 The influence of the U.S. on world affairs today is negative or positive?,176 the influence,1,100.0
-q177,Unknown,,177  Does China do more good or harm to Asia?,177 does china,1,100.0
-q178,Unknown,,178 The infulece of China on world affairs today is negative or positive?,178 the infulece,1,100.0
-q179,Unknown,,"179 In ten years, which country will have the most influence in Asia?",179 in ten,1,100.0
-q18,Unknown,,18. Name of the organization you belong to. First,18. name of,1,100.0
-q180,Unknown,,180 Which country should be a model for our own country's future development?,180 which country,1,100.0
-q181,Unknown,,181 How much influence does China have on our country?,181 how much,1,100.0
-q182,Unknown,,"182 General speaking, the influence China has on our country is?","182 general speaking,",1,100.0
-q183,Unknown,,183 How much influence does the United States have on our country?,183 how much,1,100.0
-q184,Unknown,,"184 General speaking, the influence the United States has on our country is?","184 general speaking,",1,100.0
-q185,Unknown,,185 Which aspect about the Asian power's influence and impact you have in mind when answering the above questions?,185 which aspect,1,100.0
-q186,Unknown,,186 How close do you feel to ASEAN?(ASEAN countries only)?,186 how close,1,100.0
-q19,Unknown,,19. Name of the organization you belong to. Second,19. name of,1,100.0
-q2,Unknown,,2. How would you dsecribe the change in the economic condition of our country over the last few years?,2. how would,1,100.0
-q20,Unknown,,20. Name of the organization that you belong to. Third,20. name of,1,100.0
-q21,Unknown,,21  Which organization you participate most actively in the last 12 months?,21 which organization,1,100.0
-q22,Unknown,,"22 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with people""?",22 would you,1,100.0
-q23,Unknown,,23 Do you agree with the statement that 'most people are trustworthy?',23 do you,1,100.0
-q24,Unknown,,24 How much trust do you have in each of the following types of people? Your relatives,of people? your,1,100.0
-q25,Unknown,,24 How much trust do you have in each of the following types of people? 25 Trust in your neighbors,of people? 25,1,100.0
-q26,Unknown,,24 How much trust do you have in each of the following types of people? 26 Trust in other people you interact with,of people? 26,1,100.0
-q27,Unknown,,24 How much trust do you have in each of the following types of people? 27 Trust in people you meet for the first time,of people? 27,1,100.0
-q28,Unknown,,28 How many people do you have contact within a typical week day?,28 how many,1,100.0
-q29,Unknown,,29 Which of the following best describes your relations with most of your social contacts?,29 which of,1,100.0
-q3,Unknown,,How would you dsecribe the change in the economic condition of our country over the last few years? What do you think will be the state of our country's economic condition a few years from now?,few years? what,1,100.0
-q30,Unknown,,"30 Among these people you have frequent contacts, which of the following best describes the political views of these people?",30 among these,1,100.0
-q31,Unknown,,"31 If you have a difficult problem to manage, are there people outside your household you can ask for help?",31 if you,1,100.0
-q32,Unknown,,"32 If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?",32 if you,1,100.0
-q33,Unknown,,33 Did you vote in the last national election?,33 did you,1,100.0
-q34,Unknown,,34 Which parties or candidates did you vote for?,34 which parties,1,100.0
-q34a,Unknown,,34a Did the respondent vote for the winning or losing camp?,34a did the,1,100.0
-q35,Unknown,,35. Did you attend a campaign meeting or rally in the last national election?,35. did you,1,100.0
-q36,Unknown,,Did you attend a campaign meeting or rally in the last national election? Try to persudae others to vote for a certain candidate or party?,national election? try,1,100.0
-q37,Unknown,,Did you attend a campaign meeting or rally in the last national election? Did you do anything else to help out or work for a party or candidate running in the last national election?,national election? did,1,100.0
-q38,Unknown,,"38 On the whole, how free and fair would you say the last national election was?",38 on the,1,100.0
-q39,Unknown,,39 How easy or difficult to obtain roads in good condition,39 how easy,6,6.804138174397717
-q4,Unknown,,"4. As for your own family, how do you rate the economic situation of your family today?",4. as for,1,100.0
-q40,Unknown,,39 How easy or difficult to obtain roads in good condition 40 How easy or difficult to obtain running water,good condition 40,1,100.0
-q41,Unknown,,39 How easy or difficult to obtain roads in good condition 41 How easy or difficult to obtain public transportation,good condition 41,1,100.0
-q42,Unknown,,39 How easy or difficult to obtain roads in good condition 42 How easy or difficult to obtain healthcare,good condition 42,1,100.0
-q43,Unknown,,39 How easy or difficult to obtain roads in good condition 43 How easy or difficult to obtain help from the pollice when you need it,good condition 43,1,100.0
-q44,Unknown,,39 How easy or difficult to obtain roads in good condition 44 How easy or difficult to obtain access to the internet,good condition 44,1,100.0
-q45,Unknown,,"45 Generally speaking, how safe is living in this city/town/village?","45 generally speaking,",1,100.0
-q46,Unknown,,46 How interested would you say you are in politics?,46 how interested,1,100.0
-q47,Unknown,,47 How often do you follow news about politics and government?,47 how often,1,100.0
-q48,Unknown,,"48 When you get together with your family members or friends, how often do you discuss political matters?",48 when you,1,100.0
-q49,Unknown,,"49 How often do you use the internet, either through computer, tablet or smartphone?",49 how often,1,100.0
-q5,Unknown,,5. How would you compare the current economic condition of your family with what it was a few years ago?,5. how would,1,100.0
-q50,Unknown,,"50 Do you currently use any of the following social media networks?(E.g. facebook, twitter, telegram, whatsapp, youtube, tumblr, instagram, snapchat, etc.)","media networks?(e.g. facebook,",1,100.0
-q51a,Unknown,,50 Do you currently use any of the following social media networks?(E.g. 51a You use social media primarily to connect with other people,media networks?(e.g. 51a,1,100.0
-q51b,Unknown,,50 Do you currently use any of the following social media networks?(E.g. 51b You use social media primarily to expresss my opinion on political issues,media networks?(e.g. 51b,1,100.0
-q51c,Unknown,,50 Do you currently use any of the following social media networks?(E.g. 51c You use social media primarily to share news or information,media networks?(e.g. 51c,1,100.0
-q51d,Unknown,,50 Do you currently use any of the following social media networks?(E.g. 51d You use social media primarily for work,media networks?(e.g. 51d,1,100.0
-q52,Unknown,,52 Which one is the most important channel for you to find information about politics and government?,52 which one,1,100.0
-q53,Unknown,,53 How much trust do you have in each of the following types of media?Television,53 how much,3,19.245008972987524
-q54,Unknown,,53 How much trust do you have in each of the following types of media?Television 54 How much trust do you have in each of the following types of media?Newspaper,of media?television 54,1,100.0
-q55,Unknown,,53 How much trust do you have in each of the following types of media?Television 55 How much trust do you have in each of the following types of media? News on the internet,of media?television 55,1,100.0
-q56,Unknown,,"56 Among the political parties listed here, which party if any do you feel closest to?",56 among the,1,100.0
-q57,Unknown,,"57 How close do you feel to (answer in Q56)? Is it very close, somewhat close, or just a little close?",57 how close,1,100.0
-q58,Unknown,,"58 For the sake of the family, the individual should put his personal interests second.",58 for the,12,2.4056261216234405
-q59,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 59 In a group, we should sacrifice our individual interest for the sake of the groups collective interest.",interests second. 59,1,100.0
-q6,Unknown,,How would you compare the current economic condition of your family with what it was a few years ago? What do you think the economic situation of your family will be a few years from now?,years ago? what,1,100.0
-q60,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 60 For the sake of national interest, individual interest could be sacrificed.",interests second. 60,1,100.0
-q61,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 61 When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",interests second. 61,1,100.0
-q62,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 62 Even if parents' demands are unreasonable, children still should do what they ask.",interests second. 62,1,100.0
-q63,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 63 When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",interests second. 63,1,100.0
-q64,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 64 Being a student, one should not question the authority of their teacher.",interests second. 64,1,100.0
-q65,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 65 In a group, we should avoid open quarrel to preserve the harmony of the group.",interests second. 65,1,100.0
-q66,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 66 Even if there is some disagreement with others, one should avoid the conflict.",interests second. 66,1,100.0
-q67,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 67 A person should not insist on his own opinion if his co-workers disagree with him.",interests second. 67,1,100.0
-q68,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 68 Wealth and poverty, success and failure are all determined by fate.",interests second. 68,1,100.0
-q69,Unknown,,"58 For the sake of the family, the individual should put his personal interests second. 69 If one could have only one child, it is more preferable to have a boy than a girl.",interests second. 69,1,100.0
-q7,Unknown,,7 Trust in the excutive office (president or prime minister),trust in the,1,100.0
-q70,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level",70 in the,11,2.7410122234342147
-q71,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 71 Contacted civil servants or officials",any level 71,1,100.0
-q72,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 72 Contacted other influential people outside the government, such as traditional leaders/community leaders.",any level 72,1,100.0
-q73,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 73 Contacted news media",any level 73,1,100.0
-q74,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 74 Signed a paper petition",any level 74,1,100.0
-q75,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 75 Signed an online petition",any level 75,1,100.0
-q76,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 76 Used the internet including social media networks to express opinions about politics and government",any level 76,1,100.0
-q77,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 77 Joined a group to actively support a cause(including online)",any level 77,1,100.0
-q78,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 78 Got together with others face-to-face to try to resolve local problems",any level 78,1,100.0
-q79,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 79 Attended a demonstration or protest march",any level 79,1,100.0
-q8,Unknown,,8 The courts,8 the courts,1,100.0
-q80,Unknown,,"70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 80 Taken an action or done something for a political cause that put you in a risk of getting injured",any level 80,1,100.0
-q81,Unknown,,"81 Thinking of whether you voted or not ever since you became eligible for voting, how would you describe yourself-have you voted in every election, voted in most elections, voted in some elections or hardly ever voted?",81 thinking of,1,100.0
-q82,Unknown,,82 which of the following statements do you agree with most?government leaders vs.their citizens,82 which of,1,100.0
-q82a,Unknown,,82a Do you strongly agree or just agree with the chosen statement?,82a do you,1,100.0
-q83,Unknown,,83 Which of the following statements do you agree with most? the problem of accountability,83 which of,1,100.0
-q83a,Unknown,,83a Do you strongly agree or just agree with the chosen statement?,83a do you,1,100.0
-q84,Unknown,,84 Which of the following statements do you agree with most? freedom of the press,84 which of,1,100.0
-q84a,Unknown,,84a Do you strongly agree or just agree with the chosen statement?,84a do you,1,100.0
-q85,Unknown,,85 Which of the following statements do you agree with most? political leader,85 which of,1,100.0
-q85a,Unknown,,85a Do you strongly agree or just agree with the chosen statement?,85a do you,1,100.0
-q86,Unknown,,"86 Over the long run, our system of government is capable of solving the problems our country face",86 over the,4,12.5
-q87,Unknown,,"86 Over the long run, our system of government is capable of solving the problems our country face 87 Thinking in general, I am proud of our system of government",country face 87,1,100.0
-q88,Unknown,,"86 Over the long run, our system of government is capable of solving the problems our country face 88 A system like ours, even if it runs into problems, deserves the people's support",country face 88,1,100.0
-q89,Unknown,,"86 Over the long run, our system of government is capable of solving the problems our country face 89 I would rather live under our system of government than any other that I can think of.",country face 89,1,100.0
-q9,Unknown,,9 National government in the capital city,9 national government,1,100.0
-q90,Unknown,,"90 Would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?",90 would you,1,100.0
-q91,Unknown,,91 The courts protects the ordinary people from the abuse of government power,91 the courts,1,100.0
-q92,Unknown,,92 Politics is clean and free of corruption,92 politics is,1,100.0
-q93,Unknown,,93 People have the freedom to take part in protests and demonstrations,93 people have,1,100.0
-q94,Unknown,,"94 When making laws, the government seek advice from religious authorities",94 when making,1,100.0
-q95,Unknown,,95 Political leaders rule by following their own wisdom rathan than people's preferences to ensure a society's collective welfare,95 political leaders,1,100.0
-q96,Unknown,,96 Rule by one party that represents the interests of all classes,96 rule by,1,100.0
-q97,Unknown,,97 Qualified candidates are pre-selected by religious leaders,97 qualified candidates,1,100.0
-q98,Unknown,,"98 If you have to choose only one, which of the following you think is the most essential element of a democracy?",98 if you,1,100.0
-q99,Unknown,,"99 On the whole, how satisfied or dissatisfied are you with the way democracy works in our country?",99 on the,1,100.0
-se15a_1,Unknown,,Se15a_1 How many?,se15a_1 how many?,1,100.0
-se15n_1,Unknown,,Se15n_1 How many?,se15n_1 how many?,1,100.0
-se15o_1,Unknown,,Se15o_1 How many?,se15o_1 how many?,1,100.0
+  Question: Interview month",interview year variable: month question:,1,132.0
+q1,Economic Perception,"economic condition, national level, current evaluation",1. How would you rate the overall economic condition of our country today?,1. how would you rate,1,132.0
+q10,Political Perception,"political parties, party system",10 Political parties[not any specific party],10 political parties[not any specific,1,132.0
+q100,Democracy Perception,"democracy level, country evaluation",100 In your opinion how much of a democracy is our country?,100 in your opinion how,1,132.0
+q101,Government Evaluation,"government performance, country ranking",101 Where would you place our country under the present government?,101 where would you place,3,25.403411844343534
+q102,Economic Perception,"economic condition, national level, temporal comparison, evaluation",101 Where would you place our country under the present government? 102 Where would you place our country ten years ago?,under the present government? 102,1,132.0
+q103,Economic Perception,"economic condition, national level, temporal comparison, expectation",101 Where would you place our country under the present government? 103 Where would you expect our country to be ten years from now?,under the present government? 103,1,132.0
+q104,Economic Perception,"economic condition, national level, evaluation, democracy",104 Where would you place our country today? Democracy is suitable or not,104 where would you place,1,132.0
+q105,Trust in Government,"satisfaction, evaluation, government performance",105 How satisfied or dissatisfied are you with the current president/government?,105 how satisfied or dissatisfied,1,132.0
+q106,Service Accessibility,"problem identification, government responsibility",106 What are the first most important problems facing this country that government should address(1st response)?,106 what are the first,1,132.0
+q106a,Service Accessibility,"problem identification, government responsibility",106a What are the most important problems facing this country that government should address(2nd response)?,country that government should address(2nd,2,46.66904755831214
+q106b,Service Accessibility,"problem identification, government responsibility",106a What are the most important problems facing this country that government should address(2nd response)? 106b What are the most important problems facing this country that government should address(3rd response)?,government should address(2nd response)? 106b,1,132.0
+q107,Government Effectiveness,"problem solving, government performance, timeframe",107 How likely is it that the government will solve the most important problem you identified within the next five years?,107 how likely is it,1,132.0
+q108,Institutional Framework,"elections, government accountability",108 Citizens are able to remove a government they don't like through elections,citizens are able to remove,9,4.888888888888889
+q109,Institutional Framework,"elections, government accountability, party representation","108 Citizens are able to remove a government they don't like through elections 109 In our country, parties and candidates not in power have opportunities to be elected into government",don't like through elections 109,1,132.0
+q11,Government Accountability,"government accountability, elections, responsibility",11 Parliament,11 parliament,1,92.4
+q110,Government Accountability,"government accountability, elections, responsibility","108 Citizens are able to remove a government they don't like through elections 110 Between elections, the people have no way of holding the government responsible for its actions",don't like through elections 110,1,132.0
+q111,Rule of Law,"rule of law, judicial independence, accountability","108 Citizens are able to remove a government they don't like through elections 111 When government leaders break the laws, there is nothing the court can do",don't like through elections 111,1,132.0
+q112,Equality and Justice,"equality, justice, treatment of ethnic communities",108 Citizens are able to remove a government they don't like through elections 112 All citizens from different ethnic communities in the country are treated equally by the government.,don't like through elections 112,1,132.0
+q113,Equality and Justice,"equality, justice, treatment of socio-economic groups",108 Citizens are able to remove a government they don't like through elections 113 Rich and poor people are treated equally by the government,don't like through elections 113,1,132.0
+q114,Economic Well-being,"economic well-being, basic necessities, access to resources","108 Citizens are able to remove a government they don't like through elections 114 People have basic necessities like food, clothes, and shelter",don't like through elections 114,1,132.0
+q115,Freedom of Expression,"freedom of expression, speech, censorship",108 Citizens are able to remove a government they don't like through elections 115 People are free to speak what they think without fear,don't like through elections 115,1,132.0
+q116,Freedom of Association,"freedom of association, organization, censorship",108 Citizens are able to remove a government they don't like through elections 116 People can join any organization they like without fear,don't like through elections 116,1,132.0
+q117,Government Transparency,"government transparency, information disclosure, accountability",117 How often do government officials withhold important information from the public?,117 how often do government,3,25.403411844343534
+q118,Government Accountability,"government accountability, leadership, abuse of power",117 How often do government officials withhold important information from the public? 118 How often do you think government leaders break the law or abuse their power?,information from the public? 118,1,132.0
+q119,Trust in Government,"information transparency, government accountability, evaluation",117 How often do government officials withhold important information from the public? 119 How often do you think our elections offer the voters a real choice between different parties/candidates?,information from the public? 119,1,132.0
+q12,Service Accessibility,"civil service, public sector",12 Civil service,12 civil service,1,132.0
+q120,Legislative Effectiveness,"legislative power, government accountability, checks and balances",120 To what extent is the legislature capable of keeping government leaders in check?,120 to what extent is,1,132.0
+q121,Government Responsiveness,"government responsiveness, citizen needs, evaluation",121 How well do you think the government responds to what people want?,you think the government responds,1,132.0
+q122,Government Responsiveness,"elections, government responsiveness, citizen needs",122 How much do you feel that having elections makes the government more responsive to people's needs,you feel that having elections,1,132.0
+q123,Government Effectiveness,"law enforcement, policy implementation, government effectiveness",123 How capable is the government of enforcing laws and implementing policies?,how capable is the government,1,132.0
+q124,Corruption Perception,"corruption, bribery, government accountability",124 How widespread do you think corruption and bribe-taking are in your local/municipal government?,124 how widespread do you,2,46.66904755831214
+q125,Corruption Perception,"corruption, bribery, government accountability",124 How widespread do you think corruption and bribe-taking are in your local/municipal government? 125 How widespread do you think corruption and bribe-taking are in the national government?,your local/municipal government? 125 how,1,132.0
+q126,Corruption Perception,"corruption, bribery, government accountability, anti-corruption efforts",126 How effective is the government in cracking down on corruption?,how effective is the government,1,132.0
+q127,Corruption Perception,"corruption, bribery, personal experience, government accountability",127 Have you or anyone you know personally witnessed an act of corruption or bribe-taking by a politician or government official in the past year?,127 have you or anyone,1,132.0
+q127a_1,Information Source,"personal experience, information source, witness",127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? personally witnessed,friend who personally witnessed? personally,1,132.0
+q127a_2,Information Source,"personal experience, information source, family member",127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 127a_2  Did you personally witness it or were you told about it by a family member or friend who personally witnessed? told about it by a family member who personally witnessed,friend who personally witnessed? 127a_2,1,132.0
+q127a_3,Information Source,"personal experience, information source, friend",127a_1 Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 127a_3  Did you personally witness it or were you told about it by a family member or friend who personally witnessed? told about it by a friend who personally witnessed,friend who personally witnessed? 127a_3,1,132.0
+q128,Country Perception,"country evaluation, temporal comparison, China",128 Where would you place China today on this scale?,128 where would you place,4,16.5
+q129,Country Perception,"country evaluation, temporal comparison, United States",128 Where would you place China today on this scale? 129 Where would you place the United States today on this scale?,today on this scale? 129,1,132.0
+q13,National Security,"military, armed force",13 The military or armed force,13 the military or armed,1,132.0
+q130,Country Perception,"country evaluation, temporal comparison, Japan",128 Where would you place China today on this scale? 130 Where would you place Japan today on this scale?,today on this scale? 130,1,132.0
+q131,Country Perception,"country evaluation, temporal comparison, India",128 Where would you place China today on this scale? 131 Where would you place India today on this scale?,today on this scale? 131,1,132.0
+q132,Public Opinion,"public opinion, statement evaluation",132 Which of the following statements comes closest to your own opinion?,132 which of the following,1,132.0
+q133,Public Opinion,"public opinion, statement evaluation",133 Which of the following statements comes closer to your own view?,133 which of the following,1,132.0
+q134,Political Values and Priorities,"democracy, economic development, prioritization","134 If you had to choose between democracy and economic development, which would you say is more important?",had to choose between democracy,1,132.0
+q135,Political Values and Priorities,"economic inequality, political freedom, prioritization","135 If you had to choose between reducing economic inequality and protecting political freedom, which would you say is more important?",had to choose between reducing,1,132.0
+q136,Evaluations of Democracy,"democracy, government form, evaluation","136 Do you agree or disagree with the following statement: ""Democracy may have its problems, but it is still the best form of government"".",136 do you agree or,1,132.0
+q137,Authoritarianism and Governance,"strong leader, parliament, elections",137 We should get rid of parliament and elections and have a strong leader decide things.,137 we should get rid,19,1.5938356247849554
+q138,Authoritarianism and Governance,"single-party rule, elections, democracy",137 We should get rid of parliament and elections and have a strong leader decide things. 138 Only one political party should be allowed to stand for election and hold office,strong leader decide things. 138,1,132.0
+q139,Authoritarianism and Governance,"military rule, democracy, governance",137 We should get rid of parliament and elections and have a strong leader decide things. 139 The army (military) should come in to govern the country,strong leader decide things. 139,1,132.0
+q14,Trust in Institutions,"police, trust",14 The police,14 the police,1,132.0
+q140,Authoritarianism and Governance,"expert rule, democracy, governance",137 We should get rid of parliament and elections and have a strong leader decide things. 140 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.,strong leader decide things. 140,1,132.0
+q141,Civic Engagement,"political participation, self-efficacy",137 We should get rid of parliament and elections and have a strong leader decide things. 141 I think I have the ability to participate in politics,strong leader decide things. 141,1,132.0
+q142,Civic Engagement,"political understanding, civic awareness",137 We should get rid of parliament and elections and have a strong leader decide things. 142 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on,strong leader decide things. 142,1,132.0
+q143,Trust in Government,"government accountability, representation, influence",137 We should get rid of parliament and elections and have a strong leader decide things. 143 People like me don`t have any influence over what the government does,strong leader decide things. 143,1,132.0
+q144,Trust in Government,"trust, government integrity, evaluation",137 We should get rid of parliament and elections and have a strong leader decide things. 144 You can generally trust the people who run our government to do what is right,strong leader decide things. 144,1,132.0
+q145,National Identity,"loyalty, nationalism, patriotism","137 We should get rid of parliament and elections and have a strong leader decide things. 145 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",strong leader decide things. 145,1,132.0
+q146,Social Norms,"gender roles, politics, representation",137 We should get rid of parliament and elections and have a strong leader decide things. 146 Women should not be involved in politics as much as men,strong leader decide things. 146,1,132.0
+q147,Religious Influence,"religion, law, interpretation",137 We should get rid of parliament and elections and have a strong leader decide things. 147 The government should consult religious authorities when interpreting the laws,strong leader decide things. 147,1,132.0
+q148,Social Mobility,"education, representation, equality",137 We should get rid of parliament and elections and have a strong leader decide things. 148 People with little or no education should have as much say in politics as highly-educated people,strong leader decide things. 148,1,132.0
+q149,Authoritarianism,"leadership, decision-making, obedience",137 We should get rid of parliament and elections and have a strong leader decide things. 149 Government leaders are like the head of a family; we should all follow their decisions,strong leader decide things. 149,1,132.0
+q15,Service Accessibility,"local government, services, availability",15 Local government,15 local government,1,132.0
+q150,Censorship,"freedom of speech, censorship, government control",137 We should get rid of parliament and elections and have a strong leader decide things. 150 The government should decide whether certain ideas should be allowed to be discussed in society,strong leader decide things. 150,1,132.0
+q151,Social Harmony,"community cohesion, group formation, social order",137 We should get rid of parliament and elections and have a strong leader decide things. 151 Harmony of the community will be disrupted if people organize lots of groups,strong leader decide things. 151,1,132.0
+q152,Trust in Government,"executive branch, judicial independence, legislative power","137 We should get rid of parliament and elections and have a strong leader decide things. 152 When judges decide important cases, they should accept the view of the executive branch",strong leader decide things. 152,1,132.0
+q153,Trust in Government,"legislative power, executive branch, accomplishment","137 We should get rid of parliament and elections and have a strong leader decide things. 153 If the government is constantly checked [i.e. monitored and supervised] by the legislature, it cannot possibly accomplish great things",strong leader decide things. 153,1,132.0
+q154,Trust in Government,"moral leadership, executive power, decision making","137 We should get rid of parliament and elections and have a strong leader decide things. 154 If we have political leaders who are morally upright, we can let them decide everything",strong leader decide things. 154,1,132.0
+q155,Social Cohesion,"cultural diversity, chaos, societal order","137 We should get rid of parliament and elections and have a strong leader decide things. 155 If people have too many different ways of thinking, society will be chaotic",strong leader decide things. 155,1,132.0
+q156,Cultural Identity,"cultural distinctiveness, cultural exchange, learning from others",156 Which of the following statements do you agree with the most? distinct way of life vs. learning from other countries,156 which of the following,1,132.0
+q156_1,Cultural Identity,"cultural exchange, globalization, learning from others",156_1 Our country should do more to learn from other countries(q156+q156a),156_1 our country should do,1,132.0
+q156a,Cultural Identity,"agreement, cultural exchange, learning from others",156a Do you strongly agree or just agree with the chosen statement?,156a do you strongly agree,1,132.0
+q157,Economic Policy,"trade policy, economic protectionism, foreign goods",157 Which of the following statements do you agree with the most? limit or import of foreign goods,157 which of the following,1,132.0
+q157_1,Economic Policy,"trade policy, globalization, international trade",157_1 Our country should do more trade with other countries(q157+q157a),157_1 our country should do,1,132.0
+q157a,Economic Policy,"agreement, trade policy, globalization",157a Do you strongly agree or just agree with the chosen statement?,157a do you strongly agree,1,132.0
+q158,Immigration Policy,"immigration policy, government control, foreign labor",158 Do you think the government should increase or decrease the inflow of foreigners who come to work in our country?,think the government should increase,1,132.0
+q159,Economic Perception,"income distribution, evaluation, fairness",159 How fair do you think income distribution is in the country?,159 how fair do you,1,132.0
+q16,Trust in Institutions,"election commission, trust",16 The election commission,16 the election commission,1,132.0
+q160a,Social Welfare,"income inequality, government responsibility",160a It is the responsibility of the government to narrow the gap between the rich and the poor,160a it is the responsibility,4,16.5
+q160b,Social Welfare,"affordable housing, government responsibility",160a It is the responsibility of the government to narrow the gap between the rich and the poor 160b It is the responsibility of the government to make sure that everyone has affordable housing,rich and the poor 160b,1,132.0
+q160c,Social Welfare,"healthcare access, government responsibility",160a It is the responsibility of the government to narrow the gap between the rich and the poor 160c It is the responsibility of the government to make sure that everyone has access to basic medical care,rich and the poor 160c,1,132.0
+q160d,Social Welfare,"basic needs, government responsibility",160a It is the responsibility of the government to narrow the gap between the rich and the poor 160d It is the responsibility of the government to make sure that basic necessitities such as food and shelters are provided for everyone,rich and the poor 160d,1,132.0
+q161,Economic Security,"income stability, financial worry",161 How worried are you that your family might lose its major source of income within the next 12 months?,161 how worried are you,1,132.0
+q162,Economic Security,"income loss, family impact","162 The following is a hypothetical question: If your family were unfortunate enough to lose its main source of income, how serious would it be for your family?",following is a hypothetical question:,1,132.0
+q163,Economic Perception,"income fairness, evaluation","163 Considering all the effort that you and your family members have made in the past, do you think the income that your family currently receives is fair or not fair?",163 considering all the effort,1,132.0
+q164,Social Mobility,"social status, standard of living, generational comparison","164 As compared to my parent's generation, my generation has more or fewer opportunities to improve one's standard of living or social status?",164 as compared to my,1,132.0
+q165,Social Mobility,"life quality, generational comparison, temporal comparison",165 Will the next generation have had a better or worse life than our generation?,165 will the next generation,1,132.0
+q166,National Identity,"citizenship, patriotism, evaluation",166 How proud are you to be a citizen of the country?,166 how proud are you,1,132.0
+q167,Geographic Mobility,"migration, country preference, willingness","167 Given the chance, how willing would you be to go and live in another country?","167 given the chance, how",1,132.0
+q168,Economic Perception,"economic performance, democratic system, evaluation","168 Under a democratic system, the country endures poor economic performance","168 under a democratic system,",1,132.0
+q169,Government Effectiveness,"democratic regime, decision-making, evaluation",169 Democratic regimes are indecisive and full of problems,169 democratic regimes are indecisive,1,132.0
+q17,Civil Society,"NGOs, non-governmental organizations",17 Non-government organizations or NGOs,17 non-government organizations or ngos,1,132.0
+q170,Government Effectiveness,"democratic system, order and stability, evaluation",170 Democratic systems are not effective at maintaining order and stability,170 democratic systems are not,1,132.0
+q171,Civic Competence,"democratic system, citizen preparedness, evaluation",171 The citizens in our country are not prepared for a democratic system,171 the citizens in our,1,132.0
+q172,Social Values,"democracy, social values, negative impact",172 Democracy negatively affects social and ethical values in our country,172 democracy negatively affects social,1,132.0
+q173,Economic Perception,"economic condition, evaluation, democracy","173 As long as a government can solve our country's economic problem, it does not matter if it is democratic or not democratic",as long as a government,1,132.0
+q174,International Relations,"influence, geopolitics, country comparison",174 Which country has the most influence in Asia?,country has the most influence,1,132.0
+q175,International Relations,"country impact, evaluation, geopolitics",175 Does the United States do more good or harm to Asia?,175 does the united states,1,132.0
+q176,International Relations,"country impact, evaluation, global affairs",176 The influence of the U.S. on world affairs today is negative or positive?,u.s. on world affairs today,1,132.0
+q177,International Relations,"country impact, evaluation, geopolitics",177  Does China do more good or harm to Asia?,177 does china do more,1,132.0
+q178,International Relations,"country impact, evaluation, global affairs",178 The infulece of China on world affairs today is negative or positive?,178 the infulece of china,1,132.0
+q179,International Relations,"influence, country comparison, temporal comparison","179 In ten years, which country will have the most influence in Asia?","179 in ten years, which",1,132.0
+q18,Demographics,"organization, affiliation",18. Name of the organization you belong to. First,18. name of the organization,1,132.0
+q180,International Relations,"country comparison, model, development",180 Which country should be a model for our own country's future development?,180 which country should be,1,132.0
+q181,International Relations,"country impact, evaluation, influence",181 How much influence does China have on our country?,181 how much influence does,1,132.0
+q182,International Relations,"influence, country, temporal comparison","182 General speaking, the influence China has on our country is?","182 general speaking, the influence",1,132.0
+q183,International Relations,"influence, country, temporal comparison",183 How much influence does the United States have on our country?,183 how much influence does,1,132.0
+q184,International Relations,"influence, country, temporal comparison","184 General speaking, the influence the United States has on our country is?","184 general speaking, the influence",1,132.0
+q185,International Relations,"influence, impact, aspect",185 Which aspect about the Asian power's influence and impact you have in mind when answering the above questions?,which aspect about the asian,1,132.0
+q186,Geopolitics and Regionalism,"closeness, region, ASEAN",186 How close do you feel to ASEAN?(ASEAN countries only)?,186 how close do you,1,132.0
+q19,Demographics and Organization,"organization, membership",19. Name of the organization you belong to. Second,19. name of the organization,1,132.0
+q2,Economic Perception,"economic condition, national level, current evaluation",2. How would you dsecribe the change in the economic condition of our country over the last few years?,2. how would you dsecribe,1,132.0
+q20,Demographics and Organization,"organization, membership",20. Name of the organization that you belong to. Third,20. name of the organization,1,132.0
+q21,Demographics and Organization,"organization, participation",21  Which organization you participate most actively in the last 12 months?,21 which organization you participate,1,132.0
+q22,Trust and Social Norms,"trust, people, evaluation","22 Would you say that ""Most people can be trusted"" or ""that you must be very careful in dealing with people""?","you say that ""most people",1,132.0
+q23,Trust in People,"trustworthiness, evaluation, generalization",23 Do you agree with the statement that 'most people are trustworthy?',you agree with the statement,1,132.0
+q24,Trust in People,"trust, evaluation, specific group",24 How much trust do you have in each of the following types of people? Your relatives,following types of people? your,1,132.0
+q25,Trust in People,"trust, evaluation, specific group",24 How much trust do you have in each of the following types of people? 25 Trust in your neighbors,following types of people? 25,1,132.0
+q26,Trust in People,"trust, evaluation, specific group",24 How much trust do you have in each of the following types of people? 26 Trust in other people you interact with,following types of people? 26,1,132.0
+q27,Trust in People,"trust, evaluation, specific group",24 How much trust do you have in each of the following types of people? 27 Trust in people you meet for the first time,following types of people? 27,1,132.0
+q28,Social Network,"social contacts, frequency, quantification",28 How many people do you have contact within a typical week day?,28 how many people do,1,132.0
+q29,Social Network,"social relations, evaluation, description",29 Which of the following best describes your relations with most of your social contacts?,29 which of the following,1,132.0
+q3,Economic Perception,"economic condition, national level, current evaluation, temporal comparison, future prediction",How would you dsecribe the change in the economic condition of our country over the last few years? What do you think will be the state of our country's economic condition a few years from now?,last few years? what do,1,132.0
+q30,Social Network,"social contacts, political views, evaluation","30 Among these people you have frequent contacts, which of the following best describes the political views of these people?",30 among these people you,1,132.0
+q31,Social Support,"help seeking, social support, availability","31 If you have a difficult problem to manage, are there people outside your household you can ask for help?",you have a difficult problem,1,132.0
+q32,Social Interaction and Politics,"social interaction, politics, opinion divergence","32 If you had friends or co-workers whose opinions on politics differed from yours, would you have a hard time conversing with them?",32 if you had friends,1,132.0
+q33,Voting Behavior,"voting behavior, participation",33 Did you vote in the last national election?,you vote in the last,1,132.0
+q34,Voting Behavior,"voting behavior, party affiliation",34 Which parties or candidates did you vote for?,34 which parties or candidates,1,132.0
+q34a,Voting Behavior,"voting behavior, outcome comparison",34a Did the respondent vote for the winning or losing camp?,34a did the respondent vote,1,132.0
+q35,Political Engagement,"political engagement, campaign participation",35. Did you attend a campaign meeting or rally in the last national election?,35. did you attend,1,132.0
+q36,Political Engagement,"political engagement, campaign participation, persuasion",Did you attend a campaign meeting or rally in the last national election? Try to persudae others to vote for a certain candidate or party?,national election? try to persudae,1,132.0
+q37,Political Engagement,"political engagement, campaign participation, volunteering",Did you attend a campaign meeting or rally in the last national election? Did you do anything else to help out or work for a party or candidate running in the last national election?,last national election? did you,1,132.0
+q38,Election Integrity,"election integrity, fairness, freedom","38 On the whole, how free and fair would you say the last national election was?","38 on the whole, how",1,132.0
+q39,Infrastructure and Public Services,"infrastructure quality, public services accessibility",39 How easy or difficult to obtain roads in good condition,39 how easy or difficult,6,8.981462390204985
+q4,Economic Perception,"economic condition, national level, current evaluation","4. As for your own family, how do you rate the economic situation of your family today?",4. as for your own,1,132.0
+q40,Service Accessibility,"service quality, public service, accessibility",39 How easy or difficult to obtain roads in good condition 40 How easy or difficult to obtain running water,roads in good condition 40,1,132.0
+q41,Service Accessibility,"service quality, public service, accessibility",39 How easy or difficult to obtain roads in good condition 41 How easy or difficult to obtain public transportation,roads in good condition 41,1,132.0
+q42,Service Accessibility,"service quality, public service, accessibility",39 How easy or difficult to obtain roads in good condition 42 How easy or difficult to obtain healthcare,roads in good condition 42,1,132.0
+q43,Law Enforcement,"police service, public safety, accessibility",39 How easy or difficult to obtain roads in good condition 43 How easy or difficult to obtain help from the pollice when you need it,roads in good condition 43,1,132.0
+q44,Service Accessibility,"service quality, public service, accessibility",39 How easy or difficult to obtain roads in good condition 44 How easy or difficult to obtain access to the internet,roads in good condition 44,1,132.0
+q45,Safety and Security,"safety perception, security level, environmental safety","45 Generally speaking, how safe is living in this city/town/village?","45 generally speaking, how safe",1,132.0
+q46,Political Engagement,"political interest, engagement level, civic participation",46 How interested would you say you are in politics?,46 how interested would you,1,132.0
+q47,Media Consumption,"media consumption, information seeking, news following",47 How often do you follow news about politics and government?,47 how often do you,1,132.0
+q48,Social Interaction,"social interaction, political discussion, civic engagement","48 When you get together with your family members or friends, how often do you discuss political matters?",48 when you get together,1,132.0
+q49,Digital Literacy,"digital access, internet usage, technology adoption","49 How often do you use the internet, either through computer, tablet or smartphone?",49 how often do you,1,132.0
+q5,Economic Perception,"economic condition, evaluation, temporal comparison",5. How would you compare the current economic condition of your family with what it was a few years ago?,5. how would you compare,1,132.0
+q50,Social Media Usage,"social media usage, platform selection","50 Do you currently use any of the following social media networks?(E.g. facebook, twitter, telegram, whatsapp, youtube, tumblr, instagram, snapchat, etc.)","following social media networks?(e.g. facebook,",1,132.0
+q51a,Social Media Usage,"social media purpose, social connection",50 Do you currently use any of the following social media networks?(E.g. 51a You use social media primarily to connect with other people,following social media networks?(e.g. 51a,1,132.0
+q51b,Social Media Usage,"social media purpose, political expression",50 Do you currently use any of the following social media networks?(E.g. 51b You use social media primarily to expresss my opinion on political issues,following social media networks?(e.g. 51b,1,132.0
+q51c,Social Media Usage,"social media purpose, information sharing",50 Do you currently use any of the following social media networks?(E.g. 51c You use social media primarily to share news or information,following social media networks?(e.g. 51c,1,132.0
+q51d,Social Media Usage,"social media purpose, professional use",50 Do you currently use any of the following social media networks?(E.g. 51d You use social media primarily for work,following social media networks?(e.g. 51d,1,132.0
+q52,Information Channel,"information source, channel selection",52 Which one is the most important channel for you to find information about politics and government?,one is the most important,1,132.0
+q53,Media Trust,"media trust, evaluation",53 How much trust do you have in each of the following types of media?Television,53 how much trust do,3,25.403411844343534
+q54,Media Trust,"media trust, newspaper evaluation",53 How much trust do you have in each of the following types of media?Television 54 How much trust do you have in each of the following types of media?Newspaper,following types of media?television 54,1,132.0
+q55,Media Trust,"media trust, internet news evaluation",53 How much trust do you have in each of the following types of media?Television 55 How much trust do you have in each of the following types of media? News on the internet,following types of media?television 55,1,132.0
+q56,Political Affiliation,"political party, identification, affiliation","56 Among the political parties listed here, which party if any do you feel closest to?",56 among the political parties,1,132.0
+q57,Political Affiliation,"closeness, evaluation, subjective assessment","57 How close do you feel to (answer in Q56)? Is it very close, somewhat close, or just a little close?",57 how close do you,1,132.0
+q58,Social Norms and Values,"family, personal interests, sacrifice","58 For the sake of the family, the individual should put his personal interests second.","family, the individual should put",12,3.1754264805429417
+q59,Social Norms and Values,"group, collective interest, sacrifice","58 For the sake of the family, the individual should put his personal interests second. 59 In a group, we should sacrifice our individual interest for the sake of the groups collective interest.",his personal interests second. 59,1,132.0
+q6,Economic Perception,"economic condition, temporal comparison, evaluation",How would you compare the current economic condition of your family with what it was a few years ago? What do you think the economic situation of your family will be a few years from now?,few years ago? what do,1,132.0
+q60,Social Norms and Values,"national interest, sacrifice, priority","58 For the sake of the family, the individual should put his personal interests second. 60 For the sake of national interest, individual interest could be sacrificed.",his personal interests second. 60,1,132.0
+q61,Social Norms and Values,"relationship, immediate interest, long-term perspective","58 For the sake of the family, the individual should put his personal interests second. 61 When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",his personal interests second. 61,1,132.0
+q62,Family Dynamics,"parent-child relationship, obedience, authority","58 For the sake of the family, the individual should put his personal interests second. 62 Even if parents' demands are unreasonable, children still should do what they ask.",his personal interests second. 62,1,132.0
+q63,Family Dynamics,"in-law relationship, conflict resolution, authority","58 For the sake of the family, the individual should put his personal interests second. 63 When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",his personal interests second. 63,1,132.0
+q64,Education and Authority,"teacher-student relationship, authority, questioning","58 For the sake of the family, the individual should put his personal interests second. 64 Being a student, one should not question the authority of their teacher.",his personal interests second. 64,1,132.0
+q65,Social Norms and Values,"family, personal interests, harmony","58 For the sake of the family, the individual should put his personal interests second. 65 In a group, we should avoid open quarrel to preserve the harmony of the group.",his personal interests second. 65,1,132.0
+q66,Social Norms and Values,"disagreement, conflict, avoidance","58 For the sake of the family, the individual should put his personal interests second. 66 Even if there is some disagreement with others, one should avoid the conflict.",his personal interests second. 66,1,132.0
+q67,Social Norms and Values,"opinion, co-workers, disagreement","58 For the sake of the family, the individual should put his personal interests second. 67 A person should not insist on his own opinion if his co-workers disagree with him.",his personal interests second. 67,1,132.0
+q68,Fatalism and Determinism,"fate, wealth, poverty","58 For the sake of the family, the individual should put his personal interests second. 68 Wealth and poverty, success and failure are all determined by fate.",his personal interests second. 68,1,132.0
+q69,Social Norms and Values,"family planning, child preference, gender preference","58 For the sake of the family, the individual should put his personal interests second. 69 If one could have only one child, it is more preferable to have a boy than a girl.",his personal interests second. 69,1,132.0
+q7,Trust in Government,"trust, executive office, leadership",7 Trust in the excutive office (president or prime minister),7 trust in the excutive,1,132.0
+q70,Citizen Engagement,"contacting officials, government interaction, representation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level",70 in the past three,11,3.6181361349331636
+q71,Citizen Engagement,"contacting officials, government interaction, representation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 71 Contacted civil servants or officials",representatives at any level 71,1,132.0
+q72,Citizen Engagement,"contacting officials, government interaction, representation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 72 Contacted other influential people outside the government, such as traditional leaders/community leaders.",representatives at any level 72,1,132.0
+q73,Citizen Engagement,"contacting officials, government interaction, representation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 73 Contacted news media",representatives at any level 73,1,132.0
+q74,Civic Engagement,"contacting officials, petition signing, political participation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 74 Signed a paper petition",representatives at any level 74,1,132.0
+q75,Civic Engagement,"contacting officials, online petition signing, political participation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 75 Signed an online petition",representatives at any level 75,1,132.0
+q76,Civic Engagement,"social media use, online expression, political participation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 76 Used the internet including social media networks to express opinions about politics and government",representatives at any level 76,1,132.0
+q77,Civic Engagement,"group membership, cause support, political participation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 77 Joined a group to actively support a cause(including online)",representatives at any level 77,1,132.0
+q78,Civic Engagement,"face-to-face meetings, problem resolution, community involvement","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 78 Got together with others face-to-face to try to resolve local problems",representatives at any level 78,1,132.0
+q79,Civic Engagement,"demonstrations, protests, political participation","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 79 Attended a demonstration or protest march",representatives at any level 79,1,132.0
+q8,Justice System,"courts, judicial system",8 The courts,8 the courts,1,132.0
+q80,Civic Engagement,"risky activism, political risk, cause involvement","70 In the past three years, have you ever contacted elected officials or legislative representatives at any level 80 Taken an action or done something for a political cause that put you in a risk of getting injured",representatives at any level 80,1,132.0
+q81,Voting Behavior,"voting frequency, election participation","81 Thinking of whether you voted or not ever since you became eligible for voting, how would you describe yourself-have you voted in every election, voted in most elections, voted in some elections or hardly ever voted?",81 thinking of whether you,1,132.0
+q82,Trust in Government,"government leadership, citizen trust",82 which of the following statements do you agree with most?government leaders vs.their citizens,82 which of the following,1,132.0
+q82a,Trust in Government,"evaluation, temporal comparison",82a Do you strongly agree or just agree with the chosen statement?,82a do you strongly agree,1,132.0
+q83,Accountability,"accountability, evaluation",83 Which of the following statements do you agree with most? the problem of accountability,83 which of the following,1,132.0
+q83a,Trust in Government,"evaluation, temporal comparison",83a Do you strongly agree or just agree with the chosen statement?,83a do you strongly agree,1,132.0
+q84,Freedom of the Press,"freedom of the press, evaluation",84 Which of the following statements do you agree with most? freedom of the press,84 which of the following,1,132.0
+q84a,Trust in Government,"evaluation, temporal comparison",84a Do you strongly agree or just agree with the chosen statement?,84a do you strongly agree,1,132.0
+q85,Trust in Political Leaders,"political leader, evaluation",85 Which of the following statements do you agree with most? political leader,85 which of the following,1,132.0
+q85a,Trust in Government,"evaluation, temporal comparison",85a Do you strongly agree or just agree with the chosen statement?,85a do you strongly agree,1,132.0
+q86,System Capability,"system capability, problem solving","86 Over the long run, our system of government is capable of solving the problems our country face","86 over the long run,",4,16.5
+q87,System Capability,"system capability, problem solving","86 Over the long run, our system of government is capable of solving the problems our country face 87 Thinking in general, I am proud of our system of government",problems our country face 87,1,132.0
+q88,System Capability,"system capability, problem solving, support","86 Over the long run, our system of government is capable of solving the problems our country face 88 A system like ours, even if it runs into problems, deserves the people's support",problems our country face 88,1,132.0
+q89,Trust in Government,"government capability, problem-solving, system evaluation","86 Over the long run, our system of government is capable of solving the problems our country face 89 I would rather live under our system of government than any other that I can think of.",problems our country face 89,1,132.0
+q9,Government Structure,"national government, capital city",9 National government in the capital city,national government in the capital,1,132.0
+q90,Government Satisfaction,"government performance, evaluation, change","90 Would you say our system of government works fine as it is, needs minor change, needs major change, or should be replaced?",90 would you say our,1,132.0
+q91,Rule of Law,"court protection, abuse of power",91 The courts protects the ordinary people from the abuse of government power,courts protects the ordinary people,1,132.0
+q92,Government Corruption,"corruption, cleanliness",92 Politics is clean and free of corruption,92 politics is clean and,1,132.0
+q93,Freedom of Expression,"freedom to protest, demonstrations",93 People have the freedom to take part in protests and demonstrations,93 people have the freedom,1,132.0
+q94,Government-Religion Relations,"government advice, religious authorities","94 When making laws, the government seek advice from religious authorities","when making laws, the government",1,132.0
+q95,Leadership Style,"leadership, wisdom, collective welfare",95 Political leaders rule by following their own wisdom rathan than people's preferences to ensure a society's collective welfare,political leaders rule by following,1,132.0
+q96,Government System,"single-party rule, class representation",96 Rule by one party that represents the interests of all classes,96 rule by one party,1,132.0
+q97,Electoral Process,"candidate selection, religious leaders",97 Qualified candidates are pre-selected by religious leaders,97 qualified candidates are pre-selected,1,132.0
+q98,Democracy and Governance,"democracy, essential element, evaluation","98 If you have to choose only one, which of the following you think is the most essential element of a democracy?","have to choose only one,",1,132.0
+q99,Democracy and Governance,"democracy, evaluation, satisfaction","99 On the whole, how satisfied or dissatisfied are you with the way democracy works in our country?","99 on the whole, how",1,132.0
+se15a_1,Service Accessibility,"service, quantity, count",Se15a_1 How many?,se15a_1 how many?,1,132.0
+se15n_1,Service Accessibility,"service, quantity, count",Se15n_1 How many?,se15n_1 how many?,1,132.0
+se15o_1,Service Accessibility,"service, quantity, count",Se15o_1 How many?,se15o_1 how many?,1,132.0

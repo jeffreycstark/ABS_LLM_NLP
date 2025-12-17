@@ -27,11 +27,15 @@ def normalize_text(text: str) -> str:
     return text.strip()
 
 
-def extract_ngrams(text: str, min_n: int = 2, max_n: int = 6) -> List[Tuple[str, int]]:
-    """Extract all n-grams from text with their lengths."""
+def extract_ngrams(text: str, min_n: int = 3, max_n: int = 6) -> List[Tuple[str, int]]:
+    """Extract all n-grams from text with their lengths.
+    
+    Prioritizes longer phrases (3-6 words) which are more specific and distinctive.
+    """
     words = text.split()
     ngrams = []
-    for n in range(min_n, min(max_n + 1, len(words) + 1)):
+    # Process in reverse order to try longer phrases first
+    for n in range(max_n, min_n - 1, -1):
         for i in range(len(words) - n + 1):
             ngram = " ".join(words[i : i + n])
             ngrams.append((ngram, n))
@@ -45,10 +49,45 @@ def is_too_generic(phrase: str) -> bool:
         "do", "does", "did", "doing", "done", "have", "has", "had", "having",
         "you", "your", "yours", "this", "that", "these", "those",
         "of", "to", "in", "for", "on", "at", "by", "with", "from",
-        "a", "an", "and", "or", "but", "if", "so", "would", "could"
+        "a", "an", "and", "or", "but", "if", "so", "would", "could", "should",
+        "may", "might", "will", "shall", "can", "about", "some", "any", "all",
+        "more", "most", "much", "many", "very", "just", "now", "then", "here",
+        "there", "where", "when", "what", "who", "which", "how", "why",
+        "like", "such", "than", "only", "also", "even", "well", "still",
+        "say", "said", "tell", "told", "ask", "asked", "think", "thought",
+        "know", "knew", "want", "wanted", "let", "let's", "please", "thank"
     }
-    words = phrase.lower().split()
-    return all(w in generic_words for w in words)
+    
+    # Generic survey phrases that should be rejected
+    generic_phrases = {
+        "let's talk", "tell me", "would you say", "do you think",
+        "how much", "how many", "please tell", "would you", "could you",
+        "can you", "what do", "what is", "what are", "how do", "how is",
+        "in your", "to what", "on a scale", "the following", "in the",
+        "of the", "to the", "for the", "with the", "from the", "about the",
+        "you think", "you feel", "you believe", "you agree", "you would",
+        "agree or disagree", "strongly agree", "somewhat agree"
+    }
+    
+    phrase_lower = phrase.lower().strip()
+    
+    # Check if it's a generic survey phrase
+    if phrase_lower in generic_phrases:
+        return True
+    
+    words = phrase_lower.split()
+    
+    # Reject if all words are generic
+    if all(w in generic_words for w in words):
+        return True
+    
+    # Reject if >70% of words are generic (for longer phrases)
+    if len(words) >= 3:
+        generic_count = sum(1 for w in words if w in generic_words)
+        if generic_count / len(words) > 0.7:
+            return True
+    
+    return False
 
 
 def score_phrase(phrase: str, occurrences: int, phrase_length: int) -> float:
@@ -59,14 +98,28 @@ def score_phrase(phrase: str, occurrences: int, phrase_length: int) -> float:
     # Uniqueness score (exponential penalty for multiple occurrences)
     uniqueness_score = 100.0 / (occurrences ** 1.5)
 
-    # Length score (optimal around 3-4 words)
-    length_scores = {1: 0.5, 2: 0.8, 3: 1.0, 4: 1.0, 5: 0.9}
-    length_score = length_scores.get(phrase_length, 0.7)
+    # Length score (optimal around 3-5 words)
+    length_scores = {1: 0.3, 2: 0.7, 3: 1.0, 4: 1.0, 5: 1.0, 6: 0.8}
+    length_score = length_scores.get(phrase_length, 0.6)
 
     # Generic penalty
-    generic_penalty = 0.5 if is_too_generic(phrase) else 1.0
+    if is_too_generic(phrase):
+        return 0.0  # Completely reject generic phrases
 
-    return uniqueness_score * length_score * generic_penalty
+    # Content quality bonus
+    words = phrase.lower().split()
+    filler_words = {"the", "a", "an", "to", "of", "in", "for", "on", "at", "by", "with"}
+    
+    # Bonus for starting with substantive word (not filler)
+    start_bonus = 1.2 if words[0] not in filler_words else 1.0
+    
+    # Bonus for ending with substantive word
+    end_bonus = 1.1 if words[-1] not in filler_words else 1.0
+    
+    # Bonus for containing capitalized words (proper nouns, acronyms)
+    capitalized_bonus = 1.2 if any(w[0].isupper() for w in phrase.split()) else 1.0
+
+    return uniqueness_score * length_score * start_bonus * end_bonus * capitalized_bonus
 
 
 def find_best_validation_phrase(
@@ -79,8 +132,12 @@ def find_best_validation_phrase(
     question_text = normalize_text(question_text)
     normalized_questions = [normalize_text(q) for q in all_questions]
 
-    # Extract all possible n-grams
-    ngrams = extract_ngrams(question_text, min_n=2, max_n=6)
+    # Extract all possible n-grams (3-6 words for better specificity)
+    ngrams = extract_ngrams(question_text, min_n=3, max_n=6)
+    
+    # If text is too short for 3-word phrases, try 2-word phrases
+    if len(question_text.split()) < 3:
+        ngrams = extract_ngrams(question_text, min_n=2, max_n=6)
 
     # Score each n-gram
     candidates = []
@@ -165,13 +222,13 @@ def add_validation_phrases(variables: List[Dict]) -> List[Dict]:
 class ConceptExtractor:
     """Extract concepts and domains from atomic questions"""
 
-    def __init__(self, model="llama-3.3-70b-versatile"):
+    def __init__(self, model="llama-3.1-8b-instant"):
         """
         Initialize with Groq API.
 
         Models available:
-        - llama-3.3-70b-versatile (best quality, recommended)
-        - llama-3.1-8b-instant (faster, good quality)
+        - llama-3.1-8b-instant (faster, lower token usage, default)
+        - llama-3.3-70b-versatile (best quality, higher token usage)
         - mixtral-8x7b-32768 (alternative)
         """
         api_key = os.getenv("GROQ_API_KEY")

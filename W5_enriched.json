@@ -68,11 +68,11 @@
         "label": "India"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "country code",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "IDnumber",
@@ -491,11 +491,11 @@
         "label": "Telangana"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "case number variable:",
+    "concepts": [],
+    "validation_phrase": "case number variable: region question:",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR10",
@@ -522,11 +522,11 @@
         "label": "Bahasa and Native language or dialect (mother tongue) of the respondent"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir10 language in",
+    "concepts": [],
+    "validation_phrase": "ir10 language in which interview",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR10a",
@@ -545,11 +545,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir10a was the",
+    "concepts": [],
+    "validation_phrase": "ir10a was the interview conducted",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR11E",
@@ -596,11 +596,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir11e in terms",
+    "concepts": [],
+    "validation_phrase": "ir11e in terms of walking",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR11a",
@@ -635,11 +635,11 @@
         "label": "Others"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir11a what is",
+    "concepts": [],
+    "validation_phrase": "ir11a what is the condition",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR11b",
@@ -674,11 +674,11 @@
         "label": "Purchasing water"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir11b please identify",
+    "concepts": [],
+    "validation_phrase": "ir11b please identify the main",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR11c",
@@ -701,11 +701,11 @@
         "label": "Don't know"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir11c is electricity",
+    "concepts": [],
+    "validation_phrase": "ir11c is electricity the main",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR11d",
@@ -732,11 +732,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir11d is this",
+    "concepts": [],
+    "validation_phrase": "ir11d is this neighborhood coverd",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12",
@@ -759,11 +759,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12 were the",
+    "concepts": [],
+    "validation_phrase": "ir12 were the following services",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12A",
@@ -786,11 +786,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir12a. post-office",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "IR12B",
@@ -813,11 +813,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir12b. school",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "IR12C",
@@ -840,11 +840,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir12c. police station",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12D",
@@ -867,11 +867,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12d. sewerage system",
+    "concepts": [],
+    "validation_phrase": "ir12d. sewerage system that most",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12E",
@@ -894,11 +894,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir12e. health clinic",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12F",
@@ -921,11 +921,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12f. signal for",
+    "concepts": [],
+    "validation_phrase": "ir12f. signal for cellular phone",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12G",
@@ -948,11 +948,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12g. recreational facilities,",
+    "concepts": [],
+    "validation_phrase": "recreational facilities, e.g., a sports",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12H",
@@ -975,11 +975,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12h. any churches,",
+    "concepts": [],
+    "validation_phrase": "ir12h. any churches, mosques, temples",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12I",
@@ -1002,11 +1002,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12i. any town",
+    "concepts": [],
+    "validation_phrase": "ir12i. any town halls or",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR12K",
@@ -1029,11 +1029,11 @@
         "label": "Can't determine"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir12k. market stalls",
+    "concepts": [],
+    "validation_phrase": "ir12k. market stalls (selling groceries",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR13",
@@ -1060,11 +1060,11 @@
         "label": "Village or countryside"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir13 which of",
+    "concepts": [],
+    "validation_phrase": "ir13 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR2c",
@@ -1427,11 +1427,11 @@
         "label": "Mix of local & official"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir2c what kind",
+    "concepts": [],
+    "validation_phrase": "ir2c what kind of language",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR3",
@@ -1450,11 +1450,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir3 in the",
+    "concepts": [],
+    "validation_phrase": "ir3 in the interview, other",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR3a_1",
@@ -1477,11 +1477,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir3a_1 respondent's spouse",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR3a_2",
@@ -1504,11 +1504,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir3a_2 children",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "IR3a_3",
@@ -1531,11 +1531,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir3a_3 parents or",
+    "concepts": [],
+    "validation_phrase": "ir3a_3 parents or parents-in-law",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR3a_4",
@@ -1558,11 +1558,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir3a_4 neighbors/passers by",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 120.0
   },
   {
     "variable_id": "IR3a_5",
@@ -1585,11 +1585,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir3a_5 party/government official",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR3a_6",
@@ -1612,11 +1612,11 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "ir3a_6 others",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "IR4",
@@ -1643,11 +1643,11 @@
         "label": "Never"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "ir4 has the",
+    "concepts": [],
+    "validation_phrase": "ir4 has the respondent ever",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR5",
@@ -1674,11 +1674,15 @@
         "label": "Always"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "ir5 has the",
+    "domain": "Interview Experience",
+    "concepts": [
+      "impatience",
+      "cooperation",
+      "interview experience"
+    ],
+    "validation_phrase": "ir5 has the respondent ever",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR6",
@@ -1701,11 +1705,15 @@
         "label": "Not very cooperative"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "ir6 how cooperative",
+    "domain": "Interview Experience",
+    "concepts": [
+      "cooperation",
+      "interview experience",
+      "evaluative judgment"
+    ],
+    "validation_phrase": "how cooperative was the respondent",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR7",
@@ -1732,11 +1740,15 @@
         "label": "Not very sincere"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "ir7 how sincere",
+    "domain": "Interview Experience",
+    "concepts": [
+      "sincerity",
+      "interview experience",
+      "evaluative judgment"
+    ],
+    "validation_phrase": "how sincere was the respondent",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "IR8",
@@ -1767,11 +1779,15 @@
         "label": "Few"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "ir8 what proportion",
+    "domain": "Interview Experience",
+    "concepts": [
+      "difficulty",
+      "interview experience",
+      "evaluative judgment"
+    ],
+    "validation_phrase": "what proportion of the questions",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Ir1",
@@ -1782,11 +1798,14 @@
         "label": "Missing"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Interviewer Information",
+    "concepts": [
+      "interviewer",
+      "identification"
+    ],
     "validation_phrase": "ir1 interviewer's number",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Ir2",
@@ -1805,11 +1824,15 @@
         "label": "No"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "ir2 is this",
+    "domain": "Interviewer Information",
+    "concepts": [
+      "experience",
+      "interviewer",
+      "identification"
+    ],
+    "validation_phrase": "ir2 is this the first",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Ir2A",
@@ -1832,11 +1855,15 @@
         "label": "Other"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Interviewer Information",
+    "concepts": [
+      "interviewer",
+      "gender",
+      "demographic"
+    ],
     "validation_phrase": "ir2a interviewer's gender",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Ir2B",
@@ -1851,11 +1878,15 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Interviewer Information",
+    "concepts": [
+      "interviewer",
+      "age",
+      "demographic"
+    ],
     "validation_phrase": "ir2b interviewer's age",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Level",
@@ -1874,11 +1905,15 @@
         "label": "Urban"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Geographic Location",
+    "concepts": [
+      "rural",
+      "urban",
+      "geographic"
+    ],
     "validation_phrase": "rural or urban",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Q106c",
@@ -2293,11 +2328,15 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "should address? (1st",
+    "domain": "Economic Perception",
+    "concepts": [
+      "problems",
+      "government",
+      "national level"
+    ],
+    "validation_phrase": "that government should address? (1st",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Q106d",
@@ -2712,11 +2751,11 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "should address? 106d:(india",
+    "concepts": [],
+    "validation_phrase": "that government should address? 106d:(india",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Q106e",
@@ -3131,11 +3170,11 @@
         "label": "(Economy)Within this Paradigm but no clear answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "should address? 106e:(india",
+    "concepts": [],
+    "validation_phrase": "that government should address? 106e:(india",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10",
@@ -3162,11 +3201,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10 are you",
+    "concepts": [],
+    "validation_phrase": "se10 are you the main",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10A",
@@ -3205,11 +3244,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10a is he",
+    "concepts": [],
+    "validation_phrase": "se10a is he or she",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10B",
@@ -3244,11 +3283,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10b how many",
+    "concepts": [],
+    "validation_phrase": "se10b how many people does",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10C",
@@ -5411,11 +5450,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10c what is",
+    "concepts": [],
+    "validation_phrase": "se10c what is his/her job",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10D",
@@ -5450,11 +5489,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10d is he",
+    "concepts": [],
+    "validation_phrase": "se10d is he or she",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10E",
@@ -5501,11 +5540,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10e what is",
+    "concepts": [],
+    "validation_phrase": "se10e what is his or",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE10_1",
@@ -5536,11 +5575,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10_1 is the",
+    "concepts": [],
+    "validation_phrase": "se10_1 is the main earner",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE12",
@@ -5603,11 +5642,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se12 where would",
+    "concepts": [],
+    "validation_phrase": "se12 where would you place",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE13A",
@@ -5674,11 +5713,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se13a where would",
+    "concepts": [],
+    "validation_phrase": "se13a where would you put",
     "validation_phrase_occurrences": 3,
-    "validation_phrase_score": 19.245008972987524
+    "validation_phrase_score": 25.403411844343534
   },
   {
     "variable_id": "SE13B",
@@ -5745,11 +5784,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "this staircase? se13b",
+    "concepts": [],
+    "validation_phrase": "yourself on this staircase? se13b",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE13C",
@@ -5816,11 +5855,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "this staircase? se13c",
+    "concepts": [],
+    "validation_phrase": "yourself on this staircase? se13c",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE14",
@@ -5863,11 +5902,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se14 what group",
+    "concepts": [],
+    "validation_phrase": "se14 what group your household",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE14A",
@@ -5914,11 +5953,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se14a does the",
+    "concepts": [],
+    "validation_phrase": "se14a does the total income",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15A",
@@ -5937,11 +5976,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se15a do you",
+    "concepts": [],
+    "validation_phrase": "you or your fmaily own",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15B",
@@ -5960,11 +5999,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se15b tractor",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15C",
@@ -5983,11 +6022,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se15c color or",
+    "concepts": [],
+    "validation_phrase": "se15c color or b/w television",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15D",
@@ -6006,11 +6045,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se15d cable televsion",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15E",
@@ -6029,11 +6068,11 @@
         "label": "No"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se15e scooter/motorcycle/moped",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15F",
@@ -6056,7 +6095,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15f telephone",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15G",
@@ -6079,7 +6118,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15g mobile telephone",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15H",
@@ -6102,7 +6141,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15h electric fan/cooler",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15I",
@@ -6125,7 +6164,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15i bicycle",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15J",
@@ -6148,7 +6187,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15j radio/transistor",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15K",
@@ -6171,7 +6210,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15k pumping set",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE15L",
@@ -6194,7 +6233,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15l fridge",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15M",
@@ -6217,7 +6256,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15m camera",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15N",
@@ -6240,7 +6279,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15n goats/sheep",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE15O",
@@ -6263,7 +6302,7 @@
     "domain": "Unknown",
     "validation_phrase": "se15o cows/buffalo",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE2",
@@ -6286,11 +6325,11 @@
         "label": "Other"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se2 gender",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE3",
@@ -6305,11 +6344,11 @@
         "label": "Refuse to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se3 birth year",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE3_1",
@@ -6324,11 +6363,11 @@
         "label": "Refuse to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se3_1 actual age",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE4",
@@ -6371,11 +6410,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se4 marital status",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE5",
@@ -6442,11 +6481,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se5 education",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE5A",
@@ -6469,11 +6508,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se5a how many",
+    "concepts": [],
+    "validation_phrase": "how many year of formal",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE6",
@@ -6808,11 +6847,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se6 religion",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE7",
@@ -6875,11 +6914,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
+    "concepts": [],
     "validation_phrase": "se7 religiosity",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "SE7A",
@@ -6918,11 +6957,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se7a would you",
+    "concepts": [],
+    "validation_phrase": "se7a would you describe yourself",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE8A",
@@ -6945,11 +6984,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se8a how many",
+    "concepts": [],
+    "validation_phrase": "se8a how many people live",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE8B",
@@ -6988,11 +7027,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se8b how many",
+    "concepts": [],
+    "validation_phrase": "how many generations of family",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9",
@@ -7015,11 +7054,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9 are you",
+    "concepts": [],
+    "validation_phrase": "se9 are you current employed?",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9A",
@@ -7058,11 +7097,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9a are you",
+    "concepts": [],
+    "validation_phrase": "se9a are you current self-employed,",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9B",
@@ -7097,11 +7136,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9b how many",
+    "concepts": [],
+    "validation_phrase": "se9b how many people does",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9C",
@@ -9256,11 +9295,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9c what is",
+    "concepts": [],
+    "validation_phrase": "se9c what is your job",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9D",
@@ -9295,11 +9334,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9d are you",
+    "concepts": [],
+    "validation_phrase": "se9d are you currently seeking",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "SE9E",
@@ -9346,11 +9385,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se9e what is",
+    "concepts": [],
+    "validation_phrase": "se9e what is your current",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se10c_2",
@@ -9417,11 +9456,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10c_2 what is",
+    "concepts": [],
+    "validation_phrase": "se10c_2 what is his/her job",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se10c_3",
@@ -9452,11 +9491,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10c_3 extended application.",
+    "concepts": [],
+    "validation_phrase": "se10c_3 extended application. elite vs.",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se10c_4",
@@ -9487,11 +9526,11 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "se10c_4 extended application.",
+    "concepts": [],
+    "validation_phrase": "se10c_4 extended application. white vs.",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se11",
@@ -9686,11 +9725,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "se11 what language",
+    "domain": "Language Use",
+    "concepts": [
+      "language",
+      "home environment"
+    ],
+    "validation_phrase": "se11 what language do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se11a",
@@ -10389,11 +10431,14 @@
         "label": "Laud duu"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "se11a what is",
+    "domain": "Ethnic Background",
+    "concepts": [
+      "ethnicity",
+      "racial background"
+    ],
+    "validation_phrase": "se11a what is your racial",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se9c_2",
@@ -10460,11 +10505,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "se9c_2 what is",
+    "domain": "Occupation",
+    "concepts": [
+      "job title",
+      "socioeconomic status"
+    ],
+    "validation_phrase": "se9c_2 what is your job",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se9c_3",
@@ -10495,11 +10543,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "se9c_3 extended application.",
+    "domain": "Social Stratification",
+    "concepts": [
+      "elite vs mass",
+      "social class"
+    ],
+    "validation_phrase": "se9c_3 extended application. elite vs.",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Se9c_4",
@@ -10530,11 +10581,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "se9c_4 extended application.",
+    "domain": "Occupation",
+    "concepts": [
+      "white collar vs blue collar",
+      "occupation type"
+    ],
+    "validation_phrase": "se9c_4 extended application. white vs.",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "Year",
@@ -10593,11 +10647,11 @@
         "label": "December"
       }
     ],
-    "concepts": [],
     "domain": "Unknown",
-    "validation_phrase": "interview year variable:",
+    "concepts": [],
+    "validation_phrase": "interview year variable: month question:",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q1",
@@ -10640,11 +10694,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "1. how would",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation"
+    ],
+    "validation_phrase": "1. how would you rate",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q10",
@@ -10691,11 +10749,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "10 political parties[not",
+    "domain": "Political Perception",
+    "concepts": [
+      "political parties",
+      "party system"
+    ],
+    "validation_phrase": "10 political parties[not any specific",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q100",
@@ -10734,11 +10795,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "100 in your",
+    "domain": "Democracy Perception",
+    "concepts": [
+      "democracy level",
+      "country evaluation"
+    ],
+    "validation_phrase": "100 in your opinion how",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q101",
@@ -10801,11 +10865,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "101 where would",
+    "domain": "Government Evaluation",
+    "concepts": [
+      "government performance",
+      "country ranking"
+    ],
+    "validation_phrase": "101 where would you place",
     "validation_phrase_occurrences": 3,
-    "validation_phrase_score": 19.245008972987524
+    "validation_phrase_score": 25.403411844343534
   },
   {
     "variable_id": "q102",
@@ -10868,11 +10935,16 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "present government? 102",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "temporal comparison",
+      "evaluation"
+    ],
+    "validation_phrase": "under the present government? 102",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q103",
@@ -10935,11 +11007,16 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "present government? 103",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "temporal comparison",
+      "expectation"
+    ],
+    "validation_phrase": "under the present government? 103",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q104",
@@ -11002,11 +11079,16 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "104 where would",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "evaluation",
+      "democracy"
+    ],
+    "validation_phrase": "104 where would you place",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q105",
@@ -11045,11 +11127,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "105 how satisfied",
+    "domain": "Trust in Government",
+    "concepts": [
+      "satisfaction",
+      "evaluation",
+      "government performance"
+    ],
+    "validation_phrase": "105 how satisfied or dissatisfied",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q106",
@@ -11960,11 +12046,14 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "106 what are",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "problem identification",
+      "government responsibility"
+    ],
+    "validation_phrase": "106 what are the first",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q106a",
@@ -12871,11 +12960,14 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "106a what are",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "problem identification",
+      "government responsibility"
+    ],
+    "validation_phrase": "country that government should address(2nd",
     "validation_phrase_occurrences": 2,
-    "validation_phrase_score": 35.35533905932737
+    "validation_phrase_score": 46.66904755831214
   },
   {
     "variable_id": "q106b",
@@ -13782,11 +13874,14 @@
         "label": "Can't choose"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "address(2nd response)? 106b",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "problem identification",
+      "government responsibility"
+    ],
+    "validation_phrase": "government should address(2nd response)? 106b",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q107",
@@ -13829,11 +13924,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "107 how likely",
+    "domain": "Government Effectiveness",
+    "concepts": [
+      "problem solving",
+      "government performance",
+      "timeframe"
+    ],
+    "validation_phrase": "107 how likely is it",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q108",
@@ -13872,11 +13971,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "108 citizens are",
+    "domain": "Institutional Framework",
+    "concepts": [
+      "elections",
+      "government accountability"
+    ],
+    "validation_phrase": "citizens are able to remove",
     "validation_phrase_occurrences": 9,
-    "validation_phrase_score": 3.7037037037037037
+    "validation_phrase_score": 4.888888888888889
   },
   {
     "variable_id": "q109",
@@ -13915,11 +14017,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 109",
+    "domain": "Institutional Framework",
+    "concepts": [
+      "elections",
+      "government accountability",
+      "party representation"
+    ],
+    "validation_phrase": "don't like through elections 109",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q11",
@@ -13966,11 +14072,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Government Accountability",
+    "concepts": [
+      "government accountability",
+      "elections",
+      "responsibility"
+    ],
     "validation_phrase": "11 parliament",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 80.0
+    "validation_phrase_score": 92.4
   },
   {
     "variable_id": "q110",
@@ -14009,11 +14119,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 110",
+    "domain": "Government Accountability",
+    "concepts": [
+      "government accountability",
+      "elections",
+      "responsibility"
+    ],
+    "validation_phrase": "don't like through elections 110",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q111",
@@ -14052,11 +14166,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 111",
+    "domain": "Rule of Law",
+    "concepts": [
+      "rule of law",
+      "judicial independence",
+      "accountability"
+    ],
+    "validation_phrase": "don't like through elections 111",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q112",
@@ -14095,11 +14213,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 112",
+    "domain": "Equality and Justice",
+    "concepts": [
+      "equality",
+      "justice",
+      "treatment of ethnic communities"
+    ],
+    "validation_phrase": "don't like through elections 112",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q113",
@@ -14138,11 +14260,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 113",
+    "domain": "Equality and Justice",
+    "concepts": [
+      "equality",
+      "justice",
+      "treatment of socio-economic groups"
+    ],
+    "validation_phrase": "don't like through elections 113",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q114",
@@ -14181,11 +14307,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 114",
+    "domain": "Economic Well-being",
+    "concepts": [
+      "economic well-being",
+      "basic necessities",
+      "access to resources"
+    ],
+    "validation_phrase": "don't like through elections 114",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q115",
@@ -14224,11 +14354,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 115",
+    "domain": "Freedom of Expression",
+    "concepts": [
+      "freedom of expression",
+      "speech",
+      "censorship"
+    ],
+    "validation_phrase": "don't like through elections 115",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q116",
@@ -14267,11 +14401,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "through elections 116",
+    "domain": "Freedom of Association",
+    "concepts": [
+      "freedom of association",
+      "organization",
+      "censorship"
+    ],
+    "validation_phrase": "don't like through elections 116",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q117",
@@ -14314,11 +14452,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "117 how often",
+    "domain": "Government Transparency",
+    "concepts": [
+      "government transparency",
+      "information disclosure",
+      "accountability"
+    ],
+    "validation_phrase": "117 how often do government",
     "validation_phrase_occurrences": 3,
-    "validation_phrase_score": 19.245008972987524
+    "validation_phrase_score": 25.403411844343534
   },
   {
     "variable_id": "q118",
@@ -14361,11 +14503,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "the public? 118",
+    "domain": "Government Accountability",
+    "concepts": [
+      "government accountability",
+      "leadership",
+      "abuse of power"
+    ],
+    "validation_phrase": "information from the public? 118",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q119",
@@ -14408,11 +14554,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "the public? 119",
+    "domain": "Trust in Government",
+    "concepts": [
+      "information transparency",
+      "government accountability",
+      "evaluation"
+    ],
+    "validation_phrase": "information from the public? 119",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q12",
@@ -14459,11 +14609,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "civil service",
+      "public sector"
+    ],
     "validation_phrase": "12 civil service",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q120",
@@ -14502,11 +14655,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "120 to what",
+    "domain": "Legislative Effectiveness",
+    "concepts": [
+      "legislative power",
+      "government accountability",
+      "checks and balances"
+    ],
+    "validation_phrase": "120 to what extent is",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q121",
@@ -14545,11 +14702,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "121 how well",
+    "domain": "Government Responsiveness",
+    "concepts": [
+      "government responsiveness",
+      "citizen needs",
+      "evaluation"
+    ],
+    "validation_phrase": "you think the government responds",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q122",
@@ -14588,11 +14749,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "122 how much",
+    "domain": "Government Responsiveness",
+    "concepts": [
+      "elections",
+      "government responsiveness",
+      "citizen needs"
+    ],
+    "validation_phrase": "you feel that having elections",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q123",
@@ -14631,11 +14796,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "123 how capable",
+    "domain": "Government Effectiveness",
+    "concepts": [
+      "law enforcement",
+      "policy implementation",
+      "government effectiveness"
+    ],
+    "validation_phrase": "how capable is the government",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q124",
@@ -14674,11 +14843,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "124 how widespread",
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "bribery",
+      "government accountability"
+    ],
+    "validation_phrase": "124 how widespread do you",
     "validation_phrase_occurrences": 2,
-    "validation_phrase_score": 35.35533905932737
+    "validation_phrase_score": 46.66904755831214
   },
   {
     "variable_id": "q125",
@@ -14717,11 +14890,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "local/municipal government? 125",
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "bribery",
+      "government accountability"
+    ],
+    "validation_phrase": "your local/municipal government? 125 how",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q126",
@@ -14760,11 +14937,16 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "126 how effective",
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "bribery",
+      "government accountability",
+      "anti-corruption efforts"
+    ],
+    "validation_phrase": "how effective is the government",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q127",
@@ -14795,11 +14977,16 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "127 have you",
+    "domain": "Corruption Perception",
+    "concepts": [
+      "corruption",
+      "bribery",
+      "personal experience",
+      "government accountability"
+    ],
+    "validation_phrase": "127 have you or anyone",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q127a_1",
@@ -14830,11 +15017,15 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "personally witnessed? personally",
+    "domain": "Information Source",
+    "concepts": [
+      "personal experience",
+      "information source",
+      "witness"
+    ],
+    "validation_phrase": "friend who personally witnessed? personally",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q127a_2",
@@ -14865,11 +15056,15 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "personally witnessed? 127a_2",
+    "domain": "Information Source",
+    "concepts": [
+      "personal experience",
+      "information source",
+      "family member"
+    ],
+    "validation_phrase": "friend who personally witnessed? 127a_2",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q127a_3",
@@ -14900,11 +15095,15 @@
         "label": "Do not know"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "personally witnessed? 127a_3",
+    "domain": "Information Source",
+    "concepts": [
+      "personal experience",
+      "information source",
+      "friend"
+    ],
+    "validation_phrase": "friend who personally witnessed? 127a_3",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q128",
@@ -14967,11 +15166,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "128 where would",
+    "domain": "Country Perception",
+    "concepts": [
+      "country evaluation",
+      "temporal comparison",
+      "China"
+    ],
+    "validation_phrase": "128 where would you place",
     "validation_phrase_occurrences": 4,
-    "validation_phrase_score": 12.5
+    "validation_phrase_score": 16.5
   },
   {
     "variable_id": "q129",
@@ -15034,11 +15237,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "this scale? 129",
+    "domain": "Country Perception",
+    "concepts": [
+      "country evaluation",
+      "temporal comparison",
+      "United States"
+    ],
+    "validation_phrase": "today on this scale? 129",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q13",
@@ -15085,11 +15292,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "13 the military",
+    "domain": "National Security",
+    "concepts": [
+      "military",
+      "armed force"
+    ],
+    "validation_phrase": "13 the military or armed",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q130",
@@ -15152,11 +15362,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "this scale? 130",
+    "domain": "Country Perception",
+    "concepts": [
+      "country evaluation",
+      "temporal comparison",
+      "Japan"
+    ],
+    "validation_phrase": "today on this scale? 130",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q131",
@@ -15219,11 +15433,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "this scale? 131",
+    "domain": "Country Perception",
+    "concepts": [
+      "country evaluation",
+      "temporal comparison",
+      "India"
+    ],
+    "validation_phrase": "today on this scale? 131",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q132",
@@ -15258,11 +15476,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "132 which of",
+    "domain": "Public Opinion",
+    "concepts": [
+      "public opinion",
+      "statement evaluation"
+    ],
+    "validation_phrase": "132 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q133",
@@ -15293,11 +15514,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "133 which of",
+    "domain": "Public Opinion",
+    "concepts": [
+      "public opinion",
+      "statement evaluation"
+    ],
+    "validation_phrase": "133 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q134",
@@ -15340,11 +15564,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "134 if you",
+    "domain": "Political Values and Priorities",
+    "concepts": [
+      "democracy",
+      "economic development",
+      "prioritization"
+    ],
+    "validation_phrase": "had to choose between democracy",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q135",
@@ -15387,11 +15615,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "135 if you",
+    "domain": "Political Values and Priorities",
+    "concepts": [
+      "economic inequality",
+      "political freedom",
+      "prioritization"
+    ],
+    "validation_phrase": "had to choose between reducing",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q136",
@@ -15430,11 +15662,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "136 do you",
+    "domain": "Evaluations of Democracy",
+    "concepts": [
+      "democracy",
+      "government form",
+      "evaluation"
+    ],
+    "validation_phrase": "136 do you agree or",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q137",
@@ -15473,11 +15709,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "137 we should",
+    "domain": "Authoritarianism and Governance",
+    "concepts": [
+      "strong leader",
+      "parliament",
+      "elections"
+    ],
+    "validation_phrase": "137 we should get rid",
     "validation_phrase_occurrences": 19,
-    "validation_phrase_score": 1.2074512308976935
+    "validation_phrase_score": 1.5938356247849554
   },
   {
     "variable_id": "q138",
@@ -15516,11 +15756,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 138",
+    "domain": "Authoritarianism and Governance",
+    "concepts": [
+      "single-party rule",
+      "elections",
+      "democracy"
+    ],
+    "validation_phrase": "strong leader decide things. 138",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q139",
@@ -15559,11 +15803,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 139",
+    "domain": "Authoritarianism and Governance",
+    "concepts": [
+      "military rule",
+      "democracy",
+      "governance"
+    ],
+    "validation_phrase": "strong leader decide things. 139",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q14",
@@ -15610,11 +15858,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Trust in Institutions",
+    "concepts": [
+      "police",
+      "trust"
+    ],
     "validation_phrase": "14 the police",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q140",
@@ -15653,11 +15904,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 140",
+    "domain": "Authoritarianism and Governance",
+    "concepts": [
+      "expert rule",
+      "democracy",
+      "governance"
+    ],
+    "validation_phrase": "strong leader decide things. 140",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q141",
@@ -15696,11 +15951,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 141",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "political participation",
+      "self-efficacy"
+    ],
+    "validation_phrase": "strong leader decide things. 141",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q142",
@@ -15739,11 +15997,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 142",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "political understanding",
+      "civic awareness"
+    ],
+    "validation_phrase": "strong leader decide things. 142",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q143",
@@ -15782,11 +16043,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 143",
+    "domain": "Trust in Government",
+    "concepts": [
+      "government accountability",
+      "representation",
+      "influence"
+    ],
+    "validation_phrase": "strong leader decide things. 143",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q144",
@@ -15825,11 +16090,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 144",
+    "domain": "Trust in Government",
+    "concepts": [
+      "trust",
+      "government integrity",
+      "evaluation"
+    ],
+    "validation_phrase": "strong leader decide things. 144",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q145",
@@ -15868,11 +16137,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 145",
+    "domain": "National Identity",
+    "concepts": [
+      "loyalty",
+      "nationalism",
+      "patriotism"
+    ],
+    "validation_phrase": "strong leader decide things. 145",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q146",
@@ -15911,11 +16184,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 146",
+    "domain": "Social Norms",
+    "concepts": [
+      "gender roles",
+      "politics",
+      "representation"
+    ],
+    "validation_phrase": "strong leader decide things. 146",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q147",
@@ -15954,11 +16231,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 147",
+    "domain": "Religious Influence",
+    "concepts": [
+      "religion",
+      "law",
+      "interpretation"
+    ],
+    "validation_phrase": "strong leader decide things. 147",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q148",
@@ -15997,11 +16278,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 148",
+    "domain": "Social Mobility",
+    "concepts": [
+      "education",
+      "representation",
+      "equality"
+    ],
+    "validation_phrase": "strong leader decide things. 148",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q149",
@@ -16040,11 +16325,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 149",
+    "domain": "Authoritarianism",
+    "concepts": [
+      "leadership",
+      "decision-making",
+      "obedience"
+    ],
+    "validation_phrase": "strong leader decide things. 149",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q15",
@@ -16091,11 +16380,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "local government",
+      "services",
+      "availability"
+    ],
     "validation_phrase": "15 local government",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q150",
@@ -16134,11 +16427,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 150",
+    "domain": "Censorship",
+    "concepts": [
+      "freedom of speech",
+      "censorship",
+      "government control"
+    ],
+    "validation_phrase": "strong leader decide things. 150",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q151",
@@ -16177,11 +16474,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 151",
+    "domain": "Social Harmony",
+    "concepts": [
+      "community cohesion",
+      "group formation",
+      "social order"
+    ],
+    "validation_phrase": "strong leader decide things. 151",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q152",
@@ -16220,11 +16521,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 152",
+    "domain": "Trust in Government",
+    "concepts": [
+      "executive branch",
+      "judicial independence",
+      "legislative power"
+    ],
+    "validation_phrase": "strong leader decide things. 152",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q153",
@@ -16263,11 +16568,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 153",
+    "domain": "Trust in Government",
+    "concepts": [
+      "legislative power",
+      "executive branch",
+      "accomplishment"
+    ],
+    "validation_phrase": "strong leader decide things. 153",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q154",
@@ -16306,11 +16615,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 154",
+    "domain": "Trust in Government",
+    "concepts": [
+      "moral leadership",
+      "executive power",
+      "decision making"
+    ],
+    "validation_phrase": "strong leader decide things. 154",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q155",
@@ -16349,11 +16662,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "decide things. 155",
+    "domain": "Social Cohesion",
+    "concepts": [
+      "cultural diversity",
+      "chaos",
+      "societal order"
+    ],
+    "validation_phrase": "strong leader decide things. 155",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q156",
@@ -16384,11 +16701,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "156 which of",
+    "domain": "Cultural Identity",
+    "concepts": [
+      "cultural distinctiveness",
+      "cultural exchange",
+      "learning from others"
+    ],
+    "validation_phrase": "156 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q156_1",
@@ -16431,11 +16752,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "156_1 our country",
+    "domain": "Cultural Identity",
+    "concepts": [
+      "cultural exchange",
+      "globalization",
+      "learning from others"
+    ],
+    "validation_phrase": "156_1 our country should do",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q156a",
@@ -16470,11 +16795,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "156a do you",
+    "domain": "Cultural Identity",
+    "concepts": [
+      "agreement",
+      "cultural exchange",
+      "learning from others"
+    ],
+    "validation_phrase": "156a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q157",
@@ -16505,11 +16834,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "157 which of",
+    "domain": "Economic Policy",
+    "concepts": [
+      "trade policy",
+      "economic protectionism",
+      "foreign goods"
+    ],
+    "validation_phrase": "157 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q157_1",
@@ -16552,11 +16885,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "157_1 our country",
+    "domain": "Economic Policy",
+    "concepts": [
+      "trade policy",
+      "globalization",
+      "international trade"
+    ],
+    "validation_phrase": "157_1 our country should do",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q157a",
@@ -16591,11 +16928,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "157a do you",
+    "domain": "Economic Policy",
+    "concepts": [
+      "agreement",
+      "trade policy",
+      "globalization"
+    ],
+    "validation_phrase": "157a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q158",
@@ -16634,11 +16975,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "158 do you",
+    "domain": "Immigration Policy",
+    "concepts": [
+      "immigration policy",
+      "government control",
+      "foreign labor"
+    ],
+    "validation_phrase": "think the government should increase",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q159",
@@ -16677,11 +17022,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "159 how fair",
+    "domain": "Economic Perception",
+    "concepts": [
+      "income distribution",
+      "evaluation",
+      "fairness"
+    ],
+    "validation_phrase": "159 how fair do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q16",
@@ -16728,11 +17077,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "16 the election",
+    "domain": "Trust in Institutions",
+    "concepts": [
+      "election commission",
+      "trust"
+    ],
+    "validation_phrase": "16 the election commission",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q160a",
@@ -16771,11 +17123,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "160a it is",
+    "domain": "Social Welfare",
+    "concepts": [
+      "income inequality",
+      "government responsibility"
+    ],
+    "validation_phrase": "160a it is the responsibility",
     "validation_phrase_occurrences": 4,
-    "validation_phrase_score": 12.5
+    "validation_phrase_score": 16.5
   },
   {
     "variable_id": "q160b",
@@ -16814,11 +17169,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "the poor 160b",
+    "domain": "Social Welfare",
+    "concepts": [
+      "affordable housing",
+      "government responsibility"
+    ],
+    "validation_phrase": "rich and the poor 160b",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q160c",
@@ -16857,11 +17215,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "the poor 160c",
+    "domain": "Social Welfare",
+    "concepts": [
+      "healthcare access",
+      "government responsibility"
+    ],
+    "validation_phrase": "rich and the poor 160c",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q160d",
@@ -16900,11 +17261,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "the poor 160d",
+    "domain": "Social Welfare",
+    "concepts": [
+      "basic needs",
+      "government responsibility"
+    ],
+    "validation_phrase": "rich and the poor 160d",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q161",
@@ -16943,11 +17307,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "161 how worried",
+    "domain": "Economic Security",
+    "concepts": [
+      "income stability",
+      "financial worry"
+    ],
+    "validation_phrase": "161 how worried are you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q162",
@@ -16982,11 +17349,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "162 the following",
+    "domain": "Economic Security",
+    "concepts": [
+      "income loss",
+      "family impact"
+    ],
+    "validation_phrase": "following is a hypothetical question:",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q163",
@@ -17037,11 +17407,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "163 considering all",
+    "domain": "Economic Perception",
+    "concepts": [
+      "income fairness",
+      "evaluation"
+    ],
+    "validation_phrase": "163 considering all the effort",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q164",
@@ -17084,11 +17457,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "164 as compared",
+    "domain": "Social Mobility",
+    "concepts": [
+      "social status",
+      "standard of living",
+      "generational comparison"
+    ],
+    "validation_phrase": "164 as compared to my",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q165",
@@ -17131,11 +17508,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "165 will the",
+    "domain": "Social Mobility",
+    "concepts": [
+      "life quality",
+      "generational comparison",
+      "temporal comparison"
+    ],
+    "validation_phrase": "165 will the next generation",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q166",
@@ -17178,11 +17559,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "166 how proud",
+    "domain": "National Identity",
+    "concepts": [
+      "citizenship",
+      "patriotism",
+      "evaluation"
+    ],
+    "validation_phrase": "166 how proud are you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q167",
@@ -17221,11 +17606,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "167 given the",
+    "domain": "Geographic Mobility",
+    "concepts": [
+      "migration",
+      "country preference",
+      "willingness"
+    ],
+    "validation_phrase": "167 given the chance, how",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q168",
@@ -17264,11 +17653,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "168 under a",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic performance",
+      "democratic system",
+      "evaluation"
+    ],
+    "validation_phrase": "168 under a democratic system,",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q169",
@@ -17307,11 +17700,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "169 democratic regimes",
+    "domain": "Government Effectiveness",
+    "concepts": [
+      "democratic regime",
+      "decision-making",
+      "evaluation"
+    ],
+    "validation_phrase": "169 democratic regimes are indecisive",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q17",
@@ -17358,11 +17755,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "17 non-government organizations",
+    "domain": "Civil Society",
+    "concepts": [
+      "NGOs",
+      "non-governmental organizations"
+    ],
+    "validation_phrase": "17 non-government organizations or ngos",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q170",
@@ -17401,11 +17801,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "170 democratic systems",
+    "domain": "Government Effectiveness",
+    "concepts": [
+      "democratic system",
+      "order and stability",
+      "evaluation"
+    ],
+    "validation_phrase": "170 democratic systems are not",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q171",
@@ -17444,11 +17848,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "171 the citizens",
+    "domain": "Civic Competence",
+    "concepts": [
+      "democratic system",
+      "citizen preparedness",
+      "evaluation"
+    ],
+    "validation_phrase": "171 the citizens in our",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q172",
@@ -17487,11 +17895,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "172 democracy negatively",
+    "domain": "Social Values",
+    "concepts": [
+      "democracy",
+      "social values",
+      "negative impact"
+    ],
+    "validation_phrase": "172 democracy negatively affects social",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q173",
@@ -17530,11 +17942,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "173 as long",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "evaluation",
+      "democracy"
+    ],
+    "validation_phrase": "as long as a government",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q174",
@@ -17665,11 +18081,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "174 which country",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "geopolitics",
+      "country comparison"
+    ],
+    "validation_phrase": "country has the most influence",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q175",
@@ -17708,11 +18128,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "175 does the",
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "evaluation",
+      "geopolitics"
+    ],
+    "validation_phrase": "175 does the united states",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q176",
@@ -17775,11 +18199,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "176 the influence",
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "evaluation",
+      "global affairs"
+    ],
+    "validation_phrase": "u.s. on world affairs today",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q177",
@@ -17818,11 +18246,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "177 does china",
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "evaluation",
+      "geopolitics"
+    ],
+    "validation_phrase": "177 does china do more",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q178",
@@ -17885,11 +18317,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "178 the infulece",
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "evaluation",
+      "global affairs"
+    ],
+    "validation_phrase": "178 the infulece of china",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q179",
@@ -18020,11 +18456,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "179 in ten",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "country comparison",
+      "temporal comparison"
+    ],
+    "validation_phrase": "179 in ten years, which",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q18",
@@ -18135,11 +18575,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "18. name of",
+    "domain": "Demographics",
+    "concepts": [
+      "organization",
+      "affiliation"
+    ],
+    "validation_phrase": "18. name of the organization",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q180",
@@ -18342,11 +18785,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "180 which country",
+    "domain": "International Relations",
+    "concepts": [
+      "country comparison",
+      "model",
+      "development"
+    ],
+    "validation_phrase": "180 which country should be",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q181",
@@ -18385,11 +18832,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "181 how much",
+    "domain": "International Relations",
+    "concepts": [
+      "country impact",
+      "evaluation",
+      "influence"
+    ],
+    "validation_phrase": "181 how much influence does",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q182",
@@ -18436,11 +18887,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "182 general speaking,",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "country",
+      "temporal comparison"
+    ],
+    "validation_phrase": "182 general speaking, the influence",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q183",
@@ -18479,11 +18934,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "183 how much",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "country",
+      "temporal comparison"
+    ],
+    "validation_phrase": "183 how much influence does",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q184",
@@ -18530,11 +18989,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "184 general speaking,",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "country",
+      "temporal comparison"
+    ],
+    "validation_phrase": "184 general speaking, the influence",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q185",
@@ -18577,11 +19040,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "185 which aspect",
+    "domain": "International Relations",
+    "concepts": [
+      "influence",
+      "impact",
+      "aspect"
+    ],
+    "validation_phrase": "which aspect about the asian",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q186",
@@ -18620,11 +19087,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "186 how close",
+    "domain": "Geopolitics and Regionalism",
+    "concepts": [
+      "closeness",
+      "region",
+      "ASEAN"
+    ],
+    "validation_phrase": "186 how close do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q19",
@@ -18735,11 +19206,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "19. name of",
+    "domain": "Demographics and Organization",
+    "concepts": [
+      "organization",
+      "membership"
+    ],
+    "validation_phrase": "19. name of the organization",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q2",
@@ -18782,11 +19256,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "2. how would",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation"
+    ],
+    "validation_phrase": "2. how would you dsecribe",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q20",
@@ -18897,11 +19375,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "20. name of",
+    "domain": "Demographics and Organization",
+    "concepts": [
+      "organization",
+      "membership"
+    ],
+    "validation_phrase": "20. name of the organization",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q21",
@@ -19012,11 +19493,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "21 which organization",
+    "domain": "Demographics and Organization",
+    "concepts": [
+      "organization",
+      "participation"
+    ],
+    "validation_phrase": "21 which organization you participate",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q22",
@@ -19051,11 +19535,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "22 would you",
+    "domain": "Trust and Social Norms",
+    "concepts": [
+      "trust",
+      "people",
+      "evaluation"
+    ],
+    "validation_phrase": "you say that \"most people",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q23",
@@ -19094,11 +19582,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "23 do you",
+    "domain": "Trust in People",
+    "concepts": [
+      "trustworthiness",
+      "evaluation",
+      "generalization"
+    ],
+    "validation_phrase": "you agree with the statement",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q24",
@@ -19145,11 +19637,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of people? your",
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "evaluation",
+      "specific group"
+    ],
+    "validation_phrase": "following types of people? your",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q25",
@@ -19196,11 +19692,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of people? 25",
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "evaluation",
+      "specific group"
+    ],
+    "validation_phrase": "following types of people? 25",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q26",
@@ -19247,11 +19747,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of people? 26",
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "evaluation",
+      "specific group"
+    ],
+    "validation_phrase": "following types of people? 26",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q27",
@@ -19298,11 +19802,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of people? 27",
+    "domain": "Trust in People",
+    "concepts": [
+      "trust",
+      "evaluation",
+      "specific group"
+    ],
+    "validation_phrase": "following types of people? 27",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q28",
@@ -19349,11 +19857,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "28 how many",
+    "domain": "Social Network",
+    "concepts": [
+      "social contacts",
+      "frequency",
+      "quantification"
+    ],
+    "validation_phrase": "28 how many people do",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q29",
@@ -19388,11 +19900,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "29 which of",
+    "domain": "Social Network",
+    "concepts": [
+      "social relations",
+      "evaluation",
+      "description"
+    ],
+    "validation_phrase": "29 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q3",
@@ -19435,11 +19951,17 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "few years? what",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation",
+      "temporal comparison",
+      "future prediction"
+    ],
+    "validation_phrase": "last few years? what do",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q30",
@@ -19486,11 +20008,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "30 among these",
+    "domain": "Social Network",
+    "concepts": [
+      "social contacts",
+      "political views",
+      "evaluation"
+    ],
+    "validation_phrase": "30 among these people you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q31",
@@ -19529,11 +20055,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "31 if you",
+    "domain": "Social Support",
+    "concepts": [
+      "help seeking",
+      "social support",
+      "availability"
+    ],
+    "validation_phrase": "you have a difficult problem",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q32",
@@ -19572,11 +20102,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "32 if you",
+    "domain": "Social Interaction and Politics",
+    "concepts": [
+      "social interaction",
+      "politics",
+      "opinion divergence"
+    ],
+    "validation_phrase": "32 if you had friends",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q33",
@@ -19615,11 +20149,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "33 did you",
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting behavior",
+      "participation"
+    ],
+    "validation_phrase": "you vote in the last",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q34",
@@ -20490,11 +21027,14 @@
         "label": "Others"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "34 which parties",
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting behavior",
+      "party affiliation"
+    ],
+    "validation_phrase": "34 which parties or candidates",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q34a",
@@ -20521,11 +21061,14 @@
         "label": "Not sure"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "34a did the",
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting behavior",
+      "outcome comparison"
+    ],
+    "validation_phrase": "34a did the respondent vote",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q35",
@@ -20560,11 +21103,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "35. did you",
+    "domain": "Political Engagement",
+    "concepts": [
+      "political engagement",
+      "campaign participation"
+    ],
+    "validation_phrase": "35. did you attend",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q36",
@@ -20599,11 +21145,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "national election? try",
+    "domain": "Political Engagement",
+    "concepts": [
+      "political engagement",
+      "campaign participation",
+      "persuasion"
+    ],
+    "validation_phrase": "national election? try to persudae",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q37",
@@ -20638,11 +21188,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "national election? did",
+    "domain": "Political Engagement",
+    "concepts": [
+      "political engagement",
+      "campaign participation",
+      "volunteering"
+    ],
+    "validation_phrase": "last national election? did you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q38",
@@ -20685,11 +21239,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "38 on the",
+    "domain": "Election Integrity",
+    "concepts": [
+      "election integrity",
+      "fairness",
+      "freedom"
+    ],
+    "validation_phrase": "38 on the whole, how",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q39",
@@ -20736,11 +21294,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "39 how easy",
+    "domain": "Infrastructure and Public Services",
+    "concepts": [
+      "infrastructure quality",
+      "public services accessibility"
+    ],
+    "validation_phrase": "39 how easy or difficult",
     "validation_phrase_occurrences": 6,
-    "validation_phrase_score": 6.804138174397717
+    "validation_phrase_score": 8.981462390204985
   },
   {
     "variable_id": "q4",
@@ -20783,11 +21344,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "4. as for",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "national level",
+      "current evaluation"
+    ],
+    "validation_phrase": "4. as for your own",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q40",
@@ -20834,11 +21399,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "good condition 40",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service quality",
+      "public service",
+      "accessibility"
+    ],
+    "validation_phrase": "roads in good condition 40",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q41",
@@ -20885,11 +21454,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "good condition 41",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service quality",
+      "public service",
+      "accessibility"
+    ],
+    "validation_phrase": "roads in good condition 41",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q42",
@@ -20936,11 +21509,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "good condition 42",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service quality",
+      "public service",
+      "accessibility"
+    ],
+    "validation_phrase": "roads in good condition 42",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q43",
@@ -20987,11 +21564,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "good condition 43",
+    "domain": "Law Enforcement",
+    "concepts": [
+      "police service",
+      "public safety",
+      "accessibility"
+    ],
+    "validation_phrase": "roads in good condition 43",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q44",
@@ -21038,11 +21619,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "good condition 44",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service quality",
+      "public service",
+      "accessibility"
+    ],
+    "validation_phrase": "roads in good condition 44",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q45",
@@ -21081,11 +21666,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "45 generally speaking,",
+    "domain": "Safety and Security",
+    "concepts": [
+      "safety perception",
+      "security level",
+      "environmental safety"
+    ],
+    "validation_phrase": "45 generally speaking, how safe",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q46",
@@ -21124,11 +21713,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "46 how interested",
+    "domain": "Political Engagement",
+    "concepts": [
+      "political interest",
+      "engagement level",
+      "civic participation"
+    ],
+    "validation_phrase": "46 how interested would you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q47",
@@ -21171,11 +21764,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "47 how often",
+    "domain": "Media Consumption",
+    "concepts": [
+      "media consumption",
+      "information seeking",
+      "news following"
+    ],
+    "validation_phrase": "47 how often do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q48",
@@ -21210,11 +21807,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "48 when you",
+    "domain": "Social Interaction",
+    "concepts": [
+      "social interaction",
+      "political discussion",
+      "civic engagement"
+    ],
+    "validation_phrase": "48 when you get together",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q49",
@@ -21273,11 +21874,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "49 how often",
+    "domain": "Digital Literacy",
+    "concepts": [
+      "digital access",
+      "internet usage",
+      "technology adoption"
+    ],
+    "validation_phrase": "49 how often do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q5",
@@ -21320,11 +21925,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "5. how would",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "evaluation",
+      "temporal comparison"
+    ],
+    "validation_phrase": "5. how would you compare",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q50",
@@ -21359,11 +21968,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "media networks?(e.g. facebook,",
+    "domain": "Social Media Usage",
+    "concepts": [
+      "social media usage",
+      "platform selection"
+    ],
+    "validation_phrase": "following social media networks?(e.g. facebook,",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q51a",
@@ -21398,11 +22010,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "media networks?(e.g. 51a",
+    "domain": "Social Media Usage",
+    "concepts": [
+      "social media purpose",
+      "social connection"
+    ],
+    "validation_phrase": "following social media networks?(e.g. 51a",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q51b",
@@ -21437,11 +22052,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "media networks?(e.g. 51b",
+    "domain": "Social Media Usage",
+    "concepts": [
+      "social media purpose",
+      "political expression"
+    ],
+    "validation_phrase": "following social media networks?(e.g. 51b",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q51c",
@@ -21476,11 +22094,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "media networks?(e.g. 51c",
+    "domain": "Social Media Usage",
+    "concepts": [
+      "social media purpose",
+      "information sharing"
+    ],
+    "validation_phrase": "following social media networks?(e.g. 51c",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q51d",
@@ -21515,11 +22136,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "media networks?(e.g. 51d",
+    "domain": "Social Media Usage",
+    "concepts": [
+      "social media purpose",
+      "professional use"
+    ],
+    "validation_phrase": "following social media networks?(e.g. 51d",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q52",
@@ -21566,11 +22190,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "52 which one",
+    "domain": "Information Channel",
+    "concepts": [
+      "information source",
+      "channel selection"
+    ],
+    "validation_phrase": "one is the most important",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q53",
@@ -21621,11 +22248,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "53 how much",
+    "domain": "Media Trust",
+    "concepts": [
+      "media trust",
+      "evaluation"
+    ],
+    "validation_phrase": "53 how much trust do",
     "validation_phrase_occurrences": 3,
-    "validation_phrase_score": 19.245008972987524
+    "validation_phrase_score": 25.403411844343534
   },
   {
     "variable_id": "q54",
@@ -21676,11 +22306,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of media?television 54",
+    "domain": "Media Trust",
+    "concepts": [
+      "media trust",
+      "newspaper evaluation"
+    ],
+    "validation_phrase": "following types of media?television 54",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q55",
@@ -21731,11 +22364,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "of media?television 55",
+    "domain": "Media Trust",
+    "concepts": [
+      "media trust",
+      "internet news evaluation"
+    ],
+    "validation_phrase": "following types of media?television 55",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q56",
@@ -22726,11 +23362,15 @@
         "label": "Others"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "56 among the",
+    "domain": "Political Affiliation",
+    "concepts": [
+      "political party",
+      "identification",
+      "affiliation"
+    ],
+    "validation_phrase": "56 among the political parties",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q57",
@@ -22769,11 +23409,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "57 how close",
+    "domain": "Political Affiliation",
+    "concepts": [
+      "closeness",
+      "evaluation",
+      "subjective assessment"
+    ],
+    "validation_phrase": "57 how close do you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q58",
@@ -22812,11 +23456,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "58 for the",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "family",
+      "personal interests",
+      "sacrifice"
+    ],
+    "validation_phrase": "family, the individual should put",
     "validation_phrase_occurrences": 12,
-    "validation_phrase_score": 2.4056261216234405
+    "validation_phrase_score": 3.1754264805429417
   },
   {
     "variable_id": "q59",
@@ -22855,11 +23503,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 59",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "group",
+      "collective interest",
+      "sacrifice"
+    ],
+    "validation_phrase": "his personal interests second. 59",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q6",
@@ -22902,11 +23554,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "years ago? what",
+    "domain": "Economic Perception",
+    "concepts": [
+      "economic condition",
+      "temporal comparison",
+      "evaluation"
+    ],
+    "validation_phrase": "few years ago? what do",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q60",
@@ -22945,11 +23601,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 60",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "national interest",
+      "sacrifice",
+      "priority"
+    ],
+    "validation_phrase": "his personal interests second. 60",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q61",
@@ -22988,11 +23648,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 61",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "relationship",
+      "immediate interest",
+      "long-term perspective"
+    ],
+    "validation_phrase": "his personal interests second. 61",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q62",
@@ -23031,11 +23695,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 62",
+    "domain": "Family Dynamics",
+    "concepts": [
+      "parent-child relationship",
+      "obedience",
+      "authority"
+    ],
+    "validation_phrase": "his personal interests second. 62",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q63",
@@ -23074,11 +23742,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 63",
+    "domain": "Family Dynamics",
+    "concepts": [
+      "in-law relationship",
+      "conflict resolution",
+      "authority"
+    ],
+    "validation_phrase": "his personal interests second. 63",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q64",
@@ -23117,11 +23789,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 64",
+    "domain": "Education and Authority",
+    "concepts": [
+      "teacher-student relationship",
+      "authority",
+      "questioning"
+    ],
+    "validation_phrase": "his personal interests second. 64",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q65",
@@ -23160,11 +23836,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 65",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "family",
+      "personal interests",
+      "harmony"
+    ],
+    "validation_phrase": "his personal interests second. 65",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q66",
@@ -23203,11 +23883,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 66",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "disagreement",
+      "conflict",
+      "avoidance"
+    ],
+    "validation_phrase": "his personal interests second. 66",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q67",
@@ -23246,11 +23930,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 67",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "opinion",
+      "co-workers",
+      "disagreement"
+    ],
+    "validation_phrase": "his personal interests second. 67",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q68",
@@ -23289,11 +23977,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 68",
+    "domain": "Fatalism and Determinism",
+    "concepts": [
+      "fate",
+      "wealth",
+      "poverty"
+    ],
+    "validation_phrase": "his personal interests second. 68",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q69",
@@ -23332,11 +24024,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "interests second. 69",
+    "domain": "Social Norms and Values",
+    "concepts": [
+      "family planning",
+      "child preference",
+      "gender preference"
+    ],
+    "validation_phrase": "his personal interests second. 69",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q7",
@@ -23383,11 +24079,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "trust in the",
+    "domain": "Trust in Government",
+    "concepts": [
+      "trust",
+      "executive office",
+      "leadership"
+    ],
+    "validation_phrase": "7 trust in the excutive",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q70",
@@ -23434,11 +24134,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "70 in the",
+    "domain": "Citizen Engagement",
+    "concepts": [
+      "contacting officials",
+      "government interaction",
+      "representation"
+    ],
+    "validation_phrase": "70 in the past three",
     "validation_phrase_occurrences": 11,
-    "validation_phrase_score": 2.7410122234342147
+    "validation_phrase_score": 3.6181361349331636
   },
   {
     "variable_id": "q71",
@@ -23485,11 +24189,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 71",
+    "domain": "Citizen Engagement",
+    "concepts": [
+      "contacting officials",
+      "government interaction",
+      "representation"
+    ],
+    "validation_phrase": "representatives at any level 71",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q72",
@@ -23536,11 +24244,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 72",
+    "domain": "Citizen Engagement",
+    "concepts": [
+      "contacting officials",
+      "government interaction",
+      "representation"
+    ],
+    "validation_phrase": "representatives at any level 72",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q73",
@@ -23587,11 +24299,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 73",
+    "domain": "Citizen Engagement",
+    "concepts": [
+      "contacting officials",
+      "government interaction",
+      "representation"
+    ],
+    "validation_phrase": "representatives at any level 73",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q74",
@@ -23638,11 +24354,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 74",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "contacting officials",
+      "petition signing",
+      "political participation"
+    ],
+    "validation_phrase": "representatives at any level 74",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q75",
@@ -23689,11 +24409,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 75",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "contacting officials",
+      "online petition signing",
+      "political participation"
+    ],
+    "validation_phrase": "representatives at any level 75",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q76",
@@ -23740,11 +24464,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 76",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "social media use",
+      "online expression",
+      "political participation"
+    ],
+    "validation_phrase": "representatives at any level 76",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q77",
@@ -23791,11 +24519,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 77",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "group membership",
+      "cause support",
+      "political participation"
+    ],
+    "validation_phrase": "representatives at any level 77",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q78",
@@ -23842,11 +24574,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 78",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "face-to-face meetings",
+      "problem resolution",
+      "community involvement"
+    ],
+    "validation_phrase": "representatives at any level 78",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q79",
@@ -23893,11 +24629,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 79",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "demonstrations",
+      "protests",
+      "political participation"
+    ],
+    "validation_phrase": "representatives at any level 79",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q8",
@@ -23944,11 +24684,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Justice System",
+    "concepts": [
+      "courts",
+      "judicial system"
+    ],
     "validation_phrase": "8 the courts",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q80",
@@ -23995,11 +24738,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "any level 80",
+    "domain": "Civic Engagement",
+    "concepts": [
+      "risky activism",
+      "political risk",
+      "cause involvement"
+    ],
+    "validation_phrase": "representatives at any level 80",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q81",
@@ -24042,11 +24789,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "81 thinking of",
+    "domain": "Voting Behavior",
+    "concepts": [
+      "voting frequency",
+      "election participation"
+    ],
+    "validation_phrase": "81 thinking of whether you",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q82",
@@ -24077,11 +24827,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "82 which of",
+    "domain": "Trust in Government",
+    "concepts": [
+      "government leadership",
+      "citizen trust"
+    ],
+    "validation_phrase": "82 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q82a",
@@ -24116,11 +24869,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "82a do you",
+    "domain": "Trust in Government",
+    "concepts": [
+      "evaluation",
+      "temporal comparison"
+    ],
+    "validation_phrase": "82a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q83",
@@ -24151,11 +24907,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "83 which of",
+    "domain": "Accountability",
+    "concepts": [
+      "accountability",
+      "evaluation"
+    ],
+    "validation_phrase": "83 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q83a",
@@ -24190,11 +24949,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "83a do you",
+    "domain": "Trust in Government",
+    "concepts": [
+      "evaluation",
+      "temporal comparison"
+    ],
+    "validation_phrase": "83a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q84",
@@ -24225,11 +24987,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "84 which of",
+    "domain": "Freedom of the Press",
+    "concepts": [
+      "freedom of the press",
+      "evaluation"
+    ],
+    "validation_phrase": "84 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q84a",
@@ -24264,11 +25029,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "84a do you",
+    "domain": "Trust in Government",
+    "concepts": [
+      "evaluation",
+      "temporal comparison"
+    ],
+    "validation_phrase": "84a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q85",
@@ -24299,11 +25067,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "85 which of",
+    "domain": "Trust in Political Leaders",
+    "concepts": [
+      "political leader",
+      "evaluation"
+    ],
+    "validation_phrase": "85 which of the following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q85a",
@@ -24338,11 +25109,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "85a do you",
+    "domain": "Trust in Government",
+    "concepts": [
+      "evaluation",
+      "temporal comparison"
+    ],
+    "validation_phrase": "85a do you strongly agree",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q86",
@@ -24381,11 +25155,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "86 over the",
+    "domain": "System Capability",
+    "concepts": [
+      "system capability",
+      "problem solving"
+    ],
+    "validation_phrase": "86 over the long run,",
     "validation_phrase_occurrences": 4,
-    "validation_phrase_score": 12.5
+    "validation_phrase_score": 16.5
   },
   {
     "variable_id": "q87",
@@ -24424,11 +25201,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "country face 87",
+    "domain": "System Capability",
+    "concepts": [
+      "system capability",
+      "problem solving"
+    ],
+    "validation_phrase": "problems our country face 87",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q88",
@@ -24467,11 +25247,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "country face 88",
+    "domain": "System Capability",
+    "concepts": [
+      "system capability",
+      "problem solving",
+      "support"
+    ],
+    "validation_phrase": "problems our country face 88",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q89",
@@ -24510,11 +25294,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "country face 89",
+    "domain": "Trust in Government",
+    "concepts": [
+      "government capability",
+      "problem-solving",
+      "system evaluation"
+    ],
+    "validation_phrase": "problems our country face 89",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q9",
@@ -24561,11 +25349,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "9 national government",
+    "domain": "Government Structure",
+    "concepts": [
+      "national government",
+      "capital city"
+    ],
+    "validation_phrase": "national government in the capital",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q90",
@@ -24604,11 +25395,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "90 would you",
+    "domain": "Government Satisfaction",
+    "concepts": [
+      "government performance",
+      "evaluation",
+      "change"
+    ],
+    "validation_phrase": "90 would you say our",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q91",
@@ -24671,11 +25466,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "91 the courts",
+    "domain": "Rule of Law",
+    "concepts": [
+      "court protection",
+      "abuse of power"
+    ],
+    "validation_phrase": "courts protects the ordinary people",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q92",
@@ -24738,11 +25536,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "92 politics is",
+    "domain": "Government Corruption",
+    "concepts": [
+      "corruption",
+      "cleanliness"
+    ],
+    "validation_phrase": "92 politics is clean and",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q93",
@@ -24805,11 +25606,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "93 people have",
+    "domain": "Freedom of Expression",
+    "concepts": [
+      "freedom to protest",
+      "demonstrations"
+    ],
+    "validation_phrase": "93 people have the freedom",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q94",
@@ -24872,11 +25676,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "94 when making",
+    "domain": "Government-Religion Relations",
+    "concepts": [
+      "government advice",
+      "religious authorities"
+    ],
+    "validation_phrase": "when making laws, the government",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q95",
@@ -24939,11 +25746,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "95 political leaders",
+    "domain": "Leadership Style",
+    "concepts": [
+      "leadership",
+      "wisdom",
+      "collective welfare"
+    ],
+    "validation_phrase": "political leaders rule by following",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q96",
@@ -25006,11 +25817,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "96 rule by",
+    "domain": "Government System",
+    "concepts": [
+      "single-party rule",
+      "class representation"
+    ],
+    "validation_phrase": "96 rule by one party",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q97",
@@ -25073,11 +25887,14 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "97 qualified candidates",
+    "domain": "Electoral Process",
+    "concepts": [
+      "candidate selection",
+      "religious leaders"
+    ],
+    "validation_phrase": "97 qualified candidates are pre-selected",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q98",
@@ -25116,11 +25933,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "98 if you",
+    "domain": "Democracy and Governance",
+    "concepts": [
+      "democracy",
+      "essential element",
+      "evaluation"
+    ],
+    "validation_phrase": "have to choose only one,",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "q99",
@@ -25159,11 +25980,15 @@
         "label": "Decline to answer"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
-    "validation_phrase": "99 on the",
+    "domain": "Democracy and Governance",
+    "concepts": [
+      "democracy",
+      "evaluation",
+      "satisfaction"
+    ],
+    "validation_phrase": "99 on the whole, how",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "se15a_1",
@@ -25178,11 +26003,15 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service",
+      "quantity",
+      "count"
+    ],
     "validation_phrase": "se15a_1 how many?",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "se15n_1",
@@ -25197,11 +26026,15 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service",
+      "quantity",
+      "count"
+    ],
     "validation_phrase": "se15n_1 how many?",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   },
   {
     "variable_id": "se15o_1",
@@ -25216,10 +26049,14 @@
         "label": "Not applicable"
       }
     ],
-    "concepts": [],
-    "domain": "Unknown",
+    "domain": "Service Accessibility",
+    "concepts": [
+      "service",
+      "quantity",
+      "count"
+    ],
     "validation_phrase": "se15o_1 how many?",
     "validation_phrase_occurrences": 1,
-    "validation_phrase_score": 100.0
+    "validation_phrase_score": 132.0
   }
 ]
