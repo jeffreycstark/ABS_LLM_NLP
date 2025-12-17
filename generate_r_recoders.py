@@ -11,7 +11,7 @@ Creates wave-specific reversal functions that:
 import json
 import re
 from collections import defaultdict, Counter
-from typing import Dict, List, Set, Tuple
+from typing import List, Tuple
 
 
 class RRecoderGenerator:
@@ -19,33 +19,88 @@ class RRecoderGenerator:
 
     def __init__(self):
         self.stop_words = {
-            'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
-            'of', 'with', 'by', 'from', 'is', 'are', 'was', 'were', 'be', 'been',
-            'have', 'has', 'had', 'do', 'does', 'did', 'will', 'would', 'should',
-            'could', 'may', 'might', 'must', 'can', 'your', 'you', 'how', 'what',
-            'which', 'when', 'where', 'who', 'why', 'that', 'this', 'these', 'those',
-            'question', 'please', 'following'
+            "the",
+            "a",
+            "an",
+            "and",
+            "or",
+            "but",
+            "in",
+            "on",
+            "at",
+            "to",
+            "for",
+            "of",
+            "with",
+            "by",
+            "from",
+            "is",
+            "are",
+            "was",
+            "were",
+            "be",
+            "been",
+            "have",
+            "has",
+            "had",
+            "do",
+            "does",
+            "did",
+            "will",
+            "would",
+            "should",
+            "could",
+            "may",
+            "might",
+            "must",
+            "can",
+            "your",
+            "you",
+            "how",
+            "what",
+            "which",
+            "when",
+            "where",
+            "who",
+            "why",
+            "that",
+            "this",
+            "these",
+            "those",
+            "question",
+            "please",
+            "following",
         }
 
-    def build_word_frequency(self, all_questions: List[str], min_length: int = 5) -> Counter:
+    def build_word_frequency(
+        self, all_questions: List[str], min_length: int = 5
+    ) -> Counter:
         """Build word frequency across all questions in wave"""
         word_freq = Counter()
 
         for question in all_questions:
             text = question.lower()
-            text = re.sub(r'[^\w\s]', ' ', text)
-            words = [w for w in text.split() if len(w) >= min_length and w not in self.stop_words]
+            text = re.sub(r"[^\w\s]", " ", text)
+            words = [
+                w
+                for w in text.split()
+                if len(w) >= min_length and w not in self.stop_words
+            ]
             word_freq.update(words)
 
         return word_freq
 
-    def extract_distinctive_keyword(self, question_text: str, word_freq: Counter, min_length: int = 5) -> str:
+    def extract_distinctive_keyword(
+        self, question_text: str, word_freq: Counter, min_length: int = 5
+    ) -> str:
         """Extract most distinctive word from question using wave-wide frequency"""
 
         # Clean and split
         text = question_text.lower()
-        text = re.sub(r'[^\w\s]', ' ', text)
-        words = [w for w in text.split() if len(w) >= min_length and w not in self.stop_words]
+        text = re.sub(r"[^\w\s]", " ", text)
+        words = [
+            w for w in text.split() if len(w) >= min_length and w not in self.stop_words
+        ]
 
         if not words:
             return question_text[:15]
@@ -59,8 +114,13 @@ class RRecoderGenerator:
         # Fallback
         return words[0] if words else question_text[:15]
 
-    def generate_reversal_function(self, scale_type: str, scale_points: int,
-                                   max_value: int, missing_codes: List[int]) -> str:
+    def generate_reversal_function(
+        self,
+        scale_type: str,
+        scale_points: int,
+        max_value: int,
+        missing_codes: List[int],
+    ) -> str:
         """
         Generate R reversal function for a specific scale type
         """
@@ -83,24 +143,30 @@ class RRecoderGenerator:
 
         return r_code
 
-    def generate_wave_recoding_script(self, wave_analyzed_file: str, wave_name: str) -> str:
+    def generate_wave_recoding_script(
+        self, wave_analyzed_file: str, wave_name: str
+    ) -> str:
         """
         Generate complete R script for wave-specific recoding with keyword validation
         """
         print(f"Processing {wave_name}...")
-        with open(wave_analyzed_file, 'r', encoding='utf-8') as f:
+        with open(wave_analyzed_file, "r", encoding="utf-8") as f:
             variables = json.load(f)
 
         # Extract all question texts and build word frequency
-        all_questions = [v['question_text'] for v in variables]
+        all_questions = [v["question_text"] for v in variables]
         word_freq = self.build_word_frequency(all_questions)
 
         # Group variables by scale type that need reversal
         reversal_groups = defaultdict(list)
         for var in variables:
-            sa = var['scale_analysis']
-            if sa['needs_reversal']:
-                scale_key = (sa['scale_type'], sa['scale_points'], sa['max_substantive_value'])
+            sa = var["scale_analysis"]
+            if sa["needs_reversal"]:
+                scale_key = (
+                    sa["scale_type"],
+                    sa["scale_points"],
+                    sa["max_substantive_value"],
+                )
                 reversal_groups[scale_key].append(var)
 
         if not reversal_groups:
@@ -108,11 +174,11 @@ class RRecoderGenerator:
 
         # Start building R script
         r_script = [
-            f"# ============================================================",
+            "# ============================================================",
             f"# {wave_name} Reversal Functions with Keyword Validation",
-            f"# Generated automatically from scale analysis",
-            f"# ============================================================\n",
-            f"library(dplyr)\n"
+            "# Generated automatically from scale analysis",
+            "# ============================================================\n",
+            "library(dplyr)\n",
         ]
 
         # Generate reversal functions (one per scale type)
@@ -125,19 +191,36 @@ class RRecoderGenerator:
                 # Get typical missing codes for this scale
                 sample_var = reversal_groups[scale_key][0]
                 missing_codes = [
-                    vl['value'] for vl in sample_var['value_labels']
-                    if vl['value'] < 0 or vl['value'] >= 7 or
-                    any(na_word in vl['label'].lower() for na_word in ['missing', 'don\'t know', 'can\'t choose', 'decline', 'not applicable'])
+                    vl["value"]
+                    for vl in sample_var["value_labels"]
+                    if vl["value"] < 0
+                    or vl["value"] >= 7
+                    or any(
+                        na_word in vl["label"].lower()
+                        for na_word in [
+                            "missing",
+                            "don't know",
+                            "can't choose",
+                            "decline",
+                            "not applicable",
+                        ]
+                    )
                 ]
                 missing_codes = sorted(set(missing_codes))
 
-                r_code = self.generate_reversal_function(scale_type, scale_points, max_value, missing_codes)
+                r_code = self.generate_reversal_function(
+                    scale_type, scale_points, max_value, missing_codes
+                )
                 r_script.append(r_code)
                 generated_functions.add(func_name)
 
-        r_script.append("\n# ============================================================")
+        r_script.append(
+            "\n# ============================================================"
+        )
         r_script.append(f"# {wave_name} Variable Recodings with Validation")
-        r_script.append("# ============================================================\n")
+        r_script.append(
+            "# ============================================================\n"
+        )
 
         r_script.append(f"{wave_name.lower()} <- {wave_name.lower()} %>%")
 
@@ -148,8 +231,8 @@ class RRecoderGenerator:
             func_name = f"safe_reverse_{scale_points}pt"
 
             for var in reversal_groups[scale_key]:
-                var_id = var['variable_id']
-                question = var['question_text']
+                var_id = var["variable_id"]
+                question = var["question_text"]
 
                 # Find distinctive keyword using frequency analysis
                 keyword = self.extract_distinctive_keyword(question, word_freq)
@@ -158,30 +241,40 @@ class RRecoderGenerator:
                 q_short = question[:60] + "..." if len(question) > 60 else question
 
                 # Generate validation check
-                validation = f'grepl("{keyword}", question_text["{var_id}"], ignore.case = TRUE)'
+                validation = (
+                    f'grepl("{keyword}", question_text["{var_id}"], ignore.case = TRUE)'
+                )
 
                 recoding_lines.append(f"  # {var_id}: {q_short}")
                 recoding_lines.append(f"  # Keyword validation: '{keyword}'")
                 recoding_lines.append(f"  mutate({var_id}_reversed = if_else(")
                 recoding_lines.append(f"    {validation},")
                 recoding_lines.append(f"    {func_name}({var_id}),")
-                recoding_lines.append(f"    NA_real_  # Validation failed!")
-                recoding_lines.append(f"  )),\n")
+                recoding_lines.append("    NA_real_  # Validation failed!")
+                recoding_lines.append("  )),\n")
 
         # Remove trailing comma from last line
         if recoding_lines:
-            recoding_lines[-1] = recoding_lines[-1].rstrip(',\n')
+            recoding_lines[-1] = recoding_lines[-1].rstrip(",\n")
 
         r_script.extend(recoding_lines)
 
-        r_script.append("\n# ============================================================")
+        r_script.append(
+            "\n# ============================================================"
+        )
         r_script.append(f"# {wave_name} Summary")
-        r_script.append(f"# Variables needing reversal: {sum(len(vars) for vars in reversal_groups.values())}")
-        r_script.append("# ============================================================")
+        r_script.append(
+            f"# Variables needing reversal: {sum(len(vars) for vars in reversal_groups.values())}"
+        )
+        r_script.append(
+            "# ============================================================"
+        )
 
-        return '\n'.join(r_script)
+        return "\n".join(r_script)
 
-    def generate_all_waves_script(self, wave_files: List[Tuple[str, str]], output_file: str):
+    def generate_all_waves_script(
+        self, wave_files: List[Tuple[str, str]], output_file: str
+    ):
         """
         Generate master R script for all waves
         """
@@ -200,7 +293,7 @@ class RRecoderGenerator:
             "# 2. Keyword validation to ensure correct question",
             "# 3. Missing value handling",
             "# 4. Outlier detection",
-            "# ============================================================\n"
+            "# ============================================================\n",
         ]
 
         for wave_file, wave_name in wave_files:
@@ -209,8 +302,8 @@ class RRecoderGenerator:
             all_scripts.append("\n")
 
         # Write to file
-        with open(output_file, 'w', encoding='utf-8') as f:
-            f.write('\n'.join(all_scripts))
+        with open(output_file, "w", encoding="utf-8") as f:
+            f.write("\n".join(all_scripts))
 
         print(f"✅ R script saved to {output_file}")
 

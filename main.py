@@ -1,9 +1,8 @@
 import pandas as pd
 import json
-import os
 
 # Assume your CSV has a column named 'question_text'
-df = pd.read_csv('your_survey_data.csv')
+df = pd.read_csv("your_survey_data.csv")
 
 # --- Define the System Prompt from the previous answer ---
 SYSTEM_PROMPT = """
@@ -17,7 +16,7 @@ def create_batch_request(row, system_prompt):
     # 1. Define the specific user input payload (the question)
     user_content = {
         "id": f"Q_{row.name + 1}",  # Use the index + 1 as a unique ID
-        "question_text": row['question_text']
+        "question_text": row["question_text"],
     }
 
     # 2. Assemble the full API request structure (OpenAI style shown here)
@@ -29,17 +28,17 @@ def create_batch_request(row, system_prompt):
             "model": "gpt-3.5-turbo",  # Or "gemini-2.5-flash"
             "messages": [
                 {"role": "system", "content": system_prompt},
-                {"role": "user", "content": json.dumps(user_content)}
+                {"role": "user", "content": json.dumps(user_content)},
                 # JSON stringify the user content
-            ]
-        }
+            ],
+        },
     }
-    return json.dumps(request) + '\n'
+    return json.dumps(request) + "\n"
 
 
 # --- Generate the JSONL File ---
 jsonl_data = [create_batch_request(row, SYSTEM_PROMPT) for index, row in df.iterrows()]
 
 # Write the data to a JSONL file
-with open('batch_input.jsonl', 'w', encoding='utf-8') as f:
+with open("batch_input.jsonl", "w", encoding="utf-8") as f:
     f.writelines(jsonl_data)

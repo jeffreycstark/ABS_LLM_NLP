@@ -3,15 +3,6 @@
 # Corrected with standardized missing value codes
 # ============================================================
 #
-# This script reverses scales where higher values indicate
-# LESS of the attribute (e.g., 1=Satisfied, 4=Dissatisfied)
-#
-# Each recoding includes:
-# 1. Scale-specific reversal function with STANDARDIZED missing codes
-# 2. Keyword validation via grepl() to ensure correct question
-# 3. Missing value handling: c(-1, 7, 8, 9, 98, 99)
-# 4. Outlier detection
-#
 # STANDARDIZED MISSING CODES:
 #   -1  = Explicit missing/refusal
 #   7   = Likert NA (Don't know, Not applicable, Refused)
@@ -19,6 +10,8 @@
 #   9   = Likert NA (Don't know, Not applicable, Refused)
 #   98  = Other missing code
 #   99  = Other missing code
+#
+# NOTE: 0 is NOT included - requires manual evaluation for binary variables
 # ============================================================
 
 library(dplyr)
@@ -1035,3 +1028,6 @@ Variable: IR4
 
 # ============================================================
 # W6_Cambodia Summary
+# Variables needing reversal: 116
+# ============================================================
+

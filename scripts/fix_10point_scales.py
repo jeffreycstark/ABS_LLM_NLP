@@ -21,10 +21,11 @@ safe_reverse_10pt <- function(x, missing_codes = c(-1, 97, 98, 99)) {
 }
 """
 
+
 def add_10pt_function(content):
     """Add safe_reverse_10pt function after other scale functions."""
     # Find the last safe_reverse function
-    pattern = r'(safe_reverse_\d+pt <- function\(x, missing_codes[^}]+\})\n'
+    pattern = r"(safe_reverse_\d+pt <- function\(x, missing_codes[^}]+\})\n"
     matches = list(re.finditer(pattern, content))
 
     if matches:
@@ -34,66 +35,73 @@ def add_10pt_function(content):
 
     return content
 
+
 def fix_10pt_calls(content):
     """Change safe_reverse_6pt(q92-95) to safe_reverse_10pt()."""
-    for var in ['q92', 'q93', 'q94', 'q95']:
+    for var in ["q92", "q93", "q94", "q95"]:
         # Pattern: safe_reverse_6pt(q9X)
-        pattern = rf'safe_reverse_6pt\({var}\)'
-        replacement = f'safe_reverse_10pt({var})'
+        pattern = rf"safe_reverse_6pt\({var}\)"
+        replacement = f"safe_reverse_10pt({var})"
         content = re.sub(pattern, replacement, content)
 
     return content
+
 
 def process_wave(filepath, wave_name):
     """Process a single wave file."""
     print(f"\nProcessing {wave_name}...")
 
-    with open(filepath, 'r') as f:
+    with open(filepath, "r") as f:
         content = f.read()
 
     # Check if file needs 10-point handling
-    if not any(f'q9{i}' in content for i in [2, 3, 4, 5]):
-        print(f"  No q92-95 found, skipping")
+    if not any(f"q9{i}" in content for i in [2, 3, 4, 5]):
+        print("  No q92-95 found, skipping")
         return
 
     # Add function if not already present
-    if 'safe_reverse_10pt' not in content:
+    if "safe_reverse_10pt" not in content:
         content = add_10pt_function(content)
-        print(f"  ✓ Added safe_reverse_10pt() function")
+        print("  ✓ Added safe_reverse_10pt() function")
     else:
-        print(f"  • safe_reverse_10pt() already exists")
+        print("  • safe_reverse_10pt() already exists")
 
     # Fix function calls
-    original = content
     content = fix_10pt_calls(content)
 
-    changes = sum(1 for var in ['q92', 'q93', 'q94', 'q95'] if f'safe_reverse_10pt({var})' in content)
+    changes = sum(
+        1
+        for var in ["q92", "q93", "q94", "q95"]
+        if f"safe_reverse_10pt({var})" in content
+    )
     if changes > 0:
         print(f"  ✓ Changed {changes} variables to use safe_reverse_10pt()")
 
     # Write back
-    with open(filepath, 'w') as f:
+    with open(filepath, "w") as f:
         f.write(content)
 
     print(f"  ✓ Saved {filepath.name}")
 
-def main():
-    scripts_dir = Path('scripts')
 
-    print("="*60)
+def main():
+    scripts_dir = Path("scripts")
+
+    print("=" * 60)
     print("10-Point Scale Fix for q92-q95")
-    print("="*60)
+    print("=" * 60)
 
     # Process W5 and W6
-    process_wave(scripts_dir / 'reverse_scales_W5.R', 'W5')
-    process_wave(scripts_dir / 'reverse_scales_W6_Cambodia.R', 'W6_Cambodia')
+    process_wave(scripts_dir / "reverse_scales_W5.R", "W5")
+    process_wave(scripts_dir / "reverse_scales_W6_Cambodia.R", "W6_Cambodia")
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("Complete! q92-q95 now use:")
     print("  • safe_reverse_10pt() function")
     print("  • missing_codes = c(-1, 97, 98, 99)")
     print("  • Values 7, 8, 9 are VALID responses")
-    print("="*60)
+    print("=" * 60)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()

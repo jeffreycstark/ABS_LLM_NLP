@@ -12,6 +12,7 @@ from pathlib import Path
 from collections import defaultdict
 from typing import Dict, List, Set, Tuple
 
+
 class QuestionClusterer:
     """Build question groups from pairwise matches using graph clustering."""
 
@@ -24,13 +25,13 @@ class QuestionClusterer:
         """Load matches from JSON export (we'll create this first)."""
         print(f"Loading matches from {detailed_json_path}")
 
-        with open(detailed_json_path, 'r') as f:
+        with open(detailed_json_path, "r") as f:
             data = json.load(f)
 
-        for match in data['matches']:
+        for match in data["matches"]:
             q1_id = f"{match['wave1']}.{match['var1']}"
             q2_id = f"{match['wave2']}.{match['var2']}"
-            sim = match['similarity']
+            sim = match["similarity"]
 
             # Build graph
             self.adjacency[q1_id].add(q2_id)
@@ -43,19 +44,19 @@ class QuestionClusterer:
             # Store metadata
             if q1_id not in self.question_data:
                 self.question_data[q1_id] = {
-                    'wave': match['wave1'],
-                    'var': match['var1'],
-                    'question': match['question1'],
-                    'concepts': match['concepts1'],
-                    'domain': match['domain1']
+                    "wave": match["wave1"],
+                    "var": match["var1"],
+                    "question": match["question1"],
+                    "concepts": match["concepts1"],
+                    "domain": match["domain1"],
                 }
             if q2_id not in self.question_data:
                 self.question_data[q2_id] = {
-                    'wave': match['wave2'],
-                    'var': match['var2'],
-                    'question': match['question2'],
-                    'concepts': match['concepts2'],
-                    'domain': match['domain2']
+                    "wave": match["wave2"],
+                    "var": match["var2"],
+                    "question": match["question2"],
+                    "concepts": match["concepts2"],
+                    "domain": match["domain2"],
                 }
 
         print(f"  ✓ Loaded {len(data['matches'])} matches")
@@ -63,16 +64,21 @@ class QuestionClusterer:
 
     def _check_target_compatibility(self, q1_id, q2_id) -> bool:
         """Check if two questions have compatible targets (for strict clustering)."""
-        q1_text = self.question_data[q1_id]['question'].lower()
-        q2_text = self.question_data[q2_id]['question'].lower()
+        q1_text = self.question_data[q1_id]["question"].lower()
+        q2_text = self.question_data[q2_id]["question"].lower()
 
         # Define mutually exclusive targets
         target_keywords = {
-            'relatives': ['relative', 'relatives', 'family member', 'family members'],
-            'neighbors': ['neighbor', 'neighbours', 'neighbors', 'neighbour'],
-            'acquaintances': ['acquaintance', 'acquaintances', 'people you know', 'people you interact'],
-            'strangers': ['stranger', 'strangers', 'people you meet', 'unfamiliar'],
-            'colleagues': ['colleague', 'colleagues', 'coworker', 'coworkers'],
+            "relatives": ["relative", "relatives", "family member", "family members"],
+            "neighbors": ["neighbor", "neighbours", "neighbors", "neighbour"],
+            "acquaintances": [
+                "acquaintance",
+                "acquaintances",
+                "people you know",
+                "people you interact",
+            ],
+            "strangers": ["stranger", "strangers", "people you meet", "unfamiliar"],
+            "colleagues": ["colleague", "colleagues", "coworker", "coworkers"],
         }
 
         # Find targets in each question
@@ -129,7 +135,9 @@ class QuestionClusterer:
                     for existing in component:
                         if candidate not in self.adjacency[existing]:
                             # Not directly connected
-                            if not self._check_target_compatibility(candidate, existing):
+                            if not self._check_target_compatibility(
+                                candidate, existing
+                            ):
                                 compatible = False
                                 break
 
@@ -158,7 +166,7 @@ class QuestionClusterer:
             return (
                 sum(similarities) / len(similarities),  # average
                 min(similarities),  # minimum
-                len(similarities)  # pair count
+                len(similarities),  # pair count
             )
         return (0.0, 0.0, 0)
 
@@ -177,14 +185,19 @@ class QuestionClusterer:
             waves_dict = defaultdict(list)
             for q_id in component:
                 data = self.question_data[q_id]
-                waves_dict[data['wave']].append(data['var'])
+                waves_dict[data["wave"]].append(data["var"])
 
             # Sort waves
-            waves_sorted = sorted(waves_dict.items(), key=lambda x: (
-                0 if x[0].startswith('W') and x[0][1:2].isdigit() else 1,
-                int(x[0][1]) if x[0].startswith('W') and len(x[0]) > 1 and x[0][1:2].isdigit() else 99,
-                x[0]
-            ))
+            waves_sorted = sorted(
+                waves_dict.items(),
+                key=lambda x: (
+                    0 if x[0].startswith("W") and x[0][1:2].isdigit() else 1,
+                    int(x[0][1])
+                    if x[0].startswith("W") and len(x[0]) > 1 and x[0][1:2].isdigit()
+                    else 99,
+                    x[0],
+                ),
+            )
 
             # Get representative question text (from first wave)
             rep_q_id = list(component)[0]
@@ -195,21 +208,23 @@ class QuestionClusterer:
             domains = set()
             for q_id in component:
                 data = self.question_data[q_id]
-                all_concepts.update(data['concepts'])
-                domains.add(data['domain'])
+                all_concepts.update(data["concepts"])
+                domains.add(data["domain"])
 
-            clusters.append({
-                'cluster_id': idx,
-                'wave_count': len(waves_dict),
-                'question_count': len(component),
-                'avg_confidence': avg_conf,
-                'min_confidence': min_conf,
-                'pair_count': pair_count,
-                'waves': waves_sorted,
-                'question_text': rep_data['question'],
-                'concepts': sorted(all_concepts),
-                'domains': sorted(domains)
-            })
+            clusters.append(
+                {
+                    "cluster_id": idx,
+                    "wave_count": len(waves_dict),
+                    "question_count": len(component),
+                    "avg_confidence": avg_conf,
+                    "min_confidence": min_conf,
+                    "pair_count": pair_count,
+                    "waves": waves_sorted,
+                    "question_text": rep_data["question"],
+                    "concepts": sorted(all_concepts),
+                    "domains": sorted(domains),
+                }
+            )
 
         print(f"  ✓ Built {len(clusters)} question clusters")
         return clusters
@@ -218,44 +233,46 @@ class QuestionClusterer:
         """Export clusters to CSV for easy Excel/spreadsheet review."""
         print(f"\nExporting to {output_path}")
 
-        with open(output_path, 'w', newline='', encoding='utf-8') as f:
+        with open(output_path, "w", newline="", encoding="utf-8") as f:
             writer = csv.writer(f)
 
             # Header
-            writer.writerow([
-                'Cluster_ID',
-                'Wave_Count',
-                'Avg_Confidence',
-                'Min_Confidence',
-                'W1_Vars',
-                'W2_Vars',
-                'W3_Vars',
-                'W4_Vars',
-                'W5_Vars',
-                'W6_Vars',
-                'Question_Text',
-                'Concepts',
-                'Domains'
-            ])
+            writer.writerow(
+                [
+                    "Cluster_ID",
+                    "Wave_Count",
+                    "Avg_Confidence",
+                    "Min_Confidence",
+                    "W1_Vars",
+                    "W2_Vars",
+                    "W3_Vars",
+                    "W4_Vars",
+                    "W5_Vars",
+                    "W6_Vars",
+                    "Question_Text",
+                    "Concepts",
+                    "Domains",
+                ]
+            )
 
             # Data rows
             for cluster in clusters:
-                waves_dict = dict(cluster['waves'])
+                waves_dict = dict(cluster["waves"])
 
                 row = [
-                    cluster['cluster_id'],
-                    cluster['wave_count'],
+                    cluster["cluster_id"],
+                    cluster["wave_count"],
                     f"{cluster['avg_confidence']:.4f}",
                     f"{cluster['min_confidence']:.4f}",
-                    ', '.join(waves_dict.get('W1', [])),
-                    ', '.join(waves_dict.get('W2', [])),
-                    ', '.join(waves_dict.get('W3', [])),
-                    ', '.join(waves_dict.get('W4', [])),
-                    ', '.join(waves_dict.get('W5', [])),
-                    ', '.join(waves_dict.get('W6_Cambodia', [])),
-                    cluster['question_text'][:200],  # Truncate long questions
-                    '; '.join(cluster['concepts'][:5]),  # Top 5 concepts
-                    '; '.join(cluster['domains'])
+                    ", ".join(waves_dict.get("W1", [])),
+                    ", ".join(waves_dict.get("W2", [])),
+                    ", ".join(waves_dict.get("W3", [])),
+                    ", ".join(waves_dict.get("W4", [])),
+                    ", ".join(waves_dict.get("W5", [])),
+                    ", ".join(waves_dict.get("W6_Cambodia", [])),
+                    cluster["question_text"][:200],  # Truncate long questions
+                    "; ".join(cluster["concepts"][:5]),  # Top 5 concepts
+                    "; ".join(cluster["domains"]),
                 ]
 
                 writer.writerow(row)
@@ -266,7 +283,7 @@ class QuestionClusterer:
         """Export clusters to readable markdown format."""
         print(f"Exporting to {output_path}")
 
-        with open(output_path, 'w', encoding='utf-8') as f:
+        with open(output_path, "w", encoding="utf-8") as f:
             f.write("# Asian Barometer Question Clusters\n\n")
             f.write("**Grouped by semantic similarity across waves**\n\n")
             f.write("---\n\n")
@@ -279,7 +296,7 @@ class QuestionClusterer:
 
                 # Wave coverage
                 f.write("**Coverage**:\n")
-                for wave, vars in cluster['waves']:
+                for wave, vars in cluster["waves"]:
                     f.write(f"- {wave}: {', '.join(vars)}\n")
                 f.write("\n")
 
@@ -287,12 +304,12 @@ class QuestionClusterer:
                 f.write(f"**Question**: {cluster['question_text']}\n\n")
 
                 # Concepts
-                if cluster['concepts']:
+                if cluster["concepts"]:
                     f.write(f"**Concepts**: {', '.join(cluster['concepts'][:8])}\n\n")
 
                 f.write("---\n\n")
 
-        print(f"  ✓ Exported markdown")
+        print("  ✓ Exported markdown")
 
 
 def export_matches_to_json():
@@ -302,64 +319,64 @@ def export_matches_to_json():
     # This is a simple parser - we'll read the existing detailed.md
     # and extract structured data
 
-    input_path = Path('matching_results/question_matches_detailed.md')
-    output_path = Path('matching_results/question_matches.json')
+    input_path = Path("matching_results/question_matches_detailed.md")
+    output_path = Path("matching_results/question_matches.json")
 
     matches = []
     current_match = {}
 
-    with open(input_path, 'r', encoding='utf-8') as f:
+    with open(input_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
 
-            if line.startswith('### Match'):
+            if line.startswith("### Match"):
                 # Save previous match
                 if current_match:
                     matches.append(current_match)
 
                 # Start new match
-                sim = float(line.split(':')[1].strip())
-                current_match = {'similarity': sim}
+                sim = float(line.split(":")[1].strip())
+                current_match = {"similarity": sim}
 
-            elif line.startswith('**Wave 1**:'):
-                wave, var = line.split('`')[1].split('.')
-                current_match['wave1'] = wave
-                current_match['var1'] = var
+            elif line.startswith("**Wave 1**:"):
+                wave, var = line.split("`")[1].split(".")
+                current_match["wave1"] = wave
+                current_match["var1"] = var
 
-            elif line.startswith('**Wave 2**:'):
-                wave, var = line.split('`')[1].split('.')
-                current_match['wave2'] = wave
-                current_match['var2'] = var
+            elif line.startswith("**Wave 2**:"):
+                wave, var = line.split("`")[1].split(".")
+                current_match["wave2"] = wave
+                current_match["var2"] = var
 
-            elif line.startswith('- **Question**:'):
-                question = line.split(':', 1)[1].strip()
-                if 'question1' not in current_match:
-                    current_match['question1'] = question
+            elif line.startswith("- **Question**:"):
+                question = line.split(":", 1)[1].strip()
+                if "question1" not in current_match:
+                    current_match["question1"] = question
                 else:
-                    current_match['question2'] = question
+                    current_match["question2"] = question
 
-            elif line.startswith('- **Concepts**:'):
-                concepts = line.split(':', 1)[1].strip()
-                concepts_list = [c.strip() for c in concepts.split(',')]
-                if 'concepts1' not in current_match:
-                    current_match['concepts1'] = concepts_list
+            elif line.startswith("- **Concepts**:"):
+                concepts = line.split(":", 1)[1].strip()
+                concepts_list = [c.strip() for c in concepts.split(",")]
+                if "concepts1" not in current_match:
+                    current_match["concepts1"] = concepts_list
                 else:
-                    current_match['concepts2'] = concepts_list
+                    current_match["concepts2"] = concepts_list
 
-            elif line.startswith('- **Domain**:'):
-                domain = line.split(':', 1)[1].strip()
-                if 'domain1' not in current_match:
-                    current_match['domain1'] = domain
+            elif line.startswith("- **Domain**:"):
+                domain = line.split(":", 1)[1].strip()
+                if "domain1" not in current_match:
+                    current_match["domain1"] = domain
                 else:
-                    current_match['domain2'] = domain
+                    current_match["domain2"] = domain
 
     # Save last match
     if current_match:
         matches.append(current_match)
 
     # Write JSON
-    with open(output_path, 'w', encoding='utf-8') as f:
-        json.dump({'matches': matches, 'count': len(matches)}, f, indent=2)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump({"matches": matches, "count": len(matches)}, f, indent=2)
 
     print(f"  ✓ Converted {len(matches)} matches to JSON")
     return output_path
@@ -367,12 +384,12 @@ def export_matches_to_json():
 
 def main():
     """Main execution."""
-    print("="*60)
+    print("=" * 60)
     print("Asian Barometer Question Clustering")
-    print("="*60)
+    print("=" * 60)
 
     # Use the all_matches.json file generated by semantic_matcher_full.py
-    json_path = Path('matching_results/all_matches.json')
+    json_path = Path("matching_results/all_matches.json")
 
     if not json_path.exists():
         print(f"✗ Error: {json_path} not found")
@@ -386,22 +403,22 @@ def main():
     clusters = clusterer.build_clusters()
 
     # Step 3: Sort by confidence (high to low)
-    clusters.sort(key=lambda x: x['avg_confidence'], reverse=True)
+    clusters.sort(key=lambda x: x["avg_confidence"], reverse=True)
 
     # Step 4: Export to both formats
-    output_dir = Path('matching_results')
+    output_dir = Path("matching_results")
 
-    csv_path = output_dir / 'question_clusters.csv'
-    md_path = output_dir / 'question_clusters.md'
+    csv_path = output_dir / "question_clusters.csv"
+    md_path = output_dir / "question_clusters.md"
 
     clusterer.export_to_csv(clusters, csv_path)
     clusterer.export_to_markdown(clusters, md_path)
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print("✓ COMPLETE!")
     print(f"  - CSV (for Excel): {csv_path}")
     print(f"  - Markdown: {md_path}")
-    print("="*60)
+    print("=" * 60)
 
     # Print summary
     print("\nCluster Summary:")
@@ -409,12 +426,12 @@ def main():
 
     wave_counts = defaultdict(int)
     for cluster in clusters:
-        wave_counts[cluster['wave_count']] += 1
+        wave_counts[cluster["wave_count"]] += 1
 
     print("\n  Clusters by wave coverage:")
     for wave_count in sorted(wave_counts.keys(), reverse=True):
         print(f"    {wave_count} waves: {wave_counts[wave_count]} clusters")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

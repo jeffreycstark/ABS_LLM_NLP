@@ -6,13 +6,13 @@ token = os.getenv("HF_TOKEN")
 
 client = InferenceClient(
     model="google/gemma-2-2b-it",  # Using a known-working model
-    token=token
+    token=token,
 )
 
 messages = [
     {
         "role": "system",
-        "content": "You parse survey questionnaires. When questions share a stem, you reconstruct the full question for each item."
+        "content": "You parse survey questionnaires. When questions share a stem, you reconstruct the full question for each item.",
     },
     {
         "role": "user",
@@ -68,8 +68,8 @@ EXPECTED OUTPUT:
     "question_text": "Based on your experience, how easy or difficult is it to obtain the following services? Or have you never tried to get these services from government? A place in a public primary school for a child",
     "value_labels": [{"value": -1, "label": "Missing"}, {"value": 1, "label": "Very Difficult"}, {"value": 2, "label": "Difficult"}, {"value": 3, "label": "Easy"}, {"value": 4, "label": "Very Easy"}, {"value": 5, "label": "Never Tried"}, {"value": 8, "label": "Can't choose"}, {"value": 9, "label": "Decline to answer"}]
   }
-]"""
-    }
+]""",
+    },
 ]
 
 response = client.chat_completion(

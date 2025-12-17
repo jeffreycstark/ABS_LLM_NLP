@@ -8,7 +8,7 @@ parser = LabelsParser("W3_labels.txt")
 variables = parser.parse()
 
 # Find q38-q41
-q38_group = [v for v in variables if v['variable_id'] in ['q38', 'q39', 'q40', 'q41']]
+q38_group = [v for v in variables if v["variable_id"] in ["q38", "q39", "q40", "q41"]]
 
 print("=== INPUT VARIABLES ===")
 for v in q38_group:

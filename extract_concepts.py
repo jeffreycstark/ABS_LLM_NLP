@@ -27,12 +27,16 @@ class ConceptExtractor:
         """
         api_key = os.getenv("GROQ_API_KEY")
         if not api_key:
-            raise ValueError("GROQ_API_KEY environment variable not set. Get your free key at: https://console.groq.com")
+            raise ValueError(
+                "GROQ_API_KEY environment variable not set. Get your free key at: https://console.groq.com"
+            )
 
         self.client = Groq(api_key=api_key)
         self.model = model
 
-    def extract_concepts_batch(self, variables: List[Dict], batch_size: int = 10) -> List[Dict]:
+    def extract_concepts_batch(
+        self, variables: List[Dict], batch_size: int = 10
+    ) -> List[Dict]:
         """
         Extract concepts from a batch of variables.
         Returns enriched variables with concept/domain annotations.
@@ -40,8 +44,10 @@ class ConceptExtractor:
         enriched = []
 
         for i in range(0, len(variables), batch_size):
-            batch = variables[i:i + batch_size]
-            print(f"  Processing batch {i//batch_size + 1} ({len(batch)} questions)...")
+            batch = variables[i : i + batch_size]
+            print(
+                f"  Processing batch {i // batch_size + 1} ({len(batch)} questions)..."
+            )
 
             try:
                 concepts = self._extract_batch_concepts(batch)
@@ -51,8 +57,8 @@ class ConceptExtractor:
                 # Fallback: add empty concepts
                 for var in batch:
                     var_copy = var.copy()
-                    var_copy['concepts'] = []
-                    var_copy['domain'] = "Unknown"
+                    var_copy["concepts"] = []
+                    var_copy["domain"] = "Unknown"
                     enriched.append(var_copy)
 
         return enriched
@@ -63,7 +69,9 @@ class ConceptExtractor:
         # Build prompt with questions
         questions_text = []
         for i, var in enumerate(variables):
-            questions_text.append(f"{i+1}. [{var['variable_id']}] {var['question_text']}")
+            questions_text.append(
+                f"{i + 1}. [{var['variable_id']}] {var['question_text']}"
+            )
 
         prompt = f"""Analyze these survey questions and identify:
 1. The primary DOMAIN/TOPIC (e.g., "Economic Perception", "Trust in Government", "Service Accessibility")
@@ -87,12 +95,9 @@ Return ONLY valid JSON, no markdown."""
         messages = [
             {
                 "role": "system",
-                "content": "You are an expert in survey methodology and concept extraction."
+                "content": "You are an expert in survey methodology and concept extraction.",
             },
-            {
-                "role": "user",
-                "content": prompt
-            }
+            {"role": "user", "content": prompt},
         ]
 
         response = self.client.chat.completions.create(
@@ -104,7 +109,7 @@ Return ONLY valid JSON, no markdown."""
 
         content = response.choices[0].message.content
         # Remove markdown if present
-        content = content.replace('```json', '').replace('```', '').strip()
+        content = content.replace("```json", "").replace("```", "").strip()
 
         concepts_list = json.loads(content)
 
@@ -113,13 +118,20 @@ Return ONLY valid JSON, no markdown."""
         for var in variables:
             var_copy = var.copy()
             # Find matching concept entry
-            matching = next((c for c in concepts_list if c.get('variable_id') == var['variable_id']), None)
+            matching = next(
+                (
+                    c
+                    for c in concepts_list
+                    if c.get("variable_id") == var["variable_id"]
+                ),
+                None,
+            )
             if matching:
-                var_copy['domain'] = matching.get('domain', 'Unknown')
-                var_copy['concepts'] = matching.get('concepts', [])
+                var_copy["domain"] = matching.get("domain", "Unknown")
+                var_copy["concepts"] = matching.get("concepts", [])
             else:
-                var_copy['domain'] = 'Unknown'
-                var_copy['concepts'] = []
+                var_copy["domain"] = "Unknown"
+                var_copy["concepts"] = []
 
             enriched.append(var_copy)
 
@@ -135,7 +147,7 @@ def generate_crosswalk(enriched_variables: List[Dict], output_file: str):
     # Group by domain
     domain_groups = {}
     for var in enriched_variables:
-        domain = var.get('domain', 'Unknown')
+        domain = var.get("domain", "Unknown")
         if domain not in domain_groups:
             domain_groups[domain] = []
         domain_groups[domain].append(var)
@@ -143,9 +155,9 @@ def generate_crosswalk(enriched_variables: List[Dict], output_file: str):
     crosswalk = {
         "metadata": {
             "total_variables": len(enriched_variables),
-            "total_domains": len(domain_groups)
+            "total_domains": len(domain_groups),
         },
-        "domains": []
+        "domains": [],
     }
 
     for domain, vars_list in sorted(domain_groups.items()):
@@ -154,17 +166,17 @@ def generate_crosswalk(enriched_variables: List[Dict], output_file: str):
             "variable_count": len(vars_list),
             "variables": [
                 {
-                    "variable_id": v['variable_id'],
-                    "question_text": v['question_text'],
-                    "concepts": v.get('concepts', []),
-                    "value_labels": v['value_labels']
+                    "variable_id": v["variable_id"],
+                    "question_text": v["question_text"],
+                    "concepts": v.get("concepts", []),
+                    "value_labels": v["value_labels"],
                 }
                 for v in vars_list
-            ]
+            ],
         }
         crosswalk["domains"].append(domain_entry)
 
-    with open(output_file, 'w', encoding='utf-8') as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         json.dump(crosswalk, f, indent=2, ensure_ascii=False)
 
     print(f"\nCrosswalk saved to {output_file}")
@@ -177,7 +189,7 @@ def main(atomic_json_file: str, enriched_output: str, crosswalk_output: str):
     """Main pipeline: Atomic JSON → Concepts → Crosswalk"""
 
     print(f"Loading atomic JSON from {atomic_json_file}...")
-    with open(atomic_json_file, 'r', encoding='utf-8') as f:
+    with open(atomic_json_file, "r", encoding="utf-8") as f:
         variables = json.load(f)
     print(f"Loaded {len(variables)} variables")
 
@@ -186,7 +198,7 @@ def main(atomic_json_file: str, enriched_output: str, crosswalk_output: str):
     enriched = extractor.extract_concepts_batch(variables, batch_size=10)
 
     print(f"\nSaving enriched variables to {enriched_output}...")
-    with open(enriched_output, 'w', encoding='utf-8') as f:
+    with open(enriched_output, "w", encoding="utf-8") as f:
         json.dump(enriched, f, indent=2, ensure_ascii=False)
 
     print("\nGenerating crosswalk...")

@@ -26,7 +26,9 @@ class ConceptReprocessor:
         # Build prompt with questions
         questions_text = []
         for i, var in enumerate(variables):
-            questions_text.append(f"{i+1}. [{var['variable_id']}] {var['question_text']}")
+            questions_text.append(
+                f"{i + 1}. [{var['variable_id']}] {var['question_text']}"
+            )
 
         prompt = f"""Analyze these survey questions and identify:
 1. The primary DOMAIN/TOPIC (e.g., "Economic Perception", "Trust in Government", "Service Accessibility")
@@ -50,12 +52,9 @@ Return ONLY valid JSON, no markdown."""
         messages = [
             {
                 "role": "system",
-                "content": "You are an expert in survey methodology and concept extraction."
+                "content": "You are an expert in survey methodology and concept extraction.",
             },
-            {
-                "role": "user",
-                "content": prompt
-            }
+            {"role": "user", "content": prompt},
         ]
 
         response = self.client.chat.completions.create(
@@ -67,7 +66,7 @@ Return ONLY valid JSON, no markdown."""
 
         content = response.choices[0].message.content
         # Remove markdown if present
-        content = content.replace('```json', '').replace('```', '').strip()
+        content = content.replace("```json", "").replace("```", "").strip()
 
         concepts_list = json.loads(content)
 
@@ -76,13 +75,20 @@ Return ONLY valid JSON, no markdown."""
         for var in variables:
             var_copy = var.copy()
             # Find matching concept entry
-            matching = next((c for c in concepts_list if c.get('variable_id') == var['variable_id']), None)
+            matching = next(
+                (
+                    c
+                    for c in concepts_list
+                    if c.get("variable_id") == var["variable_id"]
+                ),
+                None,
+            )
             if matching:
-                var_copy['domain'] = matching.get('domain', 'Unknown')
-                var_copy['concepts'] = matching.get('concepts', [])
+                var_copy["domain"] = matching.get("domain", "Unknown")
+                var_copy["concepts"] = matching.get("concepts", [])
             else:
-                var_copy['domain'] = 'Unknown'
-                var_copy['concepts'] = []
+                var_copy["domain"] = "Unknown"
+                var_copy["concepts"] = []
 
             enriched.append(var_copy)
 
@@ -93,11 +99,11 @@ Return ONLY valid JSON, no markdown."""
         Load enriched JSON, find Unknown variables, reprocess them
         """
         print(f"\nLoading {enriched_file}...")
-        with open(enriched_file, 'r', encoding='utf-8') as f:
+        with open(enriched_file, "r", encoding="utf-8") as f:
             all_variables = json.load(f)
 
         # Find Unknown variables
-        unknown_vars = [v for v in all_variables if v.get('domain') == 'Unknown']
+        unknown_vars = [v for v in all_variables if v.get("domain") == "Unknown"]
         print(f"Found {len(unknown_vars)} Unknown variables to reprocess")
 
         if not unknown_vars:
@@ -107,9 +113,11 @@ Return ONLY valid JSON, no markdown."""
         # Reprocess in batches
         reprocessed = []
         for i in range(0, len(unknown_vars), batch_size):
-            batch = unknown_vars[i:i + batch_size]
+            batch = unknown_vars[i : i + batch_size]
             batch_num = i // batch_size + 1
-            print(f"  Processing batch {batch_num}/{(len(unknown_vars)-1)//batch_size + 1} ({len(batch)} questions)...")
+            print(
+                f"  Processing batch {batch_num}/{(len(unknown_vars) - 1) // batch_size + 1} ({len(batch)} questions)..."
+            )
 
             try:
                 enriched_batch = self.extract_batch_concepts(batch)
@@ -126,15 +134,15 @@ Return ONLY valid JSON, no markdown."""
 
         # Merge reprocessed back into original list
         # Create lookup dict
-        reprocessed_dict = {v['variable_id']: v for v in reprocessed}
+        reprocessed_dict = {v["variable_id"]: v for v in reprocessed}
 
         # Update original list
         final_variables = []
         updated_count = 0
         for var in all_variables:
-            if var['variable_id'] in reprocessed_dict:
-                final_variables.append(reprocessed_dict[var['variable_id']])
-                if reprocessed_dict[var['variable_id']].get('domain') != 'Unknown':
+            if var["variable_id"] in reprocessed_dict:
+                final_variables.append(reprocessed_dict[var["variable_id"]])
+                if reprocessed_dict[var["variable_id"]].get("domain") != "Unknown":
                     updated_count += 1
             else:
                 final_variables.append(var)
@@ -156,32 +164,33 @@ def regenerate_outputs(enriched_variables: List[Dict], base_name: str):
 
     # Save enriched JSON
     print(f"\nSaving {enriched_file}...")
-    with open(enriched_file, 'w', encoding='utf-8') as f:
+    with open(enriched_file, "w", encoding="utf-8") as f:
         json.dump(enriched_variables, f, indent=2, ensure_ascii=False)
 
     # Generate crosswalk
     print(f"Generating {crosswalk_file}...")
     from extract_concepts import generate_crosswalk
+
     generate_crosswalk(enriched_variables, crosswalk_file)
 
     # Generate CSVs
-    print(f"Generating CSV files...")
+    print("Generating CSV files...")
     import subprocess
-    subprocess.run([
-        'python3', 'generate_csv.py',
-        enriched_file, csv_file, csv_detailed_file
-    ])
 
-    print(f"\n✅ All files updated!")
+    subprocess.run(
+        ["python3", "generate_csv.py", enriched_file, csv_file, csv_detailed_file]
+    )
+
+    print("\n✅ All files updated!")
 
 
 def main(enriched_file: str, base_name: str, model: str = "llama-3.1-8b-instant"):
     """Main reprocessing pipeline"""
 
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
     print(f"Reprocessing Unknown variables from {enriched_file}")
     print(f"Using model: {model}")
-    print(f"{'='*60}")
+    print(f"{'=' * 60}")
 
     reprocessor = ConceptReprocessor(model=model)
     final_variables = reprocessor.reprocess_unknown(enriched_file, batch_size=10)
