@@ -104,8 +104,10 @@ class LabelsParser:
         """
         return tuple(
             sorted(
-                [(label["value"], label["label"].strip().lower())
-                 for label in value_labels]
+                [
+                    (label["value"], label["label"].strip().lower())
+                    for label in value_labels
+                ]
             )
         )
 
@@ -172,12 +174,38 @@ class AtomicJSONGenerator:
             return True
 
         # Has question words?
-        question_words = ["what", "how", "when", "where", "why", "who", "which", "do you", "did you", "have you", "are you", "is it"]
+        question_words = [
+            "what",
+            "how",
+            "when",
+            "where",
+            "why",
+            "who",
+            "which",
+            "do you",
+            "did you",
+            "have you",
+            "are you",
+            "is it",
+        ]
         if any(word in text_lower for word in question_words):
             return True
 
         # Has common verbs that indicate a question structure?
-        common_verbs = [" is ", " are ", " do ", " does ", " did ", " have ", " has ", " will ", " would ", " should ", " can ", " could "]
+        common_verbs = [
+            " is ",
+            " are ",
+            " do ",
+            " does ",
+            " did ",
+            " have ",
+            " has ",
+            " will ",
+            " would ",
+            " should ",
+            " can ",
+            " could ",
+        ]
         if any(verb in text_lower for verb in common_verbs):
             return True
 

@@ -20,10 +20,18 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
 
     print(f"Converting {len(variables)} variables to CSV...")
 
-    # Generate basic CSV
+    # Generate basic CSV with validation phrases
     with open(output_csv, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(["variable_id", "domain", "concepts", "question_text"])
+        writer.writerow([
+            "variable_id", 
+            "domain", 
+            "concepts", 
+            "question_text",
+            "validation_phrase",
+            "validation_phrase_occurrences",
+            "validation_phrase_score"
+        ])
 
         for var in variables:
             concepts_str = ", ".join(var.get("concepts", []))
@@ -33,17 +41,27 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
                     var.get("domain", "Unknown"),
                     concepts_str,
                     var["question_text"],
+                    var.get("validation_phrase", ""),
+                    var.get("validation_phrase_occurrences", 0),
+                    var.get("validation_phrase_score", 0.0),
                 ]
             )
 
     print(f"✅ Basic CSV saved to {output_csv}")
 
-    # Generate detailed CSV with value labels
+    # Generate detailed CSV with value labels and validation phrases
     with open(output_detailed_csv, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
-        writer.writerow(
-            ["variable_id", "domain", "concepts", "question_text", "value_labels"]
-        )
+        writer.writerow([
+            "variable_id", 
+            "domain", 
+            "concepts", 
+            "question_text", 
+            "value_labels",
+            "validation_phrase",
+            "validation_phrase_occurrences",
+            "validation_phrase_score"
+        ])
 
         for var in variables:
             concepts_str = ", ".join(var.get("concepts", []))
@@ -61,6 +79,9 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
                     concepts_str,
                     var["question_text"],
                     labels_str,
+                    var.get("validation_phrase", ""),
+                    var.get("validation_phrase_occurrences", 0),
+                    var.get("validation_phrase_score", 0.0),
                 ]
             )
 

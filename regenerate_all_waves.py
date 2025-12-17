@@ -15,6 +15,7 @@ waves = [
     ("W6_Cambodia_labels.txt", "W6_Cambodia_atomic.json"),
 ]
 
+
 def regenerate_atomic():
     """Step 1: Regenerate atomic JSON for all waves"""
     print("=" * 60)
@@ -25,7 +26,7 @@ def regenerate_atomic():
         print(f"\n📝 Processing {input_file}...")
 
         # Call parse_labels.py with this wave
-        cmd = f'python3 -c "from parse_labels import main; main(\'{input_file}\', \'{output_file}\')"'
+        cmd = f"python3 -c \"from parse_labels import main; main('{input_file}', '{output_file}')\""
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
         if result.returncode == 0:
@@ -36,6 +37,7 @@ def regenerate_atomic():
             return False
 
     return True
+
 
 def regenerate_enriched():
     """Step 2: Regenerate enriched JSON with concepts"""
@@ -48,7 +50,7 @@ def regenerate_enriched():
     for wave in wave_names:
         print(f"\n📝 Processing {wave}...")
 
-        cmd = f'python3 -c "from extract_concepts import main; main(\'{wave}_atomic.json\', \'{wave}_enriched.json\', \'{wave}_crosswalk.json\')"'
+        cmd = f"python3 -c \"from extract_concepts import main; main('{wave}_atomic.json', '{wave}_enriched.json', '{wave}_crosswalk.json')\""
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
         if result.returncode == 0:
@@ -59,6 +61,7 @@ def regenerate_enriched():
             return False
 
     return True
+
 
 def regenerate_csv():
     """Step 3: Regenerate CSV files"""
@@ -71,7 +74,7 @@ def regenerate_csv():
     for wave in wave_names:
         print(f"\n📝 Processing {wave}...")
 
-        cmd = f'python3 -c "from generate_csv import json_to_csv; json_to_csv(\'{wave}_enriched.json\', \'{wave}_concepts.csv\', \'{wave}_concepts_detailed.csv\')"'
+        cmd = f"python3 -c \"from generate_csv import json_to_csv; json_to_csv('{wave}_enriched.json', '{wave}_concepts.csv', '{wave}_concepts_detailed.csv')\""
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
         if result.returncode == 0:
@@ -82,6 +85,7 @@ def regenerate_csv():
             return False
 
     return True
+
 
 if __name__ == "__main__":
     print("🚀 Starting regeneration of all wave files with fixed parser\n")

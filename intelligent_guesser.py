@@ -46,6 +46,8 @@ class IntelligentGuesser:
         r"don\'t understand",
         r"do not understand",
         r"don not understand",
+        r"do not unders",  # Matches both "understand" and "undersand" typo
+        r"don\'t unders",
     ]
 
     # Positive sentiment indicators
@@ -158,12 +160,11 @@ class IntelligentGuesser:
         """
         Intelligently classify the scale type and directionality
 
-        Asian Barometer Likert convention:
-        - Value 7 = ALWAYS first NA ("don't understand")
-        - Value before 7 = max substantive value
-        - If value before 7 is 6 → 6-point Likert (1-6)
-        - If value before 7 is 5 → 5-point Likert (1-5)
-        - If value before 7 is 4 → 4-point Likert (1-4)
+        Asian Barometer conventions:
+        - If max value > 99: substantive scale ends at value before 997
+        - If max value = 99: substantive scale ends at value before 97
+        - If max value > 9: likely ordinal/categorical, not Likert
+        - Otherwise: value 7 may be first NA for Likert scales
         """
         if not value_labels:
             return ScaleAnalysis(
@@ -180,48 +181,126 @@ class IntelligentGuesser:
 
         # Get all values sorted
         all_values = sorted([vl["value"] for vl in value_labels])
+        max_value_overall = max(all_values)
 
-        # Check if value 7 exists (Likert question indicator)
-        has_value_7 = 7 in all_values
+        # Determine the cutoff for substantive vs NA values
+        # Using improved rules based on value magnitude:
+        # - Values <= 9: NA starts at 7
+        # - 2-digit values (10-99): NA starts with 9 (90, 97, 98, 99)
+        # - 3-digit values (100-999): NA starts with 900 (900, 997, 998, 999)
+        # - Values >= 1000: NA starts at 9997
 
-        # Asian Barometer Likert logic: value 7 = first NA
-        if has_value_7:
-            # Find value immediately before 7
-            values_before_7 = [v for v in all_values if 0 < v < 7]
+        # First check for 997+ convention
+        has_997_values = any(v >= 997 for v in all_values)
 
-            if values_before_7:
-                max_substantive = max(values_before_7)
-                first_na = 7
+        if has_997_values:
+            # Scale ends at value before 997
+            max_substantive = max([v for v in all_values if v < 997], default=0)
+            first_na = min([v for v in all_values if v >= 997], default=None)
+        elif max_value_overall >= 100:
+            # 3-digit values: NA starts with 900
+            # Use gap detection - there's a gap between substantive (0-99) and NA (900+)
+            positive_values = sorted([v for v in all_values if v > 0])
 
-                # Substantive values: 1 to max_substantive (before 7)
-                substantive_values = [
-                    vl for vl in value_labels if 0 < vl["value"] <= max_substantive
-                ]
-                # NA values: 7 and above, plus negative
-                na_values = [
-                    vl for vl in value_labels if vl["value"] < 0 or vl["value"] >= 7
-                ]
-            else:
-                # No values between 0 and 7, fall back to general logic
-                first_na = None
-                substantive_values = [vl for vl in value_labels if vl["value"] > 0]
-                na_values = [vl for vl in value_labels if vl["value"] < 0]
-        else:
-            # No value 7: not a standard Likert, use general logic
-            first_na = self.find_first_na_value(value_labels)
+            # Find gap between substantive and NA values
+            gap_found = False
+            for i in range(len(positive_values) - 1):
+                gap = positive_values[i + 1] - positive_values[i]
+                if gap > 10:  # Large gap indicates start of NA values
+                    max_substantive = positive_values[i]
+                    first_na = positive_values[i + 1]
+                    gap_found = True
+                    break
 
-            substantive_values = []
-            na_values = []
-
-            for vl in value_labels:
-                if vl["value"] < 0:
-                    na_values.append(vl)
-                elif first_na is not None and vl["value"] >= first_na:
-                    na_values.append(vl)
-                elif self.is_na_label(vl["label"]):
-                    na_values.append(vl)
+            if not gap_found:
+                # No gap found, use text-based NA detection
+                first_na_from_labels = self.find_first_na_value(value_labels)
+                if first_na_from_labels:
+                    max_substantive = max(
+                        [v for v in all_values if 0 < v < first_na_from_labels],
+                        default=max_value_overall,
+                    )
+                    first_na = first_na_from_labels
                 else:
-                    substantive_values.append(vl)
+                    # No NA detected, all values are substantive
+                    max_substantive = max_value_overall
+                    first_na = None
+        elif max_value_overall >= 10:
+            # 2-digit values: NA starts with 9 (90, 97, 98, 99)
+            # Use gap detection
+            positive_values = sorted([v for v in all_values if v > 0])
+
+            gap_found = False
+            for i in range(len(positive_values) - 1):
+                gap = positive_values[i + 1] - positive_values[i]
+                if gap > 10:  # Large gap indicates start of NA values
+                    max_substantive = positive_values[i]
+                    first_na = positive_values[i + 1]
+                    gap_found = True
+                    break
+
+            if not gap_found:
+                # No gap found, check if there are 90+ values
+                has_90_values = any(v >= 90 for v in all_values)
+                if has_90_values:
+                    # Assume 90+ are NA
+                    max_substantive = max([v for v in all_values if v < 90], default=max_value_overall)
+                    first_na = min([v for v in all_values if v >= 90], default=None)
+                else:
+                    # No NA values, all are substantive
+                    max_substantive = max_value_overall
+                    first_na = None
+        else:
+            # Standard Likert range (1-9), value 7 may be first NA
+            # Check for gaps in sequence (e.g., 1-5 then 7, missing 6 = gap of 2)
+            positive_values = sorted([v for v in all_values if v > 0])
+
+            gap_found = False
+            for i in range(len(positive_values) - 1):
+                gap = positive_values[i + 1] - positive_values[i]
+                if gap > 1:  # Gap > 1 indicates missing value, likely start of NA
+                    max_substantive = positive_values[i]
+                    first_na = positive_values[i + 1]
+                    gap_found = True
+                    break
+
+            if not gap_found:
+                # No gap, check if value 7 is NA by label
+                has_value_7 = 7 in all_values
+                if has_value_7:
+                    value_7_label = next(
+                        (vl["label"] for vl in value_labels if vl["value"] == 7), ""
+                    )
+                    if self.is_na_label(value_7_label):
+                        max_substantive = max(
+                            [v for v in all_values if 0 < v < 7], default=6
+                        )
+                        first_na = 7
+                    else:
+                        first_na = self.find_first_na_value(value_labels)
+                        max_substantive = max(
+                            [v for v in all_values if 0 < v < (first_na or 999)], default=7
+                        )
+                else:
+                    first_na = self.find_first_na_value(value_labels)
+                    max_substantive = max(
+                        [v for v in all_values if 0 < v < (first_na or 999)],
+                        default=max_value_overall,
+                    )
+
+        # Separate substantive from NA values
+        substantive_values = []
+        na_values = []
+
+        for vl in value_labels:
+            if vl["value"] < 0:
+                na_values.append(vl)
+            elif vl["value"] > max_substantive:
+                na_values.append(vl)
+            elif self.is_na_label(vl["label"]):
+                na_values.append(vl)
+            else:
+                substantive_values.append(vl)
 
         if not substantive_values:
             return ScaleAnalysis(

@@ -119,15 +119,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 5,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 16,
+      "first_na_value": null,
+      "max_substantive_value": 17,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 16 distinct values"
     }
   },
   {
@@ -433,14 +433,14 @@
     ],
     "scale_analysis": {
       "scale_type": "categorical",
-      "scale_points": 74,
-      "first_na_value": null,
-      "max_substantive_value": 1504,
+      "scale_points": 55,
+      "first_na_value": 1002,
+      "max_substantive_value": 908,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
-      "max_value_polarity": "negative",
+      "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "Categorical with 74 distinct values"
+      "reasoning": "Categorical with 55 distinct values"
     }
   },
   {
@@ -470,7 +470,7 @@
   },
   {
     "variable_id": "IR10",
-    "question_text": "IR8 What proportion of the questions do you feel the respondent had difficulty answering? IR10 Language in which interview was conducted",
+    "question_text": "IR10 Language in which interview was conducted",
     "value_labels": [
       {
         "value": -1,
@@ -756,15 +756,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "ordinal",
+      "scale_points": 8,
+      "first_na_value": 97,
+      "max_substantive_value": 8,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Ordinal scale with 8 ordered categories"
     }
   },
   {
@@ -826,15 +826,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -863,15 +863,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -900,15 +900,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -937,15 +937,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -974,15 +974,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1011,15 +1011,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1048,15 +1048,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1085,15 +1085,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1122,15 +1122,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1159,15 +1159,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 3,
-      "first_na_value": null,
-      "max_substantive_value": 9,
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 9,
+      "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -1508,15 +1508,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 1,
-      "first_na_value": 98,
-      "max_substantive_value": 97,
+      "scale_type": "categorical",
+      "scale_points": 23,
+      "first_na_value": 1101,
+      "max_substantive_value": 901,
       "needs_reversal": false,
       "value_1_polarity": "negative",
-      "max_value_polarity": "negative",
+      "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "Ordinal scale with 1 ordered categories"
+      "reasoning": "Categorical with 23 distinct values"
     }
   },
   {
@@ -2189,15 +2189,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
@@ -2293,7 +2293,7 @@
     "scale_analysis": {
       "scale_type": "likert_6",
       "scale_points": 6,
-      "first_na_value": 9,
+      "first_na_value": 98,
       "max_substantive_value": 6,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
@@ -2362,7 +2362,7 @@
     "scale_analysis": {
       "scale_type": "likert_5",
       "scale_points": 5,
-      "first_na_value": 9,
+      "first_na_value": 1501,
       "max_substantive_value": 5,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
@@ -2957,15 +2957,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "unknown",
-      "scale_points": 0,
-      "first_na_value": 97,
-      "max_substantive_value": 0,
+      "scale_type": "categorical",
+      "scale_points": 101,
+      "first_na_value": 1002,
+      "max_substantive_value": 938,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
-      "confidence": 0.0,
-      "reasoning": "No substantive values found"
+      "confidence": 0.8,
+      "reasoning": "Categorical with 101 distinct values"
     }
   },
   {
@@ -3034,15 +3034,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
@@ -3111,20 +3111,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "negative",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
     "variable_id": "SE13b",
-    "question_text": "SE13b Where would you put your parents on the staircase?",
+    "question_text": "SE13a Where would you put yourself on the staircase? SE13b Where would you put your parents on the staircase?",
     "value_labels": [
       {
         "value": -1,
@@ -3188,15 +3188,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "negative",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
@@ -3265,15 +3265,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "negative",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
@@ -3344,7 +3344,7 @@
     "scale_analysis": {
       "scale_type": "likert_5",
       "scale_points": 5,
-      "first_na_value": 7,
+      "first_na_value": 1501,
       "max_substantive_value": 5,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
@@ -3403,15 +3403,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_5",
-      "scale_points": 5,
-      "first_na_value": 7,
-      "max_substantive_value": 5,
+      "scale_type": "ordinal",
+      "scale_points": 6,
+      "first_na_value": 99,
+      "max_substantive_value": 9,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
-      "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "5-point Likert scale (values 1-5)"
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (6 values, span 9)"
     }
   },
   {
@@ -4117,7 +4117,7 @@
   },
   {
     "variable_id": "SE2",
-    "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE2 Gender",
+    "question_text": "SE2 Gender",
     "value_labels": [
       {
         "value": 0,
@@ -4150,7 +4150,7 @@
   },
   {
     "variable_id": "SE3",
-    "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE3 Birth year",
+    "question_text": "SE3 Birth year",
     "value_labels": [
       {
         "value": -1,
@@ -4171,7 +4171,7 @@
   },
   {
     "variable_id": "SE3_1",
-    "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE3_1 Actual age",
+    "question_text": "SE3_1 Actual age",
     "value_labels": [
       {
         "value": -1,
@@ -4196,7 +4196,7 @@
   },
   {
     "variable_id": "SE4",
-    "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE4 MARITAL STATUS",
+    "question_text": "SE4 MARITAL STATUS",
     "value_labels": [
       {
         "value": -1,
@@ -4249,7 +4249,7 @@
   },
   {
     "variable_id": "SE5",
-    "question_text": "Other specify responses \n\nVariable: q186 \n  Question: 186 How close do you feel to ASEAN. SE5 EDUCATION",
+    "question_text": "SE5 EDUCATION",
     "value_labels": [
       {
         "value": -1,
@@ -4305,15 +4305,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 99,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "negative",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-10)"
     }
   },
   {
@@ -4512,15 +4512,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 11,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-11)"
     }
   },
   {
@@ -4778,15 +4778,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_3",
-      "scale_points": 3,
-      "first_na_value": 9,
-      "max_substantive_value": 3,
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
       "needs_reversal": false,
       "value_1_polarity": "negative",
       "max_value_polarity": "neutral",
-      "confidence": 0.8,
-      "reasoning": "3-point Likert scale (values 1-3)"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 10)"
     }
   },
   {
@@ -4859,15 +4859,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "scale_10",
+      "scale_points": 11,
+      "first_na_value": 97,
+      "max_substantive_value": 11,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
-      "max_value_polarity": "neutral",
+      "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "10-point scale (values 1-11)"
     }
   },
   {
@@ -4963,7 +4963,7 @@
     "scale_analysis": {
       "scale_type": "likert_6",
       "scale_points": 6,
-      "first_na_value": 7,
+      "first_na_value": 9,
       "max_substantive_value": 6,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
@@ -5015,7 +5015,7 @@
   },
   {
     "variable_id": "Se10c_3",
-    "question_text": "SE10c Here is a list of different types of jobs. SE10c_3 Extended application. Elite vs. Mass",
+    "question_text": "SE10c_3 Extended application. Elite vs. Mass",
     "value_labels": [
       {
         "value": -1,
@@ -5060,7 +5060,7 @@
   },
   {
     "variable_id": "Se10c_4",
-    "question_text": "SE10c Here is a list of different types of jobs. SE10c_4 Extended application. White vs. blue collar",
+    "question_text": "SE10c_4 Extended application. White vs. blue collar",
     "value_labels": [
       {
         "value": -1,
@@ -5105,7 +5105,7 @@
   },
   {
     "variable_id": "Se9c_3",
-    "question_text": "SE9c Here is a list of different types of jobs. SE9c_3 Extended application. Elite vs. Mass",
+    "question_text": "SE9c_3 Extended application. Elite vs. Mass",
     "value_labels": [
       {
         "value": -1,
@@ -5150,7 +5150,7 @@
   },
   {
     "variable_id": "Se9c_4",
-    "question_text": "SE9c Here is a list of different types of jobs. SE9c_4 Extended application. White vs. blue collar",
+    "question_text": "SE9c_4 Extended application. White vs. blue collar",
     "value_labels": [
       {
         "value": -1,
@@ -5247,15 +5247,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 12,
+      "first_na_value": null,
+      "max_substantive_value": 12,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 12 distinct values"
     }
   },
   {
@@ -5309,7 +5309,7 @@
   },
   {
     "variable_id": "q10",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 10 Political parties [not any specific party]",
+    "question_text": "10 Political parties [not any specific party]",
     "value_labels": [
       {
         "value": -1,
@@ -5362,7 +5362,7 @@
   },
   {
     "variable_id": "q100",
-    "question_text": "100  In our country, parties and candidates not in power have opportunities to be elected into government.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 100  In our country, parties and candidates not in power have opportunities to be elected into government.",
     "value_labels": [
       {
         "value": -1,
@@ -5415,7 +5415,7 @@
   },
   {
     "variable_id": "q101",
-    "question_text": "101  Between elections, the people have no way of holding the government responsible for its actions.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 101  Between elections, the people have no way of holding the government responsible for its actions.",
     "value_labels": [
       {
         "value": -1,
@@ -5468,7 +5468,7 @@
   },
   {
     "variable_id": "q102",
-    "question_text": "102  When government leaders break the laws, there is nothing the court can do.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 102  When government leaders break the laws, there is nothing the court can do.",
     "value_labels": [
       {
         "value": -1,
@@ -5521,7 +5521,7 @@
   },
   {
     "variable_id": "q103",
-    "question_text": "103  All citizens from different ethnic communities in the [Country X] are treated equally by the government.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 103  All citizens from different ethnic communities in the [Country X] are treated equally by the government.",
     "value_labels": [
       {
         "value": -1,
@@ -5574,7 +5574,7 @@
   },
   {
     "variable_id": "q104",
-    "question_text": "104  Rich and poor people are treated equally by the government.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 104  Rich and poor people are treated equally by the government.",
     "value_labels": [
       {
         "value": -1,
@@ -5627,7 +5627,7 @@
   },
   {
     "variable_id": "q105",
-    "question_text": "105  People have basic necessities like food, clothes, and shelter.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 105  People have basic necessities like food, clothes, and shelter.",
     "value_labels": [
       {
         "value": -1,
@@ -5680,7 +5680,7 @@
   },
   {
     "variable_id": "q106",
-    "question_text": "106  People are free to speak what they think without fear.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 106  People are free to speak what they think without fear.",
     "value_labels": [
       {
         "value": -1,
@@ -5733,7 +5733,7 @@
   },
   {
     "variable_id": "q107",
-    "question_text": "107  People can join any organization they like without fear.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections. 107  People can join any organization they like without fear.",
     "value_labels": [
       {
         "value": -1,
@@ -5843,7 +5843,7 @@
   },
   {
     "variable_id": "q109",
-    "question_text": "109 How often do you think government leaders break the law or abuse their power?",
+    "question_text": "108 How often do government officials withhold important information from the public? 109 How often do you think government leaders break the law or abuse their power?",
     "value_labels": [
       {
         "value": -1,
@@ -5900,7 +5900,7 @@
   },
   {
     "variable_id": "q11",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 11 Parliament",
+    "question_text": "11 Parliament",
     "value_labels": [
       {
         "value": -1,
@@ -6275,7 +6275,7 @@
   },
   {
     "variable_id": "q116",
-    "question_text": "116 How widespread do you think corruption and bribe-taking are in the national government?",
+    "question_text": "115 How widespread do you think corruption and bribe-taking are in your local/municipal government? 116 How widespread do you think corruption and bribe-taking are in the national government?",
     "value_labels": [
       {
         "value": -1,
@@ -6460,7 +6460,7 @@
     "scale_analysis": {
       "scale_type": "binary",
       "scale_points": 2,
-      "first_na_value": 9,
+      "first_na_value": 99,
       "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
@@ -6471,7 +6471,7 @@
   },
   {
     "variable_id": "q119b",
-    "question_text": "119b Did you personally witness it or were you told about it by a family member or friend who personally witnessed? Told about it by a family member who personally witnessed",
+    "question_text": "119a Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 119b Did you personally witness it or were you told about it by a family member or friend who personally witnessed? Told about it by a family member who personally witnessed",
     "value_labels": [
       {
         "value": -1,
@@ -6501,7 +6501,7 @@
     "scale_analysis": {
       "scale_type": "binary",
       "scale_points": 2,
-      "first_na_value": 9,
+      "first_na_value": 99,
       "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
@@ -6512,7 +6512,7 @@
   },
   {
     "variable_id": "q119c",
-    "question_text": "119c Did you personally witness it or were you told about it by a family member or friend who personally witnessed? Told about it by a friend who personally witnessed",
+    "question_text": "119a Did you personally witness it or were you told about it by a family member or friend who personally witnessed? 119c Did you personally witness it or were you told about it by a family member or friend who personally witnessed? Told about it by a friend who personally witnessed",
     "value_labels": [
       {
         "value": -1,
@@ -6542,7 +6542,7 @@
     "scale_analysis": {
       "scale_type": "binary",
       "scale_points": 2,
-      "first_na_value": 9,
+      "first_na_value": 99,
       "max_substantive_value": 2,
       "needs_reversal": true,
       "value_1_polarity": "positive",
@@ -6553,7 +6553,7 @@
   },
   {
     "variable_id": "q12",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 12 Civil Service",
+    "question_text": "12 Civil Service",
     "value_labels": [
       {
         "value": -1,
@@ -6651,7 +6651,7 @@
   },
   {
     "variable_id": "q121",
-    "question_text": "121 Where would you place the United States of America today on this scale?",
+    "question_text": "120 Where would you place China today on this scale? 121 Where would you place the United States of America today on this scale?",
     "value_labels": [
       {
         "value": -1,
@@ -6696,7 +6696,7 @@
   },
   {
     "variable_id": "q122",
-    "question_text": "122 Where would you place Japan today on this scale?",
+    "question_text": "120 Where would you place China today on this scale? 122 Where would you place Japan today on this scale?",
     "value_labels": [
       {
         "value": -1,
@@ -6741,7 +6741,7 @@
   },
   {
     "variable_id": "q123",
-    "question_text": "123 Where would you place India today on this scale?",
+    "question_text": "120 Where would you place China today on this scale? 123 Where would you place India today on this scale?",
     "value_labels": [
       {
         "value": -1,
@@ -7047,7 +7047,7 @@
   },
   {
     "variable_id": "q129",
-    "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 129 We should get rid of parliament and elections and have a strong leader to decide things.",
+    "question_text": "129 We should get rid of parliament and elections and have a strong leader to decide things.",
     "value_labels": [
       {
         "value": -1,
@@ -7100,7 +7100,7 @@
   },
   {
     "variable_id": "q13",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 13 The military or armed forces",
+    "question_text": "13 The military or armed forces",
     "value_labels": [
       {
         "value": -1,
@@ -7153,7 +7153,7 @@
   },
   {
     "variable_id": "q130",
-    "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 130 Only one political party is allowed to stand for election and hold office.",
+    "question_text": "129 We should get rid of parliament and elections and have a strong leader to decide things. 130 Only one political party is allowed to stand for election and hold office.",
     "value_labels": [
       {
         "value": -1,
@@ -7206,7 +7206,7 @@
   },
   {
     "variable_id": "q131",
-    "question_text": "128 Do you agree or disagree with the following statement: 'Democracy may have its problems, but it is still the best form of government's? 131 The army (military) should come in to govern the country.",
+    "question_text": "129 We should get rid of parliament and elections and have a strong leader to decide things. 131 The army (military) should come in to govern the country.",
     "value_labels": [
       {
         "value": -1,
@@ -7259,7 +7259,7 @@
   },
   {
     "variable_id": "q132",
-    "question_text": "132 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.",
+    "question_text": "129 We should get rid of parliament and elections and have a strong leader to decide things. 132 We should get rid of elections and parliaments and have experts make decisions on behalf of the people.",
     "value_labels": [
       {
         "value": -1,
@@ -7365,7 +7365,7 @@
   },
   {
     "variable_id": "q134",
-    "question_text": "134 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on.",
+    "question_text": "133 I think I have the ability to participate in politics. 134 Sometimes politics and government seems so complicated that a person like me can't really understand what is going on.",
     "value_labels": [
       {
         "value": -1,
@@ -7418,7 +7418,7 @@
   },
   {
     "variable_id": "q135",
-    "question_text": "135 People like me don't have any influence over what the government does.",
+    "question_text": "133 I think I have the ability to participate in politics. 135 People like me don't have any influence over what the government does.",
     "value_labels": [
       {
         "value": -1,
@@ -7471,7 +7471,7 @@
   },
   {
     "variable_id": "q136",
-    "question_text": "136 You can generally trust the people who run our government to do what is right.",
+    "question_text": "133 I think I have the ability to participate in politics. 136 You can generally trust the people who run our government to do what is right.",
     "value_labels": [
       {
         "value": -1,
@@ -7524,7 +7524,7 @@
   },
   {
     "variable_id": "q137",
-    "question_text": "137 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",
+    "question_text": "133 I think I have the ability to participate in politics. 137 A citizen should always remain loyal only to his country, no matter how imperfect it is or what wrong it has done.",
     "value_labels": [
       {
         "value": -1,
@@ -7663,7 +7663,7 @@
   },
   {
     "variable_id": "q139b",
-    "question_text": "139b Did you or a member of your family suffer from loss of job",
+    "question_text": "139a Did you or a member of your family suffer from serious illness or death? 139b Did you or a member of your family suffer from loss of job",
     "value_labels": [
       {
         "value": -1,
@@ -7704,7 +7704,7 @@
   },
   {
     "variable_id": "q139c",
-    "question_text": "139c Did you or a member of your family suffer from loss of household income?",
+    "question_text": "139a Did you or a member of your family suffer from serious illness or death? 139c Did you or a member of your family suffer from loss of household income?",
     "value_labels": [
       {
         "value": -1,
@@ -7745,7 +7745,7 @@
   },
   {
     "variable_id": "q139d",
-    "question_text": "139d Did you or a member of your family suffer from disruption of my kids' education?",
+    "question_text": "139a Did you or a member of your family suffer from serious illness or death? 139d Did you or a member of your family suffer from disruption of my kids' education?",
     "value_labels": [
       {
         "value": -1,
@@ -7786,7 +7786,7 @@
   },
   {
     "variable_id": "q14",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 14 The police",
+    "question_text": "14 The police",
     "value_labels": [
       {
         "value": -1,
@@ -7993,15 +7993,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 5,
-      "first_na_value": 98,
-      "max_substantive_value": 97,
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 97,
+      "max_substantive_value": 4,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "negative",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (5 values, span 97)"
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
     }
   },
   {
@@ -8402,7 +8402,7 @@
   },
   {
     "variable_id": "q147",
-    "question_text": "147 The government should consult religious authorities when interpreting the laws.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 147 The government should consult religious authorities when interpreting the laws.",
     "value_labels": [
       {
         "value": -1,
@@ -8455,7 +8455,7 @@
   },
   {
     "variable_id": "q148",
-    "question_text": "148 People with little or no education should have as much say in politics as highly-educated people.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 148 People with little or no education should have as much say in politics as highly-educated people.",
     "value_labels": [
       {
         "value": -1,
@@ -8508,7 +8508,7 @@
   },
   {
     "variable_id": "q149",
-    "question_text": "149 Government leaders are like the head of a family; we should all follow their decisions.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 149 Government leaders are like the head of a family; we should all follow their decisions.",
     "value_labels": [
       {
         "value": -1,
@@ -8561,7 +8561,7 @@
   },
   {
     "variable_id": "q15",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 15 Local government",
+    "question_text": "15 Local government",
     "value_labels": [
       {
         "value": -1,
@@ -8614,7 +8614,7 @@
   },
   {
     "variable_id": "q150",
-    "question_text": "150 The government should decide whether certain ideas should be allowed to be discussed in society.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 150 The government should decide whether certain ideas should be allowed to be discussed in society.",
     "value_labels": [
       {
         "value": -1,
@@ -8667,7 +8667,7 @@
   },
   {
     "variable_id": "q151",
-    "question_text": "151 Harmony of the community will be disrupted if people organize lots of groups.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 151 Harmony of the community will be disrupted if people organize lots of groups.",
     "value_labels": [
       {
         "value": -1,
@@ -8720,7 +8720,7 @@
   },
   {
     "variable_id": "q152",
-    "question_text": "152 When judges decide important cases, they should accept the view of the executive branch.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 152 When judges decide important cases, they should accept the view of the executive branch.",
     "value_labels": [
       {
         "value": -1,
@@ -8773,7 +8773,7 @@
   },
   {
     "variable_id": "q153",
-    "question_text": "153 If the government is constantly checked by the legislature, it cannot possibly accomplish great things.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 153 If the government is constantly checked by the legislature, it cannot possibly accomplish great things.",
     "value_labels": [
       {
         "value": -1,
@@ -8826,7 +8826,7 @@
   },
   {
     "variable_id": "q154",
-    "question_text": "154 If we have political leaders who are morally upright, we can let them decide everything.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 154 If we have political leaders who are morally upright, we can let them decide everything.",
     "value_labels": [
       {
         "value": -1,
@@ -8879,7 +8879,7 @@
   },
   {
     "variable_id": "q155",
-    "question_text": "155 If people have too many different ways of thinking, society will be chaotic.",
+    "question_text": "Other specify responses \n\nVariable: q146 \n  Question: 146 I have here other statements: Women should not be involved in politics as much as men 155 If people have too many different ways of thinking, society will be chaotic.",
     "value_labels": [
       {
         "value": -1,
@@ -9324,7 +9324,7 @@
   },
   {
     "variable_id": "q16",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 16 The election commission",
+    "question_text": "16 The election commission",
     "value_labels": [
       {
         "value": -1,
@@ -10017,7 +10017,7 @@
   },
   {
     "variable_id": "q169",
-    "question_text": "169 As long as a government can solve our country’s economic problem, it does not matter if the government holds regular elections or not",
+    "question_text": "168 In order to solve the country’s urgent problems, a leader can govern the country by decrees and disregard the parliament if necessary 169 As long as a government can solve our country’s economic problem, it does not matter if the government holds regular elections or not",
     "value_labels": [
       {
         "value": -1,
@@ -10070,7 +10070,7 @@
   },
   {
     "variable_id": "q17",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 17 Non-government organizations or NGOs",
+    "question_text": "17 Non-government organizations or NGOs",
     "value_labels": [
       {
         "value": -1,
@@ -10123,7 +10123,7 @@
   },
   {
     "variable_id": "q170",
-    "question_text": "170This country needs a leader who can break the rules if necessary to get things done",
+    "question_text": "168 In order to solve the country’s urgent problems, a leader can govern the country by decrees and disregard the parliament if necessary 170This country needs a leader who can break the rules if necessary to get things done",
     "value_labels": [
       {
         "value": -1,
@@ -10176,7 +10176,7 @@
   },
   {
     "variable_id": "q171",
-    "question_text": "171 As long as the government can maintain order and stability in the country, it does not matter whether it is democratic or undemocratic",
+    "question_text": "168 In order to solve the country’s urgent problems, a leader can govern the country by decrees and disregard the parliament if necessary 171 As long as the government can maintain order and stability in the country, it does not matter whether it is democratic or undemocratic",
     "value_labels": [
       {
         "value": -1,
@@ -10278,7 +10278,7 @@
   },
   {
     "variable_id": "q172b",
-    "question_text": "172b An economic crisis that has caused the loss of many jobs",
+    "question_text": "172a Which circumstance would justify the governments's use of emergency powers to costrain rights and freedom: A public health crisis like the Covid-19 pandemic 172b An economic crisis that has caused the loss of many jobs",
     "value_labels": [
       {
         "value": -1,
@@ -10327,7 +10327,7 @@
   },
   {
     "variable_id": "q172c",
-    "question_text": "172c Widespread corruption that the president [PM] claims can only be reduced by increasing executive power",
+    "question_text": "172a Which circumstance would justify the governments's use of emergency powers to costrain rights and freedom: A public health crisis like the Covid-19 pandemic 172c Widespread corruption that the president [PM] claims can only be reduced by increasing executive power",
     "value_labels": [
       {
         "value": -1,
@@ -10376,7 +10376,7 @@
   },
   {
     "variable_id": "q172d",
-    "question_text": "172d A security crisis due to social unrest or terrorism",
+    "question_text": "172a Which circumstance would justify the governments's use of emergency powers to costrain rights and freedom: A public health crisis like the Covid-19 pandemic 172d A security crisis due to social unrest or terrorism",
     "value_labels": [
       {
         "value": -1,
@@ -10425,7 +10425,7 @@
   },
   {
     "variable_id": "q172e",
-    "question_text": "172e The country is at war",
+    "question_text": "172a Which circumstance would justify the governments's use of emergency powers to costrain rights and freedom: A public health crisis like the Covid-19 pandemic 172e The country is at war",
     "value_labels": [
       {
         "value": -1,
@@ -10759,7 +10759,7 @@
   },
   {
     "variable_id": "q178",
-    "question_text": "178 Generally speaking, the influence the E.U. today has on world affairs is?",
+    "question_text": "177 Generally speaking, the influence China today has on world affairs is? 178 Generally speaking, the influence the E.U. today has on world affairs is?",
     "value_labels": [
       {
         "value": -1,
@@ -10929,20 +10929,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "likert_7",
+      "scale_points": 7,
+      "first_na_value": 97,
+      "max_substantive_value": 7,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "7-point Likert scale (values 1-7)"
     }
   },
   {
     "variable_id": "q18",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 18 Name of the organization you belong to. First",
+    "question_text": "18 Name of the organization you belong to. First",
     "value_labels": [
       {
         "value": -1,
@@ -11058,15 +11058,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 21,
+      "first_na_value": 90,
+      "max_substantive_value": 21,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 21 distinct values"
     }
   },
   {
@@ -11404,15 +11404,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 5,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 6,
+      "max_substantive_value": 4,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "4-point Likert scale (values 1-4)"
     }
   },
   {
@@ -11533,15 +11533,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 21,
+      "first_na_value": 90,
+      "max_substantive_value": 21,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 21 distinct values"
     }
   },
   {
@@ -11662,15 +11662,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 21,
+      "first_na_value": 90,
+      "max_substantive_value": 21,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 21 distinct values"
     }
   },
   {
@@ -11848,15 +11848,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 21,
+      "first_na_value": 90,
+      "max_substantive_value": 21,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 21 distinct values"
     }
   },
   {
@@ -12281,7 +12281,7 @@
   },
   {
     "variable_id": "q3",
-    "question_text": "3 What do you think will be the state of our country's economic condition a few years from now?",
+    "question_text": "2 How would you describe the change in the economic condition of our country over the last few years? 3 What do you think will be the state of our country's economic condition a few years from now?",
     "value_labels": [
       {
         "value": -1,
@@ -12382,15 +12382,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_5",
-      "scale_points": 5,
+      "scale_type": "likert_4",
+      "scale_points": 4,
       "first_na_value": 7,
-      "max_substantive_value": 5,
+      "max_substantive_value": 4,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
-      "max_value_polarity": "negative",
+      "max_value_polarity": "neutral",
       "confidence": 0.8,
-      "reasoning": "5-point Likert scale (values 1-5)"
+      "reasoning": "4-point Likert scale (values 1-4)"
     }
   },
   {
@@ -12549,15 +12549,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_3",
-      "scale_points": 3,
-      "first_na_value": 7,
-      "max_substantive_value": 3,
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": 1103,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
-      "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "3-point Likert scale (values 1-3) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is neutral"
     }
   },
   {
@@ -13086,15 +13086,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "unknown",
-      "scale_points": 0,
-      "first_na_value": 97,
-      "max_substantive_value": 0,
+      "scale_type": "categorical",
+      "scale_points": 41,
+      "first_na_value": 1001,
+      "max_substantive_value": 902,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
-      "max_value_polarity": "neutral",
-      "confidence": 0.0,
-      "reasoning": "No substantive values found"
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 41 distinct values"
     }
   },
   {
@@ -13184,20 +13184,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "binary",
-      "scale_points": 2,
-      "first_na_value": 7,
-      "max_substantive_value": 2,
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": null,
+      "max_substantive_value": 20,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 20) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q36",
-    "question_text": "36 Try to persuade others to vote for a certain candidate or party?",
+    "question_text": "35 Did you attend a campaign meeting or rally in the last national election? 36 Try to persuade others to vote for a certain candidate or party?",
     "value_labels": [
       {
         "value": -1,
@@ -13237,20 +13237,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "binary",
-      "scale_points": 2,
-      "first_na_value": 7,
-      "max_substantive_value": 2,
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": null,
+      "max_substantive_value": 20,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 20) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q37",
-    "question_text": "37 Did you do anything else to help out or work for a party or candidate running in the last national election?",
+    "question_text": "35 Did you attend a campaign meeting or rally in the last national election? 37 Did you do anything else to help out or work for a party or candidate running in the last national election?",
     "value_labels": [
       {
         "value": -1,
@@ -13290,15 +13290,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "binary",
-      "scale_points": 2,
-      "first_na_value": 7,
-      "max_substantive_value": 2,
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": null,
+      "max_substantive_value": 20,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 20) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -13466,7 +13466,7 @@
   },
   {
     "variable_id": "q40",
-    "question_text": "40 How easy or difficult to obtain running water",
+    "question_text": "39 How easy or difficult to obtain the roads in good condition 40 How easy or difficult to obtain running water",
     "value_labels": [
       {
         "value": -1,
@@ -13563,20 +13563,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_4",
-      "scale_points": 4,
-      "first_na_value": 7,
-      "max_substantive_value": 4,
+      "scale_type": "ordinal",
+      "scale_points": 5,
+      "first_na_value": null,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (5 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q42",
-    "question_text": "42 How easy or difficult to obtain healthcare",
+    "question_text": "41 How easy or difficult to obtain public transportation 42 How easy or difficult to obtain healthcare",
     "value_labels": [
       {
         "value": -1,
@@ -13620,20 +13620,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_4",
-      "scale_points": 4,
-      "first_na_value": 7,
-      "max_substantive_value": 4,
+      "scale_type": "ordinal",
+      "scale_points": 5,
+      "first_na_value": null,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (5 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q43",
-    "question_text": "43 How easy or difficult to obtain help from the police when you need it",
+    "question_text": "41 How easy or difficult to obtain public transportation 43 How easy or difficult to obtain help from the police when you need it",
     "value_labels": [
       {
         "value": -1,
@@ -13677,20 +13677,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_4",
-      "scale_points": 4,
-      "first_na_value": 7,
-      "max_substantive_value": 4,
+      "scale_type": "ordinal",
+      "scale_points": 5,
+      "first_na_value": null,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (5 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q44",
-    "question_text": "44 How easy or difficult to obtain access to the Internet",
+    "question_text": "41 How easy or difficult to obtain public transportation 44 How easy or difficult to obtain access to the Internet",
     "value_labels": [
       {
         "value": -1,
@@ -13734,20 +13734,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_4",
-      "scale_points": 4,
-      "first_na_value": 7,
-      "max_substantive_value": 4,
+      "scale_type": "ordinal",
+      "scale_points": 5,
+      "first_na_value": null,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (5 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
     "variable_id": "q45",
-    "question_text": "45 How easy or difficult to obtain childcare",
+    "question_text": "41 How easy or difficult to obtain public transportation 45 How easy or difficult to obtain childcare",
     "value_labels": [
       {
         "value": -1,
@@ -13791,15 +13791,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_4",
-      "scale_points": 4,
-      "first_na_value": 7,
-      "max_substantive_value": 4,
+      "scale_type": "ordinal",
+      "scale_points": 5,
+      "first_na_value": null,
+      "max_substantive_value": 10,
       "needs_reversal": true,
       "value_1_polarity": "positive",
       "max_value_polarity": "negative",
-      "confidence": 0.8,
-      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (5 values, span 10) | NEEDS REVERSAL: value 1 is positive, max is negative"
     }
   },
   {
@@ -14129,15 +14129,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
       "needs_reversal": false,
-      "value_1_polarity": "neutral",
-      "max_value_polarity": "neutral",
+      "value_1_polarity": "negative",
+      "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 10 distinct values"
     }
   },
   {
@@ -14187,7 +14187,7 @@
   },
   {
     "variable_id": "q51b_Twitter",
-    "question_text": "51b Twitter",
+    "question_text": "51a Which social media and text messaging services do you actively use? 51b Twitter",
     "value_labels": [
       {
         "value": -1,
@@ -14232,7 +14232,7 @@
   },
   {
     "variable_id": "q51c_Instagram",
-    "question_text": "51c Instagram",
+    "question_text": "51a Which social media and text messaging services do you actively use? 51c Instagram",
     "value_labels": [
       {
         "value": -1,
@@ -14277,7 +14277,7 @@
   },
   {
     "variable_id": "q51d_Youtube",
-    "question_text": "51d Youtube",
+    "question_text": "51a Which social media and text messaging services do you actively use? 51d Youtube",
     "value_labels": [
       {
         "value": -1,
@@ -14322,7 +14322,7 @@
   },
   {
     "variable_id": "q51e_Tiktok",
-    "question_text": "51e Tiktok",
+    "question_text": "51a Which social media and text messaging services do you actively use? 51e Tiktok",
     "value_labels": [
       {
         "value": -1,
@@ -14735,7 +14735,7 @@
   },
   {
     "variable_id": "q52b",
-    "question_text": "52b How often do you use social media to express my opinion on political issues?",
+    "question_text": "52a How often do you use social media to talk to or to connect with other people? 52b How often do you use social media to express my opinion on political issues?",
     "value_labels": [
       {
         "value": -1,
@@ -14788,7 +14788,7 @@
   },
   {
     "variable_id": "q52c",
-    "question_text": "52c How often do you use social media to share news or information?",
+    "question_text": "52a How often do you use social media to talk to or to connect with other people? 52c How often do you use social media to share news or information?",
     "value_labels": [
       {
         "value": -1,
@@ -14841,7 +14841,7 @@
   },
   {
     "variable_id": "q52d",
-    "question_text": "52d How often do you use social media to organize to influence politics?",
+    "question_text": "52a How often do you use social media to talk to or to connect with other people? 52d How often do you use social media to organize to influence politics?",
     "value_labels": [
       {
         "value": -1,
@@ -15511,15 +15511,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "ordinal",
-      "scale_points": 2,
-      "first_na_value": 97,
-      "max_substantive_value": 90,
+      "scale_type": "categorical",
+      "scale_points": 53,
+      "first_na_value": 1001,
+      "max_substantive_value": 916,
       "needs_reversal": false,
       "value_1_polarity": "neutral",
       "max_value_polarity": "neutral",
-      "confidence": 0.5,
-      "reasoning": "Ordinal scale (2 values, span 1)"
+      "confidence": 0.8,
+      "reasoning": "Categorical with 53 distinct values"
     }
   },
   {
@@ -15573,7 +15573,7 @@
   },
   {
     "variable_id": "q56",
-    "question_text": "Other specify responses \n\nVariable: q55 \n  Question: 55 How close do you feel to (answer in Q54). 56 For the sake of the family, the individual should put his personal interests second.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second.",
     "value_labels": [
       {
         "value": -1,
@@ -15626,7 +15626,7 @@
   },
   {
     "variable_id": "q57",
-    "question_text": "57 In a group, we should sacrifice our individual interest for the sake of the group's collective interest.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 57 In a group, we should sacrifice our individual interest for the sake of the group's collective interest.",
     "value_labels": [
       {
         "value": -1,
@@ -15679,7 +15679,7 @@
   },
   {
     "variable_id": "q58",
-    "question_text": "58 For the sake of national interest, individual interest could be sacrificed.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 58 For the sake of national interest, individual interest could be sacrificed.",
     "value_labels": [
       {
         "value": -1,
@@ -15732,7 +15732,7 @@
   },
   {
     "variable_id": "q59",
-    "question_text": "59 When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 59 When dealing with others, developing a long-term relationship is more important than securing one's immediate interest.",
     "value_labels": [
       {
         "value": -1,
@@ -15842,7 +15842,7 @@
   },
   {
     "variable_id": "q60",
-    "question_text": "60 Even if parents' demands are unreasonable, children still should do what they ask.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 60 Even if parents' demands are unreasonable, children still should do what they ask.",
     "value_labels": [
       {
         "value": -1,
@@ -15895,7 +15895,7 @@
   },
   {
     "variable_id": "q61",
-    "question_text": "61 When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 61 When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband should still persuade his wife to obey his mother.",
     "value_labels": [
       {
         "value": -1,
@@ -15948,7 +15948,7 @@
   },
   {
     "variable_id": "q62",
-    "question_text": "62 Being a student, one should not question the authority of their teacher.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 62 Being a student, one should not question the authority of their teacher.",
     "value_labels": [
       {
         "value": -1,
@@ -16001,7 +16001,7 @@
   },
   {
     "variable_id": "q63",
-    "question_text": "63 In a group, we should avoid open quarrel to preserve the harmony of the group.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 63 In a group, we should avoid open quarrel to preserve the harmony of the group.",
     "value_labels": [
       {
         "value": -1,
@@ -16054,7 +16054,7 @@
   },
   {
     "variable_id": "q64",
-    "question_text": "64 Even if there is some disagreement with others, one should avoid the conflict.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 64 Even if there is some disagreement with others, one should avoid the conflict.",
     "value_labels": [
       {
         "value": -1,
@@ -16107,7 +16107,7 @@
   },
   {
     "variable_id": "q65",
-    "question_text": "65 A person should not insist on his own opinion if his co-workers disagree with him.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 65 A person should not insist on his own opinion if his co-workers disagree with him.",
     "value_labels": [
       {
         "value": -1,
@@ -16160,7 +16160,7 @@
   },
   {
     "variable_id": "q66",
-    "question_text": "66 Wealth and poverty, success and failure are all determined by fate.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 66 Wealth and poverty, success and failure are all determined by fate.",
     "value_labels": [
       {
         "value": -1,
@@ -16213,7 +16213,7 @@
   },
   {
     "variable_id": "q67",
-    "question_text": "67 If one could have only one child, it is more preferable to have a boy than a girl.",
+    "question_text": "56 For the sake of the family, the individual should put his personal interests second. 67 If one could have only one child, it is more preferable to have a boy than a girl.",
     "value_labels": [
       {
         "value": -1,
@@ -16323,7 +16323,7 @@
   },
   {
     "variable_id": "q69",
-    "question_text": "68 In the past three years, have you ever contacted elected officials or legislative representatives at any level? 69  Contacted civil servants or officials",
+    "question_text": "69  Contacted civil servants or officials",
     "value_labels": [
       {
         "value": -1,
@@ -16380,7 +16380,7 @@
   },
   {
     "variable_id": "q7",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 7 Trust in the excutive office (president or prime minister)",
+    "question_text": "7 Trust in the excutive office (president or prime minister)",
     "value_labels": [
       {
         "value": -1,
@@ -16604,7 +16604,7 @@
   },
   {
     "variable_id": "q73",
-    "question_text": "73  Used the Internet including Social Media Networks to express opinions about politics",
+    "question_text": "72  Signed a paper or online petition? 73  Used the Internet including Social Media Networks to express opinions about politics",
     "value_labels": [
       {
         "value": -1,
@@ -16661,7 +16661,7 @@
   },
   {
     "variable_id": "q74",
-    "question_text": "74  Joined a group to activiely support a cause [including online]",
+    "question_text": "72  Signed a paper or online petition? 74  Joined a group to activiely support a cause [including online]",
     "value_labels": [
       {
         "value": -1,
@@ -16718,7 +16718,7 @@
   },
   {
     "variable_id": "q75",
-    "question_text": "75  Got together with others face-to face to try to resolve local problems",
+    "question_text": "72  Signed a paper or online petition? 75  Got together with others face-to face to try to resolve local problems",
     "value_labels": [
       {
         "value": -1,
@@ -16775,7 +16775,7 @@
   },
   {
     "variable_id": "q76",
-    "question_text": "76  Attended a demonstration or protest march",
+    "question_text": "72  Signed a paper or online petition? 76  Attended a demonstration or protest march",
     "value_labels": [
       {
         "value": -1,
@@ -16832,7 +16832,7 @@
   },
   {
     "variable_id": "q77",
-    "question_text": "77  Taken an action or done something for a political cause that put you in risk of getting injured",
+    "question_text": "72  Signed a paper or online petition? 77  Taken an action or done something for a political cause that put you in risk of getting injured",
     "value_labels": [
       {
         "value": -1,
@@ -16991,7 +16991,7 @@
   },
   {
     "variable_id": "q8",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 8 The courts",
+    "question_text": "8 The courts",
     "value_labels": [
       {
         "value": -1,
@@ -17097,7 +17097,7 @@
   },
   {
     "variable_id": "q81",
-    "question_text": "81  Thinking in general, I am proud of our system of government.",
+    "question_text": "80  Over the long run, our system of government is capable of solving the problems our country faces. 81  Thinking in general, I am proud of our system of government.",
     "value_labels": [
       {
         "value": -1,
@@ -17150,7 +17150,7 @@
   },
   {
     "variable_id": "q82",
-    "question_text": "82  A system like ours, even if it runs into problems, deserves the people's support.",
+    "question_text": "80  Over the long run, our system of government is capable of solving the problems our country faces. 82  A system like ours, even if it runs into problems, deserves the people's support.",
     "value_labels": [
       {
         "value": -1,
@@ -17203,7 +17203,7 @@
   },
   {
     "variable_id": "q83",
-    "question_text": "83  I would rather live under our system of government than any other that I can think of.",
+    "question_text": "80  Over the long run, our system of government is capable of solving the problems our country faces. 83  I would rather live under our system of government than any other that I can think of.",
     "value_labels": [
       {
         "value": -1,
@@ -17546,7 +17546,7 @@
   },
   {
     "variable_id": "q9",
-    "question_text": "6 What do you think the economic situation of your family will be a few years from now? 9 National government in the capital city",
+    "question_text": "9 National government in the capital city",
     "value_labels": [
       {
         "value": -1,
@@ -17750,7 +17750,7 @@
   },
   {
     "variable_id": "q93",
-    "question_text": "93 Where would you place our country ten years ago?",
+    "question_text": "92 Where would you place our country under the present government? 93 Where would you place our country ten years ago?",
     "value_labels": [
       {
         "value": -1,
@@ -17795,7 +17795,7 @@
   },
   {
     "variable_id": "q94",
-    "question_text": "94 Where would you expect our country to be ten years from now?",
+    "question_text": "92 Where would you place our country under the present government? 94 Where would you expect our country to be ten years from now?",
     "value_labels": [
       {
         "value": -1,
@@ -18106,15 +18106,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 36,
+      "first_na_value": 997,
+      "max_substantive_value": 990,
       "needs_reversal": false,
       "value_1_polarity": "negative",
-      "max_value_polarity": "neutral",
+      "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 36 distinct values"
     }
   },
   {
@@ -18291,15 +18291,15 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 37,
+      "first_na_value": 997,
+      "max_substantive_value": 990,
       "needs_reversal": false,
       "value_1_polarity": "negative",
-      "max_value_polarity": "neutral",
+      "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 37 distinct values"
     }
   },
   {
@@ -18529,20 +18529,20 @@
       }
     ],
     "scale_analysis": {
-      "scale_type": "likert_6",
-      "scale_points": 6,
-      "first_na_value": 7,
-      "max_substantive_value": 6,
+      "scale_type": "categorical",
+      "scale_points": 37,
+      "first_na_value": 997,
+      "max_substantive_value": 990,
       "needs_reversal": false,
       "value_1_polarity": "negative",
-      "max_value_polarity": "neutral",
+      "max_value_polarity": "negative",
       "confidence": 0.8,
-      "reasoning": "6-point Likert scale (values 1-6)"
+      "reasoning": "Categorical with 37 distinct values"
     }
   },
   {
     "variable_id": "q99",
-    "question_text": "Other specify responses \n\nVariable: q98 \n  Question: 98 How likely is it that the government will solve the most important problem you identified within the next five years? 99 Citizens are able to remove a government they don't like through elections.",
+    "question_text": "99 Citizens are able to remove a government they don't like through elections.",
     "value_labels": [
       {
         "value": -1,

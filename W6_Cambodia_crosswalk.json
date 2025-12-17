@@ -1,17 +1,21 @@
 {
   "metadata": {
     "total_variables": 322,
-    "total_domains": 1
+    "total_domains": 24
   },
   "domains": [
     {
-      "domain": "Unknown",
-      "variable_count": 322,
+      "domain": "Business Size",
+      "variable_count": 1,
       "variables": [
         {
-          "variable_id": "ACTUAL_COUNT_EXCLUDE",
-          "question_text": "ACTUAL COUNT (EXCLUDE servants, transients/boarders)",
-          "concepts": [],
+          "variable_id": "SE10b",
+          "question_text": "SE10b How many people do his or her business employ?",
+          "concepts": [
+            "business size",
+            "number of employees",
+            "entrepreneurship"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -20,13 +24,144 @@
             {
               "value": 0,
               "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "No employees"
+            },
+            {
+              "value": 2,
+              "label": "1-9 employees"
+            },
+            {
+              "value": 3,
+              "label": "10+ employees"
+            },
+            {
+              "value": 10,
+              "label": "In civil service"
+            },
+            {
+              "value": 97,
+              "label": "Do not understand the question"
+            },
+            {
+              "value": 98,
+              "label": "Can't choose"
+            },
+            {
+              "value": 99,
+              "label": "Decline to answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Demographic Characteristic",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "LEVEL",
+          "question_text": "Rural or urban",
+          "concepts": [
+            "residence type",
+            "geographic location"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Rural"
+            },
+            {
+              "value": 2,
+              "label": "Urban"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Economic Accessibility",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "IR12k",
+          "question_text": "IR12k Market stalls (selling groceries and/or clothing)",
+          "concepts": [
+            "market stalls",
+            "groceries",
+            "clothing",
+            "shopping"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Employment Status",
+      "variable_count": 3,
+      "variables": [
+        {
+          "variable_id": "SE10_1",
+          "question_text": "SE10_1 Is the main earner in your household currently employed?",
+          "concepts": [
+            "employment status",
+            "household earner",
+            "current situation"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Employed"
+            },
+            {
+              "value": 2,
+              "label": "Not employed"
+            },
+            {
+              "value": 9,
+              "label": "Decline to answer"
             }
           ]
         },
         {
-          "variable_id": "ACTUAL_COUNT_INCLUDE",
-          "question_text": "ACTUAL COUNT (INCLUDE servants, transients/boarders)",
-          "concepts": [],
+          "variable_id": "SE10e",
+          "question_text": "SE10e What is his or her current status?",
+          "concepts": [
+            "employment status",
+            "current situation",
+            "job status"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -35,13 +170,170 @@
             {
               "value": 0,
               "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Homemaker"
+            },
+            {
+              "value": 2,
+              "label": "Student"
+            },
+            {
+              "value": 3,
+              "label": "Retired"
+            },
+            {
+              "value": 4,
+              "label": "Person with disabilities"
+            },
+            {
+              "value": 5,
+              "label": "Unemployed"
+            },
+            {
+              "value": 6,
+              "label": "other"
+            },
+            {
+              "value": 9,
+              "label": "Decline to answer"
+            },
+            {
+              "value": 98,
+              "label": "Not sure / can't say"
             }
           ]
         },
+        {
+          "variable_id": "SE10eother",
+          "question_text": "SE10eother \n\nVariable: SE11 \n  Question: SE11 What language do you speak the most in the home?",
+          "concepts": [
+            "employment status",
+            "other situation",
+            "current circumstance"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Only local language"
+            },
+            {
+              "value": 2,
+              "label": "Mostly local language"
+            },
+            {
+              "value": 3,
+              "label": "A mixture of local and official language"
+            },
+            {
+              "value": 4,
+              "label": "Mostly official language"
+            },
+            {
+              "value": 5,
+              "label": "Only official language"
+            },
+            {
+              "value": 9,
+              "label": "decline to answer"
+            },
+            {
+              "value": 1501,
+              "label": "Only English"
+            },
+            {
+              "value": 1502,
+              "label": "Mostly English"
+            },
+            {
+              "value": 1503,
+              "label": "A mixture of English and another language"
+            },
+            {
+              "value": 1504,
+              "label": "Mostly another language"
+            },
+            {
+              "value": 1505,
+              "label": "Only another language"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Employment Type",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "SE10a",
+          "question_text": "SE10a Is he or she currently self-employed, working in a family business, or working for an outside employer?",
+          "concepts": [
+            "employment type",
+            "self-employment",
+            "business ownership"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Self-employed or business owner"
+            },
+            {
+              "value": 2,
+              "label": "Working in family business"
+            },
+            {
+              "value": 3,
+              "label": "Working for an outside employer"
+            },
+            {
+              "value": 4,
+              "label": "Working in the public sector"
+            },
+            {
+              "value": 97,
+              "label": "Don't know"
+            },
+            {
+              "value": 98,
+              "label": "Can't choose"
+            },
+            {
+              "value": 99,
+              "label": "Decline to answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Geographic Location",
+      "variable_count": 2,
+      "variables": [
         {
           "variable_id": "COUNTRY",
           "question_text": "Country code",
-          "concepts": [],
+          "concepts": [
+            "country identification",
+            "geographic coding"
+          ],
           "value_labels": [
             {
               "value": 1,
@@ -110,327 +402,13 @@
           ]
         },
         {
-          "variable_id": "IDNUMBER",
-          "question_text": "case number \n\nVariable: REGION \n  Question: Region",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": 101,
-              "label": "Hokkaido"
-            },
-            {
-              "value": 102,
-              "label": "Tohoku"
-            },
-            {
-              "value": 103,
-              "label": "Kanto"
-            },
-            {
-              "value": 104,
-              "label": "Hokuriku"
-            },
-            {
-              "value": 105,
-              "label": "Tosan"
-            },
-            {
-              "value": 106,
-              "label": "Tokai"
-            },
-            {
-              "value": 107,
-              "label": "Kinki"
-            },
-            {
-              "value": 108,
-              "label": "Chugoku"
-            },
-            {
-              "value": 109,
-              "label": "Shikoku"
-            },
-            {
-              "value": 110,
-              "label": "North Kyushu"
-            },
-            {
-              "value": 111,
-              "label": "South Kyushu"
-            },
-            {
-              "value": 301,
-              "label": "Soeul"
-            },
-            {
-              "value": 302,
-              "label": "Incheon/Gyeonggi"
-            },
-            {
-              "value": 303,
-              "label": "Gangwon"
-            },
-            {
-              "value": 304,
-              "label": "Daejeon/Sejong/Chungcheong"
-            },
-            {
-              "value": 305,
-              "label": "Gwangju/Jeolla"
-            },
-            {
-              "value": 306,
-              "label": "Daegu/Gyeongbuk"
-            },
-            {
-              "value": 307,
-              "label": "Busan/Ulsan/Gyeongnam"
-            },
-            {
-              "value": 501,
-              "label": "UB City"
-            },
-            {
-              "value": 502,
-              "label": "Western"
-            },
-            {
-              "value": 503,
-              "label": "Northern"
-            },
-            {
-              "value": 504,
-              "label": "Central I"
-            },
-            {
-              "value": 505,
-              "label": "Central II"
-            },
-            {
-              "value": 506,
-              "label": "Central III"
-            },
-            {
-              "value": 507,
-              "label": "Eastern"
-            },
-            {
-              "value": 508,
-              "label": "Southern"
-            },
-            {
-              "value": 601,
-              "label": "NCR"
-            },
-            {
-              "value": 602,
-              "label": "Balance Luzon"
-            },
-            {
-              "value": 603,
-              "label": "Visayas"
-            },
-            {
-              "value": 604,
-              "label": "Mindanao"
-            },
-            {
-              "value": 701,
-              "label": "Taipei, New Taipei, Keelung"
-            },
-            {
-              "value": 702,
-              "label": "Taoyuang, Hsinchu, Miaoli"
-            },
-            {
-              "value": 703,
-              "label": "Taichung, Changhua, Nantou"
-            },
-            {
-              "value": 704,
-              "label": "Yunlin, Chiayi, Tainan"
-            },
-            {
-              "value": 705,
-              "label": "Kaohsiung, Pingtung"
-            },
-            {
-              "value": 706,
-              "label": "Yilan, Hualien, Taitung, outlying islands"
-            },
-            {
-              "value": 801,
-              "label": "Bangkok"
-            },
-            {
-              "value": 802,
-              "label": "North"
-            },
-            {
-              "value": 803,
-              "label": "Northeast"
-            },
-            {
-              "value": 804,
-              "label": "Central"
-            },
-            {
-              "value": 805,
-              "label": "South"
-            },
-            {
-              "value": 901,
-              "label": "Sumatera"
-            },
-            {
-              "value": 902,
-              "label": "Java"
-            },
-            {
-              "value": 903,
-              "label": "Bali Nusa"
-            },
-            {
-              "value": 904,
-              "label": "Lesser Sunda Islands"
-            },
-            {
-              "value": 905,
-              "label": "Kalimantan"
-            },
-            {
-              "value": 906,
-              "label": "Sulawesi"
-            },
-            {
-              "value": 907,
-              "label": "Maluk Islands"
-            },
-            {
-              "value": 908,
-              "label": "New Guinea Island"
-            },
-            {
-              "value": 804,
-              "label": "Central"
-            },
-            {
-              "value": 1002,
-              "label": "East"
-            },
-            {
-              "value": 802,
-              "label": "North"
-            },
-            {
-              "value": 1004,
-              "label": "North-East"
-            },
-            {
-              "value": 1005,
-              "label": "West"
-            },
-            {
-              "value": 1101,
-              "label": "Red River Delta"
-            },
-            {
-              "value": 1102,
-              "label": "Northern Midlands and Mountain Area"
-            },
-            {
-              "value": 1103,
-              "label": "Central coast"
-            },
-            {
-              "value": 1104,
-              "label": "Central highlands"
-            },
-            {
-              "value": 1105,
-              "label": "Southeast"
-            },
-            {
-              "value": 1106,
-              "label": "Mekong river Delta"
-            },
-            {
-              "value": 1201,
-              "label": "Tonle Sap"
-            },
-            {
-              "value": 1202,
-              "label": "Phnom Penh"
-            },
-            {
-              "value": 1203,
-              "label": "Central Plain"
-            },
-            {
-              "value": 1204,
-              "label": "Plateau and Mountains"
-            },
-            {
-              "value": 1205,
-              "label": "Coastal and Sea"
-            },
-            {
-              "value": 503,
-              "label": "Northern"
-            },
-            {
-              "value": 804,
-              "label": "Central"
-            },
-            {
-              "value": 508,
-              "label": "Southern"
-            },
-            {
-              "value": 507,
-              "label": "Eastern"
-            },
-            {
-              "value": 1305,
-              "label": "Borneo Malaysia"
-            },
-            {
-              "value": 1501,
-              "label": "Eastern regions"
-            },
-            {
-              "value": 1502,
-              "label": "Southern regions"
-            },
-            {
-              "value": 1503,
-              "label": "Western regions"
-            },
-            {
-              "value": 1504,
-              "label": "Northern regions"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR1",
-          "question_text": "IR1 Interviewer's number__________ (a three-digit code)",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": -1,
-              "label": "Missing"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR10",
-          "question_text": "IR10 Language in which interview was conducted",
-          "concepts": [],
+          "variable_id": "IR13",
+          "question_text": "IR13 Which of the following levels within the country the respondent live?",
+          "concepts": [
+            "residence",
+            "country level",
+            "administrative division"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -442,26 +420,40 @@
             },
             {
               "value": 1,
-              "label": "Native language or dialect (mother tongue) of the respondent"
+              "label": "Capital city"
             },
             {
               "value": 2,
-              "label": "The main language of the country but not the native language"
+              "label": "Province centre/cities"
             },
             {
               "value": 3,
-              "label": "The main language of the region/localities but not the nativ"
+              "label": "County centre/village"
             },
             {
               "value": 4,
-              "label": "The main language of the region/localities but not the native language or dialect (mother tongue) of the respondent"
+              "label": "Countryside"
+            },
+            {
+              "value": 9,
+              "label": "Decline to answer"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Healthcare Accessibility",
+      "variable_count": 1,
+      "variables": [
         {
-          "variable_id": "IR10a",
-          "question_text": "IR10a Was the interview conducted with the assistance of an interpreter?",
-          "concepts": [],
+          "variable_id": "IR12e",
+          "question_text": "IR12e Health clinic",
+          "concepts": [
+            "health service",
+            "medical facility",
+            "community health"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -478,13 +470,70 @@
             {
               "value": 2,
               "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Household Composition",
+      "variable_count": 2,
+      "variables": [
+        {
+          "variable_id": "ACTUAL_COUNT_EXCLUDE",
+          "question_text": "ACTUAL COUNT (EXCLUDE servants, transients/boarders)",
+          "concepts": [
+            "household size",
+            "exclusion criteria",
+            "demographic characteristics"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
             }
           ]
         },
         {
+          "variable_id": "ACTUAL_COUNT_INCLUDE",
+          "question_text": "ACTUAL COUNT (INCLUDE servants, transients/boarders)",
+          "concepts": [
+            "household size",
+            "inclusion criteria",
+            "demographic characteristics"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Infrastructure",
+      "variable_count": 4,
+      "variables": [
+        {
           "variable_id": "IR11a",
           "question_text": "IR11a Based on your observation, what is the condition of the road leading to interviewee's residence?",
-          "concepts": [],
+          "concepts": [
+            "road condition",
+            "transportation access"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -523,7 +572,10 @@
         {
           "variable_id": "IR11b",
           "question_text": "IR11b Please identify the main source of drinking water in the household?",
-          "concepts": [],
+          "concepts": [
+            "water source",
+            "drinking water quality"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -558,7 +610,10 @@
         {
           "variable_id": "IR11c",
           "question_text": "IR11c Is electricity the main source of lighting in the house?",
-          "concepts": [],
+          "concepts": [
+            "electricity access",
+            "energy source"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -575,195 +630,17 @@
             {
               "value": 2,
               "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR11d",
-          "question_text": "IR11d Is this neighborhood covered by mobile network?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            },
-            {
-              "value": 3,
-              "label": "Do not know"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR11e",
-          "question_text": "IR11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Less than 10 minutes by walking"
-            },
-            {
-              "value": 2,
-              "label": "Less than 20 minutes"
-            },
-            {
-              "value": 3,
-              "label": "Less than 40 minutes"
-            },
-            {
-              "value": 4,
-              "label": "Less than an hour"
-            },
-            {
-              "value": 5,
-              "label": "Less than two hours"
-            },
-            {
-              "value": 6,
-              "label": "Less than three hours"
-            },
-            {
-              "value": 7,
-              "label": "Less than four hours"
-            },
-            {
-              "value": 8,
-              "label": "More than fours hours"
-            },
-            {
-              "value": 97,
-              "label": "Don't Know"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR12",
-          "question_text": "IR12 Were the following services present within the neighborhood (i.e., within walking or easy driving distance)",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Walking"
-            },
-            {
-              "value": 2,
-              "label": "Easy driving"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR12a",
-          "question_text": "IR12a Post-office",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR12b",
-          "question_text": "IR12b School",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR12c",
-          "question_text": "IR12c Police station",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
           "variable_id": "IR12d",
           "question_text": "IR12d Sewerage system that most houses could access",
-          "concepts": [],
+          "concepts": [
+            "sewerage system",
+            "waste management",
+            "public health"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -786,11 +663,21 @@
               "label": "Can't determine"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Interview Environment",
+      "variable_count": 6,
+      "variables": [
         {
-          "variable_id": "IR12e",
-          "question_text": "IR12e Health clinic",
-          "concepts": [],
+          "variable_id": "IR3a_1",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_1 Respondent's spouse",
+          "concepts": [
+            "spouse presence",
+            "family members",
+            "social support"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -807,17 +694,17 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
-          "variable_id": "IR12f",
-          "question_text": "IR12f Signal for cellular phone",
-          "concepts": [],
+          "variable_id": "IR3a_2",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_2 Children",
+          "concepts": [
+            "interview setting",
+            "presence of others",
+            "family members"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -834,17 +721,17 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
-          "variable_id": "IR12g",
-          "question_text": "IR12g Recreational facilities, e.g., a sports field",
-          "concepts": [],
+          "variable_id": "IR3a_3",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_3 Parents or parents-in-law",
+          "concepts": [
+            "interview setting",
+            "presence of others",
+            "family members"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -861,17 +748,17 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
-          "variable_id": "IR12h",
-          "question_text": "IR12h Any churches, mosques, temples or other public places of worship",
-          "concepts": [],
+          "variable_id": "IR3a_4",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_4 Neighbors/passers by",
+          "concepts": [
+            "interview setting",
+            "presence of others",
+            "unrelated individuals"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -888,17 +775,17 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
-          "variable_id": "IR12i",
-          "question_text": "IR12i Any town halls or community buildings that can be used for meetings",
-          "concepts": [],
+          "variable_id": "IR3a_5",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_5 Party/government official",
+          "concepts": [
+            "interview setting",
+            "presence of others",
+            "authority figures"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -915,17 +802,17 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
         },
         {
-          "variable_id": "IR12k",
-          "question_text": "IR12k Market stalls (selling groceries and/or clothing)",
-          "concepts": [],
+          "variable_id": "IR3a_6_other",
+          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_6_other",
+          "concepts": [
+            "interview setting",
+            "presence of others",
+            "other individuals"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -942,17 +829,22 @@
             {
               "value": 2,
               "label": "No"
-            },
-            {
-              "value": 9,
-              "label": "Can't determine"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Interview Process",
+      "variable_count": 1,
+      "variables": [
         {
-          "variable_id": "IR13",
-          "question_text": "IR13 Which of the following levels within the country the respondent live?",
-          "concepts": [],
+          "variable_id": "IR3a_6_other_clarify",
+          "question_text": "IR3a_other_clarify \n\nVariable: IR4 \n  Question: IR4 Has the respondent ever refused to be interviewed during the whole process?",
+          "concepts": [
+            "interview experience",
+            "refusal to participate"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -964,53 +856,35 @@
             },
             {
               "value": 1,
-              "label": "Capital city"
+              "label": "Yes. Right at the beginning of the interview."
             },
             {
               "value": 2,
-              "label": "Province centre/cities"
+              "label": "Yes. In the middle of the interview."
             },
             {
               "value": 3,
-              "label": "County centre/village"
+              "label": "Yes. Towards the end of the interview."
             },
             {
               "value": 4,
-              "label": "Countryside"
-            },
-            {
-              "value": 9,
-              "label": "Decline to answer"
+              "label": "Never"
             }
           ]
-        },
-        {
-          "variable_id": "IR2",
-          "question_text": "IR2 Is this the first questionnaire you have completed?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Interviewer Characteristics",
+      "variable_count": 2,
+      "variables": [
         {
           "variable_id": "IR2a",
           "question_text": "IR2a Interviewer's gender",
-          "concepts": [],
+          "concepts": [
+            "interviewer gender",
+            "demographics"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1033,7 +907,10 @@
         {
           "variable_id": "IR2b",
           "question_text": "IR2b Interviewer's Age____",
-          "concepts": [],
+          "concepts": [
+            "interviewer age",
+            "demographics"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1044,11 +921,66 @@
               "label": "Not applicable"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Job Search",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "SE10d",
+          "question_text": "SE10d Is he or she currently seeking employment?",
+          "concepts": [
+            "job search",
+            "employment seeking",
+            "current activity"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes (Currently unemployed but seeking work)"
+            },
+            {
+              "value": 2,
+              "label": "No (Not currently employed and not seeking work)"
+            },
+            {
+              "value": 3,
+              "label": "Never employed"
+            },
+            {
+              "value": 98,
+              "label": "Can't choose"
+            },
+            {
+              "value": 99,
+              "label": "Decline to answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Language and Culture",
+      "variable_count": 2,
+      "variables": [
         {
           "variable_id": "IR2c",
           "question_text": "IR2c What kind of language do you normally use at home?",
-          "concepts": [],
+          "concepts": [
+            "language use",
+            "home language",
+            "linguistic preference"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1251,7 +1183,11 @@
         {
           "variable_id": "IR2c_other",
           "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present?",
-          "concepts": [],
+          "concepts": [
+            "language specification",
+            "other languages",
+            "linguistic diversity"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1270,432 +1206,21 @@
               "label": "No"
             }
           ]
-        },
-        {
-          "variable_id": "IR3a_1",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_1 Respondent's spouse",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_2",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_2 Children",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_3",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_3 Parents or parents-in-law",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_4",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_4 Neighbors/passers by",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_5",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_5 Party/government official",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_6_other",
-          "question_text": "IR2c_other \n\nVariable: IR3 \n  Question: IR3 In the interview, other than the respondent, were others present? IR3a_6_other",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR3a_6_other_clarify",
-          "question_text": "IR3a_other_clarify \n\nVariable: IR4 \n  Question: IR4 Has the respondent ever refused to be interviewed during the whole process?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Yes. Right at the beginning of the interview."
-            },
-            {
-              "value": 2,
-              "label": "Yes. In the middle of the interview."
-            },
-            {
-              "value": 3,
-              "label": "Yes. Towards the end of the interview."
-            },
-            {
-              "value": 4,
-              "label": "Never"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR5",
-          "question_text": "IR5 Has the respondent ever felt impatient during the interview?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Never"
-            },
-            {
-              "value": 2,
-              "label": "Occasionally"
-            },
-            {
-              "value": 3,
-              "label": "Sometimes"
-            },
-            {
-              "value": 4,
-              "label": "Always"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR6",
-          "question_text": "IR6 How cooperative was the respondent during the interview?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Highly cooperative"
-            },
-            {
-              "value": 2,
-              "label": "Fairly cooperative"
-            },
-            {
-              "value": 3,
-              "label": "Not very cooperative"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR7",
-          "question_text": "IR7 How sincere was the respondent when answering sensitive questions?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Highly sincerely"
-            },
-            {
-              "value": 2,
-              "label": "Fairly sincere"
-            },
-            {
-              "value": 3,
-              "label": "Not very sincere"
-            },
-            {
-              "value": 4,
-              "label": "Not sincere at all"
-            }
-          ]
-        },
-        {
-          "variable_id": "IR8",
-          "question_text": "IR8 What proportion of the questions do you feel the respondent had difficulty answering?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "All"
-            },
-            {
-              "value": 2,
-              "label": "Most"
-            },
-            {
-              "value": 3,
-              "label": "Some"
-            },
-            {
-              "value": 4,
-              "label": "Few"
-            },
-            {
-              "value": 5,
-              "label": "None"
-            }
-          ]
-        },
-        {
-          "variable_id": "LEVEL",
-          "question_text": "Rural or urban",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Rural"
-            },
-            {
-              "value": 2,
-              "label": "Urban"
-            }
-          ]
-        },
-        {
-          "variable_id": "SE10_1",
-          "question_text": "SE10_1 Is the main earner in your household currently employed?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Employed"
-            },
-            {
-              "value": 2,
-              "label": "Not employed"
-            },
-            {
-              "value": 9,
-              "label": "Decline to answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "SE10a",
-          "question_text": "SE10a Is he or she currently self-employed, working in a family business, or working for an outside employer?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Self-employed or business owner"
-            },
-            {
-              "value": 2,
-              "label": "Working in family business"
-            },
-            {
-              "value": 3,
-              "label": "Working for an outside employer"
-            },
-            {
-              "value": 4,
-              "label": "Working in the public sector"
-            },
-            {
-              "value": 97,
-              "label": "Don't know"
-            },
-            {
-              "value": 98,
-              "label": "Can't choose"
-            },
-            {
-              "value": 99,
-              "label": "Decline to answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "SE10b",
-          "question_text": "SE10b How many people do his or her business employ?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "No employees"
-            },
-            {
-              "value": 2,
-              "label": "1-9 employees"
-            },
-            {
-              "value": 3,
-              "label": "10+ employees"
-            },
-            {
-              "value": 10,
-              "label": "In civil service"
-            },
-            {
-              "value": 97,
-              "label": "Do not understand the question"
-            },
-            {
-              "value": 98,
-              "label": "Can't choose"
-            },
-            {
-              "value": 99,
-              "label": "Decline to answer"
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Occupation Type",
+      "variable_count": 1,
+      "variables": [
         {
           "variable_id": "SE10c",
           "question_text": "SE10c Here is a list of different types of jobs. Which type of job does he/she have now?",
-          "concepts": [],
+          "concepts": [
+            "occupation type",
+            "job classification",
+            "current job"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1758,11 +1283,21 @@
               "label": "Decline to answer"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Public Safety",
+      "variable_count": 1,
+      "variables": [
         {
-          "variable_id": "SE10d",
-          "question_text": "SE10d Is he or she currently seeking employment?",
-          "concepts": [],
+          "variable_id": "IR12c",
+          "question_text": "IR12c Police station",
+          "concepts": [
+            "law enforcement",
+            "security",
+            "community protection"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -1774,136 +1309,32 @@
             },
             {
               "value": 1,
-              "label": "Yes (Currently unemployed but seeking work)"
+              "label": "Yes"
             },
             {
               "value": 2,
-              "label": "No (Not currently employed and not seeking work)"
-            },
-            {
-              "value": 3,
-              "label": "Never employed"
-            },
-            {
-              "value": 98,
-              "label": "Can't choose"
-            },
-            {
-              "value": 99,
-              "label": "Decline to answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "SE10e",
-          "question_text": "SE10e What is his or her current status?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Homemaker"
-            },
-            {
-              "value": 2,
-              "label": "Student"
-            },
-            {
-              "value": 3,
-              "label": "Retired"
-            },
-            {
-              "value": 4,
-              "label": "Person with disabilities"
-            },
-            {
-              "value": 5,
-              "label": "Unemployed"
-            },
-            {
-              "value": 6,
-              "label": "other"
+              "label": "No"
             },
             {
               "value": 9,
-              "label": "Decline to answer"
-            },
-            {
-              "value": 98,
-              "label": "Not sure / can't say"
+              "label": "Can't determine"
             }
           ]
-        },
-        {
-          "variable_id": "SE10eother",
-          "question_text": "SE10eother \n\nVariable: SE11 \n  Question: SE11 What language do you speak the most in the home?",
-          "concepts": [],
-          "value_labels": [
-            {
-              "value": -1,
-              "label": "Missing"
-            },
-            {
-              "value": 0,
-              "label": "Not applicable"
-            },
-            {
-              "value": 1,
-              "label": "Only local language"
-            },
-            {
-              "value": 2,
-              "label": "Mostly local language"
-            },
-            {
-              "value": 3,
-              "label": "A mixture of local and official language"
-            },
-            {
-              "value": 4,
-              "label": "Mostly official language"
-            },
-            {
-              "value": 5,
-              "label": "Only official language"
-            },
-            {
-              "value": 9,
-              "label": "decline to answer"
-            },
-            {
-              "value": 1501,
-              "label": "Only English"
-            },
-            {
-              "value": 1502,
-              "label": "Mostly English"
-            },
-            {
-              "value": 1503,
-              "label": "A mixture of English and another language"
-            },
-            {
-              "value": 1504,
-              "label": "Mostly another language"
-            },
-            {
-              "value": 1505,
-              "label": "Only another language"
-            }
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "domain": "Racial or Ethnic Background",
+      "variable_count": 2,
+      "variables": [
         {
           "variable_id": "SE11a",
           "question_text": "SE11a What is your racial or ethnic background?",
-          "concepts": [],
+          "concepts": [
+            "racial background",
+            "ethnic background",
+            "self-identification"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -2490,7 +1921,11 @@
         {
           "variable_id": "SE11aother",
           "question_text": "SE11aother \n\nVariable: SE12 \n  Question: SE12 SUBJECTIVE SOCIAL STATUS",
-          "concepts": [],
+          "concepts": [
+            "racial background",
+            "ethnic background",
+            "other identity"
+          ],
           "value_labels": [
             {
               "value": -1,
@@ -2553,7 +1988,899 @@
               "label": "Decline to answer"
             }
           ]
+        }
+      ]
+    },
+    {
+      "domain": "Recreational Services",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "IR12g",
+          "question_text": "IR12g Recreational facilities, e.g., a sports field",
+          "concepts": [
+            "leisure activity",
+            "community facility",
+            "sports infrastructure"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Respondent Ability",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "IR8",
+          "question_text": "IR8 What proportion of the questions do you feel the respondent had difficulty answering?",
+          "concepts": [
+            "respondent understanding",
+            "question difficulty",
+            "response accuracy"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "All"
+            },
+            {
+              "value": 2,
+              "label": "Most"
+            },
+            {
+              "value": 3,
+              "label": "Some"
+            },
+            {
+              "value": 4,
+              "label": "Few"
+            },
+            {
+              "value": 5,
+              "label": "None"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Respondent Behavior",
+      "variable_count": 3,
+      "variables": [
+        {
+          "variable_id": "IR5",
+          "question_text": "IR5 Has the respondent ever felt impatient during the interview?",
+          "concepts": [
+            "respondent attitude",
+            "emotional state",
+            "impatience"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Never"
+            },
+            {
+              "value": 2,
+              "label": "Occasionally"
+            },
+            {
+              "value": 3,
+              "label": "Sometimes"
+            },
+            {
+              "value": 4,
+              "label": "Always"
+            }
+          ]
         },
+        {
+          "variable_id": "IR6",
+          "question_text": "IR6 How cooperative was the respondent during the interview?",
+          "concepts": [
+            "respondent attitude",
+            "cooperation",
+            "interview engagement"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Highly cooperative"
+            },
+            {
+              "value": 2,
+              "label": "Fairly cooperative"
+            },
+            {
+              "value": 3,
+              "label": "Not very cooperative"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR7",
+          "question_text": "IR7 How sincere was the respondent when answering sensitive questions?",
+          "concepts": [
+            "respondent attitude",
+            "sincerity",
+            "question sensitivity"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Highly sincerely"
+            },
+            {
+              "value": 2,
+              "label": "Fairly sincere"
+            },
+            {
+              "value": 3,
+              "label": "Not very sincere"
+            },
+            {
+              "value": 4,
+              "label": "Not sincere at all"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Service Accessibility",
+      "variable_count": 8,
+      "variables": [
+        {
+          "variable_id": "IR11d",
+          "question_text": "IR11d Is this neighborhood covered by mobile network?",
+          "concepts": [
+            "mobile network",
+            "neighborhood coverage",
+            "telecommunication service"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 3,
+              "label": "Do not know"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR11e",
+          "question_text": "IR11e In terms of walking distance, how far is it between the nearest public transportation stop (bus, train, ferry, tram, etc.) and the respondent's house?",
+          "concepts": [
+            "public transportation",
+            "walking distance",
+            "residential proximity"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Less than 10 minutes by walking"
+            },
+            {
+              "value": 2,
+              "label": "Less than 20 minutes"
+            },
+            {
+              "value": 3,
+              "label": "Less than 40 minutes"
+            },
+            {
+              "value": 4,
+              "label": "Less than an hour"
+            },
+            {
+              "value": 5,
+              "label": "Less than two hours"
+            },
+            {
+              "value": 6,
+              "label": "Less than three hours"
+            },
+            {
+              "value": 7,
+              "label": "Less than four hours"
+            },
+            {
+              "value": 8,
+              "label": "More than fours hours"
+            },
+            {
+              "value": 97,
+              "label": "Don't Know"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12",
+          "question_text": "IR12 Were the following services present within the neighborhood (i.e., within walking or easy driving distance)",
+          "concepts": [
+            "neighborhood services",
+            "availability",
+            "proximity"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Walking"
+            },
+            {
+              "value": 2,
+              "label": "Easy driving"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12a",
+          "question_text": "IR12a Post-office",
+          "concepts": [
+            "postal service",
+            "infrastructure",
+            "community facility"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12b",
+          "question_text": "IR12b School",
+          "concepts": [
+            "education",
+            "school facility",
+            "community resource"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12f",
+          "question_text": "IR12f Signal for cellular phone",
+          "concepts": [
+            "telecommunication",
+            "cellular network",
+            "mobile signal"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12h",
+          "question_text": "IR12h Any churches, mosques, temples or other public places of worship",
+          "concepts": [
+            "public places",
+            "worship",
+            "community facilities"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR12i",
+          "question_text": "IR12i Any town halls or community buildings that can be used for meetings",
+          "concepts": [
+            "community buildings",
+            "meeting spaces",
+            "public facilities"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 9,
+              "label": "Can't determine"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Survey Administration",
+      "variable_count": 4,
+      "variables": [
+        {
+          "variable_id": "IDNUMBER",
+          "question_text": "case number \n\nVariable: REGION \n  Question: Region",
+          "concepts": [
+            "case identification",
+            "unique identifier"
+          ],
+          "value_labels": [
+            {
+              "value": 101,
+              "label": "Hokkaido"
+            },
+            {
+              "value": 102,
+              "label": "Tohoku"
+            },
+            {
+              "value": 103,
+              "label": "Kanto"
+            },
+            {
+              "value": 104,
+              "label": "Hokuriku"
+            },
+            {
+              "value": 105,
+              "label": "Tosan"
+            },
+            {
+              "value": 106,
+              "label": "Tokai"
+            },
+            {
+              "value": 107,
+              "label": "Kinki"
+            },
+            {
+              "value": 108,
+              "label": "Chugoku"
+            },
+            {
+              "value": 109,
+              "label": "Shikoku"
+            },
+            {
+              "value": 110,
+              "label": "North Kyushu"
+            },
+            {
+              "value": 111,
+              "label": "South Kyushu"
+            },
+            {
+              "value": 301,
+              "label": "Soeul"
+            },
+            {
+              "value": 302,
+              "label": "Incheon/Gyeonggi"
+            },
+            {
+              "value": 303,
+              "label": "Gangwon"
+            },
+            {
+              "value": 304,
+              "label": "Daejeon/Sejong/Chungcheong"
+            },
+            {
+              "value": 305,
+              "label": "Gwangju/Jeolla"
+            },
+            {
+              "value": 306,
+              "label": "Daegu/Gyeongbuk"
+            },
+            {
+              "value": 307,
+              "label": "Busan/Ulsan/Gyeongnam"
+            },
+            {
+              "value": 501,
+              "label": "UB City"
+            },
+            {
+              "value": 502,
+              "label": "Western"
+            },
+            {
+              "value": 503,
+              "label": "Northern"
+            },
+            {
+              "value": 504,
+              "label": "Central I"
+            },
+            {
+              "value": 505,
+              "label": "Central II"
+            },
+            {
+              "value": 506,
+              "label": "Central III"
+            },
+            {
+              "value": 507,
+              "label": "Eastern"
+            },
+            {
+              "value": 508,
+              "label": "Southern"
+            },
+            {
+              "value": 601,
+              "label": "NCR"
+            },
+            {
+              "value": 602,
+              "label": "Balance Luzon"
+            },
+            {
+              "value": 603,
+              "label": "Visayas"
+            },
+            {
+              "value": 604,
+              "label": "Mindanao"
+            },
+            {
+              "value": 701,
+              "label": "Taipei, New Taipei, Keelung"
+            },
+            {
+              "value": 702,
+              "label": "Taoyuang, Hsinchu, Miaoli"
+            },
+            {
+              "value": 703,
+              "label": "Taichung, Changhua, Nantou"
+            },
+            {
+              "value": 704,
+              "label": "Yunlin, Chiayi, Tainan"
+            },
+            {
+              "value": 705,
+              "label": "Kaohsiung, Pingtung"
+            },
+            {
+              "value": 706,
+              "label": "Yilan, Hualien, Taitung, outlying islands"
+            },
+            {
+              "value": 801,
+              "label": "Bangkok"
+            },
+            {
+              "value": 802,
+              "label": "North"
+            },
+            {
+              "value": 803,
+              "label": "Northeast"
+            },
+            {
+              "value": 804,
+              "label": "Central"
+            },
+            {
+              "value": 805,
+              "label": "South"
+            },
+            {
+              "value": 901,
+              "label": "Sumatera"
+            },
+            {
+              "value": 902,
+              "label": "Java"
+            },
+            {
+              "value": 903,
+              "label": "Bali Nusa"
+            },
+            {
+              "value": 904,
+              "label": "Lesser Sunda Islands"
+            },
+            {
+              "value": 905,
+              "label": "Kalimantan"
+            },
+            {
+              "value": 906,
+              "label": "Sulawesi"
+            },
+            {
+              "value": 907,
+              "label": "Maluk Islands"
+            },
+            {
+              "value": 908,
+              "label": "New Guinea Island"
+            },
+            {
+              "value": 804,
+              "label": "Central"
+            },
+            {
+              "value": 1002,
+              "label": "East"
+            },
+            {
+              "value": 802,
+              "label": "North"
+            },
+            {
+              "value": 1004,
+              "label": "North-East"
+            },
+            {
+              "value": 1005,
+              "label": "West"
+            },
+            {
+              "value": 1101,
+              "label": "Red River Delta"
+            },
+            {
+              "value": 1102,
+              "label": "Northern Midlands and Mountain Area"
+            },
+            {
+              "value": 1103,
+              "label": "Central coast"
+            },
+            {
+              "value": 1104,
+              "label": "Central highlands"
+            },
+            {
+              "value": 1105,
+              "label": "Southeast"
+            },
+            {
+              "value": 1106,
+              "label": "Mekong river Delta"
+            },
+            {
+              "value": 1201,
+              "label": "Tonle Sap"
+            },
+            {
+              "value": 1202,
+              "label": "Phnom Penh"
+            },
+            {
+              "value": 1203,
+              "label": "Central Plain"
+            },
+            {
+              "value": 1204,
+              "label": "Plateau and Mountains"
+            },
+            {
+              "value": 1205,
+              "label": "Coastal and Sea"
+            },
+            {
+              "value": 503,
+              "label": "Northern"
+            },
+            {
+              "value": 804,
+              "label": "Central"
+            },
+            {
+              "value": 508,
+              "label": "Southern"
+            },
+            {
+              "value": 507,
+              "label": "Eastern"
+            },
+            {
+              "value": 1305,
+              "label": "Borneo Malaysia"
+            },
+            {
+              "value": 1501,
+              "label": "Eastern regions"
+            },
+            {
+              "value": 1502,
+              "label": "Southern regions"
+            },
+            {
+              "value": 1503,
+              "label": "Western regions"
+            },
+            {
+              "value": 1504,
+              "label": "Northern regions"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR1",
+          "question_text": "IR1 Interviewer's number__________ (a three-digit code)",
+          "concepts": [
+            "interviewer identification",
+            "survey personnel"
+          ],
+          "value_labels": [
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": -1,
+              "label": "Missing"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR10",
+          "question_text": "IR10 Language in which interview was conducted",
+          "concepts": [
+            "language usage",
+            "communication method"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Native language or dialect (mother tongue) of the respondent"
+            },
+            {
+              "value": 2,
+              "label": "The main language of the country but not the native language"
+            },
+            {
+              "value": 3,
+              "label": "The main language of the region/localities but not the nativ"
+            },
+            {
+              "value": 4,
+              "label": "The main language of the region/localities but not the native language or dialect (mother tongue) of the respondent"
+            }
+          ]
+        },
+        {
+          "variable_id": "IR10a",
+          "question_text": "IR10a Was the interview conducted with the assistance of an interpreter?",
+          "concepts": [
+            "interpreter assistance",
+            "language support"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Survey Participation",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "IR2",
+          "question_text": "IR2 Is this the first questionnaire you have completed?",
+          "concepts": [
+            "questionnaire completion",
+            "survey experience",
+            "first-time response"
+          ],
+          "value_labels": [
+            {
+              "value": -1,
+              "label": "Missing"
+            },
+            {
+              "value": 0,
+              "label": "Not applicable"
+            },
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Unknown",
+      "variable_count": 272,
+      "variables": [
         {
           "variable_id": "SE13a",
           "question_text": "SE13a Where would you put yourself on the staircase?",

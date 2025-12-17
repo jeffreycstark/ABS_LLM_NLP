@@ -36,8 +36,15 @@
         "label": "Thailand"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Geographic Location",
+    "concepts": [
+      "country",
+      "national identity",
+      "location"
+    ],
+    "validation_phrase": "country",
+    "validation_phrase_occurrences": 14,
+    "validation_phrase_score": 10.0
   },
   {
     "variable_id": "fgnum",
@@ -64,8 +71,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Social Participation",
+    "concepts": [
+      "group membership",
+      "formal organization",
+      "social engagement"
+    ],
+    "validation_phrase": "number of formal",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "idnumber",
@@ -84,8 +98,15 @@
         "label": "no registration"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Demographic Information",
+    "concepts": [
+      "identification",
+      "unique identifier",
+      "personal data"
+    ],
+    "validation_phrase": "idnumber variable: level3",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir001",
@@ -96,8 +117,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Interviewer Information",
+    "concepts": [
+      "interviewer identification",
+      "unique identifier",
+      "data collection"
+    ],
+    "validation_phrase": "interviewer_s number",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "ir002",
@@ -116,8 +144,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Interviewer Experience",
+    "concepts": [
+      "interviewer experience",
+      "questionnaire completion",
+      "data collection"
+    ],
+    "validation_phrase": "this the first",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir002a",
@@ -140,8 +175,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Interviewer Demographics",
+    "concepts": [
+      "interviewer gender",
+      "demographic characteristics",
+      "data collection"
+    ],
+    "validation_phrase": "interviewer_s gender",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "ir002b",
@@ -156,8 +198,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Interviewer Demographics",
+    "concepts": [
+      "interviewer age",
+      "demographic characteristics",
+      "data collection"
+    ],
+    "validation_phrase": "interviewer_s age",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "ir003",
@@ -184,8 +233,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Interview Environment",
+    "concepts": [
+      "interview setting",
+      "presence of others",
+      "data collection"
+    ],
+    "validation_phrase": "presence of others",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir004",
@@ -212,8 +268,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Respondent Cooperation",
+    "concepts": [
+      "respondent refusal",
+      "interview experience",
+      "data collection"
+    ],
+    "validation_phrase": "respondent ever refused",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir005",
@@ -240,8 +303,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Unknown",
-    "concepts": []
+    "domain": "Respondent Experience",
+    "concepts": [
+      "respondent impatience",
+      "interview experience",
+      "data collection"
+    ],
+    "validation_phrase": "respondent ever felt",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir006",
@@ -273,7 +343,10 @@
       "cooperation",
       "respondent behavior",
       "interview process"
-    ]
+    ],
+    "validation_phrase": "how cooperative was",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir007_1",
@@ -335,9 +408,12 @@
     "domain": "Interview Metadata",
     "concepts": [
       "interview date",
-      "temporal information",
-      "month"
-    ]
+      "month",
+      "temporal information"
+    ],
+    "validation_phrase": "of interview: month",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir007_2",
@@ -475,9 +551,12 @@
     "domain": "Interview Metadata",
     "concepts": [
       "interview date",
-      "temporal information",
-      "day"
-    ]
+      "day",
+      "temporal information"
+    ],
+    "validation_phrase": "of interview: day",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir007_3",
@@ -503,9 +582,12 @@
     "domain": "Interview Metadata",
     "concepts": [
       "interview date",
-      "temporal information",
-      "year"
-    ]
+      "year",
+      "temporal information"
+    ],
+    "validation_phrase": "of interview: year",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir009",
@@ -529,7 +611,10 @@
       "interpreter assistance",
       "language support",
       "interview facilitation"
-    ]
+    ],
+    "validation_phrase": "was the interview",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir010a",
@@ -589,7 +674,10 @@
       "road condition",
       "transportation infrastructure",
       "residence accessibility"
-    ]
+    ],
+    "validation_phrase": "what is the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir010b",
@@ -625,7 +713,10 @@
       "public sanitation",
       "neighborhood cleanliness",
       "health environment"
-    ]
+    ],
+    "validation_phrase": "how do rate",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir010c",
@@ -644,12 +735,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Service Accessibility",
+    "domain": "Basic Amenities",
     "concepts": [
       "public water supply",
       "residence amenities",
-      "basic services"
-    ]
+      "water accessibility"
+    ],
+    "validation_phrase": "tell us whetherthe",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "ir010d",
@@ -668,13 +762,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Service Accessibility",
+    "domain": "Basic Amenities",
     "concepts": [
       "public water supply",
-      "electricity access",
-      "residence amenities",
-      "basic services"
-    ]
+      "electricity availability",
+      "residence amenities"
+    ],
+    "validation_phrase": "water supply tell",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "ir010e",
@@ -722,7 +818,10 @@
       "public transportation",
       "walking distance",
       "residence accessibility"
-    ]
+    ],
+    "validation_phrase": "walking distance between",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "pgnum",
@@ -750,7 +849,10 @@
       }
     ],
     "domain": "Unknown",
-    "concepts": []
+    "concepts": [],
+    "validation_phrase": "number of private",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q001",
@@ -790,7 +892,10 @@
       "economic condition",
       "national level",
       "current evaluation"
-    ]
+    ],
+    "validation_phrase": "would you rate",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q002",
@@ -831,7 +936,10 @@
       "national level",
       "temporal comparison",
       "change evaluation"
-    ]
+    ],
+    "validation_phrase": "would you describe",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q003",
@@ -873,7 +981,10 @@
       "temporal comparison",
       "change evaluation",
       "future expectation"
-    ]
+    ],
+    "validation_phrase": "five years? what",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q004",
@@ -913,7 +1024,10 @@
       "economic situation",
       "personal level",
       "current evaluation"
-    ]
+    ],
+    "validation_phrase": "as for your",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q005",
@@ -954,7 +1068,10 @@
       "personal level",
       "temporal comparison",
       "change evaluation"
-    ]
+    ],
+    "validation_phrase": "would you compare",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q006",
@@ -994,7 +1111,10 @@
       "economic situation",
       "personal level",
       "future expectation"
-    ]
+    ],
+    "validation_phrase": "you think the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q007",
@@ -1029,12 +1149,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Government",
     "concepts": [
       "trust",
       "courts",
       "institutional evaluation"
-    ]
+    ],
+    "validation_phrase": "much trust do",
+    "validation_phrase_occurrences": 17,
+    "validation_phrase_score": 1.426680147272547
   },
   {
     "variable_id": "q008",
@@ -1069,14 +1192,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Government",
     "concepts": [
       "trust",
       "courts",
       "national government",
-      "institutional evaluation",
-      "comparative evaluation"
-    ]
+      "institutional comparison"
+    ],
+    "validation_phrase": "have in the national",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q009",
@@ -1111,14 +1236,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Government",
     "concepts": [
       "trust",
       "courts",
       "political parties",
-      "institutional evaluation",
-      "comparative evaluation"
-    ]
+      "institutional comparison"
+    ],
+    "validation_phrase": "have in political",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q010",
@@ -1159,7 +1286,10 @@
       "institutional evaluation",
       "courts",
       "parliament"
-    ]
+    ],
+    "validation_phrase": "have in parliament?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q011",
@@ -1200,7 +1330,10 @@
       "institutional evaluation",
       "courts",
       "civil service"
-    ]
+    ],
+    "validation_phrase": "have in civil",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q012",
@@ -1241,7 +1374,10 @@
       "institutional evaluation",
       "courts",
       "military"
-    ]
+    ],
+    "validation_phrase": "in the military?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q013",
@@ -1282,7 +1418,10 @@
       "institutional evaluation",
       "courts",
       "police"
-    ]
+    ],
+    "validation_phrase": "in the police?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q014",
@@ -1323,7 +1462,10 @@
       "institutional evaluation",
       "courts",
       "local government"
-    ]
+    ],
+    "validation_phrase": "have in local",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q015",
@@ -1364,7 +1506,10 @@
       "institutional evaluation",
       "courts",
       "newspapers"
-    ]
+    ],
+    "validation_phrase": "have in newspapers?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q016",
@@ -1405,7 +1550,10 @@
       "institutional evaluation",
       "courts",
       "television"
-    ]
+    ],
+    "validation_phrase": "have in television?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q017",
@@ -1446,7 +1594,10 @@
       "institutional evaluation",
       "courts",
       "election commission"
-    ]
+    ],
+    "validation_phrase": "the election commission?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018",
@@ -1487,7 +1638,10 @@
       "institutional evaluation",
       "courts",
       "non-governmental organizations"
-    ]
+    ],
+    "validation_phrase": "have in non-governmental",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_1",
@@ -1522,13 +1676,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Government",
+    "domain": "Trust in Law Enforcement",
     "concepts": [
       "trust",
       "institutional evaluation",
       "courts",
       "police station"
-    ]
+    ],
+    "validation_phrase": "courts? trust police",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_2",
@@ -1568,7 +1725,10 @@
       "trust",
       "courts",
       "state owned enterprises"
-    ]
+    ],
+    "validation_phrase": "courts? trust state",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_3",
@@ -1608,7 +1768,10 @@
       "trust",
       "courts",
       "private enterprises"
-    ]
+    ],
+    "validation_phrase": "courts? trust private",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_4",
@@ -1648,7 +1811,10 @@
       "trust",
       "courts",
       "foreign enterprises"
-    ]
+    ],
+    "validation_phrase": "courts? trust foreign",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_5",
@@ -1688,7 +1854,10 @@
       "trust",
       "courts",
       "national institutions"
-    ]
+    ],
+    "validation_phrase": "courts? trust our",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_6",
@@ -1719,7 +1888,10 @@
     "concepts": [
       "trust",
       "radio"
-    ]
+    ],
+    "validation_phrase": "much trust in",
+    "validation_phrase_occurrences": 4,
+    "validation_phrase_score": 12.5
   },
   {
     "variable_id": "q018_7",
@@ -1746,12 +1918,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Representatives",
+    "domain": "Trust in Government",
     "concepts": [
       "trust",
-      "radio",
-      "local mp"
-    ]
+      "local government",
+      "representatives"
+    ],
+    "validation_phrase": "in radio? local",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_8",
@@ -1778,12 +1953,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Judiciary",
     "concepts": [
       "trust",
-      "radio",
-      "constitution court"
-    ]
+      "constitution court",
+      "judicial system"
+    ],
+    "validation_phrase": "radio? the constitution",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q018_9",
@@ -1810,12 +1988,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "domain": "Trust in Anti-Corruption Agencies",
     "concepts": [
       "trust",
-      "radio",
-      "corruption commission"
-    ]
+      "corruption commission",
+      "accountability"
+    ],
+    "validation_phrase": "radio? the corruption",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q022",
@@ -1857,8 +2038,12 @@
     "domain": "Civic Engagement",
     "concepts": [
       "participation",
-      "frequency"
-    ]
+      "frequency",
+      "civic activities"
+    ],
+    "validation_phrase": "how frequently do",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q023",
@@ -1900,9 +2085,12 @@
     "domain": "Political Engagement",
     "concepts": [
       "participation",
-      "discussion",
-      "politics"
-    ]
+      "frequency",
+      "political discussion"
+    ],
+    "validation_phrase": "you participate? how",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q024",
@@ -1934,7 +2122,10 @@
       "trust",
       "social relationships",
       "generalized trust"
-    ]
+    ],
+    "validation_phrase": "most people can",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q025",
@@ -1969,8 +2160,11 @@
     "concepts": [
       "social connections",
       "friendship",
-      "support network"
-    ]
+      "perceived support"
+    ],
+    "validation_phrase": "i have enough",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q026",
@@ -2005,8 +2199,11 @@
     "concepts": [
       "social influence",
       "social connections",
-      "social support"
-    ]
+      "perceived security"
+    ],
+    "validation_phrase": "need it i",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q027",
@@ -2038,7 +2235,10 @@
       "voting behavior",
       "election participation",
       "civic engagement"
-    ]
+    ],
+    "validation_phrase": "have you participated",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q028",
@@ -2189,12 +2389,15 @@
         "label": "Chat Pattana"
       }
     ],
-    "domain": "Political Affiliation",
+    "domain": "Electoral Participation",
     "concepts": [
       "party affiliation",
       "voting choice",
       "political preference"
-    ]
+    ],
+    "validation_phrase": "which party did",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q029",
@@ -2226,7 +2429,10 @@
       "campaign participation",
       "political engagement",
       "rally attendance"
-    ]
+    ],
+    "validation_phrase": "did you attend",
+    "validation_phrase_occurrences": 27,
+    "validation_phrase_score": 0.7127781101106491
   },
   {
     "variable_id": "q030",
@@ -2255,10 +2461,13 @@
     ],
     "domain": "Campaign Engagement",
     "concepts": [
-      "campaign participation",
-      "political engagement",
-      "persuasion"
-    ]
+      "political persuasion",
+      "social influence",
+      "campaign support"
+    ],
+    "validation_phrase": "did you try",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q031",
@@ -2287,10 +2496,13 @@
     ],
     "domain": "Campaign Engagement",
     "concepts": [
-      "campaign participation",
-      "political engagement",
-      "support"
-    ]
+      "campaign support",
+      "volunteering",
+      "political activism"
+    ],
+    "validation_phrase": "you do anything",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q032",
@@ -2322,7 +2534,10 @@
       "family influence",
       "voting behavior",
       "social pressure"
-    ]
+    ],
+    "validation_phrase": "a particular candidate?_family",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q033",
@@ -2352,9 +2567,12 @@
     "domain": "Social Influence",
     "concepts": [
       "social influence",
-      "voting behavior",
-      "clan or family ties"
-    ]
+      "clan influence",
+      "extended family influence"
+    ],
+    "validation_phrase": "rally? asked following",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q034",
@@ -2387,7 +2605,10 @@
       "rally attendance",
       "voting influence",
       "social network"
-    ]
+    ],
+    "validation_phrase": "a particular candidate?_neighbor/friend",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q035",
@@ -2420,7 +2641,10 @@
       "rally attendance",
       "voting influence",
       "community leadership"
-    ]
+    ],
+    "validation_phrase": "a particular candidate?_community",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q036",
@@ -2453,7 +2677,10 @@
       "rally attendance",
       "voting influence",
       "workplace authority"
-    ]
+    ],
+    "validation_phrase": "a particular candidate?_superior",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q037",
@@ -2485,8 +2712,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "organizational ownership"
-    ]
+      "organizational authority"
+    ],
+    "validation_phrase": "a particular candidate?_owners",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q038",
@@ -2519,7 +2749,10 @@
       "rally attendance",
       "voting influence",
       "organizational affiliation"
-    ]
+    ],
+    "validation_phrase": "for a particularcandidate?_member/official",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q039",
@@ -2551,8 +2784,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "personal government connection"
-    ]
+      "personal connection to government"
+    ],
+    "validation_phrase": "candidate?_government official whom you know",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q040",
@@ -2584,8 +2820,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "impersonal government connection"
-    ]
+      "government official"
+    ],
+    "validation_phrase": "candidate?_government official whom you don't",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q041",
@@ -2617,8 +2856,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "personal party connection"
-    ]
+      "personal connection to candidate"
+    ],
+    "validation_phrase": "candidate?_candidate/party activist whom you know",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q042",
@@ -2650,8 +2892,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "impersonal party connection"
-    ]
+      "candidate or party activist"
+    ],
+    "validation_phrase": "whom you dont",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q043",
@@ -2683,8 +2928,11 @@
       "campaign meeting",
       "rally attendance",
       "voting influence",
-      "other social connections"
-    ]
+      "other sources of influence"
+    ],
+    "validation_phrase": "a particular candidate?_others",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q044",
@@ -2714,9 +2962,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "family member"
-    ]
+      "attendance",
+      "family influence"
+    ],
+    "validation_phrase": "or rally? influential_family",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q045",
@@ -2746,9 +2997,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "seniors in a clan or extended family"
-    ]
+      "attendance",
+      "clan influence"
+    ],
+    "validation_phrase": "or rally? influential_seniors",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q046",
@@ -2778,9 +3032,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "neighbor or friend"
-    ]
+      "attendance",
+      "social influence"
+    ],
+    "validation_phrase": "or rally? influential_neighbor/friend",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q047",
@@ -2810,9 +3067,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "community leaders"
-    ]
+      "attendance",
+      "community leadership influence"
+    ],
+    "validation_phrase": "or rally? influential_community",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q048",
@@ -2842,9 +3102,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "superior at work or school"
-    ]
+      "attendance",
+      "workplace influence"
+    ],
+    "validation_phrase": "or rally? influential_superior",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q049",
@@ -2874,9 +3137,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "owners of the firm or unit"
-    ]
+      "attendance",
+      "organizational influence"
+    ],
+    "validation_phrase": "or rally? influential_owners",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q050",
@@ -2906,9 +3172,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "member or official of organization"
-    ]
+      "attendance",
+      "organizational affiliation influence"
+    ],
+    "validation_phrase": "or rally? influential_member/official",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q051",
@@ -2938,9 +3207,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "government official known personally"
-    ]
+      "attendance",
+      "personal government connection influence"
+    ],
+    "validation_phrase": "influential_government official whom you know",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q052",
@@ -2970,9 +3242,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "government official not known personally"
-    ]
+      "attendance",
+      "government official influence"
+    ],
+    "validation_phrase": "influential_government official whom you don't",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q053",
@@ -3002,9 +3277,12 @@
     "domain": "Political Participation",
     "concepts": [
       "campaign meeting",
-      "influence",
-      "candidate or party activist known personally"
-    ]
+      "attendance",
+      "personal candidate influence"
+    ],
+    "validation_phrase": "influential_candidate/party activist whom you know",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 90.0
   },
   {
     "variable_id": "q054",
@@ -3031,12 +3309,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Political Engagement",
+    "domain": "Political Participation",
     "concepts": [
-      "campaign participation",
-      "influential figures",
-      "political activism"
-    ]
+      "campaign meeting",
+      "rally attendance",
+      "influential figures"
+    ],
+    "validation_phrase": "activist whom you don't",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q055",
@@ -3063,12 +3344,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Political Engagement",
+    "domain": "Political Participation",
     "concepts": [
-      "campaign participation",
-      "influential figures",
-      "political activism"
-    ]
+      "campaign meeting",
+      "rally attendance",
+      "social influence"
+    ],
+    "validation_phrase": "or rally? influential_others",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q056",
@@ -3104,7 +3388,10 @@
       "political interest",
       "self-assessment",
       "engagement level"
-    ]
+    ],
+    "validation_phrase": "how interested would",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q057",
@@ -3139,12 +3426,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "News Consumption",
+    "domain": "Political Information Seeking",
     "concepts": [
-      "news following",
+      "news consumption",
       "politics",
       "frequency"
-    ]
+    ],
+    "validation_phrase": "do you follow",
+    "validation_phrase_occurrences": 5,
+    "validation_phrase_score": 8.94427190999916
   },
   {
     "variable_id": "q057a",
@@ -3179,13 +3469,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "News Consumption",
+    "domain": "Political Information Seeking",
     "concepts": [
-      "news following",
+      "news consumption",
       "politics",
-      "frequency",
-      "media channels"
-    ]
+      "media channels",
+      "frequency"
+    ],
+    "validation_phrase": "the daily newspaper,",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q058",
@@ -3220,13 +3513,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "News Consumption",
+    "domain": "Political Information Seeking",
     "concepts": [
-      "news following",
+      "news consumption",
       "politics",
-      "frequency",
-      "newspaper"
-    ]
+      "newspaper",
+      "frequency"
+    ],
+    "validation_phrase": "the daily newspaper?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q059",
@@ -3261,13 +3557,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "News Consumption",
+    "domain": "Political Information Seeking",
     "concepts": [
-      "news following",
+      "news consumption",
       "politics",
-      "frequency",
-      "television"
-    ]
+      "television",
+      "frequency"
+    ],
+    "validation_phrase": "politics on television?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q060",
@@ -3302,13 +3601,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "News Consumption",
+    "domain": "Political Information Seeking",
     "concepts": [
-      "news following",
+      "news consumption",
       "politics",
-      "frequency",
-      "radio"
-    ]
+      "radio",
+      "frequency"
+    ],
+    "validation_phrase": "politics on the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q061",
@@ -3346,9 +3648,12 @@
     "domain": "Government Impact",
     "concepts": [
       "government policies",
-      "daily life impact",
-      "perceived influence"
-    ]
+      "personal impact",
+      "daily life"
+    ],
+    "validation_phrase": "how much impact",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q062",
@@ -3651,8 +3956,11 @@
     "concepts": [
       "party identification",
       "closest party",
-      "political allegiance"
-    ]
+      "political affiliation"
+    ],
+    "validation_phrase": "party feel closest",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q063",
@@ -3687,12 +3995,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Closeness",
+    "domain": "Social Relationships",
     "concepts": [
-      "interpersonal relationship",
       "closeness",
-      "social bond"
-    ]
+      "interpersonal connection",
+      "relationship quality"
+    ],
+    "validation_phrase": "closeness",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "q064",
@@ -3723,12 +4034,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Family Obligation",
+    "domain": "Family Obligations",
     "concepts": [
       "filial piety",
-      "obedience",
-      "parental authority"
-    ]
+      "parental authority",
+      "unreasonable demands"
+    ],
+    "validation_phrase": "even if parents'",
+    "validation_phrase_occurrences": 9,
+    "validation_phrase_score": 3.7037037037037037
   },
   {
     "variable_id": "q065",
@@ -3759,12 +4073,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Network",
+    "domain": "Social Norms",
     "concepts": [
       "nepotism",
       "favoritism",
-      "social connection"
-    ]
+      "meritocracy"
+    ],
+    "validation_phrase": "ask? when hiring",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q066",
@@ -3798,9 +4115,12 @@
     "domain": "Conflict Resolution",
     "concepts": [
       "accommodation",
-      "conflict",
+      "conflict avoidance",
       "neighborly relations"
-    ]
+    ],
+    "validation_phrase": "ask? when one",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q067",
@@ -3835,8 +4155,11 @@
     "concepts": [
       "fate",
       "destiny",
-      "wealth distribution"
-    ]
+      "socioeconomic outcomes"
+    ],
+    "validation_phrase": "they ask? wealth",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q068",
@@ -3867,12 +4190,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Group Conformity",
+    "domain": "Workplace Dynamics",
     "concepts": [
       "conformity",
-      "opinion",
-      "workplace harmony"
-    ]
+      "group consensus",
+      "opinion suppression"
+    ],
+    "validation_phrase": "ask? a person",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q069",
@@ -3903,12 +4229,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Family Priority",
+    "domain": "Family Values",
     "concepts": [
-      "family",
-      "personal interest",
-      "sacrifice"
-    ]
+      "self-sacrifice",
+      "family loyalty",
+      "personal interests"
+    ],
+    "validation_phrase": "they ask? for",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q070",
@@ -3939,12 +4268,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Gender Role",
+    "domain": "Gender Roles",
     "concepts": [
-      "gender hierarchy",
-      "workplace dynamics",
-      "male ego"
-    ]
+      "masculinity",
+      "femininity",
+      "workplace hierarchy"
+    ],
+    "validation_phrase": "ask? a man",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q071",
@@ -3977,10 +4309,13 @@
     ],
     "domain": "Dispute Resolution",
     "concepts": [
-      "conflict resolution",
       "elderly authority",
-      "social harmony"
-    ]
+      "conflict mediation",
+      "respect for elders"
+    ],
+    "validation_phrase": "they ask? if",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q072",
@@ -4013,11 +4348,13 @@
     ],
     "domain": "Family Dynamics",
     "concepts": [
-      "family conflict",
-      "mother-in-law",
-      "daughter-in-law",
-      "husband's role"
-    ]
+      "marital relationships",
+      "in-law relationships",
+      "conflict resolution"
+    ],
+    "validation_phrase": "ask? when a",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q073",
@@ -4048,12 +4385,15 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
       "citizen participation"
-    ]
+    ],
+    "validation_phrase": "contacted any government",
+    "validation_phrase_occurrences": 8,
+    "validation_phrase_score": 4.419417382415921
   },
   {
     "variable_id": "q074",
@@ -4084,13 +4424,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
       "hierarchical level",
-      "official contact"
-    ]
+      "officials"
+    ],
+    "validation_phrase": "opinions? contacted officials",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q075",
@@ -4121,13 +4464,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
       "elected representatives",
-      "legislative contact"
-    ]
+      "legislative level"
+    ],
+    "validation_phrase": "opinions? contacted elected",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q076",
@@ -4158,13 +4504,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
       "political parties",
-      "organizational contact"
-    ]
+      "organizations"
+    ],
+    "validation_phrase": "opinions? contacted political",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q077",
@@ -4195,13 +4544,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
       "non-government organizations",
-      "civil society contact"
-    ]
+      "civil society"
+    ],
+    "validation_phrase": "opinions? contacted non-government/civil",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q078",
@@ -4232,13 +4584,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
-      "media contact",
+      "media engagement",
       "public commentary"
-    ]
+    ],
+    "validation_phrase": "opinions? contacted media",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q079",
@@ -4269,13 +4624,17 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
-      "protest participation",
+      "protest",
+      "activism",
       "collective action"
-    ]
+    ],
+    "validation_phrase": "your opinions? demonstrated,",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q080",
@@ -4306,13 +4665,16 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
       "opinion expression",
-      "interpersonal contact",
-      "social networking"
-    ]
+      "social networks",
+      "interpersonal communication"
+    ],
+    "validation_phrase": "opinions? contacted other",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q081",
@@ -4339,13 +4701,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
-      "opinion expression",
       "collective action",
-      "group participation"
-    ]
+      "group participation",
+      "social support"
+    ],
+    "validation_phrase": "do this alone",
+    "validation_phrase_occurrences": 16,
+    "validation_phrase_score": 1.5625
   },
   {
     "variable_id": "q082",
@@ -4372,14 +4737,17 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "domain": "Government Engagement",
     "concepts": [
       "government interaction",
-      "opinion expression",
+      "collective action",
+      "group participation",
       "hierarchical level",
-      "official contact",
-      "collective action"
-    ]
+      "officials"
+    ],
+    "validation_phrase": "with others?_contacted officials",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q083",
@@ -4410,8 +4778,11 @@
     "concepts": [
       "government interaction",
       "collaboration",
-      "legislative representatives"
-    ]
+      "legislative contact"
+    ],
+    "validation_phrase": "with others?_contacted elected",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q084",
@@ -4442,8 +4813,11 @@
     "concepts": [
       "government interaction",
       "collaboration",
-      "political organizations"
-    ]
+      "political organization contact"
+    ],
+    "validation_phrase": "with others?_contacted political",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q085",
@@ -4474,8 +4848,11 @@
     "concepts": [
       "government interaction",
       "collaboration",
-      "civil society organizations"
-    ]
+      "non-government organization contact"
+    ],
+    "validation_phrase": "with others?_ contacted",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q086",
@@ -4506,8 +4883,11 @@
     "concepts": [
       "government interaction",
       "collaboration",
-      "media engagement"
-    ]
+      "media contact"
+    ],
+    "validation_phrase": "with others?_contacted media",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q087",
@@ -4539,7 +4919,10 @@
       "government interaction",
       "collaboration",
       "protest participation"
-    ]
+    ],
+    "validation_phrase": "or with others?_demonstration,",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q088",
@@ -4571,7 +4954,10 @@
       "government interaction",
       "collaboration",
       "social networking"
-    ]
+    ],
+    "validation_phrase": "with others?_contacted other",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q089",
@@ -4598,12 +4984,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Government Corruption",
+    "domain": "Government Interaction",
     "concepts": [
-      "bribery",
-      "government interaction",
-      "gift-giving"
-    ]
+      "gift giving",
+      "government contact",
+      "corruption"
+    ],
+    "validation_phrase": "or dinner_contacted government",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q090",
@@ -4630,13 +5019,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "Government Corruption",
+    "domain": "Government Interaction",
     "concepts": [
-      "bribery",
-      "government interaction",
+      "gift giving",
+      "government contact",
       "hierarchy",
-      "gift-giving"
-    ]
+      "corruption"
+    ],
+    "validation_phrase": "or dinner_contacted officials",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q091",
@@ -4663,13 +5055,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "Government Corruption",
+    "domain": "Government Interaction",
     "concepts": [
-      "bribery",
-      "government interaction",
-      "legislative representatives",
-      "gift-giving"
-    ]
+      "gift giving",
+      "government contact",
+      "legislative contact",
+      "corruption"
+    ],
+    "validation_phrase": "or dinner_contacted elected",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q092",
@@ -4696,13 +5091,16 @@
         "label": "No answer"
       }
     ],
-    "domain": "Government Corruption",
+    "domain": "Government Interaction",
     "concepts": [
-      "bribery",
-      "government interaction",
-      "political organizations",
-      "gift-giving"
-    ]
+      "gift giving",
+      "government contact",
+      "political organization contact",
+      "corruption"
+    ],
+    "validation_phrase": "or dinner_contacted political",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q093",
@@ -4734,7 +5132,10 @@
       "collective action",
       "government interaction",
       "gift or dinner"
-    ]
+    ],
+    "validation_phrase": "or dinner_contacted non-goverment/civil",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q094",
@@ -4765,8 +5166,11 @@
     "concepts": [
       "collective action",
       "government interaction",
-      "media contact"
-    ]
+      "media engagement"
+    ],
+    "validation_phrase": "or dinner_contacted media",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q095",
@@ -4798,7 +5202,10 @@
       "collective action",
       "government interaction",
       "protest participation"
-    ]
+    ],
+    "validation_phrase": "gift or dinner_demonstration,",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q096",
@@ -4830,7 +5237,10 @@
       "collective action",
       "government interaction",
       "social networking"
-    ]
+    ],
+    "validation_phrase": "or dinner_contacted other",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q097_1",
@@ -5757,8 +6167,11 @@
     "concepts": [
       "democracy definition",
       "personal interpretation",
-      "priority"
-    ]
+      "first priority"
+    ],
+    "validation_phrase": "of democracy first",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q097_2",
@@ -6685,8 +7098,11 @@
     "concepts": [
       "democracy definition",
       "personal interpretation",
-      "priority"
-    ]
+      "second priority"
+    ],
+    "validation_phrase": "of democracy second",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q097_3",
@@ -7617,8 +8033,11 @@
     "concepts": [
       "democracy definition",
       "personal interpretation",
-      "priority"
-    ]
+      "third priority"
+    ],
+    "validation_phrase": "of democracy third",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q098",
@@ -7652,9 +8071,12 @@
     "domain": "Democracy Satisfaction",
     "concepts": [
       "democracy evaluation",
-      "satisfaction level",
-      "current assessment"
-    ]
+      "current satisfaction",
+      "national level"
+    ],
+    "validation_phrase": "satisfaction with the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q099",
@@ -7681,12 +8103,15 @@
         "label": "NO ANSWER"
       }
     ],
-    "domain": "Regime Evaluation",
+    "domain": "Democracy Evaluation",
     "concepts": [
-      "regime assessment",
+      "democracy rating",
       "historical comparison",
-      "authoritarian rule"
-    ]
+      "authoritarian period"
+    ],
+    "validation_phrase": "where would you",
+    "validation_phrase_occurrences": 4,
+    "validation_phrase_score": 12.5
   },
   {
     "variable_id": "q100",
@@ -7713,12 +8138,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Regime Evaluation",
+    "domain": "Democracy Evaluation",
     "concepts": [
-      "regime assessment",
-      "historical comparison",
-      "current evaluation"
-    ]
+      "democracy rating",
+      "temporal comparison",
+      "government transition"
+    ],
+    "validation_phrase": "rule]? where would",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q101",
@@ -7751,7 +8179,10 @@
       "government evaluation",
       "temporal comparison",
       "desire for democracy"
-    ]
+    ],
+    "validation_phrase": "authoritarian rule]? to",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q102",
@@ -7784,7 +8215,10 @@
       "government evaluation",
       "temporal comparison",
       "future expectations"
-    ]
+    ],
+    "validation_phrase": "rule]? where do",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q103",
@@ -7809,10 +8243,13 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
-      "democratic values",
-      "national suitability",
+      "democratic suitability",
+      "national level",
       "government evaluation"
-    ]
+    ],
+    "validation_phrase": "you think democracy",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q104",
@@ -7849,10 +8286,13 @@
     ],
     "domain": "Trust in Government",
     "concepts": [
-      "government evaluation",
-      "satisfaction level",
-      "current assessment"
-    ]
+      "government satisfaction",
+      "current evaluation",
+      "national level"
+    ],
+    "validation_phrase": "how satisfied or",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q105",
@@ -7895,8 +8335,11 @@
     "concepts": [
       "freedom of speech",
       "temporal comparison",
-      "personal freedom"
-    ]
+      "current evaluation"
+    ],
+    "validation_phrase": "everyone is free",
+    "validation_phrase_occurrences": 9,
+    "validation_phrase_score": 3.7037037037037037
   },
   {
     "variable_id": "q106",
@@ -7938,10 +8381,13 @@
     "domain": "Service Accessibility",
     "concepts": [
       "freedom of speech",
-      "equal treatment",
+      "equality of treatment",
       "temporal comparison",
-      "government fairness"
-    ]
+      "government evaluation"
+    ],
+    "validation_phrase": "than before? everyone",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q107",
@@ -7985,8 +8431,11 @@
       "freedom of speech",
       "influence on government",
       "temporal comparison",
-      "citizen participation"
-    ]
+      "citizen empowerment"
+    ],
+    "validation_phrase": "than before? people",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q108",
@@ -8030,8 +8479,11 @@
       "freedom of speech",
       "corruption control",
       "temporal comparison",
-      "government accountability"
-    ]
+      "government evaluation"
+    ],
+    "validation_phrase": "than before? corruption",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q109",
@@ -8075,8 +8527,11 @@
       "freedom of speech",
       "income inequality",
       "temporal comparison",
-      "economic gap"
-    ]
+      "economic evaluation"
+    ],
+    "validation_phrase": "than before? the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q110",
@@ -8121,7 +8576,10 @@
       "crime prevention",
       "temporal comparison",
       "public safety"
-    ]
+    ],
+    "validation_phrase": "than before? preventing",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q111",
@@ -8165,7 +8623,10 @@
       "freedom of speech",
       "economic development",
       "temporal comparison"
-    ]
+    ],
+    "validation_phrase": "than before? economic",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q112",
@@ -8210,7 +8671,10 @@
       "freedom of speech",
       "political interference",
       "temporal comparison"
-    ]
+    ],
+    "validation_phrase": "than before? judges",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q113",
@@ -8254,7 +8718,10 @@
       "freedom of association",
       "freedom of speech",
       "temporal comparison"
-    ]
+    ],
+    "validation_phrase": "than before? you",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q114",
@@ -8290,7 +8757,10 @@
       "corruption",
       "local government",
       "prevalence"
-    ]
+    ],
+    "validation_phrase": "how widespread corruption",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q115",
@@ -8328,7 +8798,10 @@
       "national government",
       "prevalence",
       "comparison"
-    ]
+    ],
+    "validation_phrase": "local/municipal government? how",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q116",
@@ -8360,7 +8833,10 @@
       "corruption",
       "personal experience",
       "social network"
-    ]
+    ],
+    "validation_phrase": "personally witnessed an",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q116e",
@@ -8396,7 +8872,10 @@
       "personal experience",
       "social network",
       "event witnessing"
-    ]
+    ],
+    "validation_phrase": "personally witnessed ?",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q117",
@@ -8427,7 +8906,10 @@
     "concepts": [
       "personal opinion",
       "value orientation"
-    ]
+    ],
+    "validation_phrase": "which comes closest",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q118",
@@ -8455,7 +8937,10 @@
       "personal view",
       "value orientation",
       "comparison"
-    ]
+    ],
+    "validation_phrase": "which comes closer",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q119",
@@ -8496,7 +8981,10 @@
       "economic development",
       "trade-off",
       "preference"
-    ]
+    ],
+    "validation_phrase": "choose between democracy",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q120",
@@ -8525,10 +9013,13 @@
     ],
     "domain": "Political Preference",
     "concepts": [
-      "leadership style",
-      "governance",
-      "personal view"
-    ]
+      "political view",
+      "evaluation",
+      "leadership style"
+    ],
+    "validation_phrase": "which comes closer",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q121",
@@ -8562,9 +9053,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "authoritarianism",
-      "democratic values",
-      "leadership"
-    ]
+      "leadership style",
+      "democratic values"
+    ],
+    "validation_phrase": "we should get",
+    "validation_phrase_occurrences": 5,
+    "validation_phrase_score": 8.94427190999916
   },
   {
     "variable_id": "q122",
@@ -8598,9 +9092,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "authoritarianism",
-      "opposition",
-      "power competition"
-    ]
+      "opposition suppression",
+      "democratic values"
+    ],
+    "validation_phrase": "decide things no",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q123",
@@ -8634,9 +9131,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "militarism",
-      "governance",
-      "authoritarianism"
-    ]
+      "authoritarianism",
+      "governance style"
+    ],
+    "validation_phrase": "decide things the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q124",
@@ -8670,9 +9170,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "technocracy",
-      "expertise",
-      "decision-making"
-    ]
+      "authoritarianism",
+      "decision-making process"
+    ],
+    "validation_phrase": "decide things we",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q125",
@@ -8706,9 +9209,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "rule of law",
-      "crisis management",
-      "authoritarianism"
-    ]
+      "authoritarianism",
+      "crisis management"
+    ],
+    "validation_phrase": "decide things it",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q126",
@@ -8741,10 +9247,13 @@
     ],
     "domain": "Political Efficacy",
     "concepts": [
-      "participation",
-      "political engagement",
-      "personal ability"
-    ]
+      "political participation",
+      "personal ability",
+      "empowerment"
+    ],
+    "validation_phrase": "i have the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q127",
@@ -8779,8 +9288,11 @@
     "concepts": [
       "political complexity",
       "personal understanding",
-      "powerlessness"
-    ]
+      "disempowerment"
+    ],
+    "validation_phrase": "and government seems",
+    "validation_phrase_occurrences": 5,
+    "validation_phrase_score": 8.94427190999916
   },
   {
     "variable_id": "q128",
@@ -8813,10 +9325,13 @@
     ],
     "domain": "Political Efficacy",
     "concepts": [
-      "power distribution",
-      "elitism",
-      "political disenfranchisement"
-    ]
+      "power dynamics",
+      "political complexity",
+      "disempowerment"
+    ],
+    "validation_phrase": "going on the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q129",
@@ -8850,9 +9365,12 @@
     "domain": "Political Efficacy",
     "concepts": [
       "influence",
-      "political power",
-      "personal effectiveness"
-    ]
+      "political participation",
+      "disempowerment"
+    ],
+    "validation_phrase": "going on people",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q130",
@@ -8887,8 +9405,11 @@
     "concepts": [
       "government complexity",
       "evaluation",
-      "democratic system"
-    ]
+      "system effectiveness"
+    ],
+    "validation_phrase": "going on our",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q131",
@@ -8923,8 +9444,11 @@
     "concepts": [
       "government complexity",
       "trust",
-      "government officials"
-    ]
+      "government integrity"
+    ],
+    "validation_phrase": "going on you",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q132",
@@ -8955,12 +9479,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Political Equality",
+    "domain": "Political Participation",
     "concepts": [
       "education level",
-      "political participation",
-      "equality"
-    ]
+      "political equality",
+      "participation rights"
+    ],
+    "validation_phrase": "people with little",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q133",
@@ -8991,12 +9518,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Authoritarianism",
+    "domain": "Authority and Obedience",
     "concepts": [
-      "government leadership",
+      "government authority",
       "obedience",
-      "decision-making"
-    ]
+      "leadership role"
+    ],
+    "validation_phrase": "government leaders are",
+    "validation_phrase_occurrences": 9,
+    "validation_phrase_score": 3.7037037037037037
   },
   {
     "variable_id": "q134",
@@ -9032,7 +9562,10 @@
       "government control",
       "idea discussion",
       "censorship"
-    ]
+    ],
+    "validation_phrase": "government should decide",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q135",
@@ -9068,7 +9601,10 @@
       "community harmony",
       "group organization",
       "social stability"
-    ]
+    ],
+    "validation_phrase": "their decisions harmony",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q136",
@@ -9103,8 +9639,11 @@
     "concepts": [
       "judicial independence",
       "executive influence",
-      "decision-making"
-    ]
+      "branch interaction"
+    ],
+    "validation_phrase": "their decisions when",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q137",
@@ -9138,9 +9677,12 @@
     "domain": "Government Effectiveness",
     "concepts": [
       "legislative oversight",
-      "government efficiency",
-      "accomplishment"
-    ]
+      "government capability",
+      "leadership effectiveness"
+    ],
+    "validation_phrase": "decisions if the",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q138",
@@ -9174,9 +9716,12 @@
     "domain": "Moral Leadership",
     "concepts": [
       "moral authority",
-      "leadership",
-      "decision-making"
-    ]
+      "leadership decision-making",
+      "trust in leaders"
+    ],
+    "validation_phrase": "decisions if we",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q139",
@@ -9211,8 +9756,11 @@
     "concepts": [
       "diversity of thought",
       "social order",
-      "chaos"
-    ]
+      "chaos perception"
+    ],
+    "validation_phrase": "decisions if people",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q140",
@@ -9246,9 +9794,12 @@
     "domain": "Trust in Government",
     "concepts": [
       "government authority",
-      "state ownership",
-      "decision-making"
-    ]
+      "decision-making",
+      "state ownership"
+    ],
+    "validation_phrase": "government should maintain",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q141",
@@ -9284,7 +9835,10 @@
       "government authority",
       "centralization",
       "decision-making"
-    ]
+    ],
+    "validation_phrase": "decisions the national",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q142",
@@ -9320,7 +9874,10 @@
       "nationalism",
       "cultural preservation",
       "globalization"
-    ]
+    ],
+    "validation_phrase": "our country should",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q143",
@@ -9351,12 +9908,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Responsibility",
+    "domain": "Social Cohesion",
     "concepts": [
+      "collectivism",
       "individual sacrifice",
-      "national interest",
-      "community welfare"
-    ]
+      "national interest"
+    ],
+    "validation_phrase": "of the national",
+    "validation_phrase_occurrences": 4,
+    "validation_phrase_score": 12.5
   },
   {
     "variable_id": "q144",
@@ -9387,12 +9947,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Responsibility",
+    "domain": "Social Cohesion",
     "concepts": [
+      "collectivism",
       "individual sacrifice",
-      "state control",
-      "personal autonomy"
-    ]
+      "state control"
+    ],
+    "validation_phrase": "interest the state",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q145",
@@ -9423,12 +9986,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership and Governance",
+    "domain": "Political Leadership",
     "concepts": [
       "leadership style",
-      "goal achievement",
-      "procedural adherence"
-    ]
+      "goal accomplishment",
+      "rule of law"
+    ],
+    "validation_phrase": "interest the most",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q146",
@@ -9459,12 +10025,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership and Governance",
+    "domain": "Political Leadership",
     "concepts": [
       "leadership style",
       "conviction",
       "compromise"
-    ]
+    ],
+    "validation_phrase": "personal interest if",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q147",
@@ -9495,12 +10064,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Tolerance and Openness",
+    "domain": "Political Tolerance",
     "concepts": [
       "tolerance",
-      "dissenting views",
+      "political dissent",
       "leadership"
-    ]
+    ],
+    "validation_phrase": "leader should tolerate",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "q147a",
@@ -9531,12 +10103,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Tolerance and Openness",
+    "domain": "Political Tolerance",
     "concepts": [
       "intolerance",
-      "dissenting views",
+      "political dissent",
       "leadership"
-    ]
+    ],
+    "validation_phrase": "leader should not",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 35.35533905932737
   },
   {
     "variable_id": "q148",
@@ -9567,12 +10142,15 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership and Governance",
+    "domain": "Political Leadership",
     "concepts": [
-      "majority support",
       "leadership style",
-      "agenda implementation"
-    ]
+      "majority support",
+      "authoritarianism"
+    ],
+    "validation_phrase": "political ideals as",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "relig1",
@@ -9634,9 +10212,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "religion",
-      "affiliation",
-      "personal belief"
-    ]
+      "personal belief",
+      "affiliation"
+    ],
+    "validation_phrase": "religion",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se002",
@@ -9658,9 +10239,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "gender",
-      "identity",
-      "biological sex"
-    ]
+      "personal characteristic",
+      "identity"
+    ],
+    "validation_phrase": "gender",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se003",
@@ -9722,9 +10306,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "age",
-      "grouping",
-      "life stage"
-    ]
+      "age group",
+      "demographic classification"
+    ],
+    "validation_phrase": "age group",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se003a",
@@ -10038,9 +10625,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "age",
-      "measurement",
+      "actual age",
       "numerical value"
-    ]
+    ],
+    "validation_phrase": "actual age",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se004",
@@ -10082,9 +10672,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "marital status",
-      "relationship",
-      "partnership"
-    ]
+      "relationship status",
+      "personal situation"
+    ],
+    "validation_phrase": "marital status",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 28.2842712474619
   },
   {
     "variable_id": "se004a",
@@ -10111,8 +10704,11 @@
     "concepts": [
       "marital status",
       "binary classification",
-      "yes/no"
-    ]
+      "yes/no response"
+    ],
+    "validation_phrase": "marital status(y/n)",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se005",
@@ -10170,9 +10766,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "education",
-      "attainment",
-      "qualification"
-    ]
+      "educational attainment",
+      "personal achievement"
+    ],
+    "validation_phrase": "education",
+    "validation_phrase_occurrences": 4,
+    "validation_phrase_score": 10.0
   },
   {
     "variable_id": "se005a",
@@ -10306,9 +10905,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "education",
-      "duration",
-      "time period"
-    ]
+      "educational attainment",
+      "year of completion"
+    ],
+    "validation_phrase": "education by year",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "se005b",
@@ -10342,9 +10944,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "education",
-      "categorization",
-      "level of attainment"
-    ]
+      "educational attainment",
+      "categorical classification"
+    ],
+    "validation_phrase": "education(four categories)",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se006",
@@ -10406,9 +11011,12 @@
     "domain": "Demographic Characteristics",
     "concepts": [
       "religion",
-      "affiliation",
-      "personal belief"
-    ]
+      "personal belief",
+      "affiliation"
+    ],
+    "validation_phrase": "religion",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se007",
@@ -10468,7 +11076,10 @@
       "religiosity",
       "personal belief",
       "spirituality"
-    ]
+    ],
+    "validation_phrase": "relgiosity",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se008a",
@@ -10584,7 +11195,10 @@
       "household size",
       "family composition",
       "demographic characteristics"
-    ]
+    ],
+    "validation_phrase": "n of household",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "se008b",
@@ -10619,8 +11233,11 @@
     "concepts": [
       "household structure",
       "family relationships",
-      "generational distribution"
-    ]
+      "intergenerational dynamics"
+    ],
+    "validation_phrase": "household generations",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se009",
@@ -10662,9 +11279,12 @@
     "domain": "Economic Perception",
     "concepts": [
       "annual income",
-      "national quintiles",
-      "economic status"
-    ]
+      "socioeconomic status",
+      "national comparison"
+    ],
+    "validation_phrase": "annual income: national",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "se012a",
@@ -10725,10 +11345,13 @@
     ],
     "domain": "Employment",
     "concepts": [
-      "main occupation",
+      "occupation",
       "job type",
-      "employment status"
-    ]
+      "professional activity"
+    ],
+    "validation_phrase": "main occupation",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 28.2842712474619
   },
   {
     "variable_id": "se012bcn",
@@ -10751,8 +11374,11 @@
     "concepts": [
       "occupation",
       "job classification",
-      "career"
-    ]
+      "career path"
+    ],
+    "validation_phrase": "occupation",
+    "validation_phrase_occurrences": 8,
+    "validation_phrase_score": 10.0
   },
   {
     "variable_id": "se012bhk",
@@ -10916,7 +11542,10 @@
       "occupation",
       "job type",
       "original classification"
-    ]
+    ],
+    "validation_phrase": "occupation(original)",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se012bjp",
@@ -11065,10 +11694,13 @@
     ],
     "domain": "Employment",
     "concepts": [
-      "main occupation",
-      "original classification",
-      "job title"
-    ]
+      "occupation",
+      "main job",
+      "original classification"
+    ],
+    "validation_phrase": "main occupation(orginal)",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se012bkr",
@@ -11114,9 +11746,12 @@
     "domain": "Employment",
     "concepts": [
       "occupation",
-      "original classification",
-      "job category"
-    ]
+      "job type",
+      "original classification"
+    ],
+    "validation_phrase": "occupation(original)",
+    "validation_phrase_occurrences": 2,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se012bmo",
@@ -11177,10 +11812,13 @@
     ],
     "domain": "Employment",
     "concepts": [
-      "employment",
-      "job status",
-      "occupation"
-    ]
+      "employment status",
+      "job situation",
+      "occupational activity"
+    ],
+    "validation_phrase": "employment",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se012bph",
@@ -11655,12 +12293,11 @@
         "label": "TRANSPORT LABOURERS"
       }
     ],
-    "domain": "Demographic Information",
-    "concepts": [
-      "occupation",
-      "self-identification",
-      "professional status"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "occupation (verbatim)",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   },
   {
     "variable_id": "se012bth",
@@ -11791,12 +12428,11 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Demographic Information",
-    "concepts": [
-      "occupation",
-      "primary employment",
-      "respondent profile"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "primary occupation of",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "se012btw",
@@ -11979,12 +12615,11 @@
         "label": "No answer"
       }
     ],
-    "domain": "Employment Status",
-    "concepts": [
-      "current occupation",
-      "employment status",
-      "job identification"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "(respondent has a",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "se014",
@@ -12027,12 +12662,11 @@
         "label": "NO ANSWER"
       }
     ],
-    "domain": "Demographic Information",
-    "concepts": [
-      "language",
-      "communication",
-      "cultural identity"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "language",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se016",
@@ -12495,12 +13129,11 @@
         "label": "Other origin_ Japanese"
       }
     ],
-    "domain": "Demographic Information",
-    "concepts": [
-      "ethnicity",
-      "cultural background",
-      "social identity"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "ethnicity",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 50.0
   },
   {
     "variable_id": "se017",
@@ -12539,12 +13172,11 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Social Perception",
-    "concepts": [
-      "social status",
-      "subjective evaluation",
-      "self-perception"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "subjective social status",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 100.0
   },
   {
     "variable_id": "yrsurvey",
@@ -12563,11 +13195,10 @@
         "label": "2003"
       }
     ],
-    "domain": "Survey Metadata",
-    "concepts": [
-      "survey year",
-      "temporal context",
-      "data collection period"
-    ]
+    "concepts": [],
+    "domain": "Unknown",
+    "validation_phrase": "survey year",
+    "validation_phrase_occurrences": 1,
+    "validation_phrase_score": 80.0
   }
 ]
