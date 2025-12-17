@@ -20,7 +20,7 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
 
     print(f"Converting {len(variables)} variables to CSV...")
 
-    # Generate basic CSV with validation phrases
+    # Generate basic CSV with all information
     with open(output_csv, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
@@ -28,6 +28,10 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
             "domain", 
             "concepts", 
             "question_text",
+            "scale_type",
+            "scale_points",
+            "confidence",
+            "needs_reversal",
             "validation_phrase",
             "validation_phrase_occurrences",
             "validation_phrase_score"
@@ -35,12 +39,18 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
 
         for var in variables:
             concepts_str = ", ".join(var.get("concepts", []))
+            scale_analysis = var.get("scale_analysis", {})
+            
             writer.writerow(
                 [
                     var["variable_id"],
                     var.get("domain", "Unknown"),
                     concepts_str,
                     var["question_text"],
+                    scale_analysis.get("scale_type", ""),
+                    scale_analysis.get("scale_points", ""),
+                    scale_analysis.get("confidence", ""),
+                    scale_analysis.get("needs_reversal", ""),
                     var.get("validation_phrase", ""),
                     var.get("validation_phrase_occurrences", 0),
                     var.get("validation_phrase_score", 0.0),
@@ -49,7 +59,7 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
 
     print(f"✅ Basic CSV saved to {output_csv}")
 
-    # Generate detailed CSV with value labels and validation phrases
+    # Generate detailed CSV with value labels, validation phrases, and scale analysis
     with open(output_detailed_csv, "w", encoding="utf-8", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
@@ -58,6 +68,12 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
             "concepts", 
             "question_text", 
             "value_labels",
+            "scale_type",
+            "scale_points",
+            "confidence",
+            "needs_reversal",
+            "first_na_value",
+            "max_substantive_value",
             "validation_phrase",
             "validation_phrase_occurrences",
             "validation_phrase_score"
@@ -71,6 +87,8 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
             labels_str = "; ".join(
                 [f"{vl['value']}={vl['label']}" for vl in value_labels]
             )
+            
+            scale_analysis = var.get("scale_analysis", {})
 
             writer.writerow(
                 [
@@ -79,6 +97,12 @@ def json_to_csv(enriched_json_file: str, output_csv: str, output_detailed_csv: s
                     concepts_str,
                     var["question_text"],
                     labels_str,
+                    scale_analysis.get("scale_type", ""),
+                    scale_analysis.get("scale_points", ""),
+                    scale_analysis.get("confidence", ""),
+                    scale_analysis.get("needs_reversal", ""),
+                    scale_analysis.get("first_na_value", ""),
+                    scale_analysis.get("max_substantive_value", ""),
                     var.get("validation_phrase", ""),
                     var.get("validation_phrase_occurrences", 0),
                     var.get("validation_phrase_score", 0.0),

@@ -36,8 +36,19 @@
         "label": "Thailand"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 8,
+      "first_na_value": null,
+      "max_substantive_value": 8,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Ordinal scale with 8 ordered categories"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "country",
     "validation_phrase_occurrences": 14,
     "validation_phrase_score": 10.0
@@ -67,8 +78,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "number of formal group",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -90,8 +112,19 @@
         "label": "no registration"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": null,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "idnumber variable: level3 question: urban-rural",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -105,8 +138,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 9999,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "interviewer_s number",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 92.4
@@ -128,8 +172,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 99,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "is this the first questionnaire",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -155,8 +210,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "interviewer_s gender",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 92.4
@@ -174,8 +240,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 97,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "interviewer_s age",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 92.4
@@ -205,8 +282,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 98,
+      "max_substantive_value": 9,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "presence of others other than",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -236,8 +324,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "has the respondent ever refused",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -267,8 +366,19 @@
         "label": "No answer"
       }
     ],
-    "domain": "Unknown",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "has the respondent ever felt",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -298,6 +408,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (4 values, span 9)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "how cooperative was the respondent",
@@ -361,6 +482,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 12,
+      "first_na_value": 99,
+      "max_substantive_value": 12,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 12 distinct values"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "date of interview: month",
@@ -500,6 +632,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 31,
+      "first_na_value": 99,
+      "max_substantive_value": 31,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 31 distinct values"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "date of interview: day",
@@ -527,6 +670,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 2001,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "date of interview: year",
@@ -550,6 +704,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 99,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "interview conducted with the assisance",
@@ -609,6 +774,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "scale_10",
+      "scale_points": 11,
+      "first_na_value": 99,
+      "max_substantive_value": 11,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "10-point scale (values 1-11)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "condition of the road leading",
@@ -644,6 +820,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 99,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "how do rate the sanitary",
@@ -667,6 +854,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 99,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "tell us whetherthe interviewee's residence",
@@ -690,6 +888,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 99,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "has public water supply tell",
@@ -737,6 +946,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 8,
+      "first_na_value": 99,
+      "max_substantive_value": 8,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Ordinal scale with 8 ordered categories"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "walking distance between the nearest",
@@ -768,6 +988,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "number of private group",
@@ -807,6 +1038,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "would you rate the overall",
@@ -846,6 +1088,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "would you describe the change",
@@ -885,6 +1138,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "past five years? what do",
@@ -924,6 +1188,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "as for your own family,",
@@ -963,6 +1238,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "would you compare the current",
@@ -1002,6 +1288,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "you think the economic situation",
@@ -1041,6 +1338,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "much trust do",
@@ -1080,6 +1388,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "have in the national government?",
@@ -1119,6 +1438,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Unknown",
     "concepts": [],
     "validation_phrase": "you have in political parties?",
@@ -1158,6 +1488,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1201,6 +1542,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1244,6 +1596,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1287,6 +1650,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1330,6 +1704,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1373,11 +1758,22 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Media",
     "concepts": [
       "trust",
       "evaluation",
-      "media institution"
+      "media type"
     ],
     "validation_phrase": "have in newspapers?",
     "validation_phrase_occurrences": 1,
@@ -1416,11 +1812,22 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Media",
     "concepts": [
       "trust",
       "evaluation",
-      "media institution"
+      "media type"
     ],
     "validation_phrase": "have in television?",
     "validation_phrase_occurrences": 1,
@@ -1459,6 +1866,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Electoral Process",
     "concepts": [
       "trust",
@@ -1502,7 +1920,18 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Trust in Non-Governmental Organizations",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Trust in Institutions",
     "concepts": [
       "trust",
       "evaluation",
@@ -1545,6 +1974,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Law Enforcement",
     "concepts": [
       "trust",
@@ -1588,6 +2028,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1632,6 +2083,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1676,6 +2138,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Institutions",
     "concepts": [
       "trust",
@@ -1720,7 +2193,18 @@
         "label": "No Answer"
       }
     ],
-    "domain": "National Identity and Patriotism",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "National Identity",
     "concepts": [
       "trust",
       "country"
@@ -1754,9 +2238,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Media Perception",
     "concepts": [
       "trust",
+      "media",
       "radio"
     ],
     "validation_phrase": "how much trust in radio?",
@@ -1788,9 +2284,21 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Media Perception",
     "concepts": [
       "trust",
+      "media",
       "radio",
       "local mp"
     ],
@@ -1823,9 +2331,21 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Media Perception",
     "concepts": [
       "trust",
+      "media",
       "radio",
       "constitution court"
     ],
@@ -1858,9 +2378,21 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 99,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Media Perception",
     "concepts": [
       "trust",
+      "media",
       "radio",
       "corruption commission"
     ],
@@ -1905,6 +2437,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Civic Engagement",
     "concepts": [
       "participation",
@@ -1951,11 +2494,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Civic Engagement",
     "concepts": [
       "participation",
-      "frequency",
-      "politics"
+      "politics",
+      "frequency"
     ],
     "validation_phrase": "frequently do you participate? how",
     "validation_phrase_occurrences": 1,
@@ -1986,10 +2540,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Institutions",
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 98,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "domain": "Trust in Society",
     "concepts": [
       "trust",
-      "general population"
+      "people",
+      "generalization"
     ],
     "validation_phrase": "most people can be trusted??",
     "validation_phrase_occurrences": 1,
@@ -2024,10 +2590,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Social Support",
     "concepts": [
       "social connections",
-      "help seeking"
+      "help seeking",
+      "evaluation"
     ],
     "validation_phrase": "i have enough friends and",
     "validation_phrase_occurrences": 2,
@@ -2062,11 +2640,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Social Support",
     "concepts": [
       "social influence",
       "help seeking",
-      "social connections"
+      "evaluation"
     ],
     "validation_phrase": "if i need it i",
     "validation_phrase_occurrences": 1,
@@ -2097,10 +2686,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
       "election participation",
-      "voting frequency"
+      "behavioral action"
     ],
     "validation_phrase": "have you participated in last",
     "validation_phrase_occurrences": 1,
@@ -2255,9 +2855,20 @@
         "label": "Chat Pattana"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 10,
+      "first_na_value": 301,
+      "max_substantive_value": 109,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 10 distinct values"
+    },
     "domain": "Voting Behavior",
     "concepts": [
-      "party preference",
+      "party affiliation",
       "voting choice"
     ],
     "validation_phrase": "which party did you vote",
@@ -2289,10 +2900,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
       "campaign engagement",
-      "voting behavior"
+      "behavioral action"
     ],
     "validation_phrase": "did you attend a campaign",
     "validation_phrase_occurrences": 27,
@@ -2323,11 +2945,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
-      "campaign engagement",
       "persuasion",
-      "voting behavior"
+      "behavioral action"
     ],
     "validation_phrase": "or rally? did you try",
     "validation_phrase_occurrences": 1,
@@ -2358,11 +2990,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
       "campaign engagement",
-      "support behavior",
-      "voting behavior"
+      "behavioral action"
     ],
     "validation_phrase": "rally? did you do anything",
     "validation_phrase_occurrences": 1,
@@ -2393,11 +3035,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
-      "campaign engagement",
-      "voting behavior",
-      "candidate influence"
+      "candidate endorsement",
+      "behavioral action"
     ],
     "validation_phrase": "vote for a particular candidate?_family",
     "validation_phrase_occurrences": 1,
@@ -2428,12 +3080,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Voting Behavior",
     "concepts": [
-      "campaign engagement",
-      "voting behavior",
-      "candidate influence",
-      "personal influence"
+      "candidate endorsement",
+      "behavioral action"
     ],
     "validation_phrase": "meeting or rally? asked following",
     "validation_phrase_occurrences": 1,
@@ -2464,11 +3125,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "personal relationships"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "vote for a particular candidate?_neighbor/friend",
     "validation_phrase_occurrences": 1,
@@ -2499,11 +3173,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "personal relationships"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "vote for a particular candidate?_community",
     "validation_phrase_occurrences": 1,
@@ -2534,11 +3221,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "organizational influence"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "vote for a particular candidate?_superior",
     "validation_phrase_occurrences": 1,
@@ -2569,11 +3269,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "organizational influence",
-      "power dynamics"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "vote for a particular candidate?_owners",
     "validation_phrase_occurrences": 1,
@@ -2604,11 +3317,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "organizational influence",
-      "membership"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "particularcandidate?_member/official of organization that you",
     "validation_phrase_occurrences": 1,
@@ -2639,11 +3365,25 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "personal relationships"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate",
+      "government official"
     ],
     "validation_phrase": "candidate?_government official whom you know",
     "validation_phrase_occurrences": 1,
@@ -2674,11 +3414,25 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "public figures"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate",
+      "government official"
     ],
     "validation_phrase": "candidate?_government official whom you don't",
     "validation_phrase_occurrences": 1,
@@ -2709,11 +3463,25 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "personal relationships"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate",
+      "party activist"
     ],
     "validation_phrase": "candidate?_candidate/party activist whom you know",
     "validation_phrase_occurrences": 1,
@@ -2744,11 +3512,25 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "public figures"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate",
+      "party activist"
     ],
     "validation_phrase": "candidate?_candidate/party activist whom you dont",
     "validation_phrase_occurrences": 1,
@@ -2779,11 +3561,24 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political engagement",
-      "social influence",
-      "other influences"
+      "campaign meeting",
+      "rally",
+      "election",
+      "voting",
+      "candidate"
     ],
     "validation_phrase": "vote for a particular candidate?_others",
     "validation_phrase_occurrences": 1,
@@ -2814,11 +3609,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of family member"
     ],
     "validation_phrase": "campaign meeting or rally? influential_family",
     "validation_phrase_occurrences": 1,
@@ -2849,11 +3654,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of seniors in a clan or extended family"
     ],
     "validation_phrase": "campaign meeting or rally? influential_seniors",
     "validation_phrase_occurrences": 1,
@@ -2884,11 +3699,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of neighbor or friend"
     ],
     "validation_phrase": "campaign meeting or rally? influential_neighbor/friend",
     "validation_phrase_occurrences": 1,
@@ -2919,11 +3744,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of community leaders"
     ],
     "validation_phrase": "campaign meeting or rally? influential_community",
     "validation_phrase_occurrences": 1,
@@ -2954,11 +3789,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of superior at work or school"
     ],
     "validation_phrase": "campaign meeting or rally? influential_superior",
     "validation_phrase_occurrences": 1,
@@ -2989,11 +3834,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of owner of the firm/unit that you work for"
     ],
     "validation_phrase": "campaign meeting or rally? influential_owners",
     "validation_phrase_occurrences": 1,
@@ -3024,11 +3879,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of member/official of organization that you belong to"
     ],
     "validation_phrase": "campaign meeting or rally? influential_member/official",
     "validation_phrase_occurrences": 1,
@@ -3059,11 +3924,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of government official whom you know personally"
     ],
     "validation_phrase": "influential_government official whom you know",
     "validation_phrase_occurrences": 1,
@@ -3094,11 +3969,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of government official whom you don't know"
     ],
     "validation_phrase": "influential_government official whom you don't",
     "validation_phrase_occurrences": 1,
@@ -3129,11 +4014,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Political Participation",
     "concepts": [
-      "political activity",
-      "campaign meeting",
-      "social influence"
+      "political event attendance",
+      "influence of candidate/party activist whom you know personally"
     ],
     "validation_phrase": "influential_candidate/party activist whom you know",
     "validation_phrase_occurrences": 1,
@@ -3164,11 +4059,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Political Engagement",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Political Participation",
     "concepts": [
       "political participation",
       "campaign events",
-      "candidate influence"
+      "influence"
     ],
     "validation_phrase": "influential_candidate/party activist whom you don't",
     "validation_phrase_occurrences": 1,
@@ -3199,11 +4105,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Political Engagement",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Political Participation",
     "concepts": [
       "political participation",
       "campaign events",
-      "candidate influence"
+      "influence"
     ],
     "validation_phrase": "campaign meeting or rally? influential_others",
     "validation_phrase_occurrences": 1,
@@ -3238,10 +4155,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Political Interest",
     "concepts": [
       "political interest",
-      "evaluation"
+      "evaluation",
+      "temporal comparison"
     ],
     "validation_phrase": "you are interested in politics?",
     "validation_phrase_occurrences": 1,
@@ -3280,10 +4209,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "domain": "Media Consumption",
     "concepts": [
-      "news consumption",
-      "evaluation"
+      "media consumption",
+      "news following",
+      "frequency"
     ],
     "validation_phrase": "how often do you follow",
     "validation_phrase_occurrences": 5,
@@ -3322,11 +4263,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "domain": "Media Consumption",
     "concepts": [
-      "news consumption",
-      "media channels",
-      "evaluation"
+      "media consumption",
+      "news following",
+      "frequency",
+      "media channels"
     ],
     "validation_phrase": "politics in the daily newspaper,",
     "validation_phrase_occurrences": 1,
@@ -3365,11 +4318,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "domain": "Media Consumption",
     "concepts": [
-      "news consumption",
-      "newspaper consumption",
-      "evaluation"
+      "media consumption",
+      "news following",
+      "frequency",
+      "newspaper"
     ],
     "validation_phrase": "politics in the daily newspaper?",
     "validation_phrase_occurrences": 1,
@@ -3408,11 +4373,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "domain": "Media Consumption",
     "concepts": [
-      "news consumption",
-      "television consumption",
-      "evaluation"
+      "media consumption",
+      "news following",
+      "frequency",
+      "television"
     ],
     "validation_phrase": "news about politics on television?",
     "validation_phrase_occurrences": 1,
@@ -3451,11 +4428,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "domain": "Media Consumption",
     "concepts": [
-      "news consumption",
-      "radio consumption",
-      "evaluation"
+      "media consumption",
+      "news following",
+      "frequency",
+      "radio"
     ],
     "validation_phrase": "about politics on the radio?",
     "validation_phrase_occurrences": 1,
@@ -3494,10 +4483,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 97,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Government Impact",
     "concepts": [
       "government policies",
-      "daily life impact"
+      "daily life impact",
+      "evaluation"
     ],
     "validation_phrase": "much impact do you feel",
     "validation_phrase_occurrences": 1,
@@ -3800,10 +4801,22 @@
         "label": "other"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 10,
+      "first_na_value": 201,
+      "max_substantive_value": 108,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 10 distinct values"
+    },
     "domain": "Party Affiliation",
     "concepts": [
-      "party identification",
-      "evaluation"
+      "party affiliation",
+      "evaluation",
+      "temporal comparison"
     ],
     "validation_phrase": "party feel closest",
     "validation_phrase_occurrences": 1,
@@ -3842,10 +4855,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Norms and Family Values",
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 4,
+      "first_na_value": 97,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "domain": "Social Norms and Family",
     "concepts": [
-      "closeness",
-      "family relationships"
+      "family relationships",
+      "obedience",
+      "parent-child dynamics"
     ],
     "validation_phrase": "closeness",
     "validation_phrase_occurrences": 1,
@@ -3880,10 +4905,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Norms and Family Values",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Social Norms and Family",
     "concepts": [
       "obedience",
-      "parent-child relationships"
+      "parent-child dynamics",
+      "authority"
     ],
     "validation_phrase": "even if parents' demands are",
     "validation_phrase_occurrences": 9,
@@ -3918,11 +4955,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Norms and Family Values",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Social Norms and Family",
     "concepts": [
+      "family relationships",
       "favoritism",
-      "hiring practices",
-      "family relationships"
+      "employment"
     ],
     "validation_phrase": "what they ask? when hiring",
     "validation_phrase_occurrences": 1,
@@ -3957,6 +5005,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Social Norms and Conflict Resolution",
     "concepts": [
       "conflict resolution",
@@ -3996,11 +5055,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Fatalism and Determinism",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Fate and Destiny",
     "concepts": [
       "fate",
-      "determinism",
-      "success and failure"
+      "destiny",
+      "determinism"
     ],
     "validation_phrase": "do what they ask? wealth",
     "validation_phrase_occurrences": 1,
@@ -4035,10 +5105,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Teamwork and Decision Making",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Professionalism and Teamwork",
     "concepts": [
+      "professionalism",
       "teamwork",
-      "decision making",
       "opinion leadership"
     ],
     "validation_phrase": "what they ask? a person",
@@ -4074,9 +5155,20 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Family and Personal Interests",
     "concepts": [
-      "family obligations",
+      "family relationships",
       "personal interests",
       "sacrifice"
     ],
@@ -4113,11 +5205,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Social Norms and Workplace",
     "concepts": [
       "workplace relationships",
-      "supervision",
-      "gender roles"
+      "gender roles",
+      "supervision"
     ],
     "validation_phrase": "what they ask? a man",
     "validation_phrase_occurrences": 1,
@@ -4152,10 +5255,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Social Norms and Conflict Resolution",
     "concepts": [
       "conflict resolution",
-      "elders and authority"
+      "elders",
+      "dispute resolution"
     ],
     "validation_phrase": "do what they ask? if",
     "validation_phrase_occurrences": 1,
@@ -4190,10 +5305,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Norms and Family Values",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Social Norms and Family",
     "concepts": [
       "family relationships",
-      "marital relationships",
+      "in-law relationships",
       "conflict resolution"
     ],
     "validation_phrase": "they ask? when a mother-in-law",
@@ -4229,11 +5355,21 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions"
+      "opinion expression"
     ],
     "validation_phrase": "any government official to express",
     "validation_phrase_occurrences": 8,
@@ -4268,12 +5404,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "level of government"
+      "opinion expression",
+      "hierarchical level"
     ],
     "validation_phrase": "express your opinions? contacted officials",
     "validation_phrase_occurrences": 1,
@@ -4308,12 +5454,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "legislative representatives"
+      "opinion expression",
+      "legislative representative"
     ],
     "validation_phrase": "express your opinions? contacted elected",
     "validation_phrase_occurrences": 1,
@@ -4348,12 +5504,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "political parties"
+      "opinion expression",
+      "political organization"
     ],
     "validation_phrase": "express your opinions? contacted political",
     "validation_phrase_occurrences": 1,
@@ -4388,12 +5554,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "civil society organizations"
+      "opinion expression",
+      "civil society organization"
     ],
     "validation_phrase": "express your opinions? contacted non-government/civil",
     "validation_phrase_occurrences": 1,
@@ -4428,11 +5604,21 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
+      "opinion expression",
       "media"
     ],
     "validation_phrase": "express your opinions? contacted media",
@@ -4468,12 +5654,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "protests"
+      "opinion expression",
+      "protest"
     ],
     "validation_phrase": "express your opinions? demonstrated, striken,",
     "validation_phrase_occurrences": 1,
@@ -4508,12 +5704,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 3,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (3 values, span 9)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "social interactions"
+      "opinion expression",
+      "social interaction"
     ],
     "validation_phrase": "express your opinions? contacted other",
     "validation_phrase_occurrences": 1,
@@ -4544,12 +5750,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "social interactions",
+      "opinion expression",
+      "social interaction",
       "alone or with others"
     ],
     "validation_phrase": "this alone or with others?_contacted",
@@ -4581,12 +5797,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Citizen Participation",
     "concepts": [
-      "citizen engagement",
       "government official",
-      "expressing opinions",
-      "level of government",
+      "opinion expression",
+      "hierarchical level",
       "alone or with others"
     ],
     "validation_phrase": "alone or with others?_contacted officials",
@@ -4618,12 +5844,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
       "collaboration",
-      "government official",
-      "elected legislative representatives"
+      "government official"
     ],
     "validation_phrase": "alone or with others?_contacted elected",
     "validation_phrase_occurrences": 1,
@@ -4654,12 +5890,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
       "collaboration",
-      "political parties",
-      "political organizations"
+      "political organization"
     ],
     "validation_phrase": "alone or with others?_contacted political",
     "validation_phrase_occurrences": 1,
@@ -4690,12 +5936,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
       "collaboration",
-      "non-government organizations",
-      "civil society organizations"
+      "civil society"
     ],
     "validation_phrase": "alone or with others?_ contacted",
     "validation_phrase_occurrences": 1,
@@ -4726,6 +5982,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
@@ -4761,13 +6028,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
       "collaboration",
-      "demonstration",
-      "strike",
-      "sit-in"
+      "public protest"
     ],
     "validation_phrase": "this alone or with others?_demonstration,",
     "validation_phrase_occurrences": 1,
@@ -4798,11 +6074,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
       "social interaction",
       "collaboration",
-      "other people"
+      "personal network"
     ],
     "validation_phrase": "alone or with others?_contacted other",
     "validation_phrase_occurrences": 1,
@@ -4833,10 +6120,20 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
-      "gifts",
-      "dinners",
+      "gift giving",
       "corruption",
       "government official"
     ],
@@ -4869,12 +6166,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
-      "gifts",
-      "dinners",
+      "gift giving",
       "corruption",
-      "higher level officials"
+      "official hierarchy"
     ],
     "validation_phrase": "official gift or dinner_contacted officials",
     "validation_phrase_occurrences": 1,
@@ -4905,12 +6212,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
-      "gifts",
-      "dinners",
+      "gift giving",
       "corruption",
-      "elected legislative representatives"
+      "government official"
     ],
     "validation_phrase": "official gift or dinner_contacted elected",
     "validation_phrase_occurrences": 1,
@@ -4941,13 +6258,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
-      "gifts",
-      "dinners",
+      "gift giving",
       "corruption",
-      "political parties",
-      "political organizations"
+      "political organization"
     ],
     "validation_phrase": "official gift or dinner_contacted political",
     "validation_phrase_occurrences": 1,
@@ -4978,11 +6304,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
-      "help-seeking behavior",
-      "social support",
-      "collaboration"
+      "social interaction",
+      "cooperation",
+      "government official interaction"
     ],
     "validation_phrase": "official gift or dinner_contacted non-goverment/civil",
     "validation_phrase_occurrences": 1,
@@ -5013,11 +6350,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
-      "help-seeking behavior",
-      "social support",
-      "media influence"
+      "social interaction",
+      "cooperation",
+      "media interaction"
     ],
     "validation_phrase": "official gift or dinner_contacted media",
     "validation_phrase_occurrences": 1,
@@ -5048,11 +6396,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
-      "help-seeking behavior",
-      "social support",
-      "protest behavior"
+      "social interaction",
+      "cooperation",
+      "protest interaction"
     ],
     "validation_phrase": "government official gift or dinner_demonstration,",
     "validation_phrase_occurrences": 1,
@@ -5083,11 +6442,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "domain": "Service Accessibility",
     "concepts": [
-      "help-seeking behavior",
-      "social support",
-      "social networks"
+      "social interaction",
+      "cooperation",
+      "general people interaction"
     ],
     "validation_phrase": "official gift or dinner_contacted other",
     "validation_phrase_occurrences": 1,
@@ -6014,10 +7384,22 @@
         "label": "Other associations state, politics, society"
       }
     ],
-    "domain": "Political Knowledge",
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 44,
+      "first_na_value": 95,
+      "max_substantive_value": 71,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 44 distinct values"
+    },
+    "domain": "Political Perception",
     "concepts": [
-      "democracy definition",
-      "political concept"
+      "democracy",
+      "evaluation",
+      "importance"
     ],
     "validation_phrase": "meaning of democracy first",
     "validation_phrase_occurrences": 1,
@@ -6944,10 +8326,22 @@
         "label": "Other associations state, politics, society"
       }
     ],
-    "domain": "Political Knowledge",
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 44,
+      "first_na_value": 95,
+      "max_substantive_value": 71,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 44 distinct values"
+    },
+    "domain": "Political Perception",
     "concepts": [
-      "democracy definition",
-      "political concept"
+      "democracy",
+      "evaluation",
+      "importance"
     ],
     "validation_phrase": "meaning of democracy second",
     "validation_phrase_occurrences": 1,
@@ -7878,10 +9272,22 @@
         "label": "Other associations state, politics, society"
       }
     ],
-    "domain": "Political Knowledge",
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 44,
+      "first_na_value": 95,
+      "max_substantive_value": 71,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 44 distinct values"
+    },
+    "domain": "Political Perception",
     "concepts": [
-      "democracy definition",
-      "political concept"
+      "democracy",
+      "evaluation",
+      "importance"
     ],
     "validation_phrase": "meaning of democracy third",
     "validation_phrase_occurrences": 1,
@@ -7916,9 +9322,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Economic Perception",
     "concepts": [
-      "democracy evaluation",
+      "democracy",
+      "evaluation",
       "satisfaction"
     ],
     "validation_phrase": "satisfaction with the way democracy",
@@ -7950,6 +9368,17 @@
         "label": "NO ANSWER"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (2 values, span 10)"
+    },
     "domain": "Economic Perception",
     "concepts": [
       "country evaluation",
@@ -7985,12 +9414,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (2 values, span 10)"
+    },
     "domain": "Economic Perception",
     "concepts": [
       "country evaluation",
       "temporal comparison",
       "authoritarian rule",
-      "present government"
+      "current evaluation"
     ],
     "validation_phrase": "under authoritarian rule]? where would",
     "validation_phrase_occurrences": 1,
@@ -8021,12 +9461,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (2 values, span 10)"
+    },
     "domain": "Transition to Democracy",
     "concepts": [
-      "democracy",
+      "democratic evaluation",
       "temporal comparison",
-      "evaluation",
-      "national level"
+      "authoritarian regime"
     ],
     "validation_phrase": "under authoritarian rule]? to what",
     "validation_phrase_occurrences": 1,
@@ -8057,12 +9507,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (2 values, span 10)"
+    },
     "domain": "Transition to Democracy",
     "concepts": [
-      "democracy",
+      "democratic evaluation",
       "temporal comparison",
-      "expectation",
-      "national level"
+      "future expectation"
     ],
     "validation_phrase": "under authoritarian rule]? where do",
     "validation_phrase_occurrences": 1,
@@ -8089,11 +9549,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 2,
+      "first_na_value": 98,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.5,
+      "reasoning": "Ordinal scale (2 values, span 10)"
+    },
     "domain": "Suitability of Democracy",
     "concepts": [
-      "democracy",
-      "evaluation",
-      "national level"
+      "democracy suitability",
+      "country suitability"
     ],
     "validation_phrase": "you think democracy is suitable",
     "validation_phrase_occurrences": 1,
@@ -8132,11 +9602,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+    },
     "domain": "Government Satisfaction",
     "concepts": [
-      "government",
-      "evaluation",
-      "satisfaction"
+      "government satisfaction",
+      "evaluation"
     ],
     "validation_phrase": "how satisfied or dissatisfied are",
     "validation_phrase_occurrences": 1,
@@ -8179,6 +9659,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Freedom of Speech",
     "concepts": [
       "freedom of speech",
@@ -8226,6 +9717,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Freedom and Equality",
     "concepts": [
       "freedom of speech",
@@ -8274,9 +9776,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Influence",
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "domain": "Influence and Participation",
     "concepts": [
-      "citizen influence",
+      "influence on government",
+      "participation",
       "evaluation",
       "temporal comparison"
     ],
@@ -8321,9 +9835,20 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Corruption Control",
     "concepts": [
-      "corruption",
+      "corruption control",
       "evaluation",
       "temporal comparison"
     ],
@@ -8368,6 +9893,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Income Inequality",
     "concepts": [
       "income inequality",
@@ -8415,6 +9951,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Public Safety",
     "concepts": [
       "public safety",
@@ -8462,6 +10009,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "domain": "Economic Perception",
     "concepts": [
       "economic condition",
@@ -8509,9 +10067,20 @@
         "label": "No answer"
       }
     ],
-    "domain": "Economic Perception",
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "domain": "Rule of Law and Governance",
     "concepts": [
-      "freedom of speech",
+      "judicial independence",
       "evaluation",
       "temporal comparison"
     ],
@@ -8556,7 +10125,18 @@
         "label": "No answer"
       }
     ],
-    "domain": "Economic Perception",
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "domain": "Civil Liberties and Freedom",
     "concepts": [
       "freedom of association",
       "evaluation",
@@ -8595,10 +10175,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
       "corruption",
-      "local level"
+      "local government",
+      "magnitude"
     ],
     "validation_phrase": "how widespread corruption in your",
     "validation_phrase_occurrences": 2,
@@ -8633,10 +10225,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Corruption Perception",
     "concepts": [
       "corruption",
-      "national level"
+      "magnitude",
+      "government level"
     ],
     "validation_phrase": "your local/municipal government? how widespread",
     "validation_phrase_occurrences": 1,
@@ -8667,10 +10271,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Corruption Perception",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 97,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
+    "domain": "Corruption Experience",
     "concepts": [
       "corruption",
-      "personal experience"
+      "personal experience",
+      "witnessed"
     ],
     "validation_phrase": "know personally witnessed an act",
     "validation_phrase_occurrences": 1,
@@ -8705,10 +10321,22 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Corruption Perception",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Corruption Experience",
     "concepts": [
       "corruption",
-      "personal experience"
+      "personal experience",
+      "witnessed"
     ],
     "validation_phrase": "you know personally witnessed ?",
     "validation_phrase_occurrences": 1,
@@ -8739,10 +10367,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Value Judgment",
+    "scale_analysis": {
+      "scale_type": "likert_3",
+      "scale_points": 3,
+      "first_na_value": 98,
+      "max_substantive_value": 3,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "3-point Likert scale (values 1-3)"
+    },
+    "domain": "Value and Preference",
     "concepts": [
       "democracy",
-      "economic development"
+      "economic development",
+      "preference"
     ],
     "validation_phrase": "which comes closest to your",
     "validation_phrase_occurrences": 1,
@@ -8769,10 +10409,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Value Judgment",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 98,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Value and Preference",
     "concepts": [
       "democracy",
-      "economic development"
+      "economic development",
+      "preference"
     ],
     "validation_phrase": "which comes closer to your",
     "validation_phrase_occurrences": 2,
@@ -8811,10 +10463,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Value Judgment",
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 98,
+      "max_substantive_value": 5,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5) | NEEDS REVERSAL: value 1 is positive, max is neutral"
+    },
+    "domain": "Value and Preference",
     "concepts": [
       "democracy",
-      "economic development"
+      "economic development",
+      "preference"
     ],
     "validation_phrase": "choose between democracy and economic",
     "validation_phrase_occurrences": 1,
@@ -8845,11 +10509,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 98,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "evaluation",
-      "temporal comparison",
-      "personal opinion"
+      "temporal comparison"
     ],
     "validation_phrase": "which comes closer to your",
     "validation_phrase_occurrences": 2,
@@ -8884,11 +10558,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "leadership",
-      "decision making",
-      "democracy"
+      "decision-making"
     ],
     "validation_phrase": "should get rid of parliament",
     "validation_phrase_occurrences": 5,
@@ -8923,11 +10607,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "leadership",
-      "decision making",
-      "democracy",
+      "decision-making",
       "opposition"
     ],
     "validation_phrase": "strong leader decide things no",
@@ -8963,10 +10657,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "leadership",
-      "decision making",
+      "decision-making",
       "military intervention"
     ],
     "validation_phrase": "leader decide things the military",
@@ -9002,10 +10707,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "leadership",
-      "decision making",
+      "decision-making",
       "expertise"
     ],
     "validation_phrase": "strong leader decide things we",
@@ -9041,11 +10757,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Government Perception",
     "concepts": [
       "leadership",
-      "decision making",
-      "rule of law"
+      "decision-making",
+      "lawfulness"
     ],
     "validation_phrase": "strong leader decide things it",
     "validation_phrase_occurrences": 1,
@@ -9080,7 +10807,18 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Civic Engagement",
     "concepts": [
       "participation",
       "politics"
@@ -9118,9 +10856,19 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Civic Engagement",
     "concepts": [
-      "perceived complexity",
       "understanding",
       "politics"
     ],
@@ -9157,12 +10905,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Civic Engagement",
     "concepts": [
-      "perceived complexity",
-      "understanding",
-      "politics",
-      "power dynamics"
+      "power dynamics",
+      "citizen influence"
     ],
     "validation_phrase": "is going on the nation",
     "validation_phrase_occurrences": 1,
@@ -9197,11 +10954,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Citizen Engagement",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Civic Engagement",
     "concepts": [
-      "perceived influence",
-      "politics",
-      "government"
+      "influence",
+      "citizen participation"
     ],
     "validation_phrase": "what is going on people",
     "validation_phrase_occurrences": 1,
@@ -9236,6 +11003,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Government",
     "concepts": [
       "government complexity",
@@ -9275,6 +11053,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Government",
     "concepts": [
       "government trustworthiness",
@@ -9314,10 +11103,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Participation in Politics",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Citizenship and Participation",
     "concepts": [
-      "education level",
-      "political participation",
+      "citizenship",
+      "education",
       "equality"
     ],
     "validation_phrase": "people with little or no",
@@ -9353,10 +11153,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Authoritarianism",
     "concepts": [
-      "government leadership",
-      "decision-making",
+      "leadership",
+      "authority",
       "obedience"
     ],
     "validation_phrase": "leaders are like the head",
@@ -9392,11 +11203,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Censorship and Freedom of Speech",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Authoritarianism",
     "concepts": [
-      "government control",
-      "censorship",
-      "freedom of speech"
+      "leadership",
+      "authority",
+      "censorship"
     ],
     "validation_phrase": "decisions the government should decide",
     "validation_phrase_occurrences": 1,
@@ -9431,11 +11253,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Cohesion",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Authoritarianism",
     "concepts": [
-      "community harmony",
-      "group organization",
-      "social disruption"
+      "leadership",
+      "authority",
+      "social order"
     ],
     "validation_phrase": "all follow their decisions harmony",
     "validation_phrase_occurrences": 1,
@@ -9470,10 +11303,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Judicial Independence",
     "concepts": [
       "judicial independence",
-      "executive branch influence",
+      "executive branch",
       "judicial decision-making"
     ],
     "validation_phrase": "all follow their decisions when",
@@ -9509,11 +11353,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Legislative Power",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Separation of Powers",
     "concepts": [
-      "legislative power",
-      "executive branch power",
-      "government effectiveness"
+      "separation of powers",
+      "legislative branch",
+      "executive branch"
     ],
     "validation_phrase": "their decisions if the government",
     "validation_phrase_occurrences": 1,
@@ -9548,9 +11403,20 @@
         "label": "No answer"
       }
     ],
-    "domain": "Trust in Government",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Authoritarianism",
     "concepts": [
-      "government leadership",
+      "leadership",
       "morality",
       "decision-making"
     ],
@@ -9587,10 +11453,21 @@
         "label": "No answer"
       }
     ],
-    "domain": "Social Cohesion",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Authoritarianism",
     "concepts": [
-      "social diversity",
-      "chaos",
+      "leadership",
+      "diversity",
       "social order"
     ],
     "validation_phrase": "follow their decisions if people",
@@ -9626,11 +11503,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Government",
     "concepts": [
       "government leadership",
-      "decision-making",
-      "authority"
+      "decision-making authority",
+      "national level"
     ],
     "validation_phrase": "decisions the government should maintain",
     "validation_phrase_occurrences": 1,
@@ -9665,11 +11553,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "Trust in Government",
     "concepts": [
       "government leadership",
-      "decision-making",
-      "authority"
+      "decision-making authority",
+      "national level"
     ],
     "validation_phrase": "follow their decisions the national",
     "validation_phrase_occurrences": 1,
@@ -9704,10 +11603,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "National Identity",
     "concepts": [
       "national identity",
-      "cultural assimilation"
+      "cultural preservation",
+      "globalization"
     ],
     "validation_phrase": "our country should defend our",
     "validation_phrase_occurrences": 1,
@@ -9742,10 +11653,22 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "National Identity",
     "concepts": [
       "sacrifice",
-      "national interest"
+      "national interest",
+      "personal interest"
     ],
     "validation_phrase": "sake of the national community/society,",
     "validation_phrase_occurrences": 4,
@@ -9780,9 +11703,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "National Identity",
     "concepts": [
       "sacrifice",
+      "national interest",
       "individual status",
       "collectivism"
     ],
@@ -9819,9 +11754,21 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "National Identity",
     "concepts": [
       "sacrifice",
+      "national interest",
       "goal-oriented leadership",
       "authoritarianism"
     ],
@@ -9858,11 +11805,23 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "domain": "National Identity",
     "concepts": [
       "sacrifice",
+      "national interest",
       "leadership conviction",
-      "non-compromise"
+      "compromise"
     ],
     "validation_phrase": "sacrifice his personal interest if",
     "validation_phrase_occurrences": 1,
@@ -9897,11 +11856,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership Style",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Freedom of Speech",
     "concepts": [
       "tolerance",
-      "pluralism",
-      "open-mindedness"
+      "view diversity",
+      "political ideals"
     ],
     "validation_phrase": "leader should tolerate the views",
     "validation_phrase_occurrences": 1,
@@ -9936,11 +11906,22 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership Style",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Freedom of Speech",
     "concepts": [
       "tolerance",
-      "pluralism",
-      "closed-mindedness"
+      "view suppression",
+      "political ideals"
     ],
     "validation_phrase": "political leader should not tolerate",
     "validation_phrase_occurrences": 2,
@@ -9975,11 +11956,23 @@
         "label": "No answer"
       }
     ],
-    "domain": "Leadership Style",
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "positive",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "domain": "Freedom of Speech",
     "concepts": [
       "tolerance",
-      "pluralism",
-      "authoritarianism"
+      "view suppression",
+      "majority rule",
+      "leadership agenda"
     ],
     "validation_phrase": "challenge his political ideals as",
     "validation_phrase_occurrences": 1,
@@ -10042,6 +12035,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "scale_10",
+      "scale_points": 11,
+      "first_na_value": 97,
+      "max_substantive_value": 11,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "10-point scale (values 1-11)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "religion",
@@ -10065,6 +12069,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 99,
+      "max_substantive_value": 2,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "gender",
@@ -10128,6 +12143,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 12,
+      "first_na_value": 99,
+      "max_substantive_value": 12,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 12 distinct values"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "age group",
@@ -10443,6 +12469,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 75,
+      "first_na_value": 999,
+      "max_substantive_value": 109,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 75 distinct values"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "actual age",
@@ -10486,6 +12523,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 6,
+      "first_na_value": 98,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "marital status",
@@ -10513,6 +12561,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "binary",
+      "scale_points": 2,
+      "first_na_value": 98,
+      "max_substantive_value": 2,
+      "needs_reversal": true,
+      "value_1_polarity": "positive",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Max substantive value is 2 (binary yes/no or 1-2 scale) | NEEDS REVERSAL: value 1 is positive, max is negative"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "marital status(y/n)",
@@ -10572,6 +12631,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 98,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "10-point scale (values 1-10)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "education",
@@ -10707,6 +12777,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 27,
+      "first_na_value": 44,
+      "max_substantive_value": 30,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 27 distinct values"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "education by year",
@@ -10742,6 +12823,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "education(four categories)",
@@ -10805,6 +12897,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "scale_10",
+      "scale_points": 11,
+      "first_na_value": 97,
+      "max_substantive_value": 11,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "10-point scale (values 1-11)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "religion",
@@ -10864,12 +12967,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Religious Beliefs",
-    "concepts": [
-      "religiosity",
-      "spirituality",
-      "faith"
-    ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 9,
+      "first_na_value": 97,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Ordinal scale with 9 ordered categories"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "relgiosity",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 50.0
@@ -10983,11 +13093,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Household Demographics",
-    "concepts": [
-      "household size",
-      "population"
-    ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 24,
+      "first_na_value": 98,
+      "max_substantive_value": 26,
+      "needs_reversal": false,
+      "value_1_polarity": "negative",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 24 distinct values"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "n of household members",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -11021,11 +13139,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Household Demographics",
-    "concepts": [
-      "household generations",
-      "family structure"
-    ],
+    "scale_analysis": {
+      "scale_type": "likert_4",
+      "scale_points": 4,
+      "first_na_value": 98,
+      "max_substantive_value": 4,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "4-point Likert scale (values 1-4)"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "household generations",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 92.4
@@ -11067,12 +13193,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Economic Condition",
-    "concepts": [
-      "annual income",
-      "economic status",
-      "income distribution"
-    ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "annual income: national quintiles",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 132.0
@@ -11134,12 +13267,19 @@
         "label": "No answer"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "main occupation",
-      "career",
-      "professional life"
-    ],
+    "scale_analysis": {
+      "scale_type": "scale_10",
+      "scale_points": 10,
+      "first_na_value": 97,
+      "max_substantive_value": 10,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "10-point scale (values 1-10)"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "main occupation",
     "validation_phrase_occurrences": 2,
     "validation_phrase_score": 32.66833329081849
@@ -11161,12 +13301,19 @@
         "label": "NO ANSWER"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "occupation",
-      "job",
-      "vocation"
-    ],
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 997,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "occupation",
     "validation_phrase_occurrences": 8,
     "validation_phrase_score": 10.0
@@ -11328,12 +13475,19 @@
         "label": "NO ANSWER"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "occupation",
-      "job",
-      "vocation"
-    ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 34,
+      "first_na_value": 997,
+      "max_substantive_value": 95,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 34 distinct values"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "occupation(original)",
     "validation_phrase_occurrences": 2,
     "validation_phrase_score": 50.0
@@ -11483,12 +13637,19 @@
         "label": "Don't know"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "main occupation",
-      "career",
-      "professional life"
-    ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 34,
+      "first_na_value": 98,
+      "max_substantive_value": 75,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "negative",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 34 distinct values"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "main occupation(orginal)",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 92.4
@@ -11534,12 +13695,19 @@
         "label": "Unclassified"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "occupation",
-      "job",
-      "vocation"
-    ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 9,
+      "first_na_value": null,
+      "max_substantive_value": 9,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Ordinal scale with 9 ordered categories"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "occupation(original)",
     "validation_phrase_occurrences": 2,
     "validation_phrase_score": 50.0
@@ -11601,12 +13769,19 @@
         "label": "No Answer"
       }
     ],
-    "domain": "Occupation and Employment",
-    "concepts": [
-      "employment status",
-      "job market",
-      "labor force"
-    ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 12,
+      "first_na_value": 99,
+      "max_substantive_value": 13,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 12 distinct values"
+    },
+    "concepts": [],
+    "domain": "Unknown",
     "validation_phrase": "employment",
     "validation_phrase_occurrences": 1,
     "validation_phrase_score": 50.0
@@ -12084,6 +14259,17 @@
         "label": "TRANSPORT LABOURERS"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "ordinal",
+      "scale_points": 1,
+      "first_na_value": 55,
+      "max_substantive_value": 11,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Ordinal scale with 1 ordered categories"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "occupation (verbatim)",
@@ -12219,6 +14405,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 17,
+      "first_na_value": 60,
+      "max_substantive_value": 33,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 17 distinct values"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "primary occupation of respondent",
@@ -12406,6 +14603,17 @@
         "label": "No answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "categorical",
+      "scale_points": 42,
+      "first_na_value": 97,
+      "max_substantive_value": 42,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "Categorical with 42 distinct values"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "(respondent has a job) what",
@@ -12453,6 +14661,17 @@
         "label": "NO ANSWER"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_6",
+      "scale_points": 6,
+      "first_na_value": 99,
+      "max_substantive_value": 6,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "6-point Likert scale (values 1-6)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "language",
@@ -12920,6 +15139,17 @@
         "label": "Other origin_ Japanese"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 401,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "ethnicity",
@@ -12963,6 +15193,17 @@
         "label": "No Answer"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "likert_5",
+      "scale_points": 5,
+      "first_na_value": 97,
+      "max_substantive_value": 5,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.8,
+      "reasoning": "5-point Likert scale (values 1-5)"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "subjective social status",
@@ -12986,6 +15227,17 @@
         "label": "2003"
       }
     ],
+    "scale_analysis": {
+      "scale_type": "unknown",
+      "scale_points": 0,
+      "first_na_value": 2001,
+      "max_substantive_value": 0,
+      "needs_reversal": false,
+      "value_1_polarity": "neutral",
+      "max_value_polarity": "neutral",
+      "confidence": 0.0,
+      "reasoning": "No substantive values found"
+    },
     "concepts": [],
     "domain": "Unknown",
     "validation_phrase": "survey year",

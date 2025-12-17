@@ -1,20 +1,160 @@
 {
   "metadata": {
     "total_variables": 207,
-    "total_domains": 50
+    "total_domains": 46
   },
   "domains": [
     {
-      "domain": "Censorship and Freedom of Speech",
-      "variable_count": 1,
+      "domain": "Authoritarianism",
+      "variable_count": 5,
       "variables": [
+        {
+          "variable_id": "q133",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions",
+          "concepts": [
+            "leadership",
+            "authority",
+            "obedience"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
         {
           "variable_id": "q134",
           "question_text": "Government leaders are like the head of a family; we should all follow their decisions The government should decide whether certain ideas should be allowed to be discussed in society",
           "concepts": [
-            "government control",
-            "censorship",
-            "freedom of speech"
+            "leadership",
+            "authority",
+            "censorship"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q135",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions Harmony of the community will be disrupted if people organize lots of groups",
+          "concepts": [
+            "leadership",
+            "authority",
+            "social order"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q138",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If we have political leaders who are morally upright, we can let them decide everything",
+          "concepts": [
+            "leadership",
+            "morality",
+            "decision-making"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q139",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If people have too many different ways of thinking, society will be chaotic",
+          "concepts": [
+            "leadership",
+            "diversity",
+            "social order"
           ],
           "value_labels": [
             {
@@ -46,16 +186,15 @@
       ]
     },
     {
-      "domain": "Citizen Engagement",
-      "variable_count": 14,
+      "domain": "Citizen Participation",
+      "variable_count": 10,
       "variables": [
         {
           "variable_id": "q073",
           "question_text": "Contacted any government official to express your opinions?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions"
+            "opinion expression"
           ],
           "value_labels": [
             {
@@ -88,10 +227,9 @@
           "variable_id": "q074",
           "question_text": "Contacted any government official to express your opinions? Contacted officials to express your opinions at higher level?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "level of government"
+            "opinion expression",
+            "hierarchical level"
           ],
           "value_labels": [
             {
@@ -124,10 +262,9 @@
           "variable_id": "q075",
           "question_text": "Contacted any government official to express your opinions? contacted elected legislative representatives at any level?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "legislative representatives"
+            "opinion expression",
+            "legislative representative"
           ],
           "value_labels": [
             {
@@ -160,10 +297,9 @@
           "variable_id": "q076",
           "question_text": "Contacted any government official to express your opinions? Contacted political parties or other political organizations?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "political parties"
+            "opinion expression",
+            "political organization"
           ],
           "value_labels": [
             {
@@ -196,10 +332,9 @@
           "variable_id": "q077",
           "question_text": "Contacted any government official to express your opinions? Contacted non-government/civil society organizations?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "civil society organizations"
+            "opinion expression",
+            "civil society organization"
           ],
           "value_labels": [
             {
@@ -232,9 +367,8 @@
           "variable_id": "q078",
           "question_text": "Contacted any government official to express your opinions? Contacted media to comment on something?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
+            "opinion expression",
             "media"
           ],
           "value_labels": [
@@ -268,10 +402,9 @@
           "variable_id": "q079",
           "question_text": "Contacted any government official to express your opinions? Demonstrated, striken, or sat-in for something?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "protests"
+            "opinion expression",
+            "protest"
           ],
           "value_labels": [
             {
@@ -304,10 +437,9 @@
           "variable_id": "q080",
           "question_text": "Contacted any government official to express your opinions? Contacted other people?",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "social interactions"
+            "opinion expression",
+            "social interaction"
           ],
           "value_labels": [
             {
@@ -340,10 +472,9 @@
           "variable_id": "q081",
           "question_text": "Did you do this alone or with others?_contacted government official",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "social interactions",
+            "opinion expression",
+            "social interaction",
             "alone or with others"
           ],
           "value_labels": [
@@ -373,10 +504,9 @@
           "variable_id": "q082",
           "question_text": "Did you do this alone or with others?_contacted government official Did you do this alone or with others?_contacted officials at higher level",
           "concepts": [
-            "citizen engagement",
             "government official",
-            "expressing opinions",
-            "level of government",
+            "opinion expression",
+            "hierarchical level",
             "alone or with others"
           ],
           "value_labels": [
@@ -401,185 +531,37 @@
               "label": "No answer"
             }
           ]
-        },
-        {
-          "variable_id": "q126",
-          "question_text": "I have the ability to participate in politics",
-          "concepts": [
-            "participation",
-            "politics"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q127",
-          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on",
-          "concepts": [
-            "perceived complexity",
-            "understanding",
-            "politics"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q128",
-          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on The nation is run by a powerful few and ordinary citizens cannot do much about it",
-          "concepts": [
-            "perceived complexity",
-            "understanding",
-            "politics",
-            "power dynamics"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q129",
-          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on People like me don't have any influence over what the government does",
-          "concepts": [
-            "perceived influence",
-            "politics",
-            "government"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
         }
       ]
     },
     {
-      "domain": "Citizen Influence",
+      "domain": "Citizenship and Participation",
       "variable_count": 1,
       "variables": [
         {
-          "variable_id": "q107",
-          "question_text": "Everyone is free to say what they think- is better than before? People like me can have an influence on government- is better than before?",
+          "variable_id": "q132",
+          "question_text": "People with little or no education should have as much say in politics as highly-educated people",
           "concepts": [
-            "citizen influence",
-            "evaluation",
-            "temporal comparison"
+            "citizenship",
+            "education",
+            "equality"
           ],
           "value_labels": [
             {
               "value": 1,
-              "label": "Much worse"
+              "label": "Strongly disagree"
             },
             {
               "value": 2,
-              "label": "Somewhat worse"
+              "label": "Somewhat disagree"
             },
             {
               "value": 3,
-              "label": "Much the same"
+              "label": "Somewhat agree"
             },
             {
               "value": 4,
-              "label": "Somewhat better"
-            },
-            {
-              "value": 5,
-              "label": "Much better than before"
-            },
-            {
-              "value": 97,
-              "label": "Not Applicable"
+              "label": "Strongly agree"
             },
             {
               "value": 98,
@@ -595,7 +577,7 @@
     },
     {
       "domain": "Civic Engagement",
-      "variable_count": 2,
+      "variable_count": 6,
       "variables": [
         {
           "variable_id": "q022",
@@ -644,8 +626,8 @@
           "question_text": "How frequently do you participate? How often do you discuss politics?",
           "concepts": [
             "participation",
-            "frequency",
-            "politics"
+            "politics",
+            "frequency"
           ],
           "value_labels": [
             {
@@ -681,18 +663,154 @@
               "label": "No answer"
             }
           ]
+        },
+        {
+          "variable_id": "q126",
+          "question_text": "I have the ability to participate in politics",
+          "concepts": [
+            "participation",
+            "politics"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q127",
+          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on",
+          "concepts": [
+            "understanding",
+            "politics"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q128",
+          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on The nation is run by a powerful few and ordinary citizens cannot do much about it",
+          "concepts": [
+            "power dynamics",
+            "citizen influence"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q129",
+          "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on People like me don't have any influence over what the government does",
+          "concepts": [
+            "influence",
+            "citizen participation"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
         }
       ]
     },
     {
-      "domain": "Corruption Control",
+      "domain": "Civil Liberties and Freedom",
       "variable_count": 1,
       "variables": [
         {
-          "variable_id": "q108",
-          "question_text": "Everyone is free to say what they think- is better than before? Corruption in politics and government is under control- is better than before?",
+          "variable_id": "q113",
+          "question_text": "Everyone is free to say what they think- is better than before? You can join any organization you like- is better than before?",
           "concepts": [
-            "corruption",
+            "freedom of association",
             "evaluation",
             "temporal comparison"
           ],
@@ -734,15 +852,135 @@
       ]
     },
     {
+      "domain": "Corruption Control",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "q108",
+          "question_text": "Everyone is free to say what they think- is better than before? Corruption in politics and government is under control- is better than before?",
+          "concepts": [
+            "corruption control",
+            "evaluation",
+            "temporal comparison"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Much worse"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat worse"
+            },
+            {
+              "value": 3,
+              "label": "Much the same"
+            },
+            {
+              "value": 4,
+              "label": "Somewhat better"
+            },
+            {
+              "value": 5,
+              "label": "Much better than before"
+            },
+            {
+              "value": 97,
+              "label": "Not Applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Corruption Experience",
+      "variable_count": 2,
+      "variables": [
+        {
+          "variable_id": "q116",
+          "question_text": "anyone you know personally witnessed an act of corruption?",
+          "concepts": [
+            "corruption",
+            "personal experience",
+            "witnessed"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Yes"
+            },
+            {
+              "value": 2,
+              "label": "No"
+            },
+            {
+              "value": 97,
+              "label": "Not Applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q116e",
+          "question_text": "anyone you know personally witnessed ?",
+          "concepts": [
+            "corruption",
+            "personal experience",
+            "witnessed"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Personally"
+            },
+            {
+              "value": 2,
+              "label": "Family member"
+            },
+            {
+              "value": 3,
+              "label": "Friend"
+            },
+            {
+              "value": 4,
+              "label": "None"
+            },
+            {
+              "value": 98,
+              "label": "Don't Know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "domain": "Corruption Perception",
-      "variable_count": 8,
+      "variable_count": 6,
       "variables": [
         {
           "variable_id": "q089",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted government",
           "concepts": [
-            "gifts",
-            "dinners",
+            "gift giving",
             "corruption",
             "government official"
           ],
@@ -773,10 +1011,9 @@
           "variable_id": "q090",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted officials at highter level",
           "concepts": [
-            "gifts",
-            "dinners",
+            "gift giving",
             "corruption",
-            "higher level officials"
+            "official hierarchy"
           ],
           "value_labels": [
             {
@@ -805,10 +1042,9 @@
           "variable_id": "q091",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted elected legislative representatives",
           "concepts": [
-            "gifts",
-            "dinners",
+            "gift giving",
             "corruption",
-            "elected legislative representatives"
+            "government official"
           ],
           "value_labels": [
             {
@@ -837,11 +1073,9 @@
           "variable_id": "q092",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted political parties or other political organizations",
           "concepts": [
-            "gifts",
-            "dinners",
+            "gift giving",
             "corruption",
-            "political parties",
-            "political organizations"
+            "political organization"
           ],
           "value_labels": [
             {
@@ -871,7 +1105,8 @@
           "question_text": "How widespread corruption in your local/municipal government?",
           "concepts": [
             "corruption",
-            "local level"
+            "local government",
+            "magnitude"
           ],
           "value_labels": [
             {
@@ -905,7 +1140,8 @@
           "question_text": "How widespread corruption in your local/municipal government? How widespread corruption in the national government?",
           "concepts": [
             "corruption",
-            "national level"
+            "magnitude",
+            "government level"
           ],
           "value_labels": [
             {
@@ -933,131 +1169,19 @@
               "label": "No answer"
             }
           ]
-        },
-        {
-          "variable_id": "q116",
-          "question_text": "anyone you know personally witnessed an act of corruption?",
-          "concepts": [
-            "corruption",
-            "personal experience"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Yes"
-            },
-            {
-              "value": 2,
-              "label": "No"
-            },
-            {
-              "value": 97,
-              "label": "Not Applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q116e",
-          "question_text": "anyone you know personally witnessed ?",
-          "concepts": [
-            "corruption",
-            "personal experience"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Personally"
-            },
-            {
-              "value": 2,
-              "label": "Family member"
-            },
-            {
-              "value": 3,
-              "label": "Friend"
-            },
-            {
-              "value": 4,
-              "label": "None"
-            },
-            {
-              "value": 98,
-              "label": "Don't Know"
-            },
-            {
-              "value": 99,
-              "label": "No Answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Economic Condition",
-      "variable_count": 1,
-      "variables": [
-        {
-          "variable_id": "se009",
-          "question_text": "annual income: national quintiles",
-          "concepts": [
-            "annual income",
-            "economic status",
-            "income distribution"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "lowest quintile"
-            },
-            {
-              "value": 2,
-              "label": "2nd quintile"
-            },
-            {
-              "value": 3,
-              "label": "3rd quintile"
-            },
-            {
-              "value": 4,
-              "label": "4th quintile"
-            },
-            {
-              "value": 5,
-              "label": "5th quintile"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't Know"
-            },
-            {
-              "value": 99,
-              "label": "No Answer"
-            }
-          ]
         }
       ]
     },
     {
       "domain": "Economic Perception",
-      "variable_count": 6,
+      "variable_count": 4,
       "variables": [
         {
           "variable_id": "q098",
           "question_text": "Satisfaction with the way democracy works in our country?",
           "concepts": [
-            "democracy evaluation",
+            "democracy",
+            "evaluation",
             "satisfaction"
           ],
           "value_labels": [
@@ -1125,7 +1249,7 @@
             "country evaluation",
             "temporal comparison",
             "authoritarian rule",
-            "present government"
+            "current evaluation"
           ],
           "value_labels": [
             {
@@ -1192,92 +1316,6 @@
               "label": "No answer"
             }
           ]
-        },
-        {
-          "variable_id": "q112",
-          "question_text": "Everyone is free to say what they think- is better than before? Judges and courts are free from political interference- is better than before?",
-          "concepts": [
-            "freedom of speech",
-            "evaluation",
-            "temporal comparison"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Much worse"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat worse"
-            },
-            {
-              "value": 3,
-              "label": "Much the same"
-            },
-            {
-              "value": 4,
-              "label": "Somewhat better"
-            },
-            {
-              "value": 5,
-              "label": "Much better than before"
-            },
-            {
-              "value": 97,
-              "label": "Not Applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q113",
-          "question_text": "Everyone is free to say what they think- is better than before? You can join any organization you like- is better than before?",
-          "concepts": [
-            "freedom of association",
-            "evaluation",
-            "temporal comparison"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Much worse"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat worse"
-            },
-            {
-              "value": 3,
-              "label": "Much the same"
-            },
-            {
-              "value": 4,
-              "label": "Somewhat better"
-            },
-            {
-              "value": 5,
-              "label": "Much better than before"
-            },
-            {
-              "value": 97,
-              "label": "Not Applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
         }
       ]
     },
@@ -1289,7 +1327,7 @@
           "variable_id": "q069",
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? For the sake of the family, the individual should put his personal interests second?",
           "concepts": [
-            "family obligations",
+            "family relationships",
             "personal interests",
             "sacrifice"
           ],
@@ -1323,7 +1361,7 @@
       ]
     },
     {
-      "domain": "Fatalism and Determinism",
+      "domain": "Fate and Destiny",
       "variable_count": 1,
       "variables": [
         {
@@ -1331,8 +1369,8 @@
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? Wealth and poverty, success and failure are all determined by fate?",
           "concepts": [
             "fate",
-            "determinism",
-            "success and failure"
+            "destiny",
+            "determinism"
           ],
           "value_labels": [
             {
@@ -1415,7 +1453,7 @@
     },
     {
       "domain": "Freedom of Speech",
-      "variable_count": 1,
+      "variable_count": 4,
       "variables": [
         {
           "variable_id": "q105",
@@ -1459,6 +1497,112 @@
               "label": "No answer"
             }
           ]
+        },
+        {
+          "variable_id": "q147",
+          "question_text": "A political leader should tolerate the views of those who challenge his political ideals",
+          "concepts": [
+            "tolerance",
+            "view diversity",
+            "political ideals"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q147a",
+          "question_text": "A political leader should not tolerate the views of those who challenge his political ideals",
+          "concepts": [
+            "tolerance",
+            "view suppression",
+            "political ideals"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q148",
+          "question_text": "A political leader should not tolerate the views of those who challenge his political ideals As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the",
+          "concepts": [
+            "tolerance",
+            "view suppression",
+            "majority rule",
+            "leadership agenda"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
         }
       ]
     },
@@ -1471,7 +1615,8 @@
           "question_text": "How much impact do you feel government policies have on your daily life?",
           "concepts": [
             "government policies",
-            "daily life impact"
+            "daily life impact",
+            "evaluation"
           ],
           "value_labels": [
             {
@@ -1507,6 +1652,216 @@
       ]
     },
     {
+      "domain": "Government Perception",
+      "variable_count": 6,
+      "variables": [
+        {
+          "variable_id": "q120",
+          "question_text": "Which comes closer to your own view?",
+          "concepts": [
+            "evaluation",
+            "temporal comparison"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "It is essential that the country remains one nation"
+            },
+            {
+              "value": 2,
+              "label": "Parts of the country possibly be separate states"
+            },
+            {
+              "value": 3,
+              "label": "Can't choose"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q121",
+          "question_text": "We should get rid of parliament and elections and have a strong leader decide things",
+          "concepts": [
+            "leadership",
+            "decision-making"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q122",
+          "question_text": "We should get rid of parliament and elections and have a strong leader decide things No opposition party should be allowed to compete for power",
+          "concepts": [
+            "leadership",
+            "decision-making",
+            "opposition"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q123",
+          "question_text": "We should get rid of parliament and elections and have a strong leader decide things The military should come in to govern the country",
+          "concepts": [
+            "leadership",
+            "decision-making",
+            "military intervention"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q124",
+          "question_text": "We should get rid of parliament and elections and have a strong leader decide things We should get rid of parliament and elections and have the experts decide everything",
+          "concepts": [
+            "leadership",
+            "decision-making",
+            "expertise"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q125",
+          "question_text": "We should get rid of parliament and elections and have a strong leader decide things It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi",
+          "concepts": [
+            "leadership",
+            "decision-making",
+            "lawfulness"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "domain": "Government Satisfaction",
       "variable_count": 1,
       "variables": [
@@ -1514,9 +1869,8 @@
           "variable_id": "q104",
           "question_text": "How satisfied or dissatisfied are you with the current government?",
           "concepts": [
-            "government",
-            "evaluation",
-            "satisfaction"
+            "government satisfaction",
+            "evaluation"
           ],
           "value_labels": [
             {
@@ -1546,160 +1900,6 @@
             {
               "value": 99,
               "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Household Demographics",
-      "variable_count": 2,
-      "variables": [
-        {
-          "variable_id": "se008a",
-          "question_text": "n of household members",
-          "concepts": [
-            "household size",
-            "population"
-          ],
-          "value_labels": [
-            {
-              "value": 0,
-              "label": "none member"
-            },
-            {
-              "value": 1,
-              "label": "1 member"
-            },
-            {
-              "value": 2,
-              "label": "2 members"
-            },
-            {
-              "value": 3,
-              "label": "3 members"
-            },
-            {
-              "value": 4,
-              "label": "4 members"
-            },
-            {
-              "value": 5,
-              "label": "5 members"
-            },
-            {
-              "value": 6,
-              "label": "6 members"
-            },
-            {
-              "value": 7,
-              "label": "7 members"
-            },
-            {
-              "value": 8,
-              "label": "8 members"
-            },
-            {
-              "value": 9,
-              "label": "9 members"
-            },
-            {
-              "value": 10,
-              "label": "10 members"
-            },
-            {
-              "value": 11,
-              "label": "11 member"
-            },
-            {
-              "value": 12,
-              "label": "12 member"
-            },
-            {
-              "value": 13,
-              "label": "13 members"
-            },
-            {
-              "value": 14,
-              "label": "14 members"
-            },
-            {
-              "value": 15,
-              "label": "15 member"
-            },
-            {
-              "value": 16,
-              "label": "16 member"
-            },
-            {
-              "value": 17,
-              "label": "17 members"
-            },
-            {
-              "value": 18,
-              "label": "18 members"
-            },
-            {
-              "value": 19,
-              "label": "19 members"
-            },
-            {
-              "value": 20,
-              "label": "20 members"
-            },
-            {
-              "value": 21,
-              "label": "21 members"
-            },
-            {
-              "value": 24,
-              "label": "24 members"
-            },
-            {
-              "value": 26,
-              "label": "26 members"
-            },
-            {
-              "value": 98,
-              "label": "don't know"
-            },
-            {
-              "value": 99,
-              "label": "No Answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "se008b",
-          "question_text": "household generations",
-          "concepts": [
-            "household generations",
-            "family structure"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "1 generation"
-            },
-            {
-              "value": 2,
-              "label": "2 generations"
-            },
-            {
-              "value": 3,
-              "label": "3 generations"
-            },
-            {
-              "value": 4,
-              "label": "more than 4 generations"
-            },
-            {
-              "value": 98,
-              "label": "don't know"
-            },
-            {
-              "value": 99,
-              "label": "No Answer"
             }
           ]
         }
@@ -1755,6 +1955,56 @@
       ]
     },
     {
+      "domain": "Influence and Participation",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "q107",
+          "question_text": "Everyone is free to say what they think- is better than before? People like me can have an influence on government- is better than before?",
+          "concepts": [
+            "influence on government",
+            "participation",
+            "evaluation",
+            "temporal comparison"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Much worse"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat worse"
+            },
+            {
+              "value": 3,
+              "label": "Much the same"
+            },
+            {
+              "value": 4,
+              "label": "Somewhat better"
+            },
+            {
+              "value": 5,
+              "label": "Much better than before"
+            },
+            {
+              "value": 97,
+              "label": "Not Applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "domain": "Judicial Independence",
       "variable_count": 1,
       "variables": [
@@ -1763,160 +2013,8 @@
           "question_text": "Government leaders are like the head of a family; we should all follow their decisions When judges decide important cases, they should accept the view of the executive branch",
           "concepts": [
             "judicial independence",
-            "executive branch influence",
+            "executive branch",
             "judicial decision-making"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Leadership Style",
-      "variable_count": 3,
-      "variables": [
-        {
-          "variable_id": "q147",
-          "question_text": "A political leader should tolerate the views of those who challenge his political ideals",
-          "concepts": [
-            "tolerance",
-            "pluralism",
-            "open-mindedness"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q147a",
-          "question_text": "A political leader should not tolerate the views of those who challenge his political ideals",
-          "concepts": [
-            "tolerance",
-            "pluralism",
-            "closed-mindedness"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q148",
-          "question_text": "A political leader should not tolerate the views of those who challenge his political ideals As long as a political leader enjoys majority support, he should implement his own agenda and disregard the view of the",
-          "concepts": [
-            "tolerance",
-            "pluralism",
-            "authoritarianism"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Legislative Power",
-      "variable_count": 1,
-      "variables": [
-        {
-          "variable_id": "q137",
-          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If the government is constantly checked by the legislature, it cannot possibly accomplish great things",
-          "concepts": [
-            "legislative power",
-            "executive branch power",
-            "government effectiveness"
           ],
           "value_labels": [
             {
@@ -1955,8 +2053,9 @@
           "variable_id": "q057",
           "question_text": "How often do you follow news about politics?",
           "concepts": [
-            "news consumption",
-            "evaluation"
+            "media consumption",
+            "news following",
+            "frequency"
           ],
           "value_labels": [
             {
@@ -1993,9 +2092,10 @@
           "variable_id": "q057a",
           "question_text": "How often do you follow news about politics? How often do you follow news about politics in the daily newspaper, television, and radio?",
           "concepts": [
-            "news consumption",
-            "media channels",
-            "evaluation"
+            "media consumption",
+            "news following",
+            "frequency",
+            "media channels"
           ],
           "value_labels": [
             {
@@ -2032,9 +2132,10 @@
           "variable_id": "q058",
           "question_text": "How often do you follow news about politics? How often do you follow news about politics in the daily newspaper?",
           "concepts": [
-            "news consumption",
-            "newspaper consumption",
-            "evaluation"
+            "media consumption",
+            "news following",
+            "frequency",
+            "newspaper"
           ],
           "value_labels": [
             {
@@ -2071,9 +2172,10 @@
           "variable_id": "q059",
           "question_text": "How often do you follow news about politics? How often do you follow news about politics on television?",
           "concepts": [
-            "news consumption",
-            "television consumption",
-            "evaluation"
+            "media consumption",
+            "news following",
+            "frequency",
+            "television"
           ],
           "value_labels": [
             {
@@ -2110,9 +2212,10 @@
           "variable_id": "q060",
           "question_text": "How often do you follow news about politics? How often do you follow news about politics on the radio?",
           "concepts": [
-            "news consumption",
-            "radio consumption",
-            "evaluation"
+            "media consumption",
+            "news following",
+            "frequency",
+            "radio"
           ],
           "value_labels": [
             {
@@ -2156,6 +2259,7 @@
           "question_text": "how much trust in radio?",
           "concepts": [
             "trust",
+            "media",
             "radio"
           ],
           "value_labels": [
@@ -2186,6 +2290,7 @@
           "question_text": "how much trust in radio? Local MP(q18_1)",
           "concepts": [
             "trust",
+            "media",
             "radio",
             "local mp"
           ],
@@ -2217,6 +2322,7 @@
           "question_text": "how much trust in radio? The Constitution Court(q18_2)",
           "concepts": [
             "trust",
+            "media",
             "radio",
             "constitution court"
           ],
@@ -2248,6 +2354,7 @@
           "question_text": "how much trust in radio? The Corruption Commission(q18_3)",
           "concepts": [
             "trust",
+            "media",
             "radio",
             "corruption commission"
           ],
@@ -2278,186 +2385,7 @@
     },
     {
       "domain": "National Identity",
-      "variable_count": 5,
-      "variables": [
-        {
-          "variable_id": "q142",
-          "question_text": "Our country should defend our way of life instead of becoming more and more like other countries",
-          "concepts": [
-            "national identity",
-            "cultural assimilation"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q143",
-          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest",
-          "concepts": [
-            "sacrifice",
-            "national interest"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q144",
-          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The state is like a big machine and the individual is but a small cog, with no independent status",
-          "concepts": [
-            "sacrifice",
-            "individual status",
-            "collectivism"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q145",
-          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc",
-          "concepts": [
-            "sacrifice",
-            "goal-oriented leadership",
-            "authoritarianism"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q146",
-          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa",
-          "concepts": [
-            "sacrifice",
-            "leadership conviction",
-            "non-compromise"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "National Identity and Patriotism",
-      "variable_count": 1,
+      "variable_count": 6,
       "variables": [
         {
           "variable_id": "q018_5",
@@ -2496,536 +2424,14 @@
               "label": "No Answer"
             }
           ]
-        }
-      ]
-    },
-    {
-      "domain": "Occupation and Employment",
-      "variable_count": 6,
-      "variables": [
-        {
-          "variable_id": "se012a",
-          "question_text": "Main Occupation",
-          "concepts": [
-            "main occupation",
-            "career",
-            "professional life"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Admin/Manager"
-            },
-            {
-              "value": 2,
-              "label": "Professional"
-            },
-            {
-              "value": 3,
-              "label": "Clerical"
-            },
-            {
-              "value": 4,
-              "label": "Sale"
-            },
-            {
-              "value": 5,
-              "label": "Service"
-            },
-            {
-              "value": 6,
-              "label": "Farmer"
-            },
-            {
-              "value": 7,
-              "label": "Manual worker"
-            },
-            {
-              "value": 8,
-              "label": "Not working"
-            },
-            {
-              "value": 9,
-              "label": "Other"
-            },
-            {
-              "value": 10,
-              "label": "insufficent info"
-            },
-            {
-              "value": 97,
-              "label": "Not Applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
         },
         {
-          "variable_id": "se012bcn",
-          "question_text": "OCCUPATION",
+          "variable_id": "q142",
+          "question_text": "Our country should defend our way of life instead of becoming more and more like other countries",
           "concepts": [
-            "occupation",
-            "job",
-            "vocation"
-          ],
-          "value_labels": [
-            {
-              "value": 997,
-              "label": "NOT APPLICABLE"
-            },
-            {
-              "value": 998,
-              "label": "DON'T KNOW"
-            },
-            {
-              "value": 999,
-              "label": "NO ANSWER"
-            }
-          ]
-        },
-        {
-          "variable_id": "se012bhk",
-          "question_text": "OCCUPATION(original)",
-          "concepts": [
-            "occupation",
-            "job",
-            "vocation"
-          ],
-          "value_labels": [
-            {
-              "value": 10,
-              "label": "INSUFFICIENT INFO"
-            },
-            {
-              "value": 11,
-              "label": "GOVT ADMIN,FOREIGN DIPLOMATS"
-            },
-            {
-              "value": 12,
-              "label": "CORPORATE MANAGERS"
-            },
-            {
-              "value": 13,
-              "label": "SMALL BUSINESS MANAGERS"
-            },
-            {
-              "value": 14,
-              "label": "SELF-EMPLOYED BUSINESS OWNER"
-            },
-            {
-              "value": 15,
-              "label": "FAMILY BUSINESS HELPERS"
-            },
-            {
-              "value": 21,
-              "label": "PHYSICAL SCI PROFESSIONALS"
-            },
-            {
-              "value": 22,
-              "label": "LIFE SCIENCE PROFESSIONALS"
-            },
-            {
-              "value": 23,
-              "label": "TEACHING PROFESSIONALS"
-            },
-            {
-              "value": 24,
-              "label": "BUSINESS PROFESSIONALS"
-            },
-            {
-              "value": 25,
-              "label": "SOC SCIENCE PROFESSIONALS"
-            },
-            {
-              "value": 31,
-              "label": "PHYSICAL SCI ASS. PROF"
-            },
-            {
-              "value": 32,
-              "label": "LIFE SCIENCE ASS. PROF"
-            },
-            {
-              "value": 33,
-              "label": "TEACHING ASS. PROF"
-            },
-            {
-              "value": 34,
-              "label": "BUSINESS ASS. PROF"
-            },
-            {
-              "value": 35,
-              "label": "SOC SERVICES ASS. PROF"
-            },
-            {
-              "value": 41,
-              "label": "OFFICE CLERKS"
-            },
-            {
-              "value": 42,
-              "label": "CUSTOMER SERVICES CLERKS"
-            },
-            {
-              "value": 51,
-              "label": "PERSONAL SERVICES WORKERS"
-            },
-            {
-              "value": 52,
-              "label": "SALESPERSONS & MODELS"
-            },
-            {
-              "value": 53,
-              "label": "TRANSPORT WORKERS"
-            },
-            {
-              "value": 61,
-              "label": "AGRICULTURAL,FISHERY WORKERS"
-            },
-            {
-              "value": 71,
-              "label": "EXTRACTION & BUILDING WORKERS"
-            },
-            {
-              "value": 72,
-              "label": "METAL,MACHINERY WORKERS"
-            },
-            {
-              "value": 73,
-              "label": "PRECISION,PRINTING WORKERS"
-            },
-            {
-              "value": 74,
-              "label": "OTHER CRAFT WORKERS"
-            },
-            {
-              "value": 75,
-              "label": "CRAFT AND TECHNICAL WORKERS"
-            },
-            {
-              "value": 76,
-              "label": "SUPERVISOR AND FOREMAN"
-            },
-            {
-              "value": 81,
-              "label": "PLANT OPERATORS"
-            },
-            {
-              "value": 82,
-              "label": "STATIONARY MACHINE OPERATORS"
-            },
-            {
-              "value": 83,
-              "label": "DRIVERS"
-            },
-            {
-              "value": 91,
-              "label": "ELEMENTARY OCCUPATIONS"
-            },
-            {
-              "value": 92,
-              "label": "LABOURERS"
-            },
-            {
-              "value": 95,
-              "label": "COMPUTER TECHNICAN"
-            },
-            {
-              "value": 888,
-              "label": "DON'T KNOW"
-            },
-            {
-              "value": 997,
-              "label": "NOT APPLICABLE"
-            },
-            {
-              "value": 998,
-              "label": "NOT FIXED"
-            },
-            {
-              "value": 999,
-              "label": "NO ANSWER"
-            }
-          ]
-        },
-        {
-          "variable_id": "se012bjp",
-          "question_text": "main occupation(orginal)",
-          "concepts": [
-            "main occupation",
-            "career",
-            "professional life"
-          ],
-          "value_labels": [
-            {
-              "value": 10,
-              "label": "Hired Workers(residual)"
-            },
-            {
-              "value": 11,
-              "label": "Professional_technical"
-            },
-            {
-              "value": 12,
-              "label": "Managers_Supervisors"
-            },
-            {
-              "value": 13,
-              "label": "Clerical_Administrative_Sales"
-            },
-            {
-              "value": 14,
-              "label": "Non-agricultural, skilled"
-            },
-            {
-              "value": 15,
-              "label": "Non-agricultural, unskilled"
-            },
-            {
-              "value": 16,
-              "label": "Agricultural"
-            },
-            {
-              "value": 17,
-              "label": "Employers and Self-Employed(residual"
-            },
-            {
-              "value": 18,
-              "label": "Agricultural operators"
-            },
-            {
-              "value": 19,
-              "label": "Non-agricultural entrepreneurs(residual)"
-            },
-            {
-              "value": 20,
-              "label": "Non-agricultural entrepreneurs with 10 or more employees"
-            },
-            {
-              "value": 21,
-              "label": "Non-agricultural entrepreneurs with less than 10 employees"
-            },
-            {
-              "value": 22,
-              "label": "Non-agricultural entrepreneurs with no employees"
-            },
-            {
-              "value": 30,
-              "label": "Purely Property Owners(residual)"
-            },
-            {
-              "value": 31,
-              "label": "Purely Property Owners: Rentals from agricultural properties"
-            },
-            {
-              "value": 32,
-              "label": "Purely Property Owners:Rentals from non-agricultural"
-            },
-            {
-              "value": 40,
-              "label": "Unpaid Family Worker"
-            },
-            {
-              "value": 50,
-              "label": "Presently unemployed but LOOKING FOR WORK(residual)"
-            },
-            {
-              "value": 51,
-              "label": "Presently unemployed but LOOKING FOR WORK:Homecare"
-            },
-            {
-              "value": 52,
-              "label": "Presently unemployed but LOOKING FOR WORK:Student"
-            },
-            {
-              "value": 53,
-              "label": "Presently unemployed but LOOKING FOR WORK:Retired"
-            },
-            {
-              "value": 54,
-              "label": "Presently unemployed but LOOKING FOR WORK:Disabled"
-            },
-            {
-              "value": 60,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK(residual)"
-            },
-            {
-              "value": 61,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK: Homecare"
-            },
-            {
-              "value": 62,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK: Student"
-            },
-            {
-              "value": 63,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK: Retired"
-            },
-            {
-              "value": 64,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK: Disabled"
-            },
-            {
-              "value": 65,
-              "label": "Presently unemployed and NOT LOOKING FOR WORK: Others"
-            },
-            {
-              "value": 70,
-              "label": "Never worked before(residual)"
-            },
-            {
-              "value": 71,
-              "label": "Never worked before: Homecare"
-            },
-            {
-              "value": 72,
-              "label": "Never worked before: Student"
-            },
-            {
-              "value": 73,
-              "label": "Never worked before: Retired"
-            },
-            {
-              "value": 74,
-              "label": "Never worked before: Disabled"
-            },
-            {
-              "value": 75,
-              "label": "Never worked before: Others"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            }
-          ]
-        },
-        {
-          "variable_id": "se012bkr",
-          "question_text": "Occupation(original)",
-          "concepts": [
-            "occupation",
-            "job",
-            "vocation"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Professional"
-            },
-            {
-              "value": 2,
-              "label": "Administrative/managerial"
-            },
-            {
-              "value": 3,
-              "label": "White-collar office worker/technicians"
-            },
-            {
-              "value": 4,
-              "label": "Sales"
-            },
-            {
-              "value": 5,
-              "label": "Services"
-            },
-            {
-              "value": 6,
-              "label": "Blue-collar"
-            },
-            {
-              "value": 7,
-              "label": "Agriculture/fishery"
-            },
-            {
-              "value": 8,
-              "label": "Unemployed"
-            },
-            {
-              "value": 9,
-              "label": "Unclassified"
-            }
-          ]
-        },
-        {
-          "variable_id": "se012bmo",
-          "question_text": "employment",
-          "concepts": [
-            "employment status",
-            "job market",
-            "labor force"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "wage worker"
-            },
-            {
-              "value": 2,
-              "label": "members of armed forces, sec.personnel"
-            },
-            {
-              "value": 3,
-              "label": "manager"
-            },
-            {
-              "value": 4,
-              "label": "office worker"
-            },
-            {
-              "value": 5,
-              "label": "employer"
-            },
-            {
-              "value": 6,
-              "label": "worker, has a private sector"
-            },
-            {
-              "value": 7,
-              "label": "lessor"
-            },
-            {
-              "value": 8,
-              "label": "unemployed, /not looking for a job/"
-            },
-            {
-              "value": 9,
-              "label": "unemp, /looking for a job/"
-            },
-            {
-              "value": 10,
-              "label": "pensioner"
-            },
-            {
-              "value": 11,
-              "label": "person, who has got a aid"
-            },
-            {
-              "value": 13,
-              "label": "student"
-            },
-            {
-              "value": 99,
-              "label": "No Answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Participation in Politics",
-      "variable_count": 1,
-      "variables": [
-        {
-          "variable_id": "q132",
-          "question_text": "People with little or no education should have as much say in politics as highly-educated people",
-          "concepts": [
-            "education level",
-            "political participation",
-            "equality"
+            "national identity",
+            "cultural preservation",
+            "globalization"
           ],
           "value_labels": [
             {
@@ -3053,6 +2459,149 @@
               "label": "No answer"
             }
           ]
+        },
+        {
+          "variable_id": "q143",
+          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest",
+          "concepts": [
+            "sacrifice",
+            "national interest",
+            "personal interest"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q144",
+          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The state is like a big machine and the individual is but a small cog, with no independent status",
+          "concepts": [
+            "sacrifice",
+            "national interest",
+            "individual status",
+            "collectivism"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q145",
+          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest The most important thing for a political leader is to accomplish his goals even if he has to ignore the established proc",
+          "concepts": [
+            "sacrifice",
+            "national interest",
+            "goal-oriented leadership",
+            "authoritarianism"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q146",
+          "question_text": "For the sake of the national community/society, the individual should be prepared to sacrifice his personal interest If a political leader really believes in his position, he should refuse to compromise regardless of how many people disa",
+          "concepts": [
+            "sacrifice",
+            "national interest",
+            "leadership conviction",
+            "compromise"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
         }
       ]
     },
@@ -3064,8 +2613,9 @@
           "variable_id": "q062",
           "question_text": "party feel closest to",
           "concepts": [
-            "party identification",
-            "evaluation"
+            "party affiliation",
+            "evaluation",
+            "temporal comparison"
           ],
           "value_labels": [
             {
@@ -3365,74 +2915,6 @@
       ]
     },
     {
-      "domain": "Political Engagement",
-      "variable_count": 2,
-      "variables": [
-        {
-          "variable_id": "q054",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW",
-          "concepts": [
-            "political participation",
-            "campaign events",
-            "candidate influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q055",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_OTHERS",
-          "concepts": [
-            "political participation",
-            "campaign events",
-            "candidate influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "domain": "Political Interest",
       "variable_count": 1,
       "variables": [
@@ -3441,7 +2923,8 @@
           "question_text": "How interested would you say you are interested in politics?",
           "concepts": [
             "political interest",
-            "evaluation"
+            "evaluation",
+            "temporal comparison"
           ],
           "value_labels": [
             {
@@ -3473,15 +2956,718 @@
       ]
     },
     {
-      "domain": "Political Knowledge",
+      "domain": "Political Participation",
+      "variable_count": 22,
+      "variables": [
+        {
+          "variable_id": "q034",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_NEIGHBOR/FRIEND",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q035",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_COMMUNITY LEADERS",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q036",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q037",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q038",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q039",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate",
+            "government official"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q040",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate",
+            "government official"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q041",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate",
+            "party activist"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q042",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate",
+            "party activist"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q043",
+          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OTHERS",
+          "concepts": [
+            "campaign meeting",
+            "rally",
+            "election",
+            "voting",
+            "candidate"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q044",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_FAMILY MEMBER/RELATIVE",
+          "concepts": [
+            "political event attendance",
+            "influence of family member"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q045",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_SENIORS IN A CLAN OR EXTENDED FAMILY",
+          "concepts": [
+            "political event attendance",
+            "influence of seniors in a clan or extended family"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q046",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_NEIGHBOR/FRIEND",
+          "concepts": [
+            "political event attendance",
+            "influence of neighbor or friend"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q047",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_COMMUNITY LEADERS",
+          "concepts": [
+            "political event attendance",
+            "influence of community leaders"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q048",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_SUPERIOR AT WORK/SCHOOL",
+          "concepts": [
+            "political event attendance",
+            "influence of superior at work or school"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q049",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
+          "concepts": [
+            "political event attendance",
+            "influence of owner of the firm/unit that you work for"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q050",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
+          "concepts": [
+            "political event attendance",
+            "influence of member/official of organization that you belong to"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q051",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
+          "concepts": [
+            "political event attendance",
+            "influence of government official whom you know personally"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q052",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
+          "concepts": [
+            "political event attendance",
+            "influence of government official whom you don't know"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q053",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
+          "concepts": [
+            "political event attendance",
+            "influence of candidate/party activist whom you know personally"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q054",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU DON'T KNOW",
+          "concepts": [
+            "political participation",
+            "campaign events",
+            "influence"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "q055",
+          "question_text": "Did you attend a campaign meeting or rally? Influential_OTHERS",
+          "concepts": [
+            "political participation",
+            "campaign events",
+            "influence"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "No"
+            },
+            {
+              "value": 2,
+              "label": "Yes"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Political Perception",
       "variable_count": 3,
       "variables": [
         {
           "variable_id": "q097_1",
           "question_text": "MEANING OF DEMOCRACY FIRST",
           "concepts": [
-            "democracy definition",
-            "political concept"
+            "democracy",
+            "evaluation",
+            "importance"
           ],
           "value_labels": [
             {
@@ -4406,8 +4592,9 @@
           "variable_id": "q097_2",
           "question_text": "MEANING OF DEMOCRACY SECOND",
           "concepts": [
-            "democracy definition",
-            "political concept"
+            "democracy",
+            "evaluation",
+            "importance"
           ],
           "value_labels": [
             {
@@ -5332,8 +5519,9 @@
           "variable_id": "q097_3",
           "question_text": "MEANING OF DEMOCRACY THIRD",
           "concepts": [
-            "democracy definition",
-            "political concept"
+            "democracy",
+            "evaluation",
+            "importance"
           ],
           "value_labels": [
             {
@@ -6261,618 +6449,33 @@
       ]
     },
     {
-      "domain": "Political Participation",
-      "variable_count": 20,
+      "domain": "Professionalism and Teamwork",
+      "variable_count": 1,
       "variables": [
         {
-          "variable_id": "q034",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_NEIGHBOR/FRIEND",
+          "variable_id": "q068",
+          "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? A person should not insist on his own opinion if his co-workers disagree with him?",
           "concepts": [
-            "political engagement",
-            "social influence",
-            "personal relationships"
+            "professionalism",
+            "teamwork",
+            "opinion leadership"
           ],
           "value_labels": [
             {
               "value": 1,
-              "label": "No"
+              "label": "Strongly agree"
             },
             {
               "value": 2,
-              "label": "Yes"
+              "label": "Somewhat agree"
             },
             {
-              "value": 97,
-              "label": "Not applicable"
+              "value": 3,
+              "label": "Somewhat disagree"
             },
             {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q035",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_COMMUNITY LEADERS",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "personal relationships"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q036",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_SUPERIOR AT WORK/SCHOOL",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "organizational influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q037",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
-          "concepts": [
-            "political engagement",
-            "organizational influence",
-            "power dynamics"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q038",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particularcandidate?_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
-          "concepts": [
-            "political engagement",
-            "organizational influence",
-            "membership"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q039",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "personal relationships"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q040",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "public figures"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q041",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "personal relationships"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q042",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_CANDIDATE/PARTY ACTIVIST WHOM YOU DONT KNOW",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "public figures"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q043",
-          "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_OTHERS",
-          "concepts": [
-            "political engagement",
-            "social influence",
-            "other influences"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q044",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_FAMILY MEMBER/RELATIVE",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q045",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_SENIORS IN A CLAN OR EXTENDED FAMILY",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q046",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_NEIGHBOR/FRIEND",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q047",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_COMMUNITY LEADERS",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q048",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_SUPERIOR AT WORK/SCHOOL",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q049",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_OWNERS OF THE FIRM/UNIT THAT YOU WORK FOR",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q050",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_MEMBER/OFFICIAL OF ORGANIZATION THAT YOU BELONG TO",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q051",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU KNOW PERSONALLY",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q052",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_GOVERNMENT OFFICIAL WHOM YOU DON'T KNOW",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q053",
-          "question_text": "Did you attend a campaign meeting or rally? Influential_CANDIDATE/PARTY ACTIVIST WHOM YOU KNOW PERSONALLY",
-          "concepts": [
-            "political activity",
-            "campaign meeting",
-            "social influence"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "No"
-            },
-            {
-              "value": 2,
-              "label": "Yes"
-            },
-            {
-              "value": 97,
-              "label": "Not applicable"
+              "value": 4,
+              "label": "Strongly disagree"
             },
             {
               "value": 98,
@@ -6936,65 +6539,90 @@
       ]
     },
     {
-      "domain": "Religious Beliefs",
+      "domain": "Rule of Law and Governance",
       "variable_count": 1,
       "variables": [
         {
-          "variable_id": "se007",
-          "question_text": "relgiosity",
+          "variable_id": "q112",
+          "question_text": "Everyone is free to say what they think- is better than before? Judges and courts are free from political interference- is better than before?",
           "concepts": [
-            "religiosity",
-            "spirituality",
-            "faith"
+            "judicial independence",
+            "evaluation",
+            "temporal comparison"
           ],
           "value_labels": [
             {
               "value": 1,
-              "label": "Several times a day"
+              "label": "Much worse"
             },
             {
               "value": 2,
-              "label": "Once a day"
+              "label": "Somewhat worse"
             },
             {
               "value": 3,
-              "label": "Several times a week"
+              "label": "Much the same"
             },
             {
               "value": 4,
-              "label": "Once a week"
+              "label": "Somewhat better"
             },
             {
               "value": 5,
-              "label": "Once a month"
-            },
-            {
-              "value": 6,
-              "label": "Only on special religious days"
-            },
-            {
-              "value": 7,
-              "label": "Once a year"
-            },
-            {
-              "value": 8,
-              "label": "Less often"
-            },
-            {
-              "value": 9,
-              "label": "Never"
+              "label": "Much better than before"
             },
             {
               "value": 97,
-              "label": "Not applicable"
+              "label": "Not Applicable"
             },
             {
               "value": 98,
-              "label": "don't know"
+              "label": "Don't know"
             },
             {
               "value": 99,
-              "label": "No Answer"
+              "label": "No answer"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "Separation of Powers",
+      "variable_count": 1,
+      "variables": [
+        {
+          "variable_id": "q137",
+          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If the government is constantly checked by the legislature, it cannot possibly accomplish great things",
+          "concepts": [
+            "separation of powers",
+            "legislative branch",
+            "executive branch"
+          ],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Strongly agree"
+            },
+            {
+              "value": 2,
+              "label": "Somewhat agree"
+            },
+            {
+              "value": 3,
+              "label": "Somewhat disagree"
+            },
+            {
+              "value": 4,
+              "label": "Strongly disagree"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
             }
           ]
         }
@@ -7010,8 +6638,7 @@
           "concepts": [
             "social interaction",
             "collaboration",
-            "government official",
-            "elected legislative representatives"
+            "government official"
           ],
           "value_labels": [
             {
@@ -7042,8 +6669,7 @@
           "concepts": [
             "social interaction",
             "collaboration",
-            "political parties",
-            "political organizations"
+            "political organization"
           ],
           "value_labels": [
             {
@@ -7074,8 +6700,7 @@
           "concepts": [
             "social interaction",
             "collaboration",
-            "non-government organizations",
-            "civil society organizations"
+            "civil society"
           ],
           "value_labels": [
             {
@@ -7137,9 +6762,7 @@
           "concepts": [
             "social interaction",
             "collaboration",
-            "demonstration",
-            "strike",
-            "sit-in"
+            "public protest"
           ],
           "value_labels": [
             {
@@ -7170,7 +6793,7 @@
           "concepts": [
             "social interaction",
             "collaboration",
-            "other people"
+            "personal network"
           ],
           "value_labels": [
             {
@@ -7199,9 +6822,9 @@
           "variable_id": "q093",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted non-goverment/civil society organizations",
           "concepts": [
-            "help-seeking behavior",
-            "social support",
-            "collaboration"
+            "social interaction",
+            "cooperation",
+            "government official interaction"
           ],
           "value_labels": [
             {
@@ -7230,9 +6853,9 @@
           "variable_id": "q094",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted media",
           "concepts": [
-            "help-seeking behavior",
-            "social support",
-            "media influence"
+            "social interaction",
+            "cooperation",
+            "media interaction"
           ],
           "value_labels": [
             {
@@ -7261,9 +6884,9 @@
           "variable_id": "q095",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_demonstration, strike, sit-in",
           "concepts": [
-            "help-seeking behavior",
-            "social support",
-            "protest behavior"
+            "social interaction",
+            "cooperation",
+            "protest interaction"
           ],
           "value_labels": [
             {
@@ -7292,9 +6915,9 @@
           "variable_id": "q096",
           "question_text": "Did you do this alone or with others?_contacted government official Gift or dinner_contacted other people",
           "concepts": [
-            "help-seeking behavior",
-            "social support",
-            "social networks"
+            "social interaction",
+            "cooperation",
+            "general people interaction"
           ],
           "value_labels": [
             {
@@ -7312,82 +6935,6 @@
             {
               "value": 98,
               "label": "don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "domain": "Social Cohesion",
-      "variable_count": 2,
-      "variables": [
-        {
-          "variable_id": "q135",
-          "question_text": "Government leaders are like the head of a family; we should all follow their decisions Harmony of the community will be disrupted if people organize lots of groups",
-          "concepts": [
-            "community harmony",
-            "group organization",
-            "social disruption"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q139",
-          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If people have too many different ways of thinking, society will be chaotic",
-          "concepts": [
-            "social diversity",
-            "chaos",
-            "social order"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
             },
             {
               "value": 99,
@@ -7441,7 +6988,8 @@
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? If there is a quarrel, we should ask an elder to resolve the dispute?",
           "concepts": [
             "conflict resolution",
-            "elders and authority"
+            "elders",
+            "dispute resolution"
           ],
           "value_labels": [
             {
@@ -7473,15 +7021,16 @@
       ]
     },
     {
-      "domain": "Social Norms and Family Values",
+      "domain": "Social Norms and Family",
       "variable_count": 4,
       "variables": [
         {
           "variable_id": "q063",
           "question_text": "closeness",
           "concepts": [
-            "closeness",
-            "family relationships"
+            "family relationships",
+            "obedience",
+            "parent-child dynamics"
           ],
           "value_labels": [
             {
@@ -7519,7 +7068,8 @@
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask?",
           "concepts": [
             "obedience",
-            "parent-child relationships"
+            "parent-child dynamics",
+            "authority"
           ],
           "value_labels": [
             {
@@ -7552,9 +7102,9 @@
           "variable_id": "q065",
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? When hiring someone, even if a stranger is more qualified, the opportunity should still be given to relatives and friend",
           "concepts": [
+            "family relationships",
             "favoritism",
-            "hiring practices",
-            "family relationships"
+            "employment"
           ],
           "value_labels": [
             {
@@ -7588,7 +7138,7 @@
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? When a mother-in-law and a daughter-in-law come into conflict, even if the mother-in-law is in the wrong, the husband sh",
           "concepts": [
             "family relationships",
-            "marital relationships",
+            "in-law relationships",
             "conflict resolution"
           ],
           "value_labels": [
@@ -7629,8 +7179,8 @@
           "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? A man will lose face if he works under a female supervisor?",
           "concepts": [
             "workplace relationships",
-            "supervision",
-            "gender roles"
+            "gender roles",
+            "supervision"
           ],
           "value_labels": [
             {
@@ -7670,7 +7220,8 @@
           "question_text": "I have enough friends and connections so that I can get help if I need it",
           "concepts": [
             "social connections",
-            "help seeking"
+            "help seeking",
+            "evaluation"
           ],
           "value_labels": [
             {
@@ -7705,7 +7256,7 @@
           "concepts": [
             "social influence",
             "help seeking",
-            "social connections"
+            "evaluation"
           ],
           "value_labels": [
             {
@@ -7744,9 +7295,8 @@
           "variable_id": "q103",
           "question_text": "Do you think democracy is suitable for our country?",
           "concepts": [
-            "democracy",
-            "evaluation",
-            "national level"
+            "democracy suitability",
+            "country suitability"
           ],
           "value_labels": [
             {
@@ -7770,47 +7320,6 @@
       ]
     },
     {
-      "domain": "Teamwork and Decision Making",
-      "variable_count": 1,
-      "variables": [
-        {
-          "variable_id": "q068",
-          "question_text": "Even if parents' demands are unreasonable, children still should do what they ask? A person should not insist on his own opinion if his co-workers disagree with him?",
-          "concepts": [
-            "teamwork",
-            "decision making",
-            "opinion leadership"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "domain": "Transition to Democracy",
       "variable_count": 2,
       "variables": [
@@ -7818,10 +7327,9 @@
           "variable_id": "q101",
           "question_text": "Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? To what extent would you want our country to be democratic now?",
           "concepts": [
-            "democracy",
+            "democratic evaluation",
             "temporal comparison",
-            "evaluation",
-            "national level"
+            "authoritarian regime"
           ],
           "value_labels": [
             {
@@ -7850,10 +7358,9 @@
           "variable_id": "q102",
           "question_text": "Where would you place our country on this scale during the period of [name of the most recent government under authoritarian rule]? Where do you expect our country to be in five years?",
           "concepts": [
-            "democracy",
+            "democratic evaluation",
             "temporal comparison",
-            "expectation",
-            "national level"
+            "future expectation"
           ],
           "value_labels": [
             {
@@ -7927,215 +7434,8 @@
     },
     {
       "domain": "Trust in Government",
-      "variable_count": 12,
+      "variable_count": 4,
       "variables": [
-        {
-          "variable_id": "q120",
-          "question_text": "Which comes closer to your own view?",
-          "concepts": [
-            "evaluation",
-            "temporal comparison",
-            "personal opinion"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "It is essential that the country remains one nation"
-            },
-            {
-              "value": 2,
-              "label": "Parts of the country possibly be separate states"
-            },
-            {
-              "value": 3,
-              "label": "Can't choose"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q121",
-          "question_text": "We should get rid of parliament and elections and have a strong leader decide things",
-          "concepts": [
-            "leadership",
-            "decision making",
-            "democracy"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q122",
-          "question_text": "We should get rid of parliament and elections and have a strong leader decide things No opposition party should be allowed to compete for power",
-          "concepts": [
-            "leadership",
-            "decision making",
-            "democracy",
-            "opposition"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q123",
-          "question_text": "We should get rid of parliament and elections and have a strong leader decide things The military should come in to govern the country",
-          "concepts": [
-            "leadership",
-            "decision making",
-            "military intervention"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q124",
-          "question_text": "We should get rid of parliament and elections and have a strong leader decide things We should get rid of parliament and elections and have the experts decide everything",
-          "concepts": [
-            "leadership",
-            "decision making",
-            "expertise"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q125",
-          "question_text": "We should get rid of parliament and elections and have a strong leader decide things It is ok for the government to disregard the law in order to deal with the situation, when the country is facing a diffi",
-          "concepts": [
-            "leadership",
-            "decision making",
-            "rule of law"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
         {
           "variable_id": "q130",
           "question_text": "Politics and government seems so complicated that a person like me can't really understand what is going on Our form of government is still the best for us",
@@ -8207,82 +7507,12 @@
           ]
         },
         {
-          "variable_id": "q133",
-          "question_text": "Government leaders are like the head of a family; we should all follow their decisions",
-          "concepts": [
-            "government leadership",
-            "decision-making",
-            "obedience"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
-          "variable_id": "q138",
-          "question_text": "Government leaders are like the head of a family; we should all follow their decisions If we have political leaders who are morally upright, we can let them decide everything",
-          "concepts": [
-            "government leadership",
-            "morality",
-            "decision-making"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "Strongly agree"
-            },
-            {
-              "value": 2,
-              "label": "Somewhat agree"
-            },
-            {
-              "value": 3,
-              "label": "Somewhat disagree"
-            },
-            {
-              "value": 4,
-              "label": "Strongly disagree"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
-        },
-        {
           "variable_id": "q140",
           "question_text": "Government leaders are like the head of a family; we should all follow their decisions The government should maintain ownership of major state-owned enterprises",
           "concepts": [
             "government leadership",
-            "decision-making",
-            "authority"
+            "decision-making authority",
+            "national level"
           ],
           "value_labels": [
             {
@@ -8316,8 +7546,8 @@
           "question_text": "Government leaders are like the head of a family; we should all follow their decisions The national government should have more authority over local decisions than it does now",
           "concepts": [
             "government leadership",
-            "decision-making",
-            "authority"
+            "decision-making authority",
+            "national level"
           ],
           "value_labels": [
             {
@@ -8548,6 +7778,45 @@
           ]
         },
         {
+          "variable_id": "q018",
+          "question_text": "How much trust do you have in the courts? How much trust do you have in non-governmental organizations?",
+          "concepts": [
+            "trust",
+            "evaluation",
+            "institutional level"
+          ],
+          "value_labels": [
+            {
+              "value": 0,
+              "label": "Not sure"
+            },
+            {
+              "value": 1,
+              "label": "None at all"
+            },
+            {
+              "value": 2,
+              "label": "Not very much trust"
+            },
+            {
+              "value": 3,
+              "label": "Quite a lot of trust"
+            },
+            {
+              "value": 4,
+              "label": "A great deal of trust"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
           "variable_id": "q018_2",
           "question_text": "How much trust do you have in the courts? TRUST STATE OWNED ENTERPRISES",
           "concepts": [
@@ -8666,36 +7935,6 @@
               "label": "No Answer"
             }
           ]
-        },
-        {
-          "variable_id": "q024",
-          "question_text": "most people can be trusted??",
-          "concepts": [
-            "trust",
-            "general population"
-          ],
-          "value_labels": [
-            {
-              "value": 1,
-              "label": "One can't be too careful in dealing with them"
-            },
-            {
-              "value": 2,
-              "label": "Most people can be trusted"
-            },
-            {
-              "value": 3,
-              "label": "Both"
-            },
-            {
-              "value": 98,
-              "label": "Don't know"
-            },
-            {
-              "value": 99,
-              "label": "No answer"
-            }
-          ]
         }
       ]
     },
@@ -8754,7 +7993,7 @@
           "concepts": [
             "trust",
             "evaluation",
-            "media institution"
+            "media type"
           ],
           "value_labels": [
             {
@@ -8793,7 +8032,7 @@
           "concepts": [
             "trust",
             "evaluation",
-            "media institution"
+            "media type"
           ],
           "value_labels": [
             {
@@ -8829,37 +8068,29 @@
       ]
     },
     {
-      "domain": "Trust in Non-Governmental Organizations",
+      "domain": "Trust in Society",
       "variable_count": 1,
       "variables": [
         {
-          "variable_id": "q018",
-          "question_text": "How much trust do you have in the courts? How much trust do you have in non-governmental organizations?",
+          "variable_id": "q024",
+          "question_text": "most people can be trusted??",
           "concepts": [
             "trust",
-            "evaluation",
-            "institutional level"
+            "people",
+            "generalization"
           ],
           "value_labels": [
             {
-              "value": 0,
-              "label": "Not sure"
-            },
-            {
               "value": 1,
-              "label": "None at all"
+              "label": "One can't be too careful in dealing with them"
             },
             {
               "value": 2,
-              "label": "Not very much trust"
+              "label": "Most people can be trusted"
             },
             {
               "value": 3,
-              "label": "Quite a lot of trust"
-            },
-            {
-              "value": 4,
-              "label": "A great deal of trust"
+              "label": "Both"
             },
             {
               "value": 98,
@@ -8867,7 +8098,7 @@
             },
             {
               "value": 99,
-              "label": "No Answer"
+              "label": "No answer"
             }
           ]
         }
@@ -8875,7 +8106,7 @@
     },
     {
       "domain": "Unknown",
-      "variable_count": 47,
+      "variable_count": 57,
       "variables": [
         {
           "variable_id": "country",
@@ -10670,6 +9901,728 @@
           ]
         },
         {
+          "variable_id": "se007",
+          "question_text": "relgiosity",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Several times a day"
+            },
+            {
+              "value": 2,
+              "label": "Once a day"
+            },
+            {
+              "value": 3,
+              "label": "Several times a week"
+            },
+            {
+              "value": 4,
+              "label": "Once a week"
+            },
+            {
+              "value": 5,
+              "label": "Once a month"
+            },
+            {
+              "value": 6,
+              "label": "Only on special religious days"
+            },
+            {
+              "value": 7,
+              "label": "Once a year"
+            },
+            {
+              "value": 8,
+              "label": "Less often"
+            },
+            {
+              "value": 9,
+              "label": "Never"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "don't know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "se008a",
+          "question_text": "n of household members",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 0,
+              "label": "none member"
+            },
+            {
+              "value": 1,
+              "label": "1 member"
+            },
+            {
+              "value": 2,
+              "label": "2 members"
+            },
+            {
+              "value": 3,
+              "label": "3 members"
+            },
+            {
+              "value": 4,
+              "label": "4 members"
+            },
+            {
+              "value": 5,
+              "label": "5 members"
+            },
+            {
+              "value": 6,
+              "label": "6 members"
+            },
+            {
+              "value": 7,
+              "label": "7 members"
+            },
+            {
+              "value": 8,
+              "label": "8 members"
+            },
+            {
+              "value": 9,
+              "label": "9 members"
+            },
+            {
+              "value": 10,
+              "label": "10 members"
+            },
+            {
+              "value": 11,
+              "label": "11 member"
+            },
+            {
+              "value": 12,
+              "label": "12 member"
+            },
+            {
+              "value": 13,
+              "label": "13 members"
+            },
+            {
+              "value": 14,
+              "label": "14 members"
+            },
+            {
+              "value": 15,
+              "label": "15 member"
+            },
+            {
+              "value": 16,
+              "label": "16 member"
+            },
+            {
+              "value": 17,
+              "label": "17 members"
+            },
+            {
+              "value": 18,
+              "label": "18 members"
+            },
+            {
+              "value": 19,
+              "label": "19 members"
+            },
+            {
+              "value": 20,
+              "label": "20 members"
+            },
+            {
+              "value": 21,
+              "label": "21 members"
+            },
+            {
+              "value": 24,
+              "label": "24 members"
+            },
+            {
+              "value": 26,
+              "label": "26 members"
+            },
+            {
+              "value": 98,
+              "label": "don't know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "se008b",
+          "question_text": "household generations",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "1 generation"
+            },
+            {
+              "value": 2,
+              "label": "2 generations"
+            },
+            {
+              "value": 3,
+              "label": "3 generations"
+            },
+            {
+              "value": 4,
+              "label": "more than 4 generations"
+            },
+            {
+              "value": 98,
+              "label": "don't know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "se009",
+          "question_text": "annual income: national quintiles",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "lowest quintile"
+            },
+            {
+              "value": 2,
+              "label": "2nd quintile"
+            },
+            {
+              "value": 3,
+              "label": "3rd quintile"
+            },
+            {
+              "value": 4,
+              "label": "4th quintile"
+            },
+            {
+              "value": 5,
+              "label": "5th quintile"
+            },
+            {
+              "value": 97,
+              "label": "Not applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't Know"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012a",
+          "question_text": "Main Occupation",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Admin/Manager"
+            },
+            {
+              "value": 2,
+              "label": "Professional"
+            },
+            {
+              "value": 3,
+              "label": "Clerical"
+            },
+            {
+              "value": 4,
+              "label": "Sale"
+            },
+            {
+              "value": 5,
+              "label": "Service"
+            },
+            {
+              "value": 6,
+              "label": "Farmer"
+            },
+            {
+              "value": 7,
+              "label": "Manual worker"
+            },
+            {
+              "value": 8,
+              "label": "Not working"
+            },
+            {
+              "value": 9,
+              "label": "Other"
+            },
+            {
+              "value": 10,
+              "label": "insufficent info"
+            },
+            {
+              "value": 97,
+              "label": "Not Applicable"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            },
+            {
+              "value": 99,
+              "label": "No answer"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012bcn",
+          "question_text": "OCCUPATION",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 997,
+              "label": "NOT APPLICABLE"
+            },
+            {
+              "value": 998,
+              "label": "DON'T KNOW"
+            },
+            {
+              "value": 999,
+              "label": "NO ANSWER"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012bhk",
+          "question_text": "OCCUPATION(original)",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 10,
+              "label": "INSUFFICIENT INFO"
+            },
+            {
+              "value": 11,
+              "label": "GOVT ADMIN,FOREIGN DIPLOMATS"
+            },
+            {
+              "value": 12,
+              "label": "CORPORATE MANAGERS"
+            },
+            {
+              "value": 13,
+              "label": "SMALL BUSINESS MANAGERS"
+            },
+            {
+              "value": 14,
+              "label": "SELF-EMPLOYED BUSINESS OWNER"
+            },
+            {
+              "value": 15,
+              "label": "FAMILY BUSINESS HELPERS"
+            },
+            {
+              "value": 21,
+              "label": "PHYSICAL SCI PROFESSIONALS"
+            },
+            {
+              "value": 22,
+              "label": "LIFE SCIENCE PROFESSIONALS"
+            },
+            {
+              "value": 23,
+              "label": "TEACHING PROFESSIONALS"
+            },
+            {
+              "value": 24,
+              "label": "BUSINESS PROFESSIONALS"
+            },
+            {
+              "value": 25,
+              "label": "SOC SCIENCE PROFESSIONALS"
+            },
+            {
+              "value": 31,
+              "label": "PHYSICAL SCI ASS. PROF"
+            },
+            {
+              "value": 32,
+              "label": "LIFE SCIENCE ASS. PROF"
+            },
+            {
+              "value": 33,
+              "label": "TEACHING ASS. PROF"
+            },
+            {
+              "value": 34,
+              "label": "BUSINESS ASS. PROF"
+            },
+            {
+              "value": 35,
+              "label": "SOC SERVICES ASS. PROF"
+            },
+            {
+              "value": 41,
+              "label": "OFFICE CLERKS"
+            },
+            {
+              "value": 42,
+              "label": "CUSTOMER SERVICES CLERKS"
+            },
+            {
+              "value": 51,
+              "label": "PERSONAL SERVICES WORKERS"
+            },
+            {
+              "value": 52,
+              "label": "SALESPERSONS & MODELS"
+            },
+            {
+              "value": 53,
+              "label": "TRANSPORT WORKERS"
+            },
+            {
+              "value": 61,
+              "label": "AGRICULTURAL,FISHERY WORKERS"
+            },
+            {
+              "value": 71,
+              "label": "EXTRACTION & BUILDING WORKERS"
+            },
+            {
+              "value": 72,
+              "label": "METAL,MACHINERY WORKERS"
+            },
+            {
+              "value": 73,
+              "label": "PRECISION,PRINTING WORKERS"
+            },
+            {
+              "value": 74,
+              "label": "OTHER CRAFT WORKERS"
+            },
+            {
+              "value": 75,
+              "label": "CRAFT AND TECHNICAL WORKERS"
+            },
+            {
+              "value": 76,
+              "label": "SUPERVISOR AND FOREMAN"
+            },
+            {
+              "value": 81,
+              "label": "PLANT OPERATORS"
+            },
+            {
+              "value": 82,
+              "label": "STATIONARY MACHINE OPERATORS"
+            },
+            {
+              "value": 83,
+              "label": "DRIVERS"
+            },
+            {
+              "value": 91,
+              "label": "ELEMENTARY OCCUPATIONS"
+            },
+            {
+              "value": 92,
+              "label": "LABOURERS"
+            },
+            {
+              "value": 95,
+              "label": "COMPUTER TECHNICAN"
+            },
+            {
+              "value": 888,
+              "label": "DON'T KNOW"
+            },
+            {
+              "value": 997,
+              "label": "NOT APPLICABLE"
+            },
+            {
+              "value": 998,
+              "label": "NOT FIXED"
+            },
+            {
+              "value": 999,
+              "label": "NO ANSWER"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012bjp",
+          "question_text": "main occupation(orginal)",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 10,
+              "label": "Hired Workers(residual)"
+            },
+            {
+              "value": 11,
+              "label": "Professional_technical"
+            },
+            {
+              "value": 12,
+              "label": "Managers_Supervisors"
+            },
+            {
+              "value": 13,
+              "label": "Clerical_Administrative_Sales"
+            },
+            {
+              "value": 14,
+              "label": "Non-agricultural, skilled"
+            },
+            {
+              "value": 15,
+              "label": "Non-agricultural, unskilled"
+            },
+            {
+              "value": 16,
+              "label": "Agricultural"
+            },
+            {
+              "value": 17,
+              "label": "Employers and Self-Employed(residual"
+            },
+            {
+              "value": 18,
+              "label": "Agricultural operators"
+            },
+            {
+              "value": 19,
+              "label": "Non-agricultural entrepreneurs(residual)"
+            },
+            {
+              "value": 20,
+              "label": "Non-agricultural entrepreneurs with 10 or more employees"
+            },
+            {
+              "value": 21,
+              "label": "Non-agricultural entrepreneurs with less than 10 employees"
+            },
+            {
+              "value": 22,
+              "label": "Non-agricultural entrepreneurs with no employees"
+            },
+            {
+              "value": 30,
+              "label": "Purely Property Owners(residual)"
+            },
+            {
+              "value": 31,
+              "label": "Purely Property Owners: Rentals from agricultural properties"
+            },
+            {
+              "value": 32,
+              "label": "Purely Property Owners:Rentals from non-agricultural"
+            },
+            {
+              "value": 40,
+              "label": "Unpaid Family Worker"
+            },
+            {
+              "value": 50,
+              "label": "Presently unemployed but LOOKING FOR WORK(residual)"
+            },
+            {
+              "value": 51,
+              "label": "Presently unemployed but LOOKING FOR WORK:Homecare"
+            },
+            {
+              "value": 52,
+              "label": "Presently unemployed but LOOKING FOR WORK:Student"
+            },
+            {
+              "value": 53,
+              "label": "Presently unemployed but LOOKING FOR WORK:Retired"
+            },
+            {
+              "value": 54,
+              "label": "Presently unemployed but LOOKING FOR WORK:Disabled"
+            },
+            {
+              "value": 60,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK(residual)"
+            },
+            {
+              "value": 61,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK: Homecare"
+            },
+            {
+              "value": 62,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK: Student"
+            },
+            {
+              "value": 63,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK: Retired"
+            },
+            {
+              "value": 64,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK: Disabled"
+            },
+            {
+              "value": 65,
+              "label": "Presently unemployed and NOT LOOKING FOR WORK: Others"
+            },
+            {
+              "value": 70,
+              "label": "Never worked before(residual)"
+            },
+            {
+              "value": 71,
+              "label": "Never worked before: Homecare"
+            },
+            {
+              "value": 72,
+              "label": "Never worked before: Student"
+            },
+            {
+              "value": 73,
+              "label": "Never worked before: Retired"
+            },
+            {
+              "value": 74,
+              "label": "Never worked before: Disabled"
+            },
+            {
+              "value": 75,
+              "label": "Never worked before: Others"
+            },
+            {
+              "value": 98,
+              "label": "Don't know"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012bkr",
+          "question_text": "Occupation(original)",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "Professional"
+            },
+            {
+              "value": 2,
+              "label": "Administrative/managerial"
+            },
+            {
+              "value": 3,
+              "label": "White-collar office worker/technicians"
+            },
+            {
+              "value": 4,
+              "label": "Sales"
+            },
+            {
+              "value": 5,
+              "label": "Services"
+            },
+            {
+              "value": 6,
+              "label": "Blue-collar"
+            },
+            {
+              "value": 7,
+              "label": "Agriculture/fishery"
+            },
+            {
+              "value": 8,
+              "label": "Unemployed"
+            },
+            {
+              "value": 9,
+              "label": "Unclassified"
+            }
+          ]
+        },
+        {
+          "variable_id": "se012bmo",
+          "question_text": "employment",
+          "concepts": [],
+          "value_labels": [
+            {
+              "value": 1,
+              "label": "wage worker"
+            },
+            {
+              "value": 2,
+              "label": "members of armed forces, sec.personnel"
+            },
+            {
+              "value": 3,
+              "label": "manager"
+            },
+            {
+              "value": 4,
+              "label": "office worker"
+            },
+            {
+              "value": 5,
+              "label": "employer"
+            },
+            {
+              "value": 6,
+              "label": "worker, has a private sector"
+            },
+            {
+              "value": 7,
+              "label": "lessor"
+            },
+            {
+              "value": 8,
+              "label": "unemployed, /not looking for a job/"
+            },
+            {
+              "value": 9,
+              "label": "unemp, /looking for a job/"
+            },
+            {
+              "value": 10,
+              "label": "pensioner"
+            },
+            {
+              "value": 11,
+              "label": "person, who has got a aid"
+            },
+            {
+              "value": 13,
+              "label": "student"
+            },
+            {
+              "value": 99,
+              "label": "No Answer"
+            }
+          ]
+        },
+        {
           "variable_id": "se012bph",
           "question_text": "occupation (verbatim)",
           "concepts": [],
@@ -12025,7 +11978,7 @@
       ]
     },
     {
-      "domain": "Value Judgment",
+      "domain": "Value and Preference",
       "variable_count": 3,
       "variables": [
         {
@@ -12033,7 +11986,8 @@
           "question_text": "Which comes closest to your own opinion?",
           "concepts": [
             "democracy",
-            "economic development"
+            "economic development",
+            "preference"
           ],
           "value_labels": [
             {
@@ -12063,7 +12017,8 @@
           "question_text": "Which comes closer to your own view?",
           "concepts": [
             "democracy",
-            "economic development"
+            "economic development",
+            "preference"
           ],
           "value_labels": [
             {
@@ -12089,7 +12044,8 @@
           "question_text": "choose between democracy and economic development?",
           "concepts": [
             "democracy",
-            "economic development"
+            "economic development",
+            "preference"
           ],
           "value_labels": [
             {
@@ -12133,7 +12089,7 @@
           "question_text": "Have you participated in last election?",
           "concepts": [
             "election participation",
-            "voting frequency"
+            "behavioral action"
           ],
           "value_labels": [
             {
@@ -12162,7 +12118,7 @@
           "variable_id": "q028",
           "question_text": "Which party did you vote for?",
           "concepts": [
-            "party preference",
+            "party affiliation",
             "voting choice"
           ],
           "value_labels": [
@@ -12317,7 +12273,7 @@
           "question_text": "Did you attend a campaign meeting or rally?",
           "concepts": [
             "campaign engagement",
-            "voting behavior"
+            "behavioral action"
           ],
           "value_labels": [
             {
@@ -12346,9 +12302,8 @@
           "variable_id": "q030",
           "question_text": "Did you attend a campaign meeting or rally? Did you try to persuade others to vote for a certain candidate or party?",
           "concepts": [
-            "campaign engagement",
             "persuasion",
-            "voting behavior"
+            "behavioral action"
           ],
           "value_labels": [
             {
@@ -12378,8 +12333,7 @@
           "question_text": "Did you attend a campaign meeting or rally? Did you do anything else to help or show your support for a party or candidate running in the election?",
           "concepts": [
             "campaign engagement",
-            "support behavior",
-            "voting behavior"
+            "behavioral action"
           ],
           "value_labels": [
             {
@@ -12408,9 +12362,8 @@
           "variable_id": "q032",
           "question_text": "Did you attend a campaign meeting or rally? Asked to vote for a particular candidate?_FAMILY MEMBER/RELATIVE",
           "concepts": [
-            "campaign engagement",
-            "voting behavior",
-            "candidate influence"
+            "candidate endorsement",
+            "behavioral action"
           ],
           "value_labels": [
             {
@@ -12439,10 +12392,8 @@
           "variable_id": "q033",
           "question_text": "Did you attend a campaign meeting or rally? Asked following personally ask you to vote for a particular candidate?_SENIORS IN A CLAN OR EXTENDED FAMILY",
           "concepts": [
-            "campaign engagement",
-            "voting behavior",
-            "candidate influence",
-            "personal influence"
+            "candidate endorsement",
+            "behavioral action"
           ],
           "value_labels": [
             {
